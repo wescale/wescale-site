@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+
+    <link rel="icon" href="/images/favicon.ico" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="{{page.class}}">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default">
+  <div class="menu-background"></div>
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav menu-links">
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/a-propos.html">À propos</a></li>
+        <li><a href="/partenariats.html">Partenariats</a></li>
+        <li><a href="http://blog.wescale.fr/">Blog</a></li>
+        <li><a href="/formations.html">Formations</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li class="socials">
+          <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/WeScale" title="Github"><i class="fa fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /Navigation -->
+
+{{ content }}
+
+<!-- Footer -->
+<footer class="site-footer clearfix">
+  <div class="footer-wrapper-top">
+    <div class="footer-top">
+      <div class="alliance-xebia-wrapper">
+        <div class="alliance-xebia">
+          <a href="http://alliance.xebia.fr"><img src="./images/logo-alliance-footer.jpg" alt="Alliance Xebia" width="78" height="79"></a>
+          <a href="#" class="to-maps"><i class="fa fa-map-marker"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-middle">
+      <p>Les blogs de l'Alliance :</p>
+      <a href="http://xebia.fr">Xebia</a> + <a href="http://xebialabs.com/">Xebialabs</a> + <a href="http://thiga.fr">Thiga</a> + <a href="http://ux-republic.com/">UX-Republic</a> + <a href="http://cellenza.com">Cellenza</a> +  <a href="http://wescale.fr/">Wescale</a>
+    </div>
+
+    <div class="footer-contact">
+      <a href="mailto:contact@wescale.fr">contact@wescale.fr</a>
+    </div>
+  </div>
+
+  <div id="map-wrapper"><div id="map-canvas"></div></div>
+
+  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="/mentions">Mentions légales</a></p>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js"></script>
+<script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script src="http://momentjs.com/downloads/moment.min.js"></script>
+<script type="text/javascript">
+  if (typeof jQuery === 'undefined') {
+    throw new Error('Wescale\'s JavaScript requires jQuery')
+  }
+
+  +function ($) {
+    'use strict';
+
+    //Menu
+    if ($('.home').length > 0) {
+      $( window ).scroll(function() {
+        if ($(window).scrollTop() == 0) {
+          $('.navbar-default').removeClass('scrolled');
+        } else {
+          $('.navbar-default').addClass('scrolled');
+        }
+      });
+    } else {
+      $('.navbar-default').addClass('scrolled');
+    }
+
+    $('.navbar-toggle').on('click', function() {
+      if ($(this).hasClass('collapsed')) {
+        $('.navbar-default').addClass('collapsed');
+      } else {
+        $('.navbar-default').removeClass('collapsed');
+      }
+    });
+
+    //Google Map (Footer)
+    var MY_MAPTYPE_ID="wescale-style";
+    var wescale = new google.maps.LatLng(48.8755587,2.3110176);
+
+    $('.to-maps').on('click', function(event) {
+      event.preventDefault();
+
+      $('#map-wrapper').slideDown('fast', function() {
+        google.maps.event.trigger(window.map, 'resize');
+        window.map.setCenter(wescale);
+      });
+    });
+
+    $('#map-wrapper').hide();
+
+    function initialize() {
+      var e = [
+        {stylers:[
+          {hue:"#09aa9d"},
+          {visibility:"simplified"},
+          {gamma:.5},
+          {weight:.5}
+        ]},
+        {elementType:"labels", stylers:[{visibility:"off"}]},
+        {featureType:"transit", stylers:[{visibility:"on"}]},
+        {featureType:"water", stylers:[{color:"#56c2cc"}]},
+        {featureType:"road", elementType:"labels", stylers:[{visibility:"on"}]}
+      ];
+
+      var t = {
+        zoom:17,
+        mapTypeControl:false,
+        center:wescale,
+        mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.ROADMAP,MY_MAPTYPE_ID]},
+        mapTypeId:MY_MAPTYPE_ID
+      };
+      window.map = new google.maps.Map(document.getElementById("map-canvas"),t);
+      var r = {name:"Wescale Style"};
+      var i = new google.maps.StyledMapType(e,r);window.map.mapTypes.set(MY_MAPTYPE_ID,i);
+      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '/images/pointer-wescale.png'});
+    }
+
+    google.maps.event.addDomListener(window, "load", initialize);
+
+    //A Propos
+    // $('.equipe-photo').on('mouseenter', function() {
+    //   var current = $(this);
+    //   $('.equipe-mask').hide();
+    //   $('.equipe-name').hide();
+    //   current.find('.equipe-mask').fadeIn('fast', function() {
+    //     // current.find('.equipe-name').show().css('opacity', '1');
+    //   });
+    // });
+
+      // If home
+      {% if page.class == 'home' %}
+
+          $(document).ready(function() {
+
+    var url = 'https://wescalefr.ghost.io/rss/';
+   /* $.get(url, function (data) {
+        var i = 0;
+        $(data).find("entry").each(function () { // or "item" or whatever suits your feed
+            var el = $(this);
+            if (i < 3){
+                 var entry = {};
+                 entry.link = el.find("link").text();
+                 entry.pubdate_ms = parseInt(el.find("pubdate_ms").text());
+                 entry.title = el.find("title").text();
+                 entry.author = el.find("author").text();
+                 $('#home-news').append( ''+
+                    '<blockquote cite="'+entry.link + '">'+
+                      '<p class="news-date"><a href="' + entry.link + '">'+ moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') +'</a></p>' +
+                      '<h2 class="news-title"><a href="' + entry.link +'">' + entry.title + '</a></h2>' +
+                      '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
+                      '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
+                    '</blocquote>');
+
+            }
+            console.log("------------------------");
+            console.log("title      : " + el.find("title").text());
+            console.log("author     : " + el.find("author").text());
+            console.log("description: " + el.find("description").text());
+            console.log(el);
+            i++;
+        });
+    });*/
+
+    feednami.load(url,function(result){
+        if(result.error) {
+            console.log(result.error);
+        } else {
+            var entries = result.feed.entries;
+            for(var i = 0; i < entries.length; i++){
+                if (i > 3)
+                  break;
+                var entry = entries[i];
+
+                    $('#home-news').append( ''+
+                    '<blockquote cite="'+entry.link + '">'+
+                      '<p class="news-date"><a href="' + entry.link + '">'+ moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') +'</a></p>' +
+                      '<h2 class="news-title"><a href="' + entry.link +'">' + entry.title + '</a></h2>' +
+                      '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
+                      '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
+                    '</blocquote>');
+
+                console.dir(entry);
+            }
+        }
+    });
+
+});
+      {% endif %}
+
+      // If contact
+      {% if page.class == 'contact' %}
+      $('#contact-form').submit(function (evt){
+            window.open('mailto:'+$('input[name="email"]').val()+'?subject='+$('input[name="subject"]').val()+'&body='+
+                          'Message de' + $('input[name="prenom"]').val() + ' ' + $('input[name="nom"]').val() + '\n' +
+                    $('input[name="message"]').val());
+            evt.preventDefault();
+        }
+      );
+      {% endif %}
+
+  }(jQuery);
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Open+Sans+Condensed:300,700">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<!-- /Footer -->
+</body>
+</html>
