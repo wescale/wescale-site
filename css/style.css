@@ -478,7 +478,7 @@ img {
 
     .equipe > div {
         display: block;
-        margin: 20px auto 0;
+        margin: 20px 5px 0;
         width: 250px;
         height: 250px;
         max-width: 100%;
@@ -498,23 +498,10 @@ img {
         margin: 0;
     }
 
-    .equipe .aurelien {
-        background: url(../images/aurelien-maury.png) no-repeat center center;
-        background-size: cover;
-    }
-
-    .equipe .luc {
-        background: url(../images/luc-legardeur.png) no-repeat center center;
-        background-size: cover;
-    }
-
-    .equipe .seven {
-        background: url(../images/seven-lemesle.png) no-repeat center center;
-        background-size: cover;
-    }
-
     .equipe-photo {
         cursor: pointer;
+        float: left;
+        margin: 100px;
     }
 
     .equipe-mask {
@@ -869,6 +856,10 @@ img {
         -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    #map-legend h3 {
+        font-family: 'Open Sans', sans-serif;
     }
 
 /** RESPONSIVE **/
