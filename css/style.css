@@ -40,7 +40,7 @@ section {
 }
 
 .content {
-    background: transparent url(../images/background-white.jpg) no-repeat center center;
+   /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
     background-size: cover;
     min-height: calc(100vh - 220px);
     padding: 90px 0;
@@ -95,9 +95,16 @@ img {
 
 /** NAVBAR **/
     .navbar-default {
-        background-color: transparent;
+        background-color: #09aa9d;
         border: none;
         padding: 5px 0;
+
+        -moz-box-shadow: 0 0 10px 0 #656565;
+		-webkit-box-shadow: 0 0 10px 0 #656565;
+		-o-box-shadow: 0 0 10px 0 #656565;
+		box-shadow: 0 0 10px 0 #656565;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
+		overflow: hidden;
 
         position: fixed;
         left: 0;
@@ -165,21 +172,27 @@ img {
         top: 0;
         bottom: 0;
 
-        border-bottom: 1px solid white;
+        //border-bottom: 1px solid white;
         z-index: -1;
-
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
-        background: #2baea8; /* Old browsers */
-        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background-color: #09aa9d;
+        -moz-box-shadow: 0 0 10px 0 #656565;
+		-webkit-box-shadow: 0 0 10px 0 #656565;
+		-o-box-shadow: 0 0 10px 0 #656565;
+		box-shadow: 0 0 10px 0 #656565;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
+		overflow: hidden;
+       /* !* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 *!
+        background: #09aa9d; !* Old browsers *!
+        !* IE9 SVG, needs conditional override of 'filter' to 'none' *!
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-        background: -moz-linear-gradient(left,  #2baea8 0%, #567997 100%); /* FF3.6-15 */
-        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); /* Chrome4-9,Safari4-5 */
-        background: -webkit-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Chrome10-25,Safari5.1-6 */
-        background: -o-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Opera 11.10-11.50 */
-        background: -ms-linear-gradient(left,  #2baea8 0%,#567997 100%); /* IE10 preview */
-        background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
-    }
+        background: -moz-linear-gradient(left,  #09aa9d 0%, #567997 100%); !* FF3.6-15 *!
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); !* Chrome4-9,Safari4-5 *!
+        background: -webkit-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* Chrome10-25,Safari5.1-6 *!
+        background: -o-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* Opera 11.10-11.50 *!
+        background: -ms-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* IE10 preview *!
+        background: linear-gradient(to right,  #09aa9d 0%,#567997 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09aa9d', endColorstr='#567997',GradientType=1 ); !* IE6-8 *!
+*/    }
 
     .navbar-default .menu-background {
         opacity: 0;
@@ -349,21 +362,49 @@ img {
 
     .partenaires img {
         margin: 10px;
+        height: auto;
+
+ /*       -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; !* IE 6-9 *!*/
     }
 
     .home-profils {
         text-align: center;
     }
 
+
+    .home-profils {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
+        background: #212e3ed9; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background-image: url(../images/background-blue.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        min-height: 100vh;
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    .home-profils h1.title{
+        color: white;
+    }
+
     .home-profils h2 {
         text-align: center;
         font-weight: 100;
-        color: #00a89e;
+        color: white;
     }
 
     .home-profils h2 .bold {
         font-weight: bold;
-        color: black;
+        color: white;
     }
 
     .home-profils img {
@@ -795,6 +836,13 @@ img {
         z-index: 0;
     }
 
+    #google_map {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        z-index: 0;
+    }
+
     .footer-contact {
         padding-bottom: 20px;
     }
@@ -807,6 +855,22 @@ img {
         padding-bottom: 20px;
     }
 
+    #map-legend {
+        overflow: hidden;
+        position: absolute;
+        background: white;
+        top: 80px;
+        padding: 20px;
+        z-index: 1;
+        margin-left: 90px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
 /** RESPONSIVE **/
     @media (max-width: 1200px) {
         .navbar-default .navbar-nav > li {
@@ -814,7 +878,7 @@ img {
         }
 
         .schema {
-            display: none;
+             display: none;
         }
 
         .etape-1,

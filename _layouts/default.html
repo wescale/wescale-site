@@ -49,6 +49,7 @@
           <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           <a href="https://github.com/WeScale" title="Github"><i class="fa fa-github"></i></a>
+          <a href="https://speakerdeck.com/wescale" title="Speaker Deck"><i class="fa fa-slideshare"></i></a>
         </li>
       </ul>
     </div>
@@ -80,14 +81,35 @@
     </div>
   </div>
 
-  <div id="map-wrapper"><div id="map-canvas"></div></div>
+  <div id="map-wrapper">
 
-  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="/mentions">Mentions légales</a></p>
+      <div id="map-canvas">
+             <div id="google_map">
+             </div>
+
+          <div class="container" style="position: absolute; top: 0px;">
+          <div class="row" style="padding: 90px 0px;">
+            <div class="col-xs-4">
+                <div id="map-legend">
+                    <h3>Wescale</h3>
+                    <p>156, boulevard Haussman<br/>75008 Paris</a></p>
+                    <p><img src="/images/metro.jpg" width="25px"/> Miromesnil, St Philippe du Roule</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+
+  </div>
+
+  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="/mentions.html">Mentions légales</a></p>
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU"></script>
 <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
 <script type="text/javascript">
@@ -121,22 +143,25 @@
 
     //Google Map (Footer)
     var MY_MAPTYPE_ID="wescale-style";
-    var wescale = new google.maps.LatLng(48.8755587,2.3110176);
+
+    var wescale = new google.maps.LatLng(48.875270, 2.311063/*48.8755587,2.3110176*/);
 
     $('.to-maps').on('click', function(event) {
-      event.preventDefault();
+        $('#map-wrapper').show();
+        $('#map-wrapper').slideDown('fast', function() {
+            google.maps.event.trigger(window.map, 'resize');
+            window.map.setCenter(wescale);
+            $(window).scrollTo($('#map-wrapper'), 500);
 
-      $('#map-wrapper').slideDown('fast', function() {
-        google.maps.event.trigger(window.map, 'resize');
-        window.map.setCenter(wescale);
-      });
+        });
+        event.preventDefault();
     });
 
     $('#map-wrapper').hide();
 
     function initialize() {
       var e = [
-        {stylers:[
+/*        {stylers:[
           {hue:"#09aa9d"},
           {visibility:"simplified"},
           {gamma:.5},
@@ -145,7 +170,7 @@
         {elementType:"labels", stylers:[{visibility:"off"}]},
         {featureType:"transit", stylers:[{visibility:"on"}]},
         {featureType:"water", stylers:[{color:"#56c2cc"}]},
-        {featureType:"road", elementType:"labels", stylers:[{visibility:"on"}]}
+        {featureType:"road", elementType:"labels", stylers:[{visibility:"on"}]}*/
       ];
 
       var t = {
@@ -155,10 +180,10 @@
         mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.ROADMAP,MY_MAPTYPE_ID]},
         mapTypeId:MY_MAPTYPE_ID
       };
-      window.map = new google.maps.Map(document.getElementById("map-canvas"),t);
+      window.map = new google.maps.Map(document.getElementById("google_map"),t);
       var r = {name:"Wescale Style"};
       var i = new google.maps.StyledMapType(e,r);window.map.mapTypes.set(MY_MAPTYPE_ID,i);
-      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '/images/pointer-wescale.png'});
+      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '/images/wemap-pointer.png'});
     }
 
     google.maps.event.addDomListener(window, "load", initialize);
@@ -179,34 +204,6 @@
           $(document).ready(function() {
 
     var url = 'https://wescalefr.ghost.io/rss/';
-   /* $.get(url, function (data) {
-        var i = 0;
-        $(data).find("entry").each(function () { // or "item" or whatever suits your feed
-            var el = $(this);
-            if (i < 3){
-                 var entry = {};
-                 entry.link = el.find("link").text();
-                 entry.pubdate_ms = parseInt(el.find("pubdate_ms").text());
-                 entry.title = el.find("title").text();
-                 entry.author = el.find("author").text();
-                 $('#home-news').append( ''+
-                    '<blockquote cite="'+entry.link + '">'+
-                      '<p class="news-date"><a href="' + entry.link + '">'+ moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') +'</a></p>' +
-                      '<h2 class="news-title"><a href="' + entry.link +'">' + entry.title + '</a></h2>' +
-                      '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
-                      '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
-                    '</blocquote>');
-
-            }
-            console.log("------------------------");
-            console.log("title      : " + el.find("title").text());
-            console.log("author     : " + el.find("author").text());
-            console.log("description: " + el.find("description").text());
-            console.log(el);
-            i++;
-        });
-    });*/
-
     feednami.load(url,function(result){
         if(result.error) {
             console.log(result.error);
@@ -224,12 +221,14 @@
                       '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
                       '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
                     '</blocquote>');
-
-                console.dir(entry);
             }
         }
     });
 
+    $('#ce-que-nous-faisons').click(function(evt){
+        evt.preventDefault();
+        $(window).scrollTo($('#etapes'), 500);
+    })
 });
       {% endif %}
 
@@ -246,6 +245,7 @@
 
   }(jQuery);
 </script>
+<script type="text/javascript">CRISP_WEBSITE_ID = "ffe17ff7-ef76-4ebb-a340-cbb35899a88d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Open+Sans+Condensed:300,700">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
