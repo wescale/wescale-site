@@ -20,9 +20,10 @@ img: /images/formations/saltstack.png
 formateur_img: /images/wewes/seven-lemesle.png
 subtitle: Automatisation Cloud et DevOps à grande échelle
 pdf: /pdf/Formation-SaltStack-wescale.pdf
+duree: 2 jours
 ---
 
-# Découvrir et maitriser SaltStack
+# Découvrir et maitriser SaltStack - *2 jours*
 
 
 **SaltStack** est un outil de pilotage de systèmes, orienté agent, faisant partie de la famille des outils estampillés DevOps. Il permet de simplifier des opérations d’orchestration complexes, de faire du management de configuration centralisée sur un grand nombre de machines. Il permet également le pilotage de plateformes Cloud telles que Amazon Web Services ou OpenStack notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter avec SaltStack, ainsi que la compréhension des bonnes pratiques pour approfondir,  déployer et utiliser cet outil en environnement de production.

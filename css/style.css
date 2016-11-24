@@ -11,12 +11,22 @@ h4 {
     font-weight: bold;
 }
 
+
+
 .title, .formation  h1 {
     text-align: left;
     color: #00a89e;
     text-transform: uppercase;
     font-size: 30px;
     border-bottom: 1px solid #00a89e;
+}
+
+.formation h1 em {
+    font-size: 20px;
+}
+
+.formations h2 em {
+    font-size: 20px;
 }
 
 .subtitle {

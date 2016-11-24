@@ -12,9 +12,10 @@ img: /images/formations/kubernetes.svg
 formateur_img: /images/wewes/cedric-hauber.png
 subtitle: Orchestration de conteneurs sous stéroïdes
 pdf: /pdf/Formation-Kubernetes-wescale.pdf
+duree: 2 jours
 ---
 
-# Kubernetes
+# Kubernetes - *2 jours*
 
 
 Lorsque l’on découvre Docker, le besoin d’un orchestrateur se fait vite ressentir.
