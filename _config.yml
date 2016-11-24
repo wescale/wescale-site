@@ -29,4 +29,7 @@ markdown: kramdown
 theme: minima
 
 collections:
-- wewes
+  wewes:
+    dd: d
+  formations:
+    output: true

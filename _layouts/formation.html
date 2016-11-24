@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+    <div class="content">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+{{ content }}
+            </div>
+
+            <div class="col-md-3">
+              <div class="course-image">
+                <img width="150" height="150" src="{{page.img}}">
+              </div>
+
+              <div class="formation-block">
+                <p>{{ page.subtitle }}</p>
+              </div>
+
+              <div class="formation-block">
+                <a href="{{ page.pdf }}" class="button">Fiche PDF</a>
+              </div>
+
+              <div class="formation-block">
+                <table>
+                  <tbody>
+                    <tr class="su-even">
+                      <td>Prix HT</td>
+                    </tr>
+                    <tr>
+                      <td>Inter : 1 800 €</td>
+                    </tr>
+                    <tr class="su-even">
+                      <td>Intra : 6 000 €</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>

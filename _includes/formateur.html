@@ -1,0 +1,11 @@
+<div class="row biographie">
+    <div class="col-md-2">
+        <div class="course-image">
+            <img width="150" height="150" src="{{ page.formateur_img }}">
+        </div>
+    </div>
+    <div class="col-md-10">
+        {% capture my-include %}{% include {{ include.nom_formateur }}.md %}{% endcapture %}
+        {{ my-include | markdownify }}
+    </div>
+</div>

@@ -11,7 +11,7 @@ h4 {
     font-weight: bold;
 }
 
-.title {
+.title, .formation  h1 {
     text-align: left;
     color: #00a89e;
     text-transform: uppercase;
@@ -567,7 +567,6 @@ img {
     }
 
     .course-image img {
-        border-radius: 50%;
         display: block;
         width: 100%;
         height: auto;
@@ -576,6 +575,11 @@ img {
     }
 
     .formations h2 {
+        margin-bottom: 20px;
+    }
+
+    .formation h2, .formation h3 {
+        color: #6a8aaa;
         margin-bottom: 20px;
     }
 
