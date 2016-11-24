@@ -6,7 +6,7 @@ DevOps et les solutions cloud. Fort de son expérience d'architecte applicatif e
 imagine et réalise des projets autant innovants qu'ambitieux pour des grands comptes (Publicis, SFR, Voyages-sncf.com,
  …).
 
-Son credo: "Aucun plan ne survit à son implémentation !"
+Son credo: **"Aucun plan ne survit à son implémentation !"**
 
 Séven favorise le travail par incrément, en mettant à l'épreuve les solutions en continu.
 

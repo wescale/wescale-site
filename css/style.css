@@ -578,6 +578,10 @@ img {
         margin-bottom: 20px;
     }
 
+    .formation strong {
+        color: #00a89e;
+    }
+
     .formation h2, .formation h3 {
         color: #6a8aaa;
         margin-bottom: 20px;
@@ -586,7 +590,7 @@ img {
     .button {
         font-family: 'Open Sans Condensed', sans-serif;
         background: white;
-        color: #2baea8;
+        color: #6a8aaa;
         font-size: 20px;
         display: block;
         line-height: 35px;
