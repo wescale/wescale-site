@@ -56,6 +56,13 @@ section {
     padding: 90px 0;
 }
 
+.partenariats .content {
+   /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
+    background-size: cover;
+    min-height: calc(100vh - 220px);
+    padding: 0px 0px;
+    padding-bottom: 90px;
+}
 input,
 textarea {
     width: 100%;
@@ -159,13 +166,13 @@ img {
     }
 
     .navbar-default .navbar-nav .socials > a {
-        color: black;
+        color: white;
         border-bottom: none;
         display: inline;
     }
 
     .navbar-default .navbar-nav .socials {
-        color: black;
+        color: white;
         border-bottom: none;
         font-size: 150%;
     }
@@ -225,7 +232,7 @@ img {
         border-bottom: none;
     }
 
-    .home-top {
+    .home .home-top {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
         background: #2baea8; /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -238,11 +245,33 @@ img {
         background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
 
-        background-image: url(../images/background.jpg);
+        background-image: url(../images/bg-sun-cloud.jpg);
+        /*background-image: url(../images/background.jpg);*/
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         min-height: 100vh;
+        color: white;
+        padding-top: 100px;
+    }
+
+    .partenariats .home-top {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
+        background: #2baea8; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(left,  #2baea8 0%, #567997 100%); /* FF3.6-15 */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); /* Chrome4-9,Safari4-5 */
+        background: -webkit-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Chrome10-25,Safari5.1-6 */
+        background: -o-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Opera 11.10-11.50 */
+        background: -ms-linear-gradient(left,  #2baea8 0%,#567997 100%); /* IE10 preview */
+        background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
+
+        background-image: url(../images/bg-sun-cloud.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
         color: white;
         padding-top: 100px;
     }
@@ -263,9 +292,23 @@ img {
         text-transform: none;
     }
 
+   .partenariats .home-top .title {
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        margin: 20px 0 20px;
+        text-align: left;
+        text-transform: none;
+    }
+
     .home-content {
         position: relative;
         padding: 0 15px 100px 15px;
+    }
+
+    .partenariats .home-content {
+        position: relative;
+        padding: 0 15px 50px 15px;
     }
 
     .home-text {
@@ -708,8 +751,6 @@ img {
 
 /** PARTENARIATS **/
     .partenaire-image {
-        border-radius: 50%;
-        border: 1px solid black;
         line-height: 250px;
         width: 250px;
         margin: 20px;

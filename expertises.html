@@ -1,104 +1,51 @@
 ---
 layout: default
-title: Partenariats - Wescale - Cloud expert
+title: Expertises - Wescale - Cloud expert
 class: partenariats
 ---
+        <section class="home-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="/images/iconTraining.png" width="200px" alt="Formation">
+
+                    </div>
+                    <div class="col-md-8 home-content">
+                                    <h1 class="title">Cloud experts</h1>
+            <p class="home-text">
+                      Nos consultants sont certifiés sur les plateformes Cloud public et privé. Wescale investi en
+                        continue dans la formation des wewes.
+            </p>
+                        <p class="home-text">
+                      Un jour par mois nous nous réunissons tous ensemble pour faire de la veille technologique,
+                            partager des retours d'expériences et discuter autour d'un verre.
+            </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     <div class="content">
       <section>
         <div class="container">
+{% for techs in site.expertises %}
           <div class="row">
             <div class="col-md-12">
-              <h1 class="title">Cloud</h1>
+              <h1 class="title">{{ techs.title }}</h1>
             </div>
           </div>
-          <div class="row partenariat-list">
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/amazon-web-services.png" alt="Amazon Web Services" />
+            <div class="row partenariat-list">
+    {% for tech in techs.all %}
+               <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
+                    <div class="partenaire-image">
+                      <img src="{{ tech.img }}" alt="{{ tech.name }}" />
+                    </div>
                 </div>
+    {% endfor %}
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/google-cloud-platform.png" alt="Google Cloud Platform" />
-                </div>
-            </div>
-              <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/cloud-azure.png" alt="Cloud Azure" />
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/openstack.png" alt="Openstack" />
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/clever.png" alt="Clever" />
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/heroku.png" alt="Heroku" />
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/numergy.png" alt="Numergy" />
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/opengraph.png" alt="Opengraph" />
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/ovh.png" alt="OVH" />
-                </div>
-            </div>
-
-          </div>
-             <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">Outils</h1>
-            </div>
-          </div>
-                      <div class="row partenariat-list">
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/ansible.png" alt="Ansible" />
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/chef.png" alt="Chef" />
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/cloudera.png" alt="Cloudera" />
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/jenkins.png" alt="Jenkins" />
-                </div>
-            </div>
+{% endfor %}
 
 
-            <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
-                <div class="partenaire-image">
-                  <img src="/images/partenariats/xebialabs.png" alt="XebiaLabs" />
-                </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
