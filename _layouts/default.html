@@ -186,7 +186,7 @@
       window.map = new google.maps.Map(document.getElementById("google_map"),t);
       var r = {name:"Wescale Style"};
       var i = new google.maps.StyledMapType(e,r);window.map.mapTypes.set(MY_MAPTYPE_ID,i);
-      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '/images/wemap-pointer.png'});
+      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '{{"/images/wemap-pointer.png"|relative_url}}'});
     }
 
     google.maps.event.addDomListener(window, "load", initialize);
