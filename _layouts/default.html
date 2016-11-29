@@ -9,8 +9,8 @@
     <link rel="icon" href="/images/favicon.ico" />
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="{{ "/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/css/style.css" | relative_url  }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,18 +34,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
+      <a class="navbar-brand" href="/"><img src="{{ "/images/logo.png" | relative_url }}" alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav menu-links">
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/a-propos.html">À propos</a></li>
-        <li><a href="/expertises.html">Expertises</a></li>
+        <li><a href="{{ "/services.html" | relative_url  }}">Services</a></li>
+        <li><a href="{{"/a-propos.html" | relative_url }}">À propos</a></li>
+        <li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>
         <li><a href="http://blog.wescale.fr/">Blog</a></li>
-        <li><a href="/formations.html">Formations</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
+        <li><a href="{{ "/contact.html| relative_url }}">Contact</a></li>
         <li class="socials">
           <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -96,7 +96,7 @@
                 <div id="map-legend">
                     <h3>Wescale</h3>
                     <p>156, boulevard Haussman<br/>75008 Paris</a></p>
-                    <p><img src="/images/metro.jpg" width="25px"/> Miromesnil, St Philippe du Roule</p>
+                    <p><img src="{{ "/images/metro.jpg" | relative_url }}" width="25px"/> Miromesnil, St Philippe du Roule</p>
                 </div>
                 </div>
               </div>
@@ -106,12 +106,12 @@
 
   </div>
 
-  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="/mentions.html">Mentions légales</a></p>
+  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="{{ "/mentions.html" | relative_url }}">Mentions légales</a></p>
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{"/js/bootstrap.min.js" | relative_url }}"></script>
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU"></script>
 <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
