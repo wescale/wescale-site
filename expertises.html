@@ -7,7 +7,7 @@ class: partenariats
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 ">
-                        <img src="/images/iconTraining.png" width="200px" alt="Formation">
+                        <img src="{{"/images/iconTraining.png"| relative_url}}" width="200px" alt="Formation">
 
                     </div>
                     <div class="col-md-8 home-content">
@@ -40,7 +40,7 @@ class: partenariats
     {% for tech in techs.all %}
                <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
                     <div class="partenaire-image">
-                      <img src="{{ tech.img }}" alt="{{ tech.name }}" />
+                      <img src="{{ tech.img | relative_url}}" alt="{{ tech.name }}" />
                     </div>
                 </div>
     {% endfor %}

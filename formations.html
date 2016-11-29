@@ -17,7 +17,7 @@ class: formations
           <div class="row formation">
             <div class="col-md-2">
               <div class="course-image">
-                <img width="150"  src="{{formation.img}}">
+                <img width="150"  src="{{formation.img | relative_url}}">
               </div>
             </div>
             <div class="col-md-10">
@@ -25,7 +25,7 @@ class: formations
 
               <p>{{ formation.pitch }}</p>
 
-              <a href="{{ formation.url }}" class="button">En savoir plus</a>
+              <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
             </div>
           </div>
          {% endfor %}
