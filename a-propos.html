@@ -75,7 +75,7 @@ class: a-propos
               {% for wewe in site.wewes %}
                 {% for we in wewe.wewes %}
                 <div class="equipe-photo"
-                   style="background: url({{we.img}}) no-repeat center center;background-size: cover;">
+                   style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
 
                 <div class="equipe-mask"></div>
                 <div class="equipe-name">
