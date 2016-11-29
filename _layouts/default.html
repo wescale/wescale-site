@@ -45,7 +45,7 @@
         <li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>
         <li><a href="http://blog.wescale.fr/">Blog</a></li>
         <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
-        <li><a href="{{ "/contact.html| relative_url }}">Contact</a></li>
+        <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
         <li class="socials">
           <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -242,15 +242,6 @@
       $('#tt-form').submit(function (evt){
           evt.preventDefault();
 
-          /*
-          entry.903257113:M
-entry.1508999386:Séven
-entry.1524301048:Lemesle
-entry.2013605525:seven.lemesle@wescale.fr
-entry.10218435:Wescale
-entry.437077223:Président
-entry.960649226:J'autorise Wescale à me tenir informé par e-mail
-           */
           var civilite = $("input[type='radio'][name='civilite']:checked").val();
           var prenom = $("input[type='text'][name='prenom']").val();
           var nom = $("input[type='text'][name='nom']").val();
