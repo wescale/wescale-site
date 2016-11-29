@@ -32,6 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
     </div>
@@ -63,12 +64,14 @@
 <footer class="site-footer clearfix">
   <div class="footer-wrapper-top">
     <div class="footer-top">
-      <div class="alliance-xebia-wrapper">
+        <a href="#" class="to-maps"><i class="fa fa-globe fa-5x"></i></a>
+<!--      <div class="alliance-xebia-wrapper">
         <div class="alliance-xebia">
-          <a href="http://alliance.xebia.fr"><img src="/images/logo-alliance-footer.jpg" alt="Alliance Xebia" width="78" height="79"></a>
+          <a href="http://alliance.xebia.fr" ><i class="fa fa-globe fa-5x" ></i>
+</a>
           <a href="#" class="to-maps"><i class="fa fa-map-marker"></i></a>
         </div>
-      </div>
+      </div>-->
     </div>
 
     <div class="footer-middle">
@@ -208,6 +211,7 @@
         if(result.error) {
             console.log(result.error);
         } else {
+            $('#news-spin').remove();
             var entries = result.feed.entries;
             for(var i = 0; i < entries.length; i++){
                 if (i > 3)
@@ -230,6 +234,54 @@
         $(window).scrollTo($('#etapes'), 500);
     })
 });
+
+      // Download TT
+      $('#tt-link').click(function (evt){
+          evt.preventDefault();
+      });
+      $('#tt-form').submit(function (evt){
+          evt.preventDefault();
+
+          /*
+          entry.903257113:M
+entry.1508999386:Séven
+entry.1524301048:Lemesle
+entry.2013605525:seven.lemesle@wescale.fr
+entry.10218435:Wescale
+entry.437077223:Président
+entry.960649226:J'autorise Wescale à me tenir informé par e-mail
+           */
+          var civilite = $("input[type='radio'][name='civilite']:checked").val();
+          var prenom = $("input[type='text'][name='prenom']").val();
+          var nom = $("input[type='text'][name='nom']").val();
+          var email = $("input[type='email'][name='email']").val();
+          var societe = $("input[type='text'][name='societe']").val();
+          var fonction = $("input[type='text'][name='fonction']").val();
+          var keep_inform = $("input[type='checkbox'][name='keep-inform']:checked").val();
+
+          $.ajax({
+                    url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
+                    data: {"entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
+                        "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
+                        "entry.960649226": keep_inform
+                    },
+                    type: "POST",
+                    dataType: "xml",
+                    crossDomain:true,
+                    statusCode: {
+                        0: function() {
+                            //Success message
+                            $('#myModal').modal('hide');
+
+                        },
+                        200: function() {
+                            //Success Message
+
+                            $('#myModal').modal('hide');
+                        }
+                    }
+                });
+      });
       {% endif %}
 
       // If contact

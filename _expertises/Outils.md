@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Outils
+display: 2
 all:
     -
       name: Ansible
@@ -34,7 +35,7 @@ all:
       img: /images/partenariats/mesos-logo.png
     -
       name: Kubernetes
-      img: /images/formations/kubernetes.svg
+      img: /images/partenariats/kubernetes.png
     -
       name: Rancher
       img: /images/partenariats/rancher.png

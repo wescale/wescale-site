@@ -63,8 +63,20 @@ section {
     padding: 0px 0px;
     padding-bottom: 90px;
 }
-input,
-textarea {
+
+
+input {
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border: 1px solid #2baea8;
+    color: black;
+    background: transparent;
+}
+
+
+.contact input,
+.contact textarea {
     width: 100%;
     display: block;
     line-height: 35px;
@@ -75,11 +87,14 @@ textarea {
     background: transparent;
 }
 
+.contact input[type="submit"] {
+    float: right;
+}
+
 input[type="submit"] {
     font-family: 'Open Sans Condensed', sans-serif;
     background: white;
     width: 100px;
-    float: right;
     text-transform: uppercase;
     color: #2baea8;
     font-weight: bold;
@@ -255,7 +270,7 @@ img {
         padding-top: 100px;
     }
 
-    .partenariats .home-top {
+    .partenariats .home-top, .formations .home-top  {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
         background: #2baea8; /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -292,7 +307,7 @@ img {
         text-transform: none;
     }
 
-   .partenariats .home-top .title {
+   .partenariats .home-top .title, .formations .home-top .title {
         font-size: 50px;
         font-weight: bold;
         color: white;
@@ -301,12 +316,16 @@ img {
         text-transform: none;
     }
 
+   .home-top .modal-dialog {
+       color: black;
+   }
+
     .home-content {
         position: relative;
         padding: 0 15px 100px 15px;
     }
 
-    .partenariats .home-content {
+    .partenariats .home-content, .formations .home-content {
         position: relative;
         padding: 0 15px 50px 15px;
     }
@@ -320,8 +339,19 @@ img {
     }
 
     .home-news a {
-        color: black;
+        color: #4a566b;
         font-size: 14px;
+    }
+
+    .home-news h1 {
+        color: #4a566b;
+        /*
+        color: #575757;
+        */
+    }
+
+    #news-spin {
+        align-items: center;
     }
 
     .news-title {
@@ -329,7 +359,7 @@ img {
     }
 
     .news-title a {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .news-date,
@@ -411,6 +441,62 @@ img {
         margin: auto;
         font-size: 0;
         text-align: center;
+    }
+
+      .equipe-mask {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        background: #00a89e;
+        opacity: 0;
+        transition: all 0.3s ease-in-out  0.2s;
+        -webkit-transition: all 0.3s ease-in-out  0.2s;
+        -moz-transition: all 0.3s ease-in-out  0.2s;
+        -o-transition: all 0.3s ease-in-out  0.2s;
+        -ms-transition: all 0.3s ease-in-out  0.2s;
+    }
+
+    .equipe-name {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        opacity: 0;
+        transform: translateY(300px);
+        -webkit-transform: translateY(300px);
+        -moz-transform: translateY(300px);
+        -o-transform: translateY(300px);
+        -ms-transform: translateY(300px);
+        transition: all 0.3s ease-in-out 0.1s;
+        -webkit-transition: all 0.3s ease-in-out 0.1s;
+        -moz-transition: all 0.3s ease-in-out 0.1s;
+        -o-transition: all 0.3s ease-in-out 0.1s;
+        -ms-transition: all 0.3s ease-in-out 0.1s;
+    }
+
+    .equipe-photo:hover .equipe-mask {
+        opacity: 1;
+        transition: all 0.3s ease-in-out  0.2s;
+        -webkit-transition: all 0.3s ease-in-out  0.2s;
+        -moz-transition: all 0.3s ease-in-out  0.2s;
+        -o-transition: all 0.3s ease-in-out  0.2s;
+        -ms-transition: all 0.3s ease-in-out  0.2s;
+    }
+
+    .equipe-photo:hover .equipe-name {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transition: all 0.3s ease-in-out  0.2s;
+        -webkit-transition: all 0.3s ease-in-out  0.2s;
+        -moz-transition: all 0.3s ease-in-out  0.2s;
+        -o-transition: all 0.3s ease-in-out  0.2s;
+        -ms-transition: all 0.3s ease-in-out  0.2s;
     }
 
     .partenaires img {
@@ -523,12 +609,15 @@ img {
         padding: 0 10px;
     }
 
-    .bloc-apropos .subtitle {
+    .a-propos .subtitle {
         text-align: left;
-        font-size: 25px;
+        font-size: 20px;
         margin: 10px 0;
     }
 
+    .valeurs li {
+        font-size: 16px;
+    }
     .equipe > div {
         display: block;
         margin: 20px 5px 0;
@@ -783,7 +872,7 @@ img {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
         background: #2baea8; /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: url(/images/bg-sun-cloud.jpg);
         background: -moz-linear-gradient(left,  #2baea8 0%, #567997 100%); /* FF3.6-15 */
         background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); /* Chrome4-9,Safari4-5 */
         background: -webkit-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Chrome10-25,Safari5.1-6 */
@@ -792,7 +881,7 @@ img {
         background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
 
-        background-image: url(../images/background.jpg);
+        background: url(/images/bg-sun-cloud.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -831,6 +920,10 @@ img {
         left: 0;
         right: 0;
         top: -70px;
+    }
+
+    .alliance-xebia a {
+        color: black;
     }
 
     .alliance-xebia a {

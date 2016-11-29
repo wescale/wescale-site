@@ -28,7 +28,9 @@ class: partenariats
     <div class="content">
       <section>
         <div class="container">
-{% for techs in site.expertises %}
+{% assign ordered_expertises = site.expertises | sort: "display" %}
+
+{% for techs in ordered_expertises %}
           <div class="row">
             <div class="col-md-12">
               <h1 class="title">{{ techs.title }}</h1>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cloud
+display: 1
 all:
     -
       name: Amazon Web Services
