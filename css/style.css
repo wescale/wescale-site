@@ -872,7 +872,7 @@ img {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
         background: #2baea8; /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-        background: url(/images/bg-sun-cloud.jpg);
+        background: url(../images/bg-sun-cloud.jpg);
         background: -moz-linear-gradient(left,  #2baea8 0%, #567997 100%); /* FF3.6-15 */
         background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); /* Chrome4-9,Safari4-5 */
         background: -webkit-linear-gradient(left,  #2baea8 0%,#567997 100%); /* Chrome10-25,Safari5.1-6 */
@@ -881,7 +881,7 @@ img {
         background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
 
-        background: url(/images/bg-sun-cloud.jpg);
+        background: url(../images/bg-sun-cloud.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
