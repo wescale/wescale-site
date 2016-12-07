@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if site.github %}
+    <meta name="robots" content="noindex">
+    {% endif %}
     <title>{{ page.title }}</title>
 
     <link rel="icon" href="{{"/images/favicon.ico"|relative_url}}" />
@@ -62,29 +65,7 @@
 
 <!-- Footer -->
 <footer class="site-footer clearfix">
-  <div class="footer-wrapper-top">
-    <div class="footer-top">
-        <a href="#" class="to-maps"><i class="fa fa-globe fa-5x"></i></a>
-<!--      <div class="alliance-xebia-wrapper">
-        <div class="alliance-xebia">
-          <a href="http://alliance.xebia.fr" ><i class="fa fa-globe fa-5x" ></i>
-</a>
-          <a href="#" class="to-maps"><i class="fa fa-map-marker"></i></a>
-        </div>
-      </div>-->
-    </div>
-
-    <div class="footer-middle">
-      <p>Les blogs de l'Alliance :</p>
-      <a href="http://xebia.fr">Xebia</a> + <a href="http://xebialabs.com/">Xebialabs</a> + <a href="http://thiga.fr">Thiga</a> + <a href="http://ux-republic.com/">UX-Republic</a> + <a href="http://cellenza.com">Cellenza</a> +  <a href="http://wescale.fr/">Wescale</a>
-    </div>
-
-    <div class="footer-contact">
-      <a href="mailto:contact@wescale.fr">contact@wescale.fr</a>
-    </div>
-  </div>
-
-  <div id="map-wrapper">
+      <div id="map-wrapper">
 
       <div id="map-canvas">
              <div id="google_map">
@@ -105,6 +86,18 @@
       </div>
 
   </div>
+
+  <div class="footer-wrapper-top">
+    <div class="footer-top">
+        <a href="#" class="to-maps"><i class="fa fa-globe fa-2x"></i><br/> 156 Bd Haussmann, 75008 Paris</a>
+    </div>
+
+    <div class="footer-contact">
+      <a href="mailto:contact@wescale.fr">contact@wescale.fr</a>
+    </div>
+  </div>
+
+
 
   <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="{{ "/mentions.html" | relative_url }}">Mentions légales</a></p>
 </footer>
@@ -163,18 +156,7 @@
     $('#map-wrapper').hide();
 
     function initialize() {
-      var e = [
-/*        {stylers:[
-          {hue:"#09aa9d"},
-          {visibility:"simplified"},
-          {gamma:.5},
-          {weight:.5}
-        ]},
-        {elementType:"labels", stylers:[{visibility:"off"}]},
-        {featureType:"transit", stylers:[{visibility:"on"}]},
-        {featureType:"water", stylers:[{color:"#56c2cc"}]},
-        {featureType:"road", elementType:"labels", stylers:[{visibility:"on"}]}*/
-      ];
+      var e = [];
 
       var t = {
         zoom:17,

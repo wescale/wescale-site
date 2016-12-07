@@ -902,51 +902,6 @@ img {
         border-bottom: none;
     }
 
-    .alliance-xebia-wrapper {
-        position: relative;
-        padding: 30px 0;
-        min-height: 30px;
-        margin: auto;
-    }
-
-    .alliance-xebia {
-        background-color: white;
-        border: 1px solid #dadada;
-        border-radius: 500px;
-        height: 140px;
-        width: 140px;
-        margin: auto;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: -70px;
-    }
-
-    .alliance-xebia a {
-        color: black;
-    }
-
-    .alliance-xebia a {
-        line-height: 130px;
-        background: transparent;
-        padding: 0;
-    }
-
-    .alliance-xebia img {
-        vertical-align: middle;
-    }
-
-    .alliance-xebia .to-maps {
-        color: black;
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 5px;
-        line-height: 20px;
-        font-size: 20px;
-    }
-
     .footer-middle {
         padding: 30px 0 20px;
         color: white;
