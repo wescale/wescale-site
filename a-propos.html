@@ -3,90 +3,119 @@ layout: default
 title: A propos - Wescale - Cloud expert
 class: a-propos
 ---
-    <div class="content">
-      <section>
+<div class="content">
+    <section>
         <div class="container">
 
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">À propos</h1>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-8">
-              <h2 class="subtitle">L'IT as a Service</h2>
-
-              <p>Les entreprises ont besoin de plus de réactivité de la part de leur IT.<br/>WeScale propose de les accompagner vers le Cloud, afin de répondre à l'exigence du monde informatique d'aujourd'hui : l'IT as a Service.</p>
-
-              <h3>Notre promesse</h3>
-
-              <p>Notre métier : vous aider à tirer le meilleur parti des avancées technologiques du Cloud.<br/>Nous accompagnons des entreprises comme la vôtre à optimiser leurs solutions, grâce au Cloud. <br/>Nous réalisons la transformation de ces solutions, aux regards des enjeux métier.</p>
-
-              <p class="more">
-                <a href="/services.html">
-                  <img src="{{"/images/more-black.png"| relative_url }}" alt="Ce que nous faisons" width="52" height="44"><br>
-                  Ce que nous faisons
-                </a>
-              </p>
-            </div>
-            <div class="col-md-4 valeurs">
-              <h2>Nos valeurs</h2>
-              <ul>
-                <li>
-                  Passion
-                </li>
-                <li>
-                  Fun
-                </li>
-                <li>
-                  Ecoute
-                </li>
-                <li>
-                  Partage
-                </li>
-                <li>
-                  Amélioration continue
-                </li>
-                <li>
-                  Simplicité
-                </li>
-                <li>
-                  Amitié
-                </li>
-                <li>
-                  Ouverture
-                </li>
-                <li>
-                  Tolérance
-                </li>
-              </ul>
-
-            </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">L'équipe</h1>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="equipe col-md-12">
-
-              {% for wewe in site.wewes %}
-                {% for we in wewe.wewes %}
-                <div class="equipe-photo"
-                   style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
-
-                <div class="equipe-mask"></div>
-                <div class="equipe-name">
-                  <h2>{{we.name}}</h2>
-                  <h3>{{we.title}}</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">Notre histoire</h1>
                 </div>
-              </div>
-                {% endfor %}
-              {% endfor %}
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        Tout a commencé avec quelques passionnés, qui se sont rendus à l’évidence :<br/>
+                        Il faut des gens talentueux à
+                        l’imagination foisonnante pour créer les infrastructures cloud de demain.
+                    </p>
+                    <p>
+                        Parce-que c’est un milieu tellement vaste, qu’il évolue à une vitesse astronomique, nous
+                        cherchons dans
+                        le monde entier des personnes comme nous, pour fonder ensemble une véritable communauté
+                        d’experts.
+                    </p>
+                    <p>
+                        Nous construisons ensemble les solutions pour nos clients. Parce que notre objectif est de
+                        collaborer,
+                        nous travaillons à nourrir la culture DevOps.
+                    </p>
+                    <p>
+                        On retrouve, chez chacun de nous, des traits de personnalité communs. Ouvert et partageur, les
+                        scalers
+                        sont passionnés par ce qu’il font. Ils cherchent toujours à améliorer les choses. Ils aiment
+                        aussi bien
+                        sûr se rafraîchir en partageant des verres. Les scalers contribuent à l’évolution et au bien
+                        être des
+                        autres. Pour finir, les scalers n’hésitent jamais à donner leur avis et ce quel qu’il soit.
+                    </p>
 
 
-        </div>
-      </section>
-    </div>
+                    <!--
+                    <h2 class="subtitle">L'IT as a Service</h2>
+
+                    <p>Les entreprises ont besoin de plus de réactivité de la part de leur IT.<br/>WeScale propose de les accompagner vers le Cloud, afin de répondre à l'exigence du monde informatique d'aujourd'hui : l'IT as a Service.</p>
+
+                    <h3>Notre promesse</h3>
+
+                    <p>Notre métier : vous aider à tirer le meilleur parti des avancées technologiques du Cloud.<br/>Nous accompagnons des entreprises comme la vôtre à optimiser leurs solutions, grâce au Cloud. <br/>Nous réalisons la transformation de ces solutions, aux regards des enjeux métier.</p>
+
+                    <p class="more">
+                      <a href="/services.html">
+                        <img src="{{"/images/more-black.png"| relative_url }}" alt="Ce que nous faisons" width="52" height="44"><br>
+                        Ce que nous faisons
+                      </a>
+                    </p>-->
+                </div>
+                <div class="col-md-4 valeurs">
+                    <h2>Nos valeurs</h2>
+                    <ul>
+                        <li>
+                            Passion
+                        </li>
+                        <li>
+                            Fun
+                        </li>
+                        <li>
+                            Ecoute
+                        </li>
+                        <li>
+                            Partage
+                        </li>
+                        <li>
+                            Amélioration continue
+                        </li>
+                        <li>
+                            Simplicité
+                        </li>
+                        <li>
+                            Amitié
+                        </li>
+                        <li>
+                            Ouverture
+                        </li>
+                        <li>
+                            Tolérance
+                        </li>
+                    </ul>
+
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title">L'équipe</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="equipe col-md-12">
+
+                        {% for wewe in site.wewes %}
+                        {% for we in wewe.wewes %}
+                        <div class="equipe-photo"
+                             style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
+
+                            <div class="equipe-mask"></div>
+                            <div class="equipe-name">
+                                <h2>{{we.name}}</h2>
+                                <h3>{{we.title}}</h3>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        {% endfor %}
+
+
+                    </div>
+    </section>
+</div>

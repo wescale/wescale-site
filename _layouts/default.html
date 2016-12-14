@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav menu-links">
         <li><a href="{{ "/services.html" | relative_url  }}">Services</a></li>
-        <li><a href="{{"/a-propos.html" | relative_url }}">À propos</a></li>
+        <li><a href="{{"/a-propos.html" | relative_url }}">Qui sommes nous ?</a></li>
         <li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>
         <li><a href="http://blog.wescale.fr/">Blog</a></li>
         <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
@@ -173,16 +173,6 @@
 
     google.maps.event.addDomListener(window, "load", initialize);
 
-    //A Propos
-    // $('.equipe-photo').on('mouseenter', function() {
-    //   var current = $(this);
-    //   $('.equipe-mask').hide();
-    //   $('.equipe-name').hide();
-    //   current.find('.equipe-mask').fadeIn('fast', function() {
-    //     // current.find('.equipe-name').show().css('opacity', '1');
-    //   });
-    // });
-
       // If home
       {% if page.class == 'home' %}
 
@@ -251,6 +241,41 @@
                             //Success Message
 
                             $('#myModal').modal('hide');
+                        }
+                    }
+                });
+      });
+
+      // Recruit @ Wescale
+
+       $('#rejoignez-nous').click(function (evt){
+          evt.preventDefault();
+      });
+      $('#rejoignez-nous-form').submit(function (evt){
+          evt.preventDefault();
+
+          var prenom = $("#rejoignez-nous-form input[type='text'][name='prenom']").val();
+          var nom = $("#rejoignez-nous-form input[type='text'][name='nom']").val();
+          var email = $("#rejoignez-nous-form input[type='email'][name='email']").val();
+          var message = $("#rejoignez-nous-form textarea[name='message']").val();
+          $.ajax({
+                    url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLScTWqqHHNsZDz7uW2LnXCh-pW4Q1WdxDLG1XyZ43He0H-omnw/formResponse",
+                    data: {"entry.523620392": prenom, "entry.1182716048": nom,
+                        "entry.2065643761": email, "entry.1592936921": message
+                    },
+                    type: "POST",
+                    dataType: "xml",
+                    crossDomain:true,
+                    statusCode: {
+                        0: function() {
+                            //Success message
+                            $('#rejoignez-nous-modal').modal('hide');
+
+                        },
+                        200: function() {
+                            //Success Message
+
+                            $('#rejoignez-nous-modal').modal('hide');
                         }
                     }
                 });

@@ -7,7 +7,6 @@ class: home
       <div class="container">
         <div class="row">
           <div class="col-md-8 home-content">
-            <p class="up-title"><strong>IT</strong> as a service</p>
             <h1 class="title">DevOps & Cloud experts</h1>
             <p class="home-text">
 
@@ -39,68 +38,7 @@ class: home
                 <p class="news-readmore"><a href="#" data-toggle="modal" data-target="#myModal">Télécharger</a></p>
               </div>
 
-              <div id="tt-form">
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Télécharger le TechTrends Cloud</h4>
-                      </div>
-                         <form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form">
-                      <div class="modal-body" id="tt-body">
-
-                            <div class="form-group">
-                              <label>Civilité</label>
-                           <div class="radio">
-                              <label>
-                                <input type="radio" name="civilite" id="civilite_m"  required value="M">
-                                M
-                              </label>
-                            </div>
-                              <div class="radio">
-                              <label>
-                                <input type="radio" name="civilite" id="civilite_mme" required value="Mme">
-                                Mme
-                              </label>
-                            </div>
-                              </div>
-                           <div class="form-group">
-                             <label for="prenom">Prénom</label>
-                              <input type="text" class="form-control" id="prenom" name="prenom" required placeholder="Prénom">
-                            </div>
-                           <div class="form-group">
-                             <label for="nom">Nom</label>
-                              <input type="text" class="form-control" id="nom" name="nom" required placeholder="Nom">
-                            </div>
-                           <div class="form-group">
-                             <label for="email">E-mail</label>
-                              <input type="email" class="form-control" id="email" name="email" required placeholder="E-mail">
-                            </div>
-                           <div class="form-group">
-                             <label for="societe">Société</label>
-                              <input type="text" class="form-control" id="societe" name="societe" required placeholder="Société">
-                            </div>
-                           <div class="form-group">
-                             <label for="fonction">Fonction</label>
-                              <input type="text" class="form-control" id="fonction" name="fonction" required placeholder="Fonction">
-                            </div>
-                            <div class="form-group">
-                              <label>
-                                <input type="checkbox" name="keep-inform" value="J'autorise Wescale à me tenir informé par e-mail."> J'autorise Wescale à me tenir informé par e-mail.
-                              </label>
-                            </div>
-                        <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/viewform?embedded=true" width="550" height="600" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>-->
-                      </div>
-                      <div class="modal-footer">
-                          <div class="pull-left">Un e-mail vous sera envoyé avec le lien.</div><input type="submit" value="Envoyer" class="pull-right" id="tt-submit" />
-                        </div>
-                        </form>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+              {% include tt-form.html %}
             </div>
           </div>
           <div id="home-news" class="col-md-4 home-news">
@@ -110,7 +48,6 @@ class: home
             <h1 id="news-spin">
               <i class="fa fa-refresh fa-spin  fa-fw" aria-hidden="true"></i>
             </h1>
-
 
           </div>
         </div>
@@ -161,24 +98,31 @@ class: home
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <h1 class="title">Nos profils</h1>
+              <h1 class="title"><a id="rejoignez-nous" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">Rejoignez nous !</a></h1>
+              <p>Envie de vous renouveler ? Rejoignez les Scalers !</p>
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Designer</span></h2>
               <img src="{{"/images/profil-designer.jpg"| relative_url }}" alt="Cloud Designer" />
-              <p>Consultant ayant une appétence pour l’analyse des besoins business et des enjeux stratégiques, de solides bases techniques Cloud pour être à même de proposer des processus et des  architectures réalistes bâties pour tenir et durer.</p>
+              <p>Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
+                solides bases techniques Cloud pour être à même de proposer des processus et des  architectures
+                réalistes bâties pour tenir et durer.</p>
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Builder</span></h2>
               <img src="{{"/images/profil-builder.jpg"| relative_url }}" alt="Cloud Builder" />
-              <p>Consultant connaissant les briques utiles au fonctionnement d'un SI ou d'une usine logicielle, aimant les approches orientées services et bilingues DevOps. Il construit la solution Cloud avec la mise en place de l’architecture cible et instruit la migration.</p>
+              <p>Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous aimez les
+                approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en place des
+                solutions Cloud.</p>
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Runner</span></h2>
               <img src="{{"/images/profil-runner.jpg"| relative_url }}" alt="Cloud Runner" />
-              <p>Consultant pro du système, de l'automatisation, du monitoring et du réseau ayant le goût des prods bien huilées et sécurisées, aimant les architectures qui en imposent.<br/>
-              Il opère et fait évoluer la solution Cloud mise en place.</p>
+              <p>Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le goût des
+                prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
+                Venez opèrer et faire évoluer les solutions Cloud en lien direct avec les dévoloppeurs.</p>
             </div>
+            {% include wescale-recrute.html %}
           </div>
         </div>
       </section>

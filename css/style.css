@@ -531,6 +531,10 @@ img {
 
     }
 
+    .home-profils a, .home-profils a:hover {
+        color: white;
+    }
+
     .home-profils h1.title{
         color: white;
     }
@@ -549,6 +553,11 @@ img {
     .home-profils img {
         margin: 10px 0;
         max-width: 200px;
+    }
+
+    #rejoignez-nous-form {
+        color: black;
+        text-align: left;
     }
 
     .techtrends {
