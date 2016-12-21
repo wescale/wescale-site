@@ -259,9 +259,8 @@ img {
         background: -ms-linear-gradient(left,  #2baea8 0%,#567997 100%); /* IE10 preview */
         background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
-
-        background-image: url(../images/bg-sun-cloud.jpg);
-        /*background-image: url(../images/background.jpg);*/
+        background-image: url(../images/bg-sun-cloud-head.jpg);
+        /* background-image: url(../images/background.jpg); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -299,11 +298,11 @@ img {
     }
 
     .home-top .title {
-        font-size: 60px;
+        font-size: 80px;
         font-weight: bold;
         color: white;
         margin: 20px 0 20px;
-        text-align: left;
+        text-align: center;
         text-transform: none;
     }
 
@@ -323,6 +322,7 @@ img {
     .home-content {
         position: relative;
         padding: 0 15px 100px 15px;
+        margin-top: 12%;
     }
 
     .partenariats .home-content, .formations .home-content {
@@ -331,7 +331,9 @@ img {
     }
 
     .home-text {
-        line-height: 200%;
+        margin: auto;
+        max-width: 470px;
+        text-align: center;
     }
 
     .home-news blockquote {
@@ -339,12 +341,12 @@ img {
     }
 
     .home-news a {
-        color: #4a566b;
+        color: #ffffff;
         font-size: 14px;
     }
 
     .home-news h1 {
-        color: #4a566b;
+        color: #ffffff;
         /*
         color: #575757;
         */
@@ -865,7 +867,7 @@ img {
         text-transform: uppercase;
         text-align: center;
         font-size: 20px;
-        margin: 30px 0 0;
+        margin: 100px 0 0;
     }
 
     .more a {
@@ -1125,7 +1127,7 @@ img {
 
     @media (max-width: 768px) {
         .home-top .title {
-            font-size: 70px;
+            font-size: 60px;
         }
 
         .etape-1 > div,
