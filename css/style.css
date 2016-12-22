@@ -51,7 +51,7 @@ section {
     /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
     background-size: cover;
     min-height: calc(100vh - 220px);
-    /* padding: 90px 0; */
+    padding: 90px 0;
 }
 
 .partenariats .content {
@@ -263,6 +263,7 @@ img {
     background-size: cover;
     min-height: 100vh;
     color: white;
+    padding-bottom: 20px;
     padding-top: 100px;
 }
 
@@ -343,6 +344,7 @@ img {
 
 .home-news blockquote {
     border-left: none;
+    padding-left: 0px;
 }
 
 .home-news a {
@@ -388,13 +390,8 @@ img {
 .home-etapes {
     position: relative;
     padding: 50px 0;
-    /* background-image: url(../images/service-bg-home.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center center; */
-    /* background-size: cover; */
     min-height: 100vh;
     padding-top: 80px;
-    /* background-color: #f4f4f4; */
 }
 
 section#etapes {
@@ -542,7 +539,7 @@ section#etapes {
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
-
+    font-size: 15px;
 }
 
 .home-profils a, .home-profils a:hover {
@@ -894,6 +891,7 @@ section#etapes {
 
 .home .more a {
     color: white;
+    font-size: 20px;
 }
 
 /** FOOTER **/
@@ -909,11 +907,11 @@ section#etapes {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-
     background: url(../images/bg-sun-cloud.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding: 20px;
 }
 
 .site-footer {
@@ -1230,4 +1228,5 @@ section#etapes {
     #google_map {
         height: 440px;
     }
+}
 }
