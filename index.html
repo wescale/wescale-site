@@ -9,7 +9,7 @@ class: home
           <div class="col-md-12 home-content">
             <h1 class="title">Experts Cloud et DevOps</h1>
             <h2 class="home-text">
-              Nous construisons les infrastructures et services Cloud de demain.
+              Nous construisons des infrastructures et des services Cloud de qualité.
             </h2>
 <!--
             <h2>Notre mission</h2>
@@ -53,7 +53,7 @@ class: home
             <h3>DevOps est notre culture</h3>
             <p>
               Nous construisons les solutions avec et pour nos clients. Notre objectif est de <b>collaborer</b>, c’est
-              pourquoi nous travaillons à nourrir la culture <b>DevOps</b>.
+              pourquoi nous travaillons à nourrir la culture <b>DevOps</b>.<br>
               Nous sommes les <b>Ops</b> de <b>DevOps</b>
             </p>
           </div>
@@ -61,39 +61,54 @@ class: home
             <h3>Le Cloud est notre outils</h3>
               <p>
                 Nos consultants sont <b>certifiés</b> sur les plateformes <b>Cloud public</b> (AWS, Google, Azure) et
-                <b>Cloud privé</b> (OpenStack). Wescale investi en continue dans la formation des scalers.
+                <b>Cloud privé</b> (OpenStack). Wescale investit en continu dans la formation des scalers.
               </p>
           </div>
-<!--            <div class="techtrends">
-              <div class="techtrends-image">
-                <a id="tt-link" href="#"  data-toggle="modal" data-target="#myModal"><img src="{{"/images/techtrends-cloud.png"| relative_url }}" alt="Techtrends Cloud" /></a>
-              </div>
-              <div class="techtrends-text">
-                <h2>Techtrends Cloud</h2>
-                <p>Dans le paysage IT actuel, le Cloud Computing est omniprésent. Cependant, même si son adoption
-                  progresse au sein des entreprises, la migration de tout ou partie d’un parc applicatif reste bien
-                  souvent complexe. Les acteurs de cet écosystème sont de plus en plus nombreux et les offres se
-                  multiplient en conséquence. Les décideurs sont confrontés à des choix stratégiques et technologiques
-                  difficiles.</p>
-                <p class="news-readmore"><a href="#" data-toggle="modal" data-target="#myModal">Télécharger</a></p>
-              </div>
 
-              {% include tt-form.html %}
-            </div> -->
-         <!-- <div id="home-news" class="col-md-4 home-news">
-            <h1>
-              <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog Wescale
-            </h1>
-            <h1 id="news-spin">
-              <i class="fa fa-refresh fa-spin  fa-fw" aria-hidden="true"></i>
-            </h1>
-
-          </div>-->
         </div>
       </div>
     </section>
 
+
     <div class="content">
+      <section class="home-techtrends">
+         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="techtrends">
+                  <div class="techtrends-image">
+                      <a id="tt-link" href="#" data-toggle="modal" data-target="#myModal"><img src="{{"/images/techtrends-cloud.png"|
+                          relative_url }}" alt="Techtrends Cloud" /></a>
+                  </div>
+                  <div class="techtrends-text">
+                      <h2>Techtrends Cloud</h2>
+                      <p>Dans le paysage IT actuel, le Cloud Computing est omniprésent. Cependant, même si son adoption
+                          progresse au sein des entreprises, la migration de tout ou partie d’un parc applicatif reste
+                          bien
+                          souvent complexe. Les acteurs de cet écosystème sont de plus en plus nombreux et les offres se
+                          multiplient en conséquence. Les décideurs sont confrontés à des choix stratégiques et
+                          technologiques
+                          difficiles.</p>
+                      <p class="news-readmore"><a href="#" data-toggle="modal" data-target="#myModal">Télécharger</a>
+                      </p>
+                  </div>
+
+                  {% include tt-form.html %}
+              </div>
+            </div>
+             <div id="home-news" class="col-md-4 home-news">
+                <h1>
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog Wescale
+                </h1>
+                <h1 id="news-spin">
+                  <i class="fa fa-refresh fa-spin  fa-fw" aria-hidden="true"></i>
+                </h1>
+
+              </div>
+           </div>
+         </div>
+      </section>
+
       <section class="home-etapes" id="etapes">
         <div class="container">
           <div class="row">
@@ -142,27 +157,28 @@ class: home
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Designer</span></h2>
-              <img src="{{"/images/profil-designer.jpg"| relative_url }}" alt="Cloud Designer" />
+              <img src="{{"/images/cloud-designer.png"| relative_url }}" alt="Cloud Designer" />
               <p>Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
                 solides bases techniques Cloud pour être à même de proposer des processus et des  architectures
                 réalistes bâties pour tenir et durer.</p>
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Builder</span></h2>
-              <img src="{{"/images/profil-builder.jpg"| relative_url }}" alt="Cloud Builder" />
+              <img src="{{"/images/cloud-builder.png"| relative_url }}" alt="Cloud Builder" />
               <p>Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous aimez les
                 approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en place des
                 solutions Cloud.</p>
             </div>
             <div class="col-xs-12 col-md-4">
               <h2>Cloud <span class="bold">Runner</span></h2>
-              <img src="{{"/images/profil-runner.jpg"| relative_url }}" alt="Cloud Runner" />
+              <img src="{{"/images/cloud-runner.png"| relative_url }}" alt="Cloud Runner" />
               <p>Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le goût des
                 prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
                 Venez opèrer et faire évoluer les solutions Cloud en lien direct avec les dévoloppeurs.</p>
             </div>
             {% include wescale-recrute.html %}
           </div>
+
         </div>
       </section>
 

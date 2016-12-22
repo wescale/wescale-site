@@ -51,9 +51,9 @@ section {
 
 .content {
    /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
-    background-size: cover;
-    min-height: calc(100vh - 220px);
-    padding: 90px 0;
+   background-size: cover;
+   min-height: calc(100vh - 220px);
+   /* padding: 90px 0; */
 }
 
 .partenariats .content {
@@ -282,7 +282,7 @@ img {
         background: linear-gradient(to right,  #2baea8 0%,#567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2baea8', endColorstr='#567997',GradientType=1 ); /* IE6-8 */
 
-        background-image: url(../images/bg-sun-cloud.jpg);
+        background-image: url(../images/bg-sun-cloud-head.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -319,6 +319,14 @@ img {
        color: black;
    }
 
+   .home-top h3 {
+       font-size: 30px;
+   }
+
+   .home-top p {
+       font-size: 15px;
+   }
+
     .home-content {
         position: relative;
         padding: 0 15px 100px 15px;
@@ -341,15 +349,13 @@ img {
     }
 
     .home-news a {
-        color: #ffffff;
+        color: #567997;
         font-size: 14px;
     }
 
     .home-news h1 {
-        color: #ffffff;
-        /*
-        color: #575757;
-        */
+        /* color: #ffffff; */
+        /* color: #575757; */
     }
 
     #news-spin {
@@ -385,7 +391,16 @@ img {
     .home-etapes {
         position: relative;
         padding: 50px 0;
+        /* background-image: url(../images/service-bg-home.jpg); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center center; */
+        /* background-size: cover; */
+        min-height: 100vh;
+        padding-top: 80px;
+        /* background-color: #f4f4f4; */
     }
+
+section#etapes {}
 
     .schema {
         display: block;
@@ -562,8 +577,12 @@ img {
         text-align: left;
     }
 
+    .home-techtrends {
+        background-color: #f4f4f4;
+    }
+
     .techtrends {
-        margin: 50px 0;
+        margin: 200px 0;
     }
 
     .techtrends img {
@@ -589,6 +608,7 @@ img {
         width: 67%;
         padding: 0 10px;
         line-height: 200%;
+        margin-bottom: 40px;
     }
 
 /** CONTACT **/
@@ -742,7 +762,7 @@ img {
 
     .button {
         font-family: 'Open Sans Condensed', sans-serif;
-        background: white;
+        /* background: white; */
         color: #6a8aaa;
         font-size: 20px;
         display: block;
@@ -1119,7 +1139,7 @@ img {
             height: 40%;
             max-width: 150px;
         }
-        
+
         .formations .course-image {
             display: none;
         }
@@ -1144,9 +1164,21 @@ img {
             text-align: center;
         }
 
+        .techtrends {
+            margin: 20px 0;
+        }
+
         .techtrends-image,
         .techtrends-text {
             width: 100%;
+        }
+
+        .techtrends-image {
+            text-align: center;
+        }
+
+        .home-news blockquote {
+            margin: 0px;
         }
 
         .partenaire-image {
