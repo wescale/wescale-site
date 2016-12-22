@@ -140,15 +140,21 @@
     var MY_MAPTYPE_ID="wescale-style";
 
     var wescale = new google.maps.LatLng(48.875270, 2.311063/*48.8755587,2.3110176*/);
+    var display_map = false;
 
     $('.to-maps').on('click', function(event) {
-        $('#map-wrapper').show();
-        $('#map-wrapper').slideDown('fast', function() {
-            google.maps.event.trigger(window.map, 'resize');
-            window.map.setCenter(wescale);
-            $(window).scrollTo($('#map-wrapper'), 500);
-
-        });
+        if (!display_map){
+            $('#map-wrapper').show();
+            $('#map-wrapper').slideDown('fast', function() {
+                google.maps.event.trigger(window.map, 'resize');
+                window.map.setCenter(wescale);
+                $(window).scrollTo($('#map-wrapper'), 500);
+                display_map = true;
+            });
+        } else {
+            $('#map-wrapper').hide();
+            display_map = false;
+        }
         event.preventDefault();
     });
 
