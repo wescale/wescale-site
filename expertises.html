@@ -3,52 +3,52 @@ layout: default
 title: Expertises - Wescale - Cloud expert
 class: partenariats
 ---
-        <section class="home-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 ">
-                        <img src="{{"/images/iconTraining.png"| relative_url}}" width="200px" alt="Formation">
+<section class="home-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 ">
+                <img src="{{"/images/iconTraining.png"| relative_url}}" width="200px" alt="Formation">
 
-                    </div>
-                    <div class="col-md-8 home-content">
-                                    <h1 class="title">DevOps & Cloud experts</h1>
-            <p class="home-text">
-                      Nos consultants sont certifiés sur les plateformes Cloud public et privé. Wescale investi en
-                        continue dans la formation des wewes.
-            </p>
-                        <p class="home-text">
-                      Un jour par mois nous nous réunissons tous ensemble pour faire de la veille technologique,
-                            partager des retours d'expériences et discuter autour d'un verre.
-            </p>
-
-                    </div>
-                </div>
             </div>
-        </section>
-    <div class="content">
-      <section>
+            <div class="col-md-8 home-content">
+                <h1 class="title">Experts Cloud et DevOps</h1>
+                <p class="home-text">
+                    Nos consultants sont certifiés sur les plateformes Cloud public et privé. Wescale investi en
+                    continue dans la formation des wewes.
+                </p>
+                <p class="home-text">
+                    Un jour par mois nous nous réunissons tous ensemble pour faire de la veille technologique,
+                    partager des retours d'expériences et discuter autour d'un verre.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="content">
+    <section>
         <div class="container">
-{% assign ordered_expertises = site.expertises | sort: "display" %}
+            {% assign ordered_expertises = site.expertises | sort: "display" %}
 
-{% for techs in ordered_expertises %}
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">{{ techs.title }}</h1>
+            {% for techs in ordered_expertises %}
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">{{ techs.title }}</h1>
+                </div>
             </div>
-          </div>
             <div class="row partenariat-list">
-    {% for tech in techs.all %}
-               <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
+                {% for tech in techs.all %}
+                <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
                     <div class="partenaire-image">
-                      <img src="{{ tech.img | relative_url}}" alt="{{ tech.name }}" />
+                        <img src="{{ tech.img | relative_url}}" alt="{{ tech.name }}"/>
                     </div>
                 </div>
-    {% endfor %}
+                {% endfor %}
             </div>
-{% endfor %}
+            {% endfor %}
 
 
         </div>
-      </section>
-    </div>
+    </section>
+</div>
 

@@ -250,6 +250,7 @@
                         }
                     }
                 });
+         $('#tt-form')[0].reset();
       });
 
       // Recruit @ Wescale
@@ -265,7 +266,7 @@
           var email = $("#rejoignez-nous-form input[type='email'][name='email']").val();
           var message = $("#rejoignez-nous-form textarea[name='message']").val();
           $.ajax({
-                    url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLScTWqqHHNsZDz7uW2LnXCh-pW4Q1WdxDLG1XyZ43He0H-omnw/formResponse",
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLScTWqqHHNsZDz7uW2LnXCh-pW4Q1WdxDLG1XyZ43He0H-omnw/formResponse",
                     data: {"entry.523620392": prenom, "entry.1182716048": nom,
                         "entry.2065643761": email, "entry.1592936921": message
                     },
@@ -285,6 +286,7 @@
                         }
                     }
                 });
+          $('#rejoignez-nous-form')[0].reset();
       });
       {% endif %}
 

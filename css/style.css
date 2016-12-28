@@ -263,7 +263,7 @@ img {
     background-size: cover;
     min-height: 100vh;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
     padding-top: 100px;
 }
 
@@ -279,7 +279,6 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-
     background-image: url(../images/bg-sun-cloud-head.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -334,6 +333,15 @@ img {
 .partenariats .home-content, .formations .home-content {
     position: relative;
     padding: 0 15px 50px 15px;
+    margin-top: initial;
+}
+
+.col-md-8.home-content {}
+
+.partenariats .home-text {
+    margin: auto;
+    max-width: initial;
+    text-align: left;
 }
 
 .home-text {

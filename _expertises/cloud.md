@@ -5,10 +5,10 @@ display: 1
 all:
     -
       name: Amazon Web Services
-      img: /images/partenariats/amazon-web-services.png
+      img: /images/partenariats/APN_Standard-Consulting-Partner.png
     -
       name: Google Cloud Platform
-      img: /images/partenariats/google-cloud-platform.png
+      img: /images/partenariats/GoogleCloud_Partner_Badge_150.png
     -
       name: Microsoft Azure
       img: /images/partenariats/cloud-azure.png
