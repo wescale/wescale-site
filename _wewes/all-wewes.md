@@ -23,7 +23,7 @@ wewes:
     img: /images/wewes/carre-margot-robine.png
   -
     name: Céline Rochay
-    title: Responsable administratif et financier
+    title: Responsable administrative et financière
     img: /images/wewes/carre-celine-rochay.jpg
   -
     name: Cédric Hauber

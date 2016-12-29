@@ -14,10 +14,10 @@ class: partenariats
                 <h1 class="title">Experts Cloud et DevOps</h1>
                 <p class="home-text">
                     Nos consultants sont certifiés sur les plateformes Cloud public et privé. Wescale investi en
-                    continue dans la formation des wewes.
+                    continue dans la formation des scalers.
                 </p>
                 <p class="home-text">
-                    Un jour par mois nous nous réunissons tous ensemble pour faire de la veille technologique,
+                    Un jour par mois nous nous réunissons pour faire de la veille technologique,
                     partager des retours d'expériences et discuter autour d'un verre.
                 </p>
 
@@ -40,7 +40,7 @@ class: partenariats
                 {% for tech in techs.all %}
                 <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2">
                     <div class="partenaire-image">
-                        <img src="{{ tech.img | relative_url}}" alt="{{ tech.name }}"/>
+                        <a href="{{tech.url}}"><img src="{{ tech.img | relative_url}}" alt="{{ tech.name }}"/></a>
                     </div>
                 </div>
                 {% endfor %}
