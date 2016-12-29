@@ -17,10 +17,11 @@ pitch: |
     déployer et utiliser cet outil en environnement
     de production.
 img: /images/formations/saltstack.png
-formateur_img: /images/wewes/seven-lemesle.png
+formateur_img: /images/wewes/carre-seven-lemesle.png
 subtitle: Automatisation Cloud et DevOps à grande échelle
 pdf: /pdf/Formation-SaltStack-wescale.pdf
 duree: 2 jours
+tarif: 1 500 €
 ---
 
 # Découvrir et maitriser SaltStack - *2 jours*
