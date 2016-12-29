@@ -14,30 +14,30 @@ class: a-propos
             </div>
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 history">
                     <p>
                         Tout a commencé avec quelques passionnés qui se sont rendus à l’évidence :<br/>
-                        Il faut des gens talentueux à
-                        l’imagination foisonnante pour créer les infrastructures cloud de demain.
+                        <b>Il faut des gens talentueux à
+                        l’imagination foisonnante pour créer les infrastructures cloud de demain.</b>
                     </p>
                     <p>
                         Parce-que c’est un milieu tellement vaste, qu’il évolue à une vitesse astronomique, nous
                         cherchons dans
-                        le monde entier des personnes comme nous, pour fonder ensemble une véritable communauté
-                        d’experts.
+                        le monde entier des personnes comme nous, pour fonder ensemble une <b>véritable communauté
+                        d’experts</b>.
                     </p>
                     <p>
-                        Nous construisons ensemble les solutions pour nos clients. Parce que notre objectif est de
-                        collaborer,
-                        nous travaillons à nourrir la culture DevOps.
+                        Nous construisons les solutions <b>avec nos clients</b>. Parce que notre <b>objectif est de
+                        collaborer</b>,
+                        nous travaillons à <b>nourrir la culture DevOps</b>.
                     </p>
                     <p>
-                        Vous retrouverez chez chacun de nous des traits de personnalité communs. Ouverts et partageurs
+                        Vous retrouverez chez chacun de nous des traits de personnalité communs. <b>Ouverts et partageurs</b>
                         , les scalers
-                        sont passionnés par ce qu’ils font. Ils cherchent toujours à améliorer les choses. Ils aiment
-                        aussi bien
-                        sûr se rafraîchir en partageant des verres. Les scalers contribuent à l’évolution et au
-                        bien-être des autres. Pour finir, les scalers n’hésitent jamais à donner leur avis et ce quel
+                        sont <b>passionnés</b> par ce qu’ils font. Ils cherchent toujours à <b>améliorer les choses</b>.
+                        Ils aiment aussi bien sûr se rafraîchir en partageant des verres.
+                        Les scalers contribuent à <b>l’évolution et au bien-être des autres</b>.
+                        Pour finir, les scalers n’hésitent jamais à <b>donner leur avis</b> et ce quel
                         qu’il soit.
                     </p>
 
@@ -94,6 +94,11 @@ class: a-propos
                             <div class="equipe-name">
                                 <h2>{{we.name}}</h2>
                                 <h3>{{we.title}}</h3>
+                                {% if we.text %}
+                                <p style="text-align: center; color: white;">
+                                    {{ we.text }}
+                                </p>
+                                {% endif %}
                             </div>
                         </div>
                         {% endfor %}

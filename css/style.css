@@ -648,6 +648,11 @@ section#etapes {
     margin: 10px 0;
 }
 
+.a-propos .history {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
 .valeurs li {
     font-size: 16px;
 }
@@ -1236,5 +1241,4 @@ section#etapes {
     #google_map {
         height: 440px;
     }
-}
 }
