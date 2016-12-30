@@ -46,7 +46,7 @@ wewes:
   -
     name: Nicolas Diez
     title: Cloud Runner
-    img: /images/wewes/carre-nicolas-diez.jpg
+    img: /images/wewes/carre-nicolas-diez.png
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
   -
     name: Pascal Edouard
@@ -61,7 +61,7 @@ wewes:
   -
     name: Sébastien Lavayssiere
     title: Cloud Builder
-    img: /images/wewes/carre-sebastien-lavayssiere.jpeg
+    img: /images/wewes/carre-sebastien-lavayssiere.png
   -
     name: Fabien Vaneenoo
     title: Cloud Runner
