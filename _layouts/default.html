@@ -9,14 +9,11 @@
     {% endif %}
     <title>{{ page.title }}</title>
 
-    <link rel="icon" href="{{"
-    /images/favicon.ico"|relative_url}}" />
+    <link rel="icon" href="{{"/images/favicon.ico"|relative_url}}" />
 
     <!-- Bootstrap -->
-    <link href="{{ "
-    /css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
-    <link href="{{ "
-    /css/style.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -111,19 +108,12 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="{{"
-/js/bootstrap.min.js" | relative_url }}"></script>
-<
-script
-type = "text/javascript"
-src = "//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU" ></script>
+<script type="text/javascript" src="{{"/js/bootstrap.min.js" | relative_url }}"></script>
+<script type = "text/javascript" src = "//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU" ></script>
 <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
 <script src="//momentjs.com/downloads/moment.min.js"></script>
-<script src="{{"
-/js/notify.min.js" | relative_url}}"></script>
-<
-script
-type = "text/javascript" >
+<script src="{{"/js/notify.min.js" | relative_url}}"></script>
+<script type = "text/javascript">
 if (typeof jQuery === 'undefined') {
     throw new Error('Wescale\'s JavaScript requires jQuery')
 }
@@ -201,8 +191,7 @@ if (typeof jQuery === 'undefined') {
     google.maps.event.addDomListener(window, "load", initialize);
 
     // If home
-    {%
-        if page.class == 'home' %}
+    {% if page.class == 'home' %}
 
     $(document).ready(function () {
 
@@ -320,13 +309,10 @@ if (typeof jQuery === 'undefined') {
         });
         $('#rejoignez-nous-form')[0].reset();
     });
-    {%
-        endif %
-    }
+    {% endif %}
 
     // If contact
-    {%
-        if page.class == 'contact' %}
+    {% if page.class == 'contact' %}
     $('#contact-form').submit(function (evt) {
 
                 /*
@@ -375,9 +361,7 @@ if (typeof jQuery === 'undefined') {
 
             }
     );
-    {%
-        endif %
-    }
+    {% endif %}
 
 }(jQuery);
 </script>
