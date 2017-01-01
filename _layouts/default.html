@@ -114,7 +114,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="{{"/js/bootstrap.min.js" | relative_url }}"></script>
 <script type = "text/javascript" src = "//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU" ></script>
-<script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
 <script src="//momentjs.com/downloads/moment.min.js"></script>
 <script src="{{"/js/notify.min.js" | relative_url}}"></script>
 <script type = "text/javascript">
@@ -199,28 +198,27 @@ if (typeof jQuery === 'undefined') {
 
     $(document).ready(function () {
 
-        var url = 'http://blog.wescale.fr/rss/';
-        feednami.load(url, function (result) {
-            if (result.error) {
-                console.log(result.error);
-            } else {
-                $('#news-spin').remove();
-                var entries = result.feed.entries;
-                for (var i = 0; i < entries.length; i++) {
+        var url = 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fblog.wescale.fr%2Frss%2F&api_key=snacnrx7u8smtnuy9kz5jyrtnb2nk05jrtwksog5&order_dir=desc&count=4';
+
+        $.ajax({url: url,  crossDomain: true,
+                 success: function (data) {
+                 $('#news-spin').remove();
+                var i = 0;
+                for (var i = 0; i < data.items.length; i++) {
                     if (i > 3)
                         break;
-                    var entry = entries[i];
+                    var entry = data.items[i];
 
                     $('#home-news').append('' +
                             '<blockquote cite="' + entry.link + '">' +
-                            '<p class="news-date"><a href="' + entry.link + '">' + moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') + '</a></p>' +
+                            '<p class="news-date"><a href="' + entry.link + '">' + moment(entry.pubDate, "YYYY-MM-DD HH:mm:ss").format('DD.MM.YYYY') + '</a></p>' +
                             '<h2 class="news-title"><a href="' + entry.link + '">' + entry.title + '</a></h2>' +
                             '<p><a href="' + entry.link + '">' + entry.author + '</a></p>' +
                             '<p class="news-readmore"><a href="' + entry.link + '">Lire la suite</a></p>' +
                             '</blocquote>');
                 }
-            }
-        });
+
+            }});
 
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
@@ -319,20 +317,7 @@ if (typeof jQuery === 'undefined') {
     {% if page.class == 'contact' %}
     $('#contact-form').submit(function (evt) {
 
-                /*
-                 https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSd6CjlQiqCbCCkHoAsgLELFgzM3049TYScuml0s8INALDcXkg/formResponse
-                 entry.57112689:Lemesle
-                 entry.1505855731:Séven
-                 entry.1247902497:slemesle@wescale.fr
-                 entry.1743455706:faire coucou
-                 entry.1424141195:coucououocuoucou 1:02
-                 */
-                /*            window.open('mailto:'+$('input[name="email"]').val()+'?subject='+$('input[name="subject"]').val()+'&body='+
-                 'Message de' + $('input[name="prenom"]').val() + ' ' + $('input[name="nom"]').val() + '\n' +
-                 $('input[name="message"]').val());*/
                 evt.preventDefault();
-
-
                 var prenom = $("#contact-form input[type='text'][name='prenom']").val();
                 var nom = $("#contact-form input[type='text'][name='nom']").val();
                 var email = $("#contact-form input[type='email'][name='email']").val();
@@ -369,6 +354,19 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 </script>
+{% unless site.github %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55920608-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+{% endunless %}
+
 <script type="text/javascript">CRISP_WEBSITE_ID = "ffe17ff7-ef76-4ebb-a340-cbb35899a88d";
 (function () {
     d = document;
