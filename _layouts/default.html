@@ -199,7 +199,56 @@ if (typeof jQuery === 'undefined') {
 
     $(document).ready(function () {
 
-        var url = 'http://blog.wescale.fr/rss/';
+        //var url = 'http://blog.wescale.fr/rss/';
+        var url = 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fblog.wescale.fr%2Frss%2F&api_key=snacnrx7u8smtnuy9kz5jyrtnb2nk05jrtwksog5&order_dir=desc&count=4';
+/*
+        $.ajax({url: 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fblog.wescale.fr%2Frss%2F&api_key=snacnrx7u8smtnuy9kz5jyrtnb2nk05jrtwksog5&order_dir=desc&count=4',  crossDomain: true,
+         success: function (data) {
+         $('#news-spin').remove();
+        var i = 0;
+        $(data).find("entry").each(function () { // or "item" or whatever suits your feed
+            var el = $(this);
+            if (i < 3){
+                 var entry = {};
+                 entry.link = el.find("link").text();
+                 entry.pubdate_ms = parseInt(el.find("pubdate_ms").text());
+                 entry.title = el.find("title").text();
+                 entry.author = el.find("author").text();
+                 $('#home-news').append( ''+
+                    '<blockquote cite="'+entry.link + '">'+
+                      '<p class="news-date"><a href="' + entry.link + '">'+ moment(entry.pubDate, "YYYY-MM-DD HH:mm:ss").format('DD.MM.YYYY') +'</a></p>' +
+                      '<h2 class="news-title"><a href="' + entry.link +'">' + entry.title + '</a></h2>' +
+                      '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
+                      '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
+                    '</blocquote>');
+
+            }
+
+            i++;
+        });
+    }});
+*/
+        $.ajax({url: 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fblog.wescale.fr%2Frss%2F&api_key=snacnrx7u8smtnuy9kz5jyrtnb2nk05jrtwksog5&order_dir=desc&count=4',  crossDomain: true,
+                 success: function (data) {
+                 $('#news-spin').remove();
+                var i = 0;
+                for (var i = 0; i < data.items.length; i++) {
+                    if (i > 3)
+                        break;
+                    var entry = data.items[i];
+
+                    $('#home-news').append('' +
+                            '<blockquote cite="' + entry.link + '">' +
+                            '<p class="news-date"><a href="' + entry.link + '">' + moment(entry.pubDate, "YYYY-MM-DD HH:mm:ss").format('DD.MM.YYYY') + '</a></p>' +
+                            '<h2 class="news-title"><a href="' + entry.link + '">' + entry.title + '</a></h2>' +
+                            '<p><a href="' + entry.link + '">' + entry.author + '</a></p>' +
+                            '<p class="news-readmore"><a href="' + entry.link + '">Lire la suite</a></p>' +
+                            '</blocquote>');
+                }
+
+            }});
+
+/*
         feednami.load(url, function (result) {
             if (result.error) {
                 console.log(result.error);
@@ -221,6 +270,7 @@ if (typeof jQuery === 'undefined') {
                 }
             }
         });
+*/
 
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
