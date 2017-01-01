@@ -1,3 +1,5 @@
+[![Buimd status](https://travis-ci.org/WeScale/wescale-site.svg?branch=master)](https://travis-ci.org/WeScale/wescale-site)
+
 # wescale-site
 Our public site code
 
