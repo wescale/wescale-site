@@ -4,57 +4,68 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if site.github %}
+    <meta name="robots" content="noindex">
+    {% endif %}
     <title>{{ page.title }}</title>
 
-    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="icon" href="{{"/images/favicon.ico"|relative_url}}" />
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="{{ "/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Open+Sans+Condensed:300,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 </head>
 <body class="{{page.class}}">
 
 <!-- Navigation -->
 <nav class="navbar navbar-default">
-  <div class="menu-background"></div>
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
-    </div>
+    <div class="menu-background"></div>
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{"/"| relative_url }}"><img src="{{ "/images/logo.png" | relative_url }}"
+            alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav menu-links">
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/a-propos.html">À propos</a></li>
-        <li><a href="/expertises.html">Expertises</a></li>
-        <li><a href="http://blog.wescale.fr/">Blog</a></li>
-        <li><a href="/formations.html">Formations</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li class="socials">
-          <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://github.com/WeScale" title="Github"><i class="fa fa-github"></i></a>
-          <a href="https://speakerdeck.com/wescale" title="Speaker Deck"><i class="fa fa-slideshare"></i></a>
-        </li>
-      </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav menu-links">
+                <li><a href="{{ "/services.html" | relative_url }}">Services</a></li>
+                <li><a href="{{"/a-propos.html" | relative_url }}">Qui sommes nous ?</a></li>
+                <li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>
+                <li><a href="http://blog.wescale.fr/">Blog</a></li>
+                <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
+                <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
+                <li class="socials">
+                    <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter"
+                                                                                aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin"
+                                                                                           aria-hidden="true"></i></a>
+                    <a href="https://github.com/WeScale" title="Github"><i class="fa fa-github"></i></a>
+                    <a href="https://speakerdeck.com/wescale" title="Speaker Deck"><i class="fa fa-slideshare"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 <!-- /Navigation -->
 
@@ -62,245 +73,310 @@
 
 <!-- Footer -->
 <footer class="site-footer clearfix">
-  <div class="footer-wrapper-top">
-    <div class="footer-top">
-        <a href="#" class="to-maps"><i class="fa fa-globe fa-5x"></i></a>
-<!--      <div class="alliance-xebia-wrapper">
-        <div class="alliance-xebia">
-          <a href="http://alliance.xebia.fr" ><i class="fa fa-globe fa-5x" ></i>
-</a>
-          <a href="#" class="to-maps"><i class="fa fa-map-marker"></i></a>
-        </div>
-      </div>-->
-    </div>
+    <div id="map-wrapper">
 
-    <div class="footer-middle">
-      <p>Les blogs de l'Alliance :</p>
-      <a href="http://xebia.fr">Xebia</a> + <a href="http://xebialabs.com/">Xebialabs</a> + <a href="http://thiga.fr">Thiga</a> + <a href="http://ux-republic.com/">UX-Republic</a> + <a href="http://cellenza.com">Cellenza</a> +  <a href="http://wescale.fr/">Wescale</a>
-    </div>
-
-    <div class="footer-contact">
-      <a href="mailto:contact@wescale.fr">contact@wescale.fr</a>
-    </div>
-  </div>
-
-  <div id="map-wrapper">
-
-      <div id="map-canvas">
-             <div id="google_map">
-             </div>
-
-          <div class="container" style="position: absolute; top: 0px;">
-          <div class="row" style="padding: 90px 0px;">
-            <div class="col-xs-4">
-                <div id="map-legend">
-                    <h3>Wescale</h3>
-                    <p>156, boulevard Haussman<br/>75008 Paris</a></p>
-                    <p><img src="/images/metro.jpg" width="25px"/> Miromesnil, St Philippe du Roule</p>
-                </div>
-                </div>
-              </div>
+        <div id="map-canvas">
+            <div id="google_map">
             </div>
 
-      </div>
+            <div class="container map-legend-container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-4 col-md-4">
+                        <div id="map-legend">
+                            <h3>Wescale</h3>
+                            <p>156, boulevard Haussman<br/>75008 Paris</a></p>
+                            <p><img src="{{ "/images/metro.jpg" | relative_url }}" width="25px" height="17px"/> Miromesnil, St
+                                Philippe du Roule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </div>
+    <div class="footer-wrapper-top">
+        <div class="footer-top">
+            <a href="#" class="to-maps"><i class="fa fa-globe fa-2x"></i><br/> 156 Bd Haussmann, 75008 Paris</a>
+        </div>
 
-  <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a href="/mentions.html">Mentions légales</a></p>
+        <div class="footer-contact">
+            <a href="mailto:contact@wescale.fr">contact@wescale.fr</a>
+        </div>
+    </div>
+
+
+    <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a
+            rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a
+            href="{{ "/mentions.html" | relative_url }}">Mentions légales</a></p>
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU"></script>
+<script type="text/javascript" src="{{"/js/bootstrap.min.js" | relative_url }}"></script>
+<script type = "text/javascript" src = "//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU" ></script>
 <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
-<script src="http://momentjs.com/downloads/moment.min.js"></script>
-<script type="text/javascript">
-  if (typeof jQuery === 'undefined') {
+<script src="//momentjs.com/downloads/moment.min.js"></script>
+<script src="{{"/js/notify.min.js" | relative_url}}"></script>
+<script type = "text/javascript">
+if (typeof jQuery === 'undefined') {
     throw new Error('Wescale\'s JavaScript requires jQuery')
-  }
+}
 
-  +function ($) {
++function ($) {
     'use strict';
 
     //Menu
     if ($('.home').length > 0) {
-      $( window ).scroll(function() {
-        if ($(window).scrollTop() == 0) {
-          $('.navbar-default').removeClass('scrolled');
-        } else {
-          $('.navbar-default').addClass('scrolled');
-        }
-      });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() == 0) {
+                $('.navbar-default').removeClass('scrolled');
+            } else {
+                $('.navbar-default').addClass('scrolled');
+            }
+        });
     } else {
-      $('.navbar-default').addClass('scrolled');
+        $('.navbar-default').addClass('scrolled');
     }
 
-    $('.navbar-toggle').on('click', function() {
-      if ($(this).hasClass('collapsed')) {
-        $('.navbar-default').addClass('collapsed');
-      } else {
-        $('.navbar-default').removeClass('collapsed');
-      }
+    $('.navbar-toggle').on('click', function () {
+        if ($(this).hasClass('collapsed')) {
+            $('.navbar-default').addClass('collapsed');
+        } else {
+            $('.navbar-default').removeClass('collapsed');
+        }
     });
 
     //Google Map (Footer)
-    var MY_MAPTYPE_ID="wescale-style";
+    var MY_MAPTYPE_ID = "wescale-style";
 
     var wescale = new google.maps.LatLng(48.875270, 2.311063/*48.8755587,2.3110176*/);
+    var display_map = false;
 
-    $('.to-maps').on('click', function(event) {
-        $('#map-wrapper').show();
-        $('#map-wrapper').slideDown('fast', function() {
-            google.maps.event.trigger(window.map, 'resize');
-            window.map.setCenter(wescale);
-            $(window).scrollTo($('#map-wrapper'), 500);
-
-        });
+    $('.to-maps').on('click', function (event) {
+        if (!display_map) {
+            $('#map-wrapper').show();
+            $('#map-wrapper').slideDown('fast', function () {
+                google.maps.event.trigger(window.map, 'resize');
+                window.map.setCenter(wescale);
+                $(window).scrollTo($('#map-wrapper'), 500);
+                display_map = true;
+            });
+        } else {
+            $('#map-wrapper').hide();
+            display_map = false;
+        }
         event.preventDefault();
     });
 
     $('#map-wrapper').hide();
 
     function initialize() {
-      var e = [
-/*        {stylers:[
-          {hue:"#09aa9d"},
-          {visibility:"simplified"},
-          {gamma:.5},
-          {weight:.5}
-        ]},
-        {elementType:"labels", stylers:[{visibility:"off"}]},
-        {featureType:"transit", stylers:[{visibility:"on"}]},
-        {featureType:"water", stylers:[{color:"#56c2cc"}]},
-        {featureType:"road", elementType:"labels", stylers:[{visibility:"on"}]}*/
-      ];
+        var e = [];
 
-      var t = {
-        zoom:17,
-        mapTypeControl:false,
-        center:wescale,
-        mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.ROADMAP,MY_MAPTYPE_ID]},
-        mapTypeId:MY_MAPTYPE_ID
-      };
-      window.map = new google.maps.Map(document.getElementById("google_map"),t);
-      var r = {name:"Wescale Style"};
-      var i = new google.maps.StyledMapType(e,r);window.map.mapTypes.set(MY_MAPTYPE_ID,i);
-      var s = new google.maps.Marker({position:wescale, map:window.map, icon: '/images/wemap-pointer.png'});
+        var t = {
+            zoom: 14,
+            mapTypeControl: false,
+            center: wescale,
+            scrollwheel: false,
+            mapTypeControlOptions: {mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]},
+            mapTypeId: MY_MAPTYPE_ID
+        };
+        window.map = new google.maps.Map(document.getElementById("google_map"), t);
+        var r = {name: "Wescale Style"};
+        var i = new google.maps.StyledMapType(e, r);
+        window.map.mapTypes.set(MY_MAPTYPE_ID, i);
+        var s = new google.maps.Marker({
+            position: wescale,
+            map: window.map,
+            icon: '{{"/images/wemap-pointer.png"|relative_url}}'
+        });
     }
 
     google.maps.event.addDomListener(window, "load", initialize);
 
-    //A Propos
-    // $('.equipe-photo').on('mouseenter', function() {
-    //   var current = $(this);
-    //   $('.equipe-mask').hide();
-    //   $('.equipe-name').hide();
-    //   current.find('.equipe-mask').fadeIn('fast', function() {
-    //     // current.find('.equipe-name').show().css('opacity', '1');
-    //   });
-    // });
+    // If home
+    {% if page.class == 'home' %}
 
-      // If home
-      {% if page.class == 'home' %}
+    $(document).ready(function () {
 
-          $(document).ready(function() {
+        var url = 'http://blog.wescale.fr/rss/';
+        feednami.load(url, function (result) {
+            if (result.error) {
+                console.log(result.error);
+            } else {
+                $('#news-spin').remove();
+                var entries = result.feed.entries;
+                for (var i = 0; i < entries.length; i++) {
+                    if (i > 3)
+                        break;
+                    var entry = entries[i];
 
-    var url = 'https://wescalefr.ghost.io/rss/';
-    feednami.load(url,function(result){
-        if(result.error) {
-            console.log(result.error);
-        } else {
-            $('#news-spin').remove();
-            var entries = result.feed.entries;
-            for(var i = 0; i < entries.length; i++){
-                if (i > 3)
-                  break;
-                var entry = entries[i];
-
-                    $('#home-news').append( ''+
-                    '<blockquote cite="'+entry.link + '">'+
-                      '<p class="news-date"><a href="' + entry.link + '">'+ moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') +'</a></p>' +
-                      '<h2 class="news-title"><a href="' + entry.link +'">' + entry.title + '</a></h2>' +
-                      '<p><a href="' + entry.link + '">' + entry.author + '</a></p>'+
-                      '<p class="news-readmore"><a href="' + entry.link +'">Lire la suite</a></p>'+
-                    '</blocquote>');
+                    $('#home-news').append('' +
+                            '<blockquote cite="' + entry.link + '">' +
+                            '<p class="news-date"><a href="' + entry.link + '">' + moment(new Date(entry.pubdate_ms)).format('DD.MM.YYYY') + '</a></p>' +
+                            '<h2 class="news-title"><a href="' + entry.link + '">' + entry.title + '</a></h2>' +
+                            '<p><a href="' + entry.link + '">' + entry.author + '</a></p>' +
+                            '<p class="news-readmore"><a href="' + entry.link + '">Lire la suite</a></p>' +
+                            '</blocquote>');
+                }
             }
-        }
+        });
+
+        $('#ce-que-nous-faisons').click(function (evt) {
+            evt.preventDefault();
+            $(window).scrollTo($('#etapes'), 500);
+        })
     });
 
-    $('#ce-que-nous-faisons').click(function(evt){
+    // Download TT
+    $('#tt-link').click(function (evt) {
         evt.preventDefault();
-        $(window).scrollTo($('#etapes'), 500);
-    })
-});
+    });
+    $('#tt-form').submit(function (evt) {
+        evt.preventDefault();
 
-      // Download TT
-      $('#tt-link').click(function (evt){
-          evt.preventDefault();
-      });
-      $('#tt-form').submit(function (evt){
-          evt.preventDefault();
+        var civilite = $("input[type='radio'][name='civilite']:checked").val();
+        var prenom = $("input[type='text'][name='prenom']").val();
+        var nom = $("input[type='text'][name='nom']").val();
+        var email = $("input[type='email'][name='email']").val();
+        var societe = $("input[type='text'][name='societe']").val();
+        var fonction = $("input[type='text'][name='fonction']").val();
+        var keep_inform = $("input[type='checkbox'][name='keep-inform']:checked").val();
 
-          /*
-          entry.903257113:M
-entry.1508999386:Séven
-entry.1524301048:Lemesle
-entry.2013605525:seven.lemesle@wescale.fr
-entry.10218435:Wescale
-entry.437077223:Président
-entry.960649226:J'autorise Wescale à me tenir informé par e-mail
-           */
-          var civilite = $("input[type='radio'][name='civilite']:checked").val();
-          var prenom = $("input[type='text'][name='prenom']").val();
-          var nom = $("input[type='text'][name='nom']").val();
-          var email = $("input[type='email'][name='email']").val();
-          var societe = $("input[type='text'][name='societe']").val();
-          var fonction = $("input[type='text'][name='fonction']").val();
-          var keep_inform = $("input[type='checkbox'][name='keep-inform']:checked").val();
+        $.ajax({
+            url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
+            data: {
+                "entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
+                "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
+                "entry.960649226": keep_inform
+            },
+            type: "POST",
+            dataType: "xml",
+            crossDomain: true,
+            statusCode: {
+                0: function () {
+                    //Success message
+                    $('#myModal').modal('hide');
+                    $.notify("Message envoyé !", "success");
 
-          $.ajax({
-                    url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
-                    data: {"entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
-                        "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
-                        "entry.960649226": keep_inform
+
+                },
+                200: function () {
+                    //Success Message
+
+                    $('#myModal').modal('hide');
+                    $.notify("Message envoyé !", "success");
+
+                }
+            }
+        });
+        $('#tt-form')[0].reset();
+    });
+
+    // Recruit @ Wescale
+
+    $('#rejoignez-nous').click(function (evt) {
+        evt.preventDefault();
+    });
+    $('#rejoignez-nous-form').submit(function (evt) {
+        evt.preventDefault();
+
+        var prenom = $("#rejoignez-nous-form input[type='text'][name='prenom']").val();
+        var nom = $("#rejoignez-nous-form input[type='text'][name='nom']").val();
+        var email = $("#rejoignez-nous-form input[type='email'][name='email']").val();
+        var message = $("#rejoignez-nous-form textarea[name='message']").val();
+        $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLScTWqqHHNsZDz7uW2LnXCh-pW4Q1WdxDLG1XyZ43He0H-omnw/formResponse",
+            data: {
+                "entry.523620392": prenom, "entry.1182716048": nom,
+                "entry.2065643761": email, "entry.1592936921": message
+            },
+            type: "POST",
+            dataType: "xml",
+            crossDomain: true,
+            statusCode: {
+                0: function () {
+                    //Success message
+                    $('#rejoignez-nous-modal').modal('hide');
+                    $.notify("Message envoyé !", "success");
+
+
+                },
+                200: function () {
+                    //Success Message
+
+                    $('#rejoignez-nous-modal').modal('hide');
+                    $.notify("Message envoyé !", "success");
+
+                }
+            }
+        });
+        $('#rejoignez-nous-form')[0].reset();
+    });
+    {% endif %}
+
+    // If contact
+    {% if page.class == 'contact' %}
+    $('#contact-form').submit(function (evt) {
+
+                /*
+                 https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSd6CjlQiqCbCCkHoAsgLELFgzM3049TYScuml0s8INALDcXkg/formResponse
+                 entry.57112689:Lemesle
+                 entry.1505855731:Séven
+                 entry.1247902497:slemesle@wescale.fr
+                 entry.1743455706:faire coucou
+                 entry.1424141195:coucououocuoucou 1:02
+                 */
+                /*            window.open('mailto:'+$('input[name="email"]').val()+'?subject='+$('input[name="subject"]').val()+'&body='+
+                 'Message de' + $('input[name="prenom"]').val() + ' ' + $('input[name="nom"]').val() + '\n' +
+                 $('input[name="message"]').val());*/
+                evt.preventDefault();
+
+
+                var prenom = $("#contact-form input[type='text'][name='prenom']").val();
+                var nom = $("#contact-form input[type='text'][name='nom']").val();
+                var email = $("#contact-form input[type='email'][name='email']").val();
+                var subject = $("#contact-form input[type='text'][name='subject']").val();
+                var message = $("#contact-form textarea[name='message']").val();
+                $.ajax({
+                    url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSd6CjlQiqCbCCkHoAsgLELFgzM3049TYScuml0s8INALDcXkg/formResponse",
+                    data: {
+                        "entry.1505855731": prenom, "entry.57112689": nom,
+                        "entry.1247902497": email, "entry.1424141195": message,
+                        "entry.1743455706": subject
                     },
                     type: "POST",
                     dataType: "xml",
-                    crossDomain:true,
+                    crossDomain: true,
                     statusCode: {
-                        0: function() {
+                        0: function () {
                             //Success message
-                            $('#myModal').modal('hide');
+                            $.notify("Message envoyé !", "success");
 
                         },
-                        200: function() {
+                        200: function () {
                             //Success Message
+                            $.notify("Message envoyé !", "success");
 
-                            $('#myModal').modal('hide');
                         }
                     }
                 });
-      });
-      {% endif %}
+                $('#contact-form')[0].reset();
 
-      // If contact
-      {% if page.class == 'contact' %}
-      $('#contact-form').submit(function (evt){
-            window.open('mailto:'+$('input[name="email"]').val()+'?subject='+$('input[name="subject"]').val()+'&body='+
-                          'Message de' + $('input[name="prenom"]').val() + ' ' + $('input[name="nom"]').val() + '\n' +
-                    $('input[name="message"]').val());
-            evt.preventDefault();
-        }
-      );
-      {% endif %}
+            }
+    );
+    {% endif %}
 
-  }(jQuery);
+}(jQuery);
 </script>
-<script type="text/javascript">CRISP_WEBSITE_ID = "ffe17ff7-ef76-4ebb-a340-cbb35899a88d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Open+Sans+Condensed:300,700">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<script type="text/javascript">CRISP_WEBSITE_ID = "ffe17ff7-ef76-4ebb-a340-cbb35899a88d";
+(function () {
+    d = document;
+    s = d.createElement("script");
+    s.src = "https://client.crisp.im/l.js";
+    s.async = 1;
+    d.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
 <!-- /Footer -->
 </body>
 </html>

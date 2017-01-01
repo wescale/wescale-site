@@ -18,10 +18,11 @@ pitch: |
     approfondir et utiliser cet outil en
     environnement de production.
 img: /images/formations/ansible.png
-formateur_img: /images/wewes/aurelien-maury.png
+formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: Automatisation IT simplifiée
 pdf: /pdf/Formation-Ansible-wescale.pdf
 duree: 2 jours
+tarif: 1 500 €
 ---
 
 # Ansible - *2 jours*

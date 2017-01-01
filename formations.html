@@ -17,7 +17,7 @@ class: formations
           <div class="row formation">
             <div class="col-md-2">
               <div class="course-image">
-                <img width="150"  src="{{formation.img}}">
+                <img width="150"  src="{{formation.img|relative_url}}">
               </div>
             </div>
             <div class="col-md-10">
@@ -25,10 +25,17 @@ class: formations
 
               <p>{{ formation.pitch }}</p>
 
-              <a href="{{ formation.url }}" class="button">En savoir plus</a>
+              <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
             </div>
           </div>
          {% endfor %}
+          <div class="row">
+            <div class="col-md-12">
+              <p style="text-align: center;font-weight: bold;">
+                wescale est agréé organisme de formation sous le numéro 11 75 553 1375.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
