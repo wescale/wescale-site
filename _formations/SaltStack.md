@@ -19,7 +19,7 @@ pitch: |
 img: /images/formations/saltstack.png
 formateur_img: /images/wewes/carre-seven-lemesle.png
 subtitle: Automatisation Cloud et DevOps à grande échelle
-pdf: /pdf/Formation-SaltStack-wescale.pdf
+pdf: /pdf/Formation-Saltstack-wescale.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
