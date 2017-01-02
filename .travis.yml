@@ -3,4 +3,5 @@ rvm:
   - 2.1
 install: gem install jekyll -v 3.2.1 && gem install s3_website && gem install minima
 script: jekyll build
-after_success: s3_website push
+after_success: s3_website push --force
+
