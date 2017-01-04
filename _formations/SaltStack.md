@@ -19,7 +19,7 @@ pitch: |
 img: /images/formations/saltstack.png
 formateur_img: /images/wewes/carre-seven-lemesle.png
 subtitle: Automatisation Cloud et DevOps à grande échelle
-pdf: /pdf/Formation-Saltstack-wescale.pdf
+pdf: /pdf/Training-SaltStack.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
@@ -32,7 +32,7 @@ tarif: 1 500 €
 ## Public
 
 
-Administrateurs système, ingénieur de production, développeurs et architectes
+Administrateurs système, ingénieurs de production, développeurs et architectes
 
 ## Pré-requis
 
@@ -72,14 +72,14 @@ Connaissances système Linux de base
 * Techniques d’intégration d’un parc existant
 
 
-### salt-cloud
+### Salt-cloud
 
 
 * SaltStack et Amazon Web Services
 * SaltStack et les autres plateformes Cloud (OpenStack, Azure, Digital Ocean)
 
 
-## A l’issue de la formation les stagiaires seront à même de
+## À l’issue de la formation les stagiaires seront à même de
 
 
 * Utiliser SaltStack pour orchestrer des opérations au sein de leur parc

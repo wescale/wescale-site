@@ -20,7 +20,7 @@ pitch: |
 img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: Automatisation IT simplifiée
-pdf: /pdf/Formation-Ansible-wescale.pdf
+pdf: /pdf/Training-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
@@ -33,7 +33,7 @@ Ansible est un outil de pilotage de systèmes, sans agent, faisant partie de la 
 ## Public
 
 
-Administrateurs système, ingénieur de production, développeurs et architectes
+Administrateurs système, ingénieurs de production, développeurs et architectes
 
 ## Pré-requis
 
@@ -60,7 +60,7 @@ Connaissances système Linux de base
 
 
 
-## A l’issue de la formation les stagiaires seront à même de
+## À l’issue de la formation les stagiaires seront à même de
 
 
 * Rédiger des playbooks Ansible pour orchestrer des opérations au sein de leur parc
