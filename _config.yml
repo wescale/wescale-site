@@ -36,3 +36,12 @@ collections:
   expertises:
     output: false
 
+
+exclude:
+  - README.md
+  - s3_website.yml
+  - Gemfile
+  - Gemfile.lock
+  - .travis.yml
+  - .gitignore
+  - run.sh
