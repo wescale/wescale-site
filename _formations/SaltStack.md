@@ -32,7 +32,7 @@ tarif: 1 500 €
 ## Public
 
 
-Administrateurs système, ingénieur de production, développeurs et architectes
+Administrateurs système, ingénieurs de production, développeurs et architectes
 
 ## Pré-requis
 
