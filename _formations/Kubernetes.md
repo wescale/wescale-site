@@ -11,7 +11,7 @@ pitch: |
 img: /images/formations/kubernetes.svg
 formateur_img: /images/wewes/carre-cedric-hauber.png
 subtitle: Orchestration de conteneurs sous stéroïdes
-pdf: /pdf/Formation-Kubernetes-wescale.pdf
+pdf: /pdf/Training-Kubernetes.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
