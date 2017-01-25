@@ -13,6 +13,7 @@ wewes:
     name: Aurélien Maury
     title: Directeur technique, co-fondateur
     img: /images/wewes/carre-aurelien-maury.jpg
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
   -
     name: Luc Legardeur
     title: Directeur général, co-fondateur
