@@ -15,7 +15,7 @@ script: jekyll build
 
 deploy:
   provider: script
-  script: s3_website push --force
+  script: deploy-to-s3.sh
   on:
     branch: master
 
