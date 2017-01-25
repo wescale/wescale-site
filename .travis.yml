@@ -16,6 +16,7 @@ script: jekyll build
 deploy:
   provider: script
   script: deploy-to-s3.sh
+  skip_cleanup: true
   on:
     branch: master
 
