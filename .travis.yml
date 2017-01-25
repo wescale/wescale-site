@@ -1,7 +1,21 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker pull jekyll/jekyll
+- docker pull opendecide/s3_website
+
 language: ruby
 rvm:
   - 2.1
 install: gem install jekyll -v 3.2.1 && gem install s3_website && gem install minima
 script: jekyll build
-after_success: s3_website push --force
+
+deploy:
+  provider: script
+  script: s3_website push --force
+  on:
+    branch: master
 
