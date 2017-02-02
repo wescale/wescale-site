@@ -323,12 +323,14 @@ if (typeof jQuery === 'undefined') {
                 var email = $("#contact-form input[type='email'][name='email']").val();
                 var subject = $("#contact-form input[type='text'][name='subject']").val();
                 var message = $("#contact-form textarea[name='message']").val();
+                var keep_inform = $("#contact-form input[type='checkbox'][name='keep-inform']:checked").val();
+
                 $.ajax({
                     url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSd6CjlQiqCbCCkHoAsgLELFgzM3049TYScuml0s8INALDcXkg/formResponse",
                     data: {
                         "entry.1505855731": prenom, "entry.57112689": nom,
                         "entry.1247902497": email, "entry.1424141195": message,
-                        "entry.1743455706": subject
+                        "entry.1743455706": subject, "entry.14666786": keep_inform
                     },
                     type: "POST",
                     dataType: "xml",

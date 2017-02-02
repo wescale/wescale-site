@@ -15,7 +15,8 @@ script: jekyll build
 
 deploy:
   provider: script
-  script: s3_website push --force
+  script: rvm $TRAVIS_RUBY_VERSION do s3_website push --force
+  skip_cleanup: true
   on:
     branch: master
 
