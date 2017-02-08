@@ -64,10 +64,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
   -
-    name: Fabien Vaneenoo
-    title: Cloud Runner
-    img: /images/wewes/carre-Fabien-Vaneenoo.jpg
-  -
     name: Maxence Maireaux
     title: Cloud Builder
     img: /images/wewes/carre-maxence-maireaux.png
@@ -75,6 +71,10 @@ wewes:
     name: Akram Blouza
     title: Cloud Builder
     img: /images/wewes/carre-akram-blouza.jpg
+  -
+    name: René Okouya
+    title: Cloud Builder
+    img: /images/wewes/carre-rene-okouya.png
 
 
 ---
