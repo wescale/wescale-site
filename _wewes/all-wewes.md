@@ -36,9 +36,9 @@ wewes:
     img: /images/wewes/carre-thomas-cousin.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
   -
-    name: Matthieu Parisot
+    name: Bastien Cadiot
     title: Cloud Builder
-    img: /images/wewes/carre-matthieu-parisot.jpg
+    img: /images/wewes/carre-bastien-cadiot.png
   -
     name: Yann Lambret
     title: Cloud Builder
@@ -75,6 +75,10 @@ wewes:
     name: René Okouya
     title: Cloud Builder
     img: /images/wewes/carre-rene-okouya.png
+  -
+    name: Yasser Salimi
+    title: Cloud Runner
+    img: /images/wewes/carre-yasser-salimi.jpg
 
 
 ---
