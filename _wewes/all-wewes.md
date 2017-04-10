@@ -78,7 +78,7 @@ wewes:
   -
     name: Yasser Salimi
     title: Cloud Runner
-    img: /images/wewes/carre-yasser-salimi.png
+    img: /images/wewes/carre-yasser-salimi.jpg
 
 
 ---
