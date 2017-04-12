@@ -75,10 +75,5 @@ wewes:
     name: René Okouya
     title: Cloud Builder
     img: /images/wewes/carre-rene-okouya.png
-  -
-    name: Yasser Salimi
-    title: Cloud Runner
-    img: /images/wewes/carre-yasser-salimi.jpg
-
 
 ---
