@@ -3,249 +3,333 @@ layout: default
 title: Wescale - Expert Cloud et DevOps
 class: home
 ---
-    <section class="home-top">
-      <div class="container">
+<section class="home-top">
+    <div class="container">
         <div class="row">
-          <div class="col-md-12 home-content">
-            <h1 class="title">Experts Cloud et DevOps</h1>
-            <h2 class="home-text">
-              Nous construisons des infrastructures et des services Cloud de qualité.
-            </h2>
+            <div class="col-md-12 home-content">
+                <h1 class="title">Experts Cloud et DevOps</h1>
+                <h2 class="home-text">
+                    Nous construisons des infrastructures et des services Cloud de qualité.
+                </h2>
 
-            <p class="more">
-              <a href="#" id="ce-que-nous-faisons">
-                <img src="{{"/images/more.png" | relative_url }}" alt="Ce que nous faisons" width="52" height="44" /><br/>
-                En savoir plus
-              </a>
-            </p>
+                <p class="more">
+                    <a href="#" id="ce-que-nous-faisons">
+                        <img src="{{"/images/more.png" | relative_url }}" alt="Ce que nous faisons" width="52"
+                        height="44" /><br/>
+                        En savoir plus
+                    </a>
+                </p>
 
-          </div>
-          <div class="col-md-4">
-            <h3>Notre promesse</h3>
-            <p>
-              Le <b>continuous delivery</b> n'est pas réservé aux <b>GAFA</b>, tout le monde peut l'atteindre !
-              C'est pourquoi nous travaillons à <b>supprimer</b> les <b>contraintes</b> entre les <b>développements</b>
-              et la <b>livraison de valeur</b> à vos utilisateurs.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h3>DevOps est notre culture</h3>
-            <p>
-              Nous construisons les solutions avec et pour nos clients. Notre objectif est de <b>collaborer</b>, c’est
-              pourquoi nous travaillons à nourrir la culture <b>DevOps</b>.<br>
-              Nous sommes les <b>Ops</b> de <b>DevOps</b>
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h3>Le Cloud est notre outil</h3>
-              <p>
-                Nos consultants sont <b>certifiés</b> sur les plateformes <b>Cloud public</b> (AWS, Google, Azure) et
-                <b>Cloud privé</b> (OpenStack). Wescale investit en continu dans la formation des scalers.
-              </p>
-          </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Notre promesse</h3>
+                <p>
+                    Le <b>continuous delivery</b> n'est pas réservé aux <b>GAFA</b>, tout le monde peut l'atteindre !
+                    C'est pourquoi nous travaillons à <b>supprimer</b> les <b>contraintes</b> entre les <b>développements</b>
+                    et la <b>livraison de valeur</b> à vos utilisateurs.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>DevOps est notre culture</h3>
+                <p>
+                    Nous construisons les solutions avec et pour nos clients. Notre objectif est de <b>collaborer</b>,
+                    c’est
+                    pourquoi nous travaillons à nourrir la culture <b>DevOps</b>.<br>
+                    Nous sommes les <b>Ops</b> de <b>DevOps</b>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Le Cloud est notre outil</h3>
+                <p>
+                    Nos consultants sont <b>certifiés</b> sur les plateformes <b>Cloud public</b> (AWS, Google, Azure)
+                    et
+                    <b>Cloud privé</b> (OpenStack). Wescale investit en continu dans la formation des scalers.
+                </p>
+            </div>
 
         </div>
-      </div>
+    </div>
+</section>
+
+
+<div class="content" style="padding-top: 0px">
+    <section class="home-techtrends">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="techtrends-title">
+                        <h2 id="nos-techtrends">Nos Techtrends</h2>
+                        <p>
+                            Chez Wescale nous avons la mission de partager nos connaissances et de faire grandir
+                            l’expertise autour de nous. Issu de notre expérience terrain, nous réunissons
+                            régulièrement notre savoir-faire sous la forme de TechTrends. Nos TechTrends sont
+                            focalisés sur une tendance technologique, ils vous en dressent l’état de l’art et
+                            proposent des solutions techniques et méthodologiques pour accompagner son adoption.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="techtrends">
+                        <div class="techtrends-image">
+                            <a id="tt-link" href="#" data-toggle="modal" data-target="#myModal-conteneurs"><img src="{{"/images/couverture-tt-conteneurs-orig.png"|
+                                relative_url }}" alt="Techtrends Conteneurs" /></a>
+                        </div>
+                        <div class="techtrends-text">
+                            <h2>Conteneurs</h2>
+                            <p>
+                                Dans ce document, nous vous partageons notre vision des conteneurs. La première partie
+                                <b>Projeter</b> propose d’identifier différents cas d’usage des conteneurs. Par la
+                                suite, la partie <b>Implémenter</b> vous invite à construire une plateforme
+                                conteneurisée avec les bons outils. Pour finir, le chapître <b>Exploiter</b> vous aide à
+                                faire vivre la plateforme conteneurisée.
+                            </p>
+                            <p class="news-readmore"><a href="#" data-toggle="modal"
+                                                        data-target="#myModal-conteneurs">Télécharger</a>
+                            </p>
+                        </div>
+
+                        {% include tt-form.html tt="conteneurs"%}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="techtrends">
+                        <div class="techtrends-image">
+                            <a id="tt-link" href="#" data-toggle="modal" data-target="#myModal-cloud"><img src="{{"/images/techtrends-cloud.png"|
+                                relative_url }}" alt="Techtrends Cloud" /></a>
+                        </div>
+                        <div class="techtrends-text">
+                            <h2>Cloud</h2>
+                            <p>Dans le paysage IT actuel, le Cloud Computing est omniprésent. Cependant, même si son
+                                adoption
+                                progresse au sein des entreprises, la migration de tout ou partie d’un parc applicatif
+                                reste
+                                bien
+                                souvent complexe. Les acteurs de cet écosystème sont de plus en plus nombreux et les
+                                offres se
+                                multiplient en conséquence. Les décideurs sont confrontés à des choix stratégiques et
+                                technologiques
+                                difficiles.</p>
+                            <p class="news-readmore"><a href="#" data-toggle="modal"
+                                                        data-target="#myModal-cloud">Télécharger</a>
+                            </p>
+                        </div>
+
+                        {% include tt-form.html tt="cloud"%}
+                    </div>
+                </div>
+                <!--<div id="home-news" class="col-md-4 home-news">
+                   <h1>
+                     <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog Wescale
+                   </h1>
+                   <h1 id="news-spin">
+                     <i class="fa fa-refresh fa-spin  fa-fw" aria-hidden="true"></i>
+                   </h1>
+
+                 </div>-->
+            </div>
+        </div>
     </section>
 
-
-    <div class="content" style="padding-top: 0px">
-      <section class="home-techtrends">
-         <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="techtrends">
-                  <div class="techtrends-image">
-                      <a id="tt-link" href="#" data-toggle="modal" data-target="#myModal"><img src="{{"/images/techtrends-cloud.png"|
-                          relative_url }}" alt="Techtrends Cloud" /></a>
-                  </div>
-                  <div class="techtrends-text">
-                      <h2>Techtrends Cloud</h2>
-                      <p>Dans le paysage IT actuel, le Cloud Computing est omniprésent. Cependant, même si son adoption
-                          progresse au sein des entreprises, la migration de tout ou partie d’un parc applicatif reste
-                          bien
-                          souvent complexe. Les acteurs de cet écosystème sont de plus en plus nombreux et les offres se
-                          multiplient en conséquence. Les décideurs sont confrontés à des choix stratégiques et
-                          technologiques
-                          difficiles.</p>
-                      <p class="news-readmore"><a href="#" data-toggle="modal" data-target="#myModal">Télécharger</a>
-                      </p>
-                  </div>
-
-                  {% include tt-form.html %}
-              </div>
-            </div>
-             <div id="home-news" class="col-md-4 home-news">
-                <h1>
-                  <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog Wescale
-                </h1>
-                <h1 id="news-spin">
-                  <i class="fa fa-refresh fa-spin  fa-fw" aria-hidden="true"></i>
-                </h1>
-
-              </div>
-           </div>
-         </div>
-      </section>
-
-      <section class="home-etapes" id="etapes">
+    <section class="home-etapes" id="etapes">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="title">Les 3 étapes du service Wescale</h1>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="title">Les 3 étapes du service Wescale</h1>
 
-              <img class="schema" src="{{"/images/schema.png" | relative_url }}" alt="Les 3 étapes du service Wescale" />
+                    <img class="schema" src="{{"/images/schema.png" | relative_url }}" alt="Les 3 étapes du service
+                    Wescale" />
 
-              <div class="etape-2">
-                <div class="illustration"><img src="{{"/images/oeil.png"| relative_url }}" alt="01_Identifier" width="88" height="51" /></div>
-                <div>
-                  <h2>Identifier</h2>
-                  <p>Nous réalisons l’étude du SI de l'entreprise, pour définir les meilleurs axes d'améliorations.</p>
-                  <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a></p>
+                    <div class="etape-2">
+                        <div class="illustration"><img src="{{"/images/oeil.png"| relative_url }}" alt="01_Identifier"
+                            width="88" height="51" />
+                        </div>
+                        <div>
+                            <h2>Identifier</h2>
+                            <p>Nous réalisons l’étude du SI de l'entreprise, pour définir les meilleurs axes
+                                d'améliorations.</p>
+                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="etape-3">
+                        <div class="illustration"><img src="{{"/images/engrenage.png"| relative_url }}"
+                            alt="02_Réaliser" width="66" height="66" />
+                        </div>
+                        <div>
+                            <h2>Réaliser</h2>
+                            <p>Nos consultants prennent part à la mise en place des services Cloud préconisés quelle que
+                                soit la plate-forme choisie.</p>
+                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="etape-1">
+                        <div class="illustration"><img src="{{"/images/migrer.png"| relative_url }}" alt="03_Migrer"
+                            width="74" height="62" />
+                        </div>
+                        <div>
+                            <h2>Migrer</h2>
+                            <p>Nous accompagnons nos clients afin d’opérer les changements techniques et humains induits
+                                par les nouveaux services mis en place.</p>
+                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-              <div class="etape-3">
-                <div class="illustration"><img src="{{"/images/engrenage.png"| relative_url }}" alt="02_Réaliser" width="66" height="66" /></div>
-                <div>
-                  <h2>Réaliser</h2>
-                  <p>Nos consultants prennent part à la mise en place des services Cloud préconisés quelle que soit la plate-forme choisie.</p>
-                  <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a></p>
-                </div>
-              </div>
-
-              <div class="etape-1">
-                <div class="illustration"><img src="{{"/images/migrer.png"| relative_url }}" alt="03_Migrer" width="74" height="62" /></div>
-                <div>
-                  <h2>Migrer</h2>
-                  <p>Nous accompagnons nos clients afin d’opérer les changements techniques et humains induits par les nouveaux services mis en place.</p>
-                  <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a></p>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="home-profils">
+    <section class="home-profils">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="title"><a id="rejoignez-nous" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">Rejoignez nous !</a></h1>
-              <p><a id="rejoignez-nous-2" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">Envie de vous renouveler ? Rejoignez les Scalers !</a></p>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="title"><a id="rejoignez-nous" href="#rejoignez-nous" data-toggle="modal"
+                                         data-target="#rejoignez-nous-modal">Rejoignez nous !</a></h1>
+                    <p><a id="rejoignez-nous-2" href="#rejoignez-nous" data-toggle="modal"
+                          data-target="#rejoignez-nous-modal">Envie de vous renouveler ? Rejoignez les Scalers !</a></p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>
+                        <a id="rejoignez-nous-6" href="#rejoignez-nous" data-toggle="modal"
+                           data-target="#rejoignez-nous-modal">
+                            Cloud <span class="bold">Designer</span>
+                        </a></h2>
+                    <a id="rejoignez-nous-3" href="#rejoignez-nous" data-toggle="modal"
+                       data-target="#rejoignez-nous-modal">
+                        <img src="{{"/images/cloud-designer.png"| relative_url }}" alt="Cloud Designer" /></a>
+                    <p><a id="rejoignez-nous-7" href="#rejoignez-nous" data-toggle="modal"
+                          data-target="#rejoignez-nous-modal">
+                        Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
+                        solides bases techniques Cloud pour être à même de proposer des processus et des architectures
+                        réalistes, bâties pour tenir et durer.</a></p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>
+                        <a id="rejoignez-nous-8" href="#rejoignez-nous" data-toggle="modal"
+                           data-target="#rejoignez-nous-modal">
+                            Cloud <span class="bold">Builder</span
+                        ></a>
+                    </h2>
+                    <a id="rejoignez-nous-4" href="#rejoignez-nous" data-toggle="modal"
+                       data-target="#rejoignez-nous-modal">
+                        <img src="{{"/images/cloud-builder.png"| relative_url }}" alt="Cloud Builder" /></a>
+                    <p>
+                        <a id="rejoignez-nous-9" href="#rejoignez-nous" data-toggle="modal"
+                           data-target="#rejoignez-nous-modal">
+                            Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous
+                            aimez les
+                            approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en
+                            place des
+                            solutions Cloud.</a></p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>
+                        <a id="rejoignez-nous-10" href="#rejoignez-nous" data-toggle="modal"
+                           data-target="#rejoignez-nous-modal">
+                            Cloud <span class="bold">Runner</span>
+                        </a>
+                    </h2>
+                    <a id="rejoignez-nous-5" href="#rejoignez-nous" data-toggle="modal"
+                       data-target="#rejoignez-nous-modal">
+                        <img src="{{"/images/cloud-runner.png"| relative_url }}" alt="Cloud Runner" /></a>
+                    <p>
+                        <a id="rejoignez-nous-11" href="#rejoignez-nous" data-toggle="modal"
+                           data-target="#rejoignez-nous-modal">
+                            Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le
+                            goût des
+                            prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
+                            Venez opèrer et faire évoluer les solutions Cloud en lien direct avec les développeurs.
+                        </a>
+                    </p>
+                </div>
+                {% include wescale-recrute.html %}
             </div>
-            <div class="col-xs-12 col-md-4">
-              <h2>
-                  <a id="rejoignez-nous-6" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                      Cloud <span class="bold">Designer</span>
-                  </a></h2>
-              <a id="rejoignez-nous-3" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  <img src="{{"/images/cloud-designer.png"| relative_url }}" alt="Cloud Designer" /></a>
-              <p><a id="rejoignez-nous-7" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
-                solides bases techniques Cloud pour être à même de proposer des processus et des  architectures
-                réalistes, bâties pour tenir et durer.</a></p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <h2>
-                  <a id="rejoignez-nous-8" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  Cloud <span class="bold">Builder</span
-                  ></a>
-              </h2>
-              <a id="rejoignez-nous-4" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  <img src="{{"/images/cloud-builder.png"| relative_url }}" alt="Cloud Builder" /></a>
-              <p>
-                  <a id="rejoignez-nous-9" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous aimez les
-                approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en place des
-                solutions Cloud.</a></p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <h2>
-                  <a id="rejoignez-nous-10" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  Cloud <span class="bold">Runner</span>
-                  </a>
-              </h2>
-              <a id="rejoignez-nous-5" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  <img src="{{"/images/cloud-runner.png"| relative_url }}" alt="Cloud Runner" /></a>
-              <p>
-                  <a id="rejoignez-nous-11" href="#rejoignez-nous" data-toggle="modal" data-target="#rejoignez-nous-modal">
-                  Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le goût des
-                prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
-                Venez opèrer et faire évoluer les solutions Cloud en lien direct avec les développeurs.
-                </a>
-              </p>
-            </div>
-            {% include wescale-recrute.html %}
-          </div>
 
         </div>
-      </section>
+    </section>
 
-      <section class="home-partenaires">
+    <section class="home-partenaires">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="title">Ils nous font confiance</h1>
-              <!--<p class="subtitle">Nous accompagnons les projets de nombreux clients grands comptes institutionnels, industriels ou du monde bancaire.</p>-->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="title">Ils nous font confiance</h1>
+                    <!--<p class="subtitle">Nous accompagnons les projets de nombreux clients grands comptes institutionnels, industriels ou du monde bancaire.</p>-->
 
-              <div class="partenaires">
-<a href="https://www.arval.fr/" target="_blank">
-    <img src="{{"/images/references/client-arval.jpg"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.bpifrance.fr/" target="_blank">
-    <img src="{{"/images/references/client-bpifrance.gif"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.ald.softbankrobotics.com/fr" target="_blank">
-    <img src="{{"/images/references/client-softbank-robotics.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.menlook.com/fr/" target="_blank">
-    <img src="{{"/images/references/client-menlook.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.agirc-arrco.fr/" target="_blank">
-    <img src="{{"/images/references/client-girc-agirc-arrco.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.thalesgroup.com/fr" target="_blank">
-    <img src="{{"/images/references/client-thales.jpg"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.canalplus.fr/" target="_blank">
-    <img src="{{"/images/references/client-canal-plus.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.deolan.com/" target="_blank">
-    <img src="{{"/images/references/client-deolan.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.ingenico.com/fr" target="_blank">
-    <img src="{{"/images/references/client-ingenico.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.societegenerale.fr/" target="_blank">
-    <img src="{{"/images/references/client-societe-generale.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.cloudwatt.com/fr/" target="_blank">
-    <img src="{{"/images/references/client-orange.jpeg"| relative_url }}" alt="" width="100px" />
-</a>
-<a href="https://dtv.nagra.com/" target="_blank">
-    <img src="{{"/images/references/client-nagra-kudelski.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.michelin.fr/" target="_blank">
-    <img src="{{"/images/references/client-michelin.jpg"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.tennaxia.com/" target="_blank">
-    <img src="{{"/images/references/client-tennaxia.png"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.figaroclassifieds.fr/" target="_blank">
-    <img src="{{"/images/references/client-figaro-classifieds.jpg"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="https://www.parrot.com/fr" target="_blank">
-    <img src="{{"/images/references/client-parrot.jpg"| relative_url }}" alt=""  width="150px" />
-</a>
-<a href="http://www.senat.fr/" target="_blank">
-    <img src="{{"/images/references/client-senat.png"| relative_url }}" alt=""  width="100px" />
-</a>
-              </div>
-<!--
--->
+                    <div class="partenaires">
+                        <a href="https://www.arval.fr/" target="_blank">
+                            <img src="{{"/images/references/client-arval.jpg"| relative_url }}" alt="" width="150px" />
+                        </a>
+                        <a href="http://www.bpifrance.fr/" target="_blank">
+                            <img src="{{"/images/references/client-bpifrance.gif"| relative_url }}" alt="" width="150px"
+                            />
+                        </a>
+                        <a href="https://www.ald.softbankrobotics.com/fr" target="_blank">
+                            <img src="{{"/images/references/client-softbank-robotics.png"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="http://www.menlook.com/fr/" target="_blank">
+                            <img src="{{"/images/references/client-menlook.png"| relative_url }}" alt="" width="150px"
+                            />
+                        </a>
+                        <a href="http://www.agirc-arrco.fr/" target="_blank">
+                            <img src="{{"/images/references/client-girc-agirc-arrco.png"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="https://www.thalesgroup.com/fr" target="_blank">
+                            <img src="{{"/images/references/client-thales.jpg"| relative_url }}" alt="" width="150px" />
+                        </a>
+                        <a href="http://www.canalplus.fr/" target="_blank">
+                            <img src="{{"/images/references/client-canal-plus.png"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="http://www.deolan.com/" target="_blank">
+                            <img src="{{"/images/references/client-deolan.png"| relative_url }}" alt="" width="150px" />
+                        </a>
+                        <a href="https://www.ingenico.com/fr" target="_blank">
+                            <img src="{{"/images/references/client-ingenico.png"| relative_url }}" alt="" width="150px"
+                            />
+                        </a>
+                        <a href="http://www.societegenerale.fr/" target="_blank">
+                            <img src="{{"/images/references/client-societe-generale.png"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="https://www.cloudwatt.com/fr/" target="_blank">
+                            <img src="{{"/images/references/client-orange.jpeg"| relative_url }}" alt="" width="100px"
+                            />
+                        </a>
+                        <a href="https://dtv.nagra.com/" target="_blank">
+                            <img src="{{"/images/references/client-nagra-kudelski.png"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="http://www.michelin.fr/" target="_blank">
+                            <img src="{{"/images/references/client-michelin.jpg"| relative_url }}" alt="" width="150px"
+                            />
+                        </a>
+                        <a href="https://www.tennaxia.com/" target="_blank">
+                            <img src="{{"/images/references/client-tennaxia.png"| relative_url }}" alt="" width="150px"
+                            />
+                        </a>
+                        <a href="http://www.figaroclassifieds.fr/" target="_blank">
+                            <img src="{{"/images/references/client-figaro-classifieds.jpg"| relative_url }}" alt=""
+                            width="150px" />
+                        </a>
+                        <a href="https://www.parrot.com/fr" target="_blank">
+                            <img src="{{"/images/references/client-parrot.jpg"| relative_url }}" alt="" width="150px" />
+                        </a>
+                        <a href="http://www.senat.fr/" target="_blank">
+                            <img src="{{"/images/references/client-senat.png"| relative_url }}" alt="" width="100px" />
+                        </a>
+                    </div>
+                    <!--
+                    -->
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-    </div>
+    </section>
+</div>

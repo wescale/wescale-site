@@ -55,6 +55,9 @@
                 <li><a href="http://blog.wescale.fr/">Blog</a></li>
                 <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
                 <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
+<!--
+                <li><a href="{{ "/job.html"| relative_url }}">Job</a></li>
+-->
                 <li class="socials">
                     <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter"
                                                                                 aria-hidden="true"></i></a>
@@ -240,13 +243,14 @@ if (typeof jQuery === 'undefined') {
         var societe = $("input[type='text'][name='societe']").val();
         var fonction = $("input[type='text'][name='fonction']").val();
         var keep_inform = $("input[type='checkbox'][name='keep-inform']:checked").val();
+        var tt = $("input[type='hidden'][name='tt']").val();
 
         $.ajax({
             url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
             data: {
                 "entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
                 "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
-                "entry.960649226": keep_inform
+                "entry.960649226": keep_inform, "entry.314988943": tt
             },
             type: "POST",
             dataType: "xml",
