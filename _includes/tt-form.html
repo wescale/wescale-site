@@ -1,4 +1,4 @@
-<div id="tt-form">
+<div id="tt-form-div-{{include.tt}}">
                 <div class="modal fade" id="myModal-{{include.tt}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -6,7 +6,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Télécharger le TechTrends {{include.tt|capitalize}}</h4>
                       </div>
-                         <form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form">
+                         <form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form-{{include.tt}}">
                       <div class="modal-body" id="tt-body">
 
                             <div class="form-group">
@@ -52,7 +52,7 @@
                             <input type="hidden" name="tt" value="{{include.tt}}">
                       </div>
                       <div class="modal-footer">
-                          <div class="pull-left">Un e-mail vous sera envoyé avec le lien.</div><input type="submit" value="Envoyer" class="pull-right" id="tt-submit" />
+                          <div class="pull-left">Un e-mail vous sera envoyé avec le lien.</div><input type="submit" value="Envoyer" class="pull-right" id="tt-submit-{{include.tt}}" />
                         </div>
                         </form>
                     </div>
