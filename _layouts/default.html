@@ -55,6 +55,9 @@
                 <li><a href="http://blog.wescale.fr/">Blog</a></li>
                 <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
                 <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
+<!--
+                <li><a href="{{ "/job.html"| relative_url }}">Job</a></li>
+-->
                 <li class="socials">
                     <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter"
                                                                                 aria-hidden="true"></i></a>
@@ -227,26 +230,27 @@ if (typeof jQuery === 'undefined') {
     });
 
     // Download TT
-    $('#tt-link').click(function (evt) {
+    $('#tt-link-cloud').click(function (evt) {
         evt.preventDefault();
     });
-    $('#tt-form').submit(function (evt) {
+    $('#tt-form-cloud').submit(function (evt) {
         evt.preventDefault();
 
-        var civilite = $("input[type='radio'][name='civilite']:checked").val();
-        var prenom = $("input[type='text'][name='prenom']").val();
-        var nom = $("input[type='text'][name='nom']").val();
-        var email = $("input[type='email'][name='email']").val();
-        var societe = $("input[type='text'][name='societe']").val();
-        var fonction = $("input[type='text'][name='fonction']").val();
-        var keep_inform = $("input[type='checkbox'][name='keep-inform']:checked").val();
+        var civilite = $("#tt-form-cloud input[type='radio'][name='civilite']:checked").val();
+        var prenom = $("#tt-form-cloud input[type='text'][name='prenom']").val();
+        var nom = $("#tt-form-cloud input[type='text'][name='nom']").val();
+        var email = $("#tt-form-cloud input[type='email'][name='email']").val();
+        var societe = $("#tt-form-cloud input[type='text'][name='societe']").val();
+        var fonction = $("#tt-form-cloud input[type='text'][name='fonction']").val();
+        var keep_inform = $("#tt-form-cloud input[type='checkbox'][name='keep-inform']:checked").val();
+        var tt = $("#tt-form-cloud input[type='hidden'][name='tt']").val();
 
         $.ajax({
             url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
             data: {
                 "entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
                 "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
-                "entry.960649226": keep_inform
+                "entry.960649226": keep_inform, "entry.314988943": tt
             },
             type: "POST",
             dataType: "xml",
@@ -254,7 +258,7 @@ if (typeof jQuery === 'undefined') {
             statusCode: {
                 0: function () {
                     //Success message
-                    $('#myModal').modal('hide');
+                    $('#myModal-cloud').modal('hide');
                     $.notify("Message envoyé !", "success");
 
 
@@ -262,13 +266,58 @@ if (typeof jQuery === 'undefined') {
                 200: function () {
                     //Success Message
 
-                    $('#myModal').modal('hide');
+                    $('#myModal-cloud').modal('hide');
                     $.notify("Message envoyé !", "success");
 
                 }
             }
         });
-        $('#tt-form')[0].reset();
+        $('#tt-form-cloud')[0].reset();
+    });
+
+    $('#tt-link-conteneurs').click(function (evt) {
+        evt.preventDefault();
+    });
+    $('#tt-form-conteneurs').submit(function (evt) {
+        evt.preventDefault();
+
+        var civilite = $("#tt-form-conteneurs input[type='radio'][name='civilite']:checked").val();
+        var prenom = $("#tt-form-conteneurs input[type='text'][name='prenom']").val();
+        var nom = $("#tt-form-conteneurs input[type='text'][name='nom']").val();
+        var email = $("#tt-form-conteneurs input[type='email'][name='email']").val();
+        var societe = $("#tt-form-conteneurs input[type='text'][name='societe']").val();
+        var fonction = $("#tt-form-conteneurs input[type='text'][name='fonction']").val();
+        var keep_inform = $("#tt-form-conteneurs input[type='checkbox'][name='keep-inform']:checked").val();
+        var tt = $("#tt-form-conteneurs input[type='hidden'][name='tt']").val();
+
+        $.ajax({
+            url: "https://docs.google.com/a/wescale.fr/forms/d/e/1FAIpQLSdqAGoPu10Md1Gf43HN-mwiaqOhqFsNthg0jHKMRDF2XUb-Kw/formResponse",
+            data: {
+                "entry.903257113": civilite, "entry.1508999386": prenom, "entry.1524301048": nom,
+                "entry.2013605525": email, "entry.10218435": societe, "entry.437077223": fonction,
+                "entry.960649226": keep_inform, "entry.314988943": tt
+            },
+            type: "POST",
+            dataType: "xml",
+            crossDomain: true,
+            statusCode: {
+                0: function () {
+                    //Success message
+                    $('#myModal-conteneurs').modal('hide');
+                    $.notify("Message envoyé !", "success");
+
+
+                },
+                200: function () {
+                    //Success Message
+
+                    $('#myModal-conteneurs').modal('hide');
+                    $.notify("Message envoyé !", "success");
+
+                }
+            }
+        });
+        $('#tt-form-conteneurs')[0].reset();
     });
 
     // Recruit @ Wescale

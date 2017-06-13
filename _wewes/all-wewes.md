@@ -75,5 +75,9 @@ wewes:
     name: René Okouya
     title: Cloud Builder
     img: /images/wewes/carre-rene-okouya.png
+  -
+    name: Pauline Poisson
+    title: Chargée de recrutement
+    img: /images/wewes/pauline-poisson.jpg
 
 ---

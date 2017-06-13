@@ -583,12 +583,30 @@ section#etapes {
     background-color: #f4f4f4;
 }
 
+.techtrends-title {
+    text-align: center;
+    margin: 100px 0 70px 0;
+}
+
+.techtrends-title h2 {
+    font-size: 50px;
+}
+
+.techtrends-title p {
+    font-size: medium;
+}
+
+
 .techtrends {
-    margin: 200px 0;
+    margin: 0px 0;
+}
+
+.techtrends h2 {
+    margin: 0px 0;
 }
 
 .techtrends img {
-    max-width: 200px;
+    max-width: 150px;
     -moz-box-shadow: 0px 0px 20px 0px #000000;
     -webkit-box-shadow: 0px 0px 20px 0px #000000;
     -o-box-shadow: 0px 0px 20px 0px #000000;
@@ -607,7 +625,7 @@ section#etapes {
 }
 
 .techtrends-text {
-    width: 67%;
+    width: 62%;
     padding: 0 10px;
     line-height: 200%;
     margin-bottom: 40px;
