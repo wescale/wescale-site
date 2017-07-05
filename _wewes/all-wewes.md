@@ -27,10 +27,6 @@ wewes:
     title: Responsable administrative et financière
     img: /images/wewes/carre-celine-rochay.jpg
   -
-    name: Cédric Hauber
-    title: Cloud Builder
-    img: /images/wewes/carre-cedric-hauber.jpg
-  -
     name: Thomas Cousin
     title: Cloud Designer
     img: /images/wewes/carre-thomas-cousin.jpg

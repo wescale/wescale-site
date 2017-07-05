@@ -85,4 +85,4 @@ les phases de cours.
 
 # Formateur
 
-{% include formateur.html nom_formateur="cedric-hauber" %}
+{% include formateur.html nom_formateur="sebastien-lavayssiere" %}
