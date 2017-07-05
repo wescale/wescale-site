@@ -9,7 +9,7 @@ pitch: |
     capable de l’utiliser au quotidien pour gérer vos conteneurs en production.
 
 img: /images/formations/kubernetes.svg
-formateur_img: /images/wewes/carre-cedric-hauber.png
+formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: Orchestration de conteneurs sous stéroïdes
 pdf: /pdf/Training-Kubernetes.pdf
 duree: 2 jours
@@ -85,4 +85,4 @@ les phases de cours.
 
 # Formateur
 
-{% include formateur.html nom_formateur="cedric-hauber" %}
+{% include formateur.html nom_formateur="sebastien-lavayssiere" %}
