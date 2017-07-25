@@ -9,40 +9,20 @@ class: a-propos
 
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="title">Nous recrutons</h1>
+                    <h1 class="title">Deviens un Scaler</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-8 history">
+                <div class="col-md-12 ">
                     <p>
-                        Tout a commencé avec quelques passionnés qui se sont rendus à l’évidence :<br/>
-                        <b>Il faut des gens talentueux à
-                        l’imagination foisonnante pour créer les infrastructures cloud de demain.</b>
-                    </p>
-                    <p>
-                        Parce que c’est un milieu tellement vaste qu’il évolue à une vitesse astronomique, nous
-                        cherchons dans
-                        le monde entier des personnes comme nous, pour fonder ensemble une <b>véritable communauté
-                        d’experts</b>.
-                    </p>
-                    <p>
-                        Nous construisons les solutions <b>avec nos clients</b>. Parce que notre <b>objectif est de
-                        collaborer</b>,
-                        nous travaillons à <b>nourrir la culture DevOps</b>.
-                    </p>
-                    <p>
-                        Vous retrouverez chez chacun de nous des traits de personnalité communs. <b>Ouverts et partageurs</b>
-                        , les scalers
-                        sont <b>passionnés</b> par ce qu’ils font. Ils cherchent toujours à <b>améliorer les choses</b>.
-                        Ils aiment aussi bien sûr se rafraîchir en partageant des verres.
-                        Les scalers contribuent à <b>l’évolution et au bien-être des autres</b>.
-                        Pour finir, les scalers n’hésitent jamais à <b>donner leur avis</b> et ce quel
-                        qu’il soit.
+                        WeScale en quelques mots, c’est à la fois une start-up et une société de conseil, dédiée au cloud computing.
+Nous avons une équipe de folie, uniquement des passionnés (chacun par ses sujets, qu’ils soient techniques ou non).
+Rejoindre WeScale, c’est : partage de connaissances / meetups / WeShare / pots ...
                     </p>
 
                 </div>
-                <div class="col-md-4 valeurs">
+                <!--<div class="col-md-4 valeurs">
                     <h2>Nos valeurs</h2>
                     <ul>
                         <li>
@@ -74,7 +54,7 @@ class: a-propos
                         </li>
                     </ul>
 
-                </div>
+                </div>-->
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -85,25 +65,12 @@ class: a-propos
                 <div class="row">
                     <div class="equipe col-md-12">
 
-                        {% for wewe in site.wewes %}
-                        {% for we in wewe.wewes %}
-                        <div class="equipe-photo"
-                             style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
-
-                            <div class="equipe-mask"></div>
-                            <div class="equipe-name">
-                                <h2>{{we.name}}</h2>
-                                <h3>{{we.title}}</h3>
-                                {% if we.text %}
-                                <p style="text-align: center; color: white;">
-                                    {{ we.text }}
-                                </p>
-                                {% endif %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                        {% endfor %}
-
+                        Cloud Runner
+Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le goût des prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent. Venez opérer et faire évoluer les solutions Cloud en lien direct avec les développeurs.
+Cloud Designer
+Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de solides bases techniques Cloud pour être à même de proposer des processus et des architectures réalistes, bâties pour tenir et durer.
+Cloud Builder
+Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous aimez les approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en place des solutions Cloud.
 
                     </div>
     </section>

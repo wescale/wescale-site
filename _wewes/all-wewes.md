@@ -46,11 +46,6 @@ wewes:
     img: /images/wewes/carre-nicolas-diez.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
   -
-    name: Pascal Edouard
-    title: Cloud Builder
-    img: /images/wewes/carre-pascal-edouard.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> RedHat OpenStack Administrator
-  -
     name: Stéphane Teyssier
     title: Cloud Designer
     img: /images/wewes/stephane-teyssier.jpg
@@ -75,5 +70,9 @@ wewes:
     name: Pauline Poisson
     title: Chargée de recrutement
     img: /images/wewes/pauline-poisson.jpg
-
+  -
+    name: Et vous ?
+    title: Cloud Future
+    img: /images/wewes/barney-stinson.png
+    job: true
 ---

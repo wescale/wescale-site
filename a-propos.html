@@ -92,12 +92,18 @@ class: a-propos
 
                             <div class="equipe-mask"></div>
                             <div class="equipe-name">
+                                {% if we.job %}
+                                <a href="job.html">
+                                {% endif %}
                                 <h2>{{we.name}}</h2>
                                 <h3>{{we.title}}</h3>
                                 {% if we.text %}
                                 <p style="text-align: center; color: white;">
                                     {{ we.text }}
                                 </p>
+                                {% endif %}
+                                {% if we.job %}
+                                </a>
                                 {% endif %}
                             </div>
                         </div>
