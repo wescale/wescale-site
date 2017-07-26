@@ -347,7 +347,7 @@ img {
 
 .home-text {
     margin: auto;
-    max-width: 470px;
+    /* max-width: 470px; */
     text-align: center;
 }
 
@@ -1040,12 +1040,17 @@ section#etapes {
 .job-profils {
     text-align: center;
     text-color: black;
-
+    padding-top: 30px;
 }
 
 .job-profils .title {
     text-align: center;
     border-bottom: none;
+}
+
+.job .history {
+    font-size: 15px;
+    padding-top: 30px;
 }
 
 .job-profils a {

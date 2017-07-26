@@ -320,9 +320,11 @@ if (typeof jQuery === 'undefined') {
         });
         $('#tt-form-conteneurs')[0].reset();
     });
+    {% endif %}
+
+    {% if page.class == 'home' or page.class == 'job' %}
 
     // Recruit @ Wescale
-
     $('#rejoignez-nous').click(function (evt) {
         evt.preventDefault();
     });
