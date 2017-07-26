@@ -1037,6 +1037,22 @@ section#etapes {
     padding: 90px 0px;
 }
 
+.job-profils {
+    text-align: center;
+    text-color: black;
+
+}
+
+.job-profils .title {
+    text-align: center;
+    border-bottom: none;
+}
+
+.job-profils a {
+    color: black;
+}
+
+
 /** RESPONSIVE **/
 @media (max-width: 1200px) {
     .navbar-default .navbar-nav > li {
