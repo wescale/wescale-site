@@ -406,6 +406,20 @@ if (typeof jQuery === 'undefined') {
     );
     {% endif %}
 
+    $.fn.randomize = function(selector){
+        (selector ? this.find(selector) : this).parent().each(function(){
+            $(this).children(selector).sort(function(){
+                return Math.random() - 0.5;
+            }).detach().appendTo(this);
+        });
+
+        return this;
+    };
+
+    {% if page.class == 'a-propos' %}
+    $('.equipe div.equipe-photo').randomize();
+    {% endif %}
+
 }(jQuery);
 </script>
 {% unless site.github %}
