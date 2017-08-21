@@ -171,7 +171,7 @@ img {
 }
 
 .navbar-default .navbar-nav > li {
-    width: 100px;
+    width: 90px;
     padding: 20px 0 10px;
     margin: 0 15px;
 }
@@ -186,6 +186,7 @@ img {
     color: white;
     border-bottom: none;
     font-size: 150%;
+    width: 100px;
 }
 
 .navbar-collapse {
@@ -346,7 +347,7 @@ img {
 
 .home-text {
     margin: auto;
-    max-width: 470px;
+    /* max-width: 470px; */
     text-align: center;
 }
 
@@ -1035,6 +1036,27 @@ section#etapes {
 .map-legend-container .row {
     padding: 90px 0px;
 }
+
+.job-profils {
+    text-align: center;
+    text-color: black;
+    padding-top: 30px;
+}
+
+.job-profils .title {
+    text-align: center;
+    border-bottom: none;
+}
+
+.job .history {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.job-profils a {
+    color: black;
+}
+
 
 /** RESPONSIVE **/
 @media (max-width: 1200px) {

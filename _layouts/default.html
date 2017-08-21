@@ -50,14 +50,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav menu-links">
                 <li><a href="{{ "/services.html" | relative_url }}">Services</a></li>
-                <li><a href="{{"/a-propos.html" | relative_url }}">Qui sommes nous ?</a></li>
+                <li><a href="{{"/a-propos.html" | relative_url }}">Histoire</a></li>
                 <li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>
                 <li><a href="http://blog.wescale.fr/">Blog</a></li>
                 <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
+                <li><a href="{{ "/recrutement.html"| relative_url }}">Recrutement</a></li>
                 <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
-<!--
-                <li><a href="{{ "/job.html"| relative_url }}">Job</a></li>
--->
+
                 <li class="socials">
                     <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter"
                                                                                 aria-hidden="true"></i></a>
@@ -319,9 +318,11 @@ if (typeof jQuery === 'undefined') {
         });
         $('#tt-form-conteneurs')[0].reset();
     });
+    {% endif %}
+
+    {% if page.class == 'home' or page.class == 'job' %}
 
     // Recruit @ Wescale
-
     $('#rejoignez-nous').click(function (evt) {
         evt.preventDefault();
     });
@@ -401,6 +402,20 @@ if (typeof jQuery === 'undefined') {
 
             }
     );
+    {% endif %}
+
+    $.fn.randomize = function(selector){
+        (selector ? this.find(selector) : this).parent().each(function(){
+            $(this).children(selector).sort(function(){
+                return Math.random() - 0.5;
+            }).detach().appendTo(this);
+        });
+
+        return this;
+    };
+
+    {% if page.class == 'a-propos' %}
+    $('.equipe div.equipe-photo').randomize();
     {% endif %}
 
 }(jQuery);
