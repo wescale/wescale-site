@@ -78,7 +78,7 @@ wewes:
   -
     name: Alexis Morelle
     title: Cloud Builder
-    img: /images/wewes/Alexis-Morelle.jpg
+    img: /images/wewes/Alexis-Morelle.jpeg
   -
     name: Michaël Dangleterre
     title: Cloud Runner
