@@ -57,7 +57,7 @@ wewes:
   -
     name: Maxence Maireaux
     title: Cloud Builder
-    img: /images/wewes/carre-maxence-maireaux.png
+    img: /images/wewes/maxence-maireaux.jpeg
   -
     name: Akram Blouza
     title: Cloud Builder
