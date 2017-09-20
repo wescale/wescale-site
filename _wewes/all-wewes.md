@@ -75,4 +75,18 @@ wewes:
     title: Cloud Future
     img: /images/wewes/barney-stinson.png
     job: true
+  -
+    name: Alexis Morelle
+    title: Cloud Builder
+    img: /images/wewes/Alexis-Morelle.jpg
+  -
+    name: Michaël Dangleterre
+    title: Cloud Runner
+    img: /images/wewes/michael-dangleterre.jpg
+  -
+    name: Chafik Belhaoues
+    title: Cloud Runner
+    img: /images/wewes/chafik-belhaoues.jpg
+
+
 ---
