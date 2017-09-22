@@ -13,22 +13,20 @@ class: formations
               <h1 class="title">Découvrez nos formations</h1>
             </div>
           </div>
+            <div class="flex-container">
           {% for formation in site.formations %}
-          <div class="row formation">
-            <div class="col-md-2">
-              <div class="course-image">
-                <img width="150"  src="{{formation.img|relative_url}}">
-              </div>
-            </div>
-            <div class="col-md-10">
-              <h2>{{formation.title}} - <em>{{ formation.duree }}</em></h2>
-
-              <p>{{ formation.pitch }}</p>
-
-              <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
-            </div>
-          </div>
+                <div class="flex-item">
+                    <div class="thumbnail">
+                        <img class="formation-img"  src="{{formation.img|relative_url}}">
+                        <div class="caption">
+                            <h3>{{formation.title}} - <em>{{ formation.duree }}</em></h3>
+                            <p>{{ formation.pitch }}</p>
+                            <center class="formation-btn"><a href="{{ formation.url | relative_url}}" class="btn btn-primary" role="button">En savoir plus</a></center>
+                        </div>
+                    </div>
+                </div>
          {% endfor %}
+            </div>
           <div class="row">
             <div class="col-md-12">
               <p style="text-align: center;font-weight: bold;">
