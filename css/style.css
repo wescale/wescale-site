@@ -799,6 +799,11 @@ section#etapes {
     border: 1px solid #2baea8;
 }
 
+.formations-pitch {
+    display: block;
+    height: 200px;
+}
+
 .formations .button {
     width: 140px;
     text-transform: uppercase;
@@ -1280,5 +1285,10 @@ section#etapes {
 
     #google_map {
         height: 440px;
+    }
+
+    .formations-pitch {
+        display: block;
+        height: auto;
     }
 }
