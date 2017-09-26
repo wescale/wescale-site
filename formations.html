@@ -13,22 +13,33 @@ class: formations
               <h1 class="title">Découvrez nos formations</h1>
             </div>
           </div>
-          {% for formation in site.formations %}
           <div class="row formation">
-            <div class="col-md-2">
-              <div class="course-image">
+          {% for formation in site.formations %}
+            {% capture row %}{% cycle '1', '2', '3' %}{% endcapture %}
+            {% if row == '3' %}
+          <div class="row formation">
+            {% endif %}
+
+            <div class="col-md-6">
+                  <div class="thumbnail" style="padding: 10px">
+
+                <a href="{{ formation.url | relative_url}}">
                 <img width="150"  src="{{formation.img|relative_url}}">
-              </div>
-            </div>
-            <div class="col-md-10">
+                </a>
+
               <h2>{{formation.title}} - <em>{{ formation.duree }}</em></h2>
 
-              <p>{{ formation.pitch }}</p>
+              <p class="formations-pitch">{{ formation.pitch }}</p>
 
               <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
+              </div>
             </div>
+
+            {% if row == '2' %}
           </div>
+            {% endif %}
          {% endfor %}
+          </div>
           <div class="row">
             <div class="col-md-12">
               <p style="text-align: center;font-weight: bold;">
