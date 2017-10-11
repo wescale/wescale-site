@@ -87,6 +87,10 @@ wewes:
     name: Chafik Belhaoues
     title: Cloud Runner
     img: /images/wewes/chafik-belhaoues.jpg
+  -
+    name: Jérômme Bonhomme
+    title: Cloud Builder
+    img: /images/wewes/jerome-bonhomme.jpg
 
 
 ---
