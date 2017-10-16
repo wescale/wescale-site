@@ -84,11 +84,7 @@ wewes:
     title: Cloud Runner
     img: /images/wewes/michael-dangleterre.jpg
   -
-    name: Chafik Belhaoues
-    title: Cloud Runner
-    img: /images/wewes/chafik-belhaoues.jpg
-  -
-    name: Jérôme Bonhomme
+    name: Jérômme Bonhomme
     title: Cloud Builder
     img: /images/wewes/jerome-bonhomme.jpg
 
