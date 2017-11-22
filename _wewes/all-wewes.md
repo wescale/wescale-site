@@ -80,10 +80,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/Alexis-Morelle.jpeg
   -
-    name: Michaël Dangleterre
-    title: Cloud Runner
-    img: /images/wewes/michael-dangleterre.jpg
-  -
     name: Jérômme Bonhomme
     title: Cloud Builder
     img: /images/wewes/jerome-bonhomme.jpg
