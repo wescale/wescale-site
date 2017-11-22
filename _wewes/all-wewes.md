@@ -35,6 +35,7 @@ wewes:
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.png
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud platform Architect
   -
     name: Yann Lambret
     title: Cloud Builder
