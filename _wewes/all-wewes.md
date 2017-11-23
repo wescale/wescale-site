@@ -35,6 +35,7 @@ wewes:
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.png
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud platform Architect
   -
     name: Yann Lambret
     title: Cloud Builder
@@ -79,10 +80,6 @@ wewes:
     name: Alexis Morelle
     title: Cloud Builder
     img: /images/wewes/Alexis-Morelle.jpeg
-  -
-    name: Michaël Dangleterre
-    title: Cloud Runner
-    img: /images/wewes/michael-dangleterre.jpg
   -
     name: Jérômme Bonhomme
     title: Cloud Builder
