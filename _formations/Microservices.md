@@ -35,7 +35,7 @@ Connaissances système Linux, notions d’architecture logicielle, notions d’a
 ### Les Microservices
 
 * Quand ? Pourquoi ? contexte historique et architecture
-* Microservice vs monolithic, migrer mon application monolithique
+* Microservice vs monolithe, migrer mon application monolithique
 * Bénéfices (scalabilité, résilience, multi-langages, financier) et risques (complexité, maintenance, documentation, multiversion) - Release management (maintien/cycle de vie des API) - Organisation des équipes
 * Place des données
 
