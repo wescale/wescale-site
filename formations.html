@@ -15,8 +15,8 @@ class: formations
           </div>
           <div class="row formation">
           {% for formation in site.formations %}
-            {% capture row %}{% cycle '1', '2', '3' %}{% endcapture %}
-            {% if row == '3' %}
+            {% capture row %}{% cycle '1', '2' %}{% endcapture %}
+            {% if row == '1' %}
           <div class="row formation">
             {% endif %}
 

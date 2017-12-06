@@ -50,7 +50,7 @@ wewes:
     name: Stéphane Teyssier
     title: Cloud Designer
     img: /images/wewes/stephane-teyssier.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect Pro
   -
     name: Sébastien Lavayssiere
     title: Cloud Builder
@@ -72,11 +72,6 @@ wewes:
     title: Chargée de recrutement
     img: /images/wewes/pauline-poisson.jpg
   -
-    name: Et vous ?
-    title: Cloud Future
-    img: /images/wewes/barney-stinson.png
-    job: true
-  -
     name: Alexis Morelle
     title: Cloud Builder
     img: /images/wewes/Alexis-Morelle.jpeg
@@ -84,6 +79,15 @@ wewes:
     name: Jérômme Bonhomme
     title: Cloud Builder
     img: /images/wewes/jerome-bonhomme.jpg
+  -
+    name: Benoit Petit
+    title: Cloud Builder
+    img: /images/wewes/benoit-petit.jpg
+  -
+    name: Et vous ?
+    title: Cloud Future
+    img: /images/wewes/barney-stinson.png
+    job: true
 
 
 ---
