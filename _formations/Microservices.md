@@ -15,7 +15,7 @@ duree: 3 jours
 tarif: 2 200 €
 ---
 
-# Microservices - *2 jours*
+# Microservices - *3 jours*
 
 {{ page.pitch }}
 
