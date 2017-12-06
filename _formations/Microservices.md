@@ -15,7 +15,7 @@ duree: 3 jours
 tarif: 2 200 €
 ---
 
-# Kubernetes - *2 jours*
+# Microservices - *2 jours*
 
 {{ page.pitch }}
 
