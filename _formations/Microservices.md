@@ -7,7 +7,7 @@ pitch: |
     de portage. Après cette formation vous serez capable de mettre en place une réflexion et des actions au sein de
     votre équipe pour accompagner votre architecture vers cette technologie.
 
-img: /images/formations/formation-microservices.png
+img: /images/formations/microservices.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: Construire des architectures Microservices
 pdf: /pdf/formation-microservices.pdf
