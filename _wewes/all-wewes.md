@@ -88,6 +88,10 @@ wewes:
     title: Cloud Future
     img: /images/wewes/barney-stinson.png
     job: true
+  -
+    name: Johan Girondeau
+    title: Marketing et Communication
+    img: /images/wewes/designer.png
 
 
 ---
