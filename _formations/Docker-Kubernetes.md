@@ -8,7 +8,7 @@ pitch: |
     Nous allons donc lors de cette formation apprendre à utiliser et maintenir des conteneurs en production, d’abord en
     apprenant Docker et ensuite Kubernetes pour l’orchestration.
 
-img: /images/formations/kubernetes.png
+img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: Savoir construire et orchestrer les conteneurs
 pdf: /pdf/formation-docker-kubernetes.pdf
