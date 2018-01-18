@@ -70,7 +70,7 @@ wewes:
   -
     name: Pauline Poisson
     title: Chargée de recrutement
-    img: /images/wewes/pauline-poisson.jpg
+    img: /images/wewes/carre-pauline-poisson.jpg
   -
     name: Alexis Morelle
     title: Cloud Builder
@@ -78,11 +78,11 @@ wewes:
   -
     name: Jérômme Bonhomme
     title: Cloud Builder
-    img: /images/wewes/jerome-bonhomme.jpg
+    img: /images/wewes/carre-jerome-bonhomme.jpg
   -
     name: Benoit Petit
     title: Cloud Builder
-    img: /images/wewes/benoit-petit.jpg
+    img: /images/wewes/carre-benoit-petit.jpg
   -
     name: Et vous ?
     title: Cloud Future
