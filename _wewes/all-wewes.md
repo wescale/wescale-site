@@ -74,7 +74,7 @@ wewes:
   -
     name: Alexis Morelle
     title: Cloud Builder
-    img: /images/wewes/carre-Alexis-Morelle.jpeg
+    img: /images/wewes/carre-Alexis-Morelle.jpg
   -
     name: Jérômme Bonhomme
     title: Cloud Builder
