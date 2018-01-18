@@ -34,12 +34,12 @@ wewes:
   -
     name: Bastien Cadiot
     title: Cloud Builder
-    img: /images/wewes/carre-bastien-cadiot.png
+    img: /images/wewes/carre-bastien-cadiot.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud platform Architect
   -
     name: Yann Lambret
     title: Cloud Builder
-    img: /images/wewes/Yann-Lambret.jpg
+    img: /images/wewes/carre-Yann-Lambret.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
   -
     name: Nicolas Diez
@@ -58,7 +58,7 @@ wewes:
   -
     name: Maxence Maireaux
     title: Cloud Builder
-    img: /images/wewes/maxence-maireaux.jpeg
+    img: /images/wewes/carre-maxence-maireaux.jpg
   -
     name: Akram Blouza
     title: Cloud Builder
@@ -66,23 +66,23 @@ wewes:
   -
     name: René Okouya
     title: Cloud Builder
-    img: /images/wewes/carre-rene-okouya.png
+    img: /images/wewes/carre-rene-okouya.jpg
   -
     name: Pauline Poisson
     title: Chargée de recrutement
-    img: /images/wewes/pauline-poisson.jpg
+    img: /images/wewes/carre-pauline-poisson.jpg
   -
     name: Alexis Morelle
     title: Cloud Builder
-    img: /images/wewes/Alexis-Morelle.jpeg
+    img: /images/wewes/carre-Alexis-Morelle.jpg
   -
     name: Jérômme Bonhomme
     title: Cloud Builder
-    img: /images/wewes/jerome-bonhomme.jpg
+    img: /images/wewes/carre-jerome-bonhomme.jpg
   -
     name: Benoit Petit
     title: Cloud Builder
-    img: /images/wewes/benoit-petit.jpg
+    img: /images/wewes/carre-benoit-petit.jpg
   -
     name: Et vous ?
     title: Cloud Future
@@ -90,7 +90,7 @@ wewes:
     job: true
   -
     name: Johan Girondeau
-    title: Marketing et Communication
+    title: Responsable Marketing et Communication
     img: /images/wewes/designer.png
 
 
