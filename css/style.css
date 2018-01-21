@@ -800,7 +800,7 @@ section#etapes {
 }
 
 
-.job-button {
+a.job-button {
     font-family: 'Open Sans Condensed', sans-serif;
     background: #2baea8;
     color: white;
@@ -814,7 +814,7 @@ section#etapes {
     text-decoration: none;
 }
 
-.job-button:hover {
+a.job-button:hover {
     background: #567997;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
