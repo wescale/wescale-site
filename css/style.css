@@ -799,6 +799,9 @@ section#etapes {
     border: 1px solid #2baea8;
 }
 
+.job-profils a.job-button {
+    color: white;
+}
 
 a.job-button {
     font-family: 'Open Sans Condensed', sans-serif;
