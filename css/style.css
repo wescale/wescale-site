@@ -792,11 +792,40 @@ section#etapes {
     /* background: white; */
     color: #6a8aaa;
     font-size: 20px;
+    display: block;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border: 1px solid #2baea8;
+}
+
+
+.job-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #2baea8;
+    color: white;
+    font-size: 20px;
     display: inline-block;
     line-height: 35px;
     margin: 10px 0;
     padding: 0 5px;
     border: 1px solid #2baea8;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.job-button:hover {
+    background: #567997;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border: 1px solid #2baea8;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .formations-pitch {
