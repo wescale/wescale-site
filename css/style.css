@@ -807,7 +807,7 @@ a.job-button {
     font-family: 'Open Sans Condensed', sans-serif;
     background: #2baea8;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
     line-height: 35px;
     margin: 10px 0;
@@ -815,13 +815,16 @@ a.job-button {
     border: 1px solid #2baea8;
     font-weight: bolder;
     text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 a.job-button:hover {
     background: #567997;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
     line-height: 35px;
     margin: 10px 0;
@@ -829,6 +832,9 @@ a.job-button:hover {
     border: 1px solid #2baea8;
     font-weight: bolder;
     text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .formations-pitch {
