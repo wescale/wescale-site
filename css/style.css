@@ -854,7 +854,10 @@ a.job-button:hover {
     background-position: center center;
     background-size: cover;
     color: white;
-    padding-top: 300px;
+}
+
+.job-spacer {
+    padding-top: 500px;
 }
 
 .formations-pitch {
