@@ -857,7 +857,7 @@ a.job-button:hover {
 }
 
 .job-spacer {
-    padding-top: 500px;
+    min-height: 100vh;
 }
 
 .formations-pitch {
