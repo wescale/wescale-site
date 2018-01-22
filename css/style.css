@@ -851,7 +851,7 @@ a.job-button:hover {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
     background-image: url(../images/weFamily.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center -10em;
     background-size: cover;
     color: white;
 }
