@@ -864,12 +864,38 @@ a.job-button:hover {
     background-size: cover;
 }
 
+.image-holder-left {
+    height: 100%;
+}
+.welcome-box {
+    background-image: url(../images/welcome_box_4x3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
 .job-bg p {
     display: inline-block;
     background-color: white;
     opacity: 0.6;
     color: black;
 }
+
+.icon-holder {
+    float: left;
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.icon-text {
+    float: left;
+    display: inline-block;
+    width: 250px;
+}
+
 
 .formations-pitch {
     display: block;
