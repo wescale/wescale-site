@@ -782,7 +782,7 @@ section#etapes {
     color: #00a89e;
 }
 
-.formation h2, .formation h3 {
+.formation h2, .formation h3, .job h2 {
     color: #6a8aaa;
     margin-bottom: 20px;
 }
