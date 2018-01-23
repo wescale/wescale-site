@@ -842,22 +842,33 @@ a.job-button:hover {
     background: #2baea8; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(left, #2baea8 0%, #567997 100%); /* FF3.6-15 */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2baea8), color-stop(100%, #567997)); /* Chrome4-9,Safari4-5 */
-    background: -webkit-linear-gradient(left, #2baea8 0%, #567997 100%); /* Chrome10-25,Safari5.1-6 */
-    background: -o-linear-gradient(left, #2baea8 0%, #567997 100%); /* Opera 11.10-11.50 */
-    background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
-    background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-    background-image: url(../images/weFamily.png);
+    background-image: url(../images/ban_page%20_recrutement.png);
     background-repeat: no-repeat;
-    background-position: center -10em;
+    background-position: center center;
     background-size: cover;
     color: white;
 }
 
 .job-spacer {
-    min-height: 100vh;
+    min-height: 350px;
+}
+
+.job .content {
+    min-height: 0%;
+}
+
+.job-bg {
+    background-image: url(../images/welcome_box.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.job-bg p {
+    display: inline-block;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
 }
 
 .formations-pitch {
