@@ -325,6 +325,11 @@ if (typeof jQuery === 'undefined') {
     $('#rejoignez-nous').click(function (evt) {
         evt.preventDefault();
     });
+
+     $('#nous-rejoindre').click(function (evt) {
+            evt.preventDefault();
+            $(window).scrollTo($('#rejoindre-wescale'), {duration:500, offset: -70});
+        });
     $('#rejoignez-nous-form').submit(function (evt) {
         evt.preventDefault();
 

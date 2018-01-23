@@ -864,8 +864,16 @@ a.job-button:hover {
     background-size: cover;
 }
 
+.side-image {
+    position: relative;
+    padding: 0px;
+}
+
 .image-holder-left {
+    position: absolute;
+    overflow: hidden;
     height: 100%;
+    top: 0px;
 }
 .welcome-box {
     background-image: url(../images/welcome_box_4x3.jpeg);
@@ -873,6 +881,10 @@ a.job-button:hover {
     background-position: center center;
     background-size: cover;
     height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .job-bg p {
@@ -1152,7 +1164,7 @@ a.job-button:hover {
 }
 
 .job .history {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 30px;
 }
 
@@ -1160,6 +1172,9 @@ a.job-button:hover {
     color: black;
 }
 
+.job .more {
+    margin: 20px 0 0;
+}
 
 /** RESPONSIVE **/
 @media (max-width: 1200px) {
