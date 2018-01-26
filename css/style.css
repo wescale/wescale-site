@@ -782,7 +782,7 @@ section#etapes {
     color: #00a89e;
 }
 
-.formation h2, .formation h3 {
+.formation h2, .formation h3, .job h2 {
     color: #6a8aaa;
     margin-bottom: 20px;
 }
@@ -798,6 +798,116 @@ section#etapes {
     padding: 0 5px;
     border: 1px solid #2baea8;
 }
+
+.job-profils a.job-button {
+    color: white;
+}
+
+a.job-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #2baea8;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border: 1px solid #2baea8;
+    font-weight: bolder;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a.job-button:hover {
+    background: #567997;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border: 1px solid #2baea8;
+    font-weight: bolder;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.job-family {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
+    background: #2baea8; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background-image: url(../images/ban_page%20_recrutement.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.job-spacer {
+    min-height: 350px;
+}
+
+.job .content {
+    min-height: 0%;
+}
+
+.job-bg {
+    background-image: url(../images/welcome_box.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.side-image {
+    position: relative;
+    padding: 0px;
+}
+
+.image-holder-left {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    top: 0px;
+}
+.welcome-box {
+    background-image: url(../images/welcome_box_4x3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.job-bg p {
+    display: inline-block;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+}
+
+.icon-holder {
+    float: left;
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.icon-text {
+    float: left;
+    display: inline-block;
+    width: 250px;
+}
+
 
 .formations-pitch {
     display: block;
@@ -1054,7 +1164,7 @@ section#etapes {
 }
 
 .job .history {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 30px;
 }
 
@@ -1062,6 +1172,9 @@ section#etapes {
     color: black;
 }
 
+.job .more {
+    margin: 20px 0 0;
+}
 
 /** RESPONSIVE **/
 @media (max-width: 1200px) {
