@@ -76,7 +76,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Alexis-Morelle.jpg
   -
-    name: Jérômme Bonhomme
+    name: Jérôme Bonhomme
     title: Cloud Builder
     img: /images/wewes/carre-jerome-bonhomme.jpg
   -
@@ -92,6 +92,10 @@ wewes:
     name: Johan Girondeau
     title: Responsable Marketing et Communication
     img: /images/wewes/designer.png
+  -
+    name: Laëtitia Bouyahia
+    title: Cloud Account Manager
+    img: /images/wewes/carre-laetitia-bouyahia.jpg
 
 
 ---
