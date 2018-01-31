@@ -265,7 +265,9 @@ img {
     min-height: 100vh;
     color: white;
     padding-bottom: 21px;
+    /*
     padding-top: 100px;
+    */
 }
 
 .partenariats .home-top, .formations .home-top {
@@ -285,7 +287,9 @@ img {
     background-position: center center;
     background-size: cover;
     color: white;
+    /*
     padding-top: 100px;
+    */
 }
 
 .home-top .up-title {
@@ -578,6 +582,18 @@ section#etapes {
 #rejoignez-nous-form {
     color: black;
     text-align: left;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.home-layer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .home-techtrends {
