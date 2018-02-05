@@ -265,7 +265,9 @@ img {
     min-height: 100vh;
     color: white;
     padding-bottom: 21px;
+    /*
     padding-top: 100px;
+    */
 }
 
 .partenariats .home-top, .formations .home-top {
@@ -285,7 +287,9 @@ img {
     background-position: center center;
     background-size: cover;
     color: white;
+    /*
     padding-top: 100px;
+    */
 }
 
 .home-top .up-title {
@@ -337,7 +341,8 @@ img {
     margin-top: initial;
 }
 
-.col-md-8.home-content {}
+.col-md-8.home-content {
+}
 
 .partenariats .home-text {
     margin: auto;
@@ -580,6 +585,20 @@ section#etapes {
     text-align: left;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-layer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
 .home-techtrends {
     background-color: #f4f4f4;
 }
@@ -596,7 +615,6 @@ section#etapes {
 .techtrends-title p {
     font-size: medium;
 }
-
 
 .techtrends {
     margin: 0px 0;
@@ -801,6 +819,7 @@ section#etapes {
 
 .job-profils a.job-button {
     color: white;
+    padding: 10px;
 }
 
 a.job-button {
@@ -818,6 +837,8 @@ a.job-button {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    padding: 10px;
+
 }
 
 a.job-button:hover {
@@ -835,6 +856,8 @@ a.job-button:hover {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    padding: 10px;
+
 }
 
 .job-family {
@@ -875,6 +898,7 @@ a.job-button:hover {
     height: 100%;
     top: 0px;
 }
+
 .welcome-box {
     background-image: url(../images/welcome_box_4x3.jpeg);
     background-repeat: no-repeat;
@@ -885,6 +909,7 @@ a.job-button:hover {
     position: absolute;
     top: 0px;
     left: 0px;
+    text-align: center;
 }
 
 .job-bg p {
@@ -907,7 +932,6 @@ a.job-button:hover {
     display: inline-block;
     width: 250px;
 }
-
 
 .formations-pitch {
     display: block;

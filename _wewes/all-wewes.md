@@ -43,9 +43,9 @@ wewes:
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
   -
     name: Nicolas Diez
-    title: Cloud Runner
+    title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro
   -
     name: Stéphane Teyssier
     title: Cloud Designer
