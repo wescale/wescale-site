@@ -45,7 +45,7 @@ wewes:
     name: Nicolas Diez
     title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Engineer - Pro
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro
   -
     name: Stéphane Teyssier
     title: Cloud Designer
