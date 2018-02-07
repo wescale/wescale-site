@@ -99,11 +99,11 @@ wewes:
   -
     name: Karen Da Silva
     title: Chargée de recrutement
-    img: /images/wewes/carre-laetitia-bouyahia.jpg
+    img: /images/wewes/carre-karen-da-silva.jpg
   -
     name: Jonathan Forget
     title: Cloud Builder
-    img: /images/wewes/carre-laetitia-bouyahia.jpg
+    img: /images/wewes/carre-jonathan-forget.jpg
 
 
 ---
