@@ -20,7 +20,7 @@ wewes:
     img: /images/wewes/carre-luc-legardeur.jpg
   -
     name: Margot Robine
-    title: Responsable recrutement et formation
+    title: DRH
     img: /images/wewes/carre-margot-robine.jpg
   -
     name: Céline Rochay
@@ -69,7 +69,7 @@ wewes:
     img: /images/wewes/carre-rene-okouya.jpg
   -
     name: Pauline Poisson
-    title: Chargée de recrutement
+    title: Responsable juridique et RH
     img: /images/wewes/carre-pauline-poisson.jpg
   -
     name: Alexis Morelle
@@ -91,10 +91,18 @@ wewes:
   -
     name: Johan Girondeau
     title: Responsable Marketing et Communication
-    img: /images/wewes/designer.png
+    img: /images/wewes/carre-johan-girondeau.jpg
   -
     name: Laëtitia Bouyahia
     title: Cloud Account Manager
+    img: /images/wewes/carre-laetitia-bouyahia.jpg
+  -
+    name: Karen Da Silva
+    title: Chargée de recrutement
+    img: /images/wewes/carre-laetitia-bouyahia.jpg
+  -
+    name: Jonathan Forget
+    title: Cloud Builder
     img: /images/wewes/carre-laetitia-bouyahia.jpg
 
 
