@@ -6,4 +6,5 @@ max_age:
   "js/*": 86400
   "css/*": 86400
   "*": 86400
-  
+cloudfront_distribution_id: E28AY7OUP1ION5
+cloudfront_wildcard_invalidation: true
