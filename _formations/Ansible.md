@@ -60,7 +60,15 @@ Connaissances système Linux de base
 
 ## Méthodes pédagogiques
 
-50% de théorie et 50% de pratique
+Après une instruction des bases de l'outil, son fonctionnement interne, sa
+syntaxe et ses cas d'usages, la formation rentre dans un rythme d'alternance
+entre 1h d'instruction sur des modules particuliers et la mise en pratique
+immédiate des connaissances.
+
+Le fil rouge de la mise en pratique consiste à monter, sur Amazon Web
+Services, une architecture de serveur web avec load-balancing. Chaque phase
+de mise en pratique est clôturée par une lecture détaillée d'un corrigé ainsi
+qu’un tour de table.
 
 # Formateur
 
