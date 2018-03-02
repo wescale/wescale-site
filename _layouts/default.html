@@ -203,6 +203,13 @@ if (typeof jQuery === 'undefined') {
             $( this ).addClass( "form-group" );
         });
 
+        $("input[type='text']").each(function(index){
+            $( this ).addClass( "form-control" );
+        });
+        $("input[type='email']").each(function(index){
+            $( this ).addClass( "form-control" );
+        });
+
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
             $(window).scrollTo($('#etapes'), 500);
