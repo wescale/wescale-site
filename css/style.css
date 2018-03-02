@@ -87,6 +87,7 @@ input {
     float: right;
 }
 
+
 input[type="submit"] {
     font-family: 'Open Sans Condensed', sans-serif;
     background: white;
@@ -95,6 +96,16 @@ input[type="submit"] {
     color: #2baea8;
     font-weight: bold;
     font-size: 20px;
+}
+
+.contact input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.contact ul {
+    list-style: none;
 }
 
 textarea {
