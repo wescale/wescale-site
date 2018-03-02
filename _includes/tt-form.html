@@ -6,6 +6,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Télécharger le TechTrends {{include.tt|capitalize}}</h4>
                       </div>
+
+                        <div class="modal-body" id="tt-body">
 {% if include.tt == 'conteneurs' %}
 <!--[if lte IE 8]>
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
@@ -32,7 +34,7 @@
 });
 </script>
 {% endif %}
-
+</div>
                          <!--<form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form-{{include.tt}}">
                       <div class="modal-body" id="tt-body">
 

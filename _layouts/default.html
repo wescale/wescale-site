@@ -199,16 +199,23 @@ if (typeof jQuery === 'undefined') {
 
     $(document).ready(function () {
 
-        $('div.hs-form-field').each(function(index){
-            $( this ).addClass( "form-group" );
-        });
+        var modal = function (e) {
+            // do something...
 
-        $("input[type='text']").each(function(index){
-            $( this ).addClass( "form-control" );
-        });
-        $("input[type='email']").each(function(index){
-            $( this ).addClass( "form-control" );
-        });
+            $('div.hs-form-field').each(function(index){
+                $( this ).addClass( "form-group" );
+            });
+
+            $("input[type='text']").each(function(index){
+                $( this ).addClass( "form-control" );
+            });
+            $("input[type='email']").each(function(index){
+                $( this ).addClass( "form-control" );
+            });
+        };
+
+        $('#myModal-cloud').on('show.bs.modal', modal);
+        $('#myModal-conteneurs').on('show.bs.modal', modal);
 
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
