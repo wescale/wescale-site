@@ -6,7 +6,34 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Télécharger le TechTrends {{include.tt|capitalize}}</h4>
                       </div>
-                         <form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form-{{include.tt}}">
+{% if include.tt == 'conteneurs' %}
+<!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+  <![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "2583450",
+	formId: "aa50fb37-1e68-4413-bb7d-de835e84fc7b",
+	css: ""
+});
+</script>
+{% endif %}
+{% if include.tt == 'cloud' %}
+<!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+  <![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "2583450",
+	formId: "0cba3fdb-25be-45d3-82c0-ad180efecbe0",
+	css: ""
+});
+</script>
+{% endif %}
+
+                         <!--<form method="POST" accept-charset="UTF-8" data-toggle="validator" id="tt-form-{{include.tt}}">
                       <div class="modal-body" id="tt-body">
 
                             <div class="form-group">
@@ -54,7 +81,7 @@
                       <div class="modal-footer">
                           <div class="pull-left">Un e-mail vous sera envoyé avec le lien.</div><input type="submit" value="Envoyer" class="pull-right" id="tt-submit-{{include.tt}}" />
                         </div>
-                        </form>
+                        </form>-->
                     </div>
                   </div>
                 </div>
