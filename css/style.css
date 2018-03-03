@@ -328,11 +328,11 @@ img {
     text-transform: none;
 }
 
-.home-top .modal-dialog .inputs-list {
+.inputs-list {
     list-style: none;
 }
 
-.home-top .modal-dialog .inputs-list span{
+.inputs-list span{
     padding-left: 5px;
 }
 
