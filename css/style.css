@@ -328,8 +328,17 @@ img {
     text-transform: none;
 }
 
+.home-top .modal-dialog ul {
+    list-style: none;
+}
+
 .home-top .modal-dialog {
     color: black;
+}
+
+
+.home-top .modal-dialog input[type="submit"] {
+    float: right;
 }
 
 .home-top h3 {
