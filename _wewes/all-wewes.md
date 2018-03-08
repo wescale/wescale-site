@@ -8,7 +8,7 @@ wewes:
     name: Séven Lemesle
     title: Président, co-fondateur
     img: /images/wewes/carre-seven-lemesle.png
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud platform Architect
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect
   -
     name: Aurélien Maury
     title: Directeur technique, co-fondateur
@@ -35,7 +35,8 @@ wewes:
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud platform Architect
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Experts 
   -
     name: Yann Lambret
     title: Cloud Builder
