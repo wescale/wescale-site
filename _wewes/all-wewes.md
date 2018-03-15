@@ -9,11 +9,13 @@ wewes:
     title: Président, co-fondateur
     img: /images/wewes/carre-seven-lemesle.png
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect
+    blogname: slemesle
   -
     name: Aurélien Maury
     title: Directeur technique, co-fondateur
     img: /images/wewes/carre-aurelien-maury.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
+    blogname: aurelien-maury
   -
     name: Luc Legardeur
     title: Directeur général, co-fondateur
@@ -31,12 +33,14 @@ wewes:
     title: Cloud Designer
     img: /images/wewes/carre-thomas-cousin.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
+    blogname: thomas-cousin
   -
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
           <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Experts 
+    blogname: bastien-cadiot
   -
     name: Yann Lambret
     title: Cloud Builder
@@ -47,27 +51,33 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro
+    blogname: nicolas-diez
   -
     name: Stéphane Teyssier
     title: Cloud Designer
     img: /images/wewes/stephane-teyssier.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect Pro
+    blogname: stephane-teyssier
   -
     name: Sébastien Lavayssiere
     title: Cloud Builder
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
+    blogname: sebastien-lavayssiere
   -
     name: Maxence Maireaux
     title: Cloud Builder
     img: /images/wewes/carre-maxence-maireaux.jpg
+    blogname: maxence-maireaux
   -
     name: Akram Blouza
     title: Cloud Builder
     img: /images/wewes/carre-akram-blouza.jpg
+    blogname: akram-blouza
   -
     name: René Okouya
     title: Cloud Builder
     img: /images/wewes/carre-rene-okouya.jpg
+    blogname: rene-okouya
   -
     name: Pauline Poisson
     title: Responsable juridique et RH
@@ -76,6 +86,7 @@ wewes:
     name: Alexis Morelle
     title: Cloud Builder
     img: /images/wewes/carre-Alexis-Morelle.jpg
+    blogname: alexis-morelle
   -
     name: Jérôme Bonhomme
     title: Cloud Builder
@@ -84,6 +95,7 @@ wewes:
     name: Benoit Petit
     title: Cloud Builder
     img: /images/wewes/carre-benoit-petit.jpg
+    blogname: benoit-petit
   -
     name: Et vous ?
     title: Cloud Future

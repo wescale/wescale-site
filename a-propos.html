@@ -94,6 +94,8 @@ class: a-propos
                             <div class="equipe-name">
                                 {% if we.job %}
                                 <a href="recrutement.html">
+                                {% elsif we.blogname %}
+                                <a href="http://blog.wescale.fr/author/{{we.blogname}}">
                                 {% endif %}
                                 <h2>{{we.name}}</h2>
                                 <h3>{{we.title}}</h3>
@@ -103,6 +105,8 @@ class: a-propos
                                 </p>
                                 {% endif %}
                                 {% if we.job %}
+                                </a>
+                                {% elsif we.blogname %}
                                 </a>
                                 {% endif %}
                             </div>
