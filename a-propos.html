@@ -99,14 +99,15 @@ class: a-propos
                                 {% endif %}
                                 <h2>{{we.name}}</h2>
                                 <h3>{{we.title}}</h3>
+                                {% if we.blogname %}
+                                </a>
+                                {% endif %}
                                 {% if we.text %}
                                 <p style="text-align: center; color: white;">
                                     {{ we.text }}
                                 </p>
                                 {% endif %}
                                 {% if we.job %}
-                                </a>
-                                {% elsif we.blogname %}
                                 </a>
                                 {% endif %}
                             </div>
