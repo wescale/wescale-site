@@ -11,7 +11,7 @@ pitch: |
      environnement de production.
 
 img: /images/formations/terraform.png
-formateur_img: /images/wewes/maxence-maireaux.jpeg
+formateur_img: /images/wewes/aurelien-maury.jpeg
 subtitle: Infrastructure as Code pour tous
 pdf: /pdf/Formation-Terraform.pdf
 duree: 2 jours
@@ -81,4 +81,4 @@ serveur web avec load-balancing. Chaque phase de mise en pratique est close par 
 
 # Formateur
 
-{% include formateur.html nom_formateur="maxence-maireaux" %}
+{% include formateur.html nom_formateur="aurelien-maury" %}
