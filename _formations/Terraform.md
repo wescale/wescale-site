@@ -11,7 +11,7 @@ pitch: |
      environnement de production.
 
 img: /images/formations/terraform.png
-formateur_img: /images/wewes/aurelien-maury.jpeg
+formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: Infrastructure as Code pour tous
 pdf: /pdf/Formation-Terraform.pdf
 duree: 2 jours
