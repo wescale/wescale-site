@@ -22,3 +22,4 @@ Then Browse S3 bucket :
 
 http://www.wescale.fr.s3-website-eu-west-1.amazonaws.com/
 
+Modify the readme to force a rebuild
