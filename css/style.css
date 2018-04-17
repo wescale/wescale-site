@@ -72,7 +72,8 @@ input {
 }
 
 .contact input,
-.contact textarea {
+.contact textarea,
+.contact select {
     width: 100%;
     display: block;
     line-height: 35px;
