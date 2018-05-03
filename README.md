@@ -7,7 +7,7 @@ Our public site code
 # Develop
 
 ```
-docker run -ti -v./:/srv/jekyll -p 4000:4000 jekyll/jekyll
+docker run -ti -v$PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll:3.5 jekyll server
 ```
 
 Then Browse http://localhost:4000

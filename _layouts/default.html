@@ -199,27 +199,26 @@ if (typeof jQuery === 'undefined') {
 
     $(document).ready(function () {
 
-        var url = 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fblog.wescale.fr%2Frss%2F&api_key=snacnrx7u8smtnuy9kz5jyrtnb2nk05jrtwksog5&order_dir=desc&count=4';
+        var modal = function (e) {
+            // do something...
 
-        $.ajax({url: url,  crossDomain: true,
-                 success: function (data) {
-                 $('#news-spin').remove();
-                var i = 0;
-                for (var i = 0; i < data.items.length; i++) {
-                    if (i > 3)
-                        break;
-                    var entry = data.items[i];
+            $('div.hs-form-field').each(function(index){
+                $( this ).addClass( "form-group" );
+            });
 
-                    $('#home-news').append('' +
-                            '<blockquote cite="' + entry.link + '">' +
-                            '<p class="news-date"><a href="' + entry.link + '">' + moment(entry.pubDate, "YYYY-MM-DD HH:mm:ss").format('DD.MM.YYYY') + '</a></p>' +
-                            '<h2 class="news-title"><a href="' + entry.link + '">' + entry.title + '</a></h2>' +
-                            '<p><a href="' + entry.link + '">' + entry.author + '</a></p>' +
-                            '<p class="news-readmore"><a href="' + entry.link + '">Lire la suite</a></p>' +
-                            '</blocquote>');
-                }
+            $("input[type='text']").each(function(index){
+                $( this ).addClass( "form-control" );
+            });
+            $("input[type='email']").each(function(index){
+                $( this ).addClass( "form-control" );
+            });
+            $("div.hs-submit").each(function(index){
+                $( this ).addClass( "modal-footer" );
+            });
+        };
 
-            }});
+        $('#myModal-cloud').on('show.bs.modal', modal);
+        $('#myModal-conteneurs').on('show.bs.modal', modal);
 
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
