@@ -465,30 +465,55 @@ if (typeof jQuery === 'undefined') {
 <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
 <script type="text/javascript">
     var egg = new Egg();
+    var loadedEgg = false;
     egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
         $('#egg-container').fadeIn();
-        $.getScript( "egg/phaser.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/boot.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/load.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/menu.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/common.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/audiopool.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/storage.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/intro.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/play.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/tutorial.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/ingame_menu.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/summary.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/win.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/hud.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/game.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/text.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/hero.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/capsule.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/virus.js", function( data, textStatus, jqxhr ) {});
-        $.getScript( "egg/changer.js", function( data, textStatus, jqxhr ) {});
 
+        if (!loadedEgg) {
+            $.getScript("egg/phaser.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/boot.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/load.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/menu.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/common.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/audiopool.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/storage.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/intro.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/play.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/tutorial.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/ingame_menu.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/summary.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/win.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/hud.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/game.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/text.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/hero.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/capsule.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/virus.js", function (data, textStatus, jqxhr) {
+            });
+            $.getScript("egg/changer.js", function (data, textStatus, jqxhr) {
+            });
+        }
     });
+
+    egg.listen();
 
 </script>
 
