@@ -471,8 +471,7 @@ if (typeof jQuery === 'undefined') {
 
         if (!loadedEgg) {
             $.getScript("egg/phaser.js", function (data, textStatus, jqxhr) {
-            });
-            $.getScript("egg/boot.js", function (data, textStatus, jqxhr) {
+                 $.getScript("egg/boot.js", function (data, textStatus, jqxhr) {
             });
             $.getScript("egg/load.js", function (data, textStatus, jqxhr) {
             });
@@ -510,6 +509,8 @@ if (typeof jQuery === 'undefined') {
             });
             $.getScript("egg/changer.js", function (data, textStatus, jqxhr) {
             });
+            });
+
         }
     });
 
