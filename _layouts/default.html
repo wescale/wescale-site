@@ -466,7 +466,7 @@ if (typeof jQuery === 'undefined') {
 <script type="text/javascript">
     var egg = new Egg();
     egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
-        $('egg-container').fadeIn();
+        $('#egg-container').fadeIn();
         $.getScript( "egg/phaser.js", function( data, textStatus, jqxhr ) {});
         $.getScript( "egg/boot.js", function( data, textStatus, jqxhr ) {});
         $.getScript( "egg/load.js", function( data, textStatus, jqxhr ) {});
