@@ -27,6 +27,18 @@
     <![endif]-->
 </head>
 <body class="{{page.class}}">
+  <div id="egg-container" style="display: none;">
+    <div id="game"></div>
+    <!-- p class="instructions">Infectors is a sokoban-like game where you have to capture viruses in cryogenic capsules.</p -->
+    <p class="instructions">CONTROLS</p>
+    <p class="instructions">Move with the arrow keys, Escape for menu, R to restart, Q to quit, M to mute</p>
+    <br/>
+    <p class="instructions">Version 1.0.3 – Created by <a href="http://twitter.com/satanas82">Wil Alvarez</a></p>
+    <p class="instructions">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+    </p>
+  </div>
+
 
 <!-- Navigation -->
 <nav class="navbar navbar-default">
@@ -448,6 +460,38 @@ if (typeof jQuery === 'undefined') {
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2583450.js"></script>
 <!-- End of HubSpot Embed Code -->
+
+<!-- Egg  -->
+<script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+<script type="text/javascript">
+    var egg = new Egg();
+    egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
+        $('egg-container').fadeIn();
+        $.getScript( "egg/phaser.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/boot.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/load.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/menu.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/common.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/audiopool.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/storage.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/intro.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/play.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/tutorial.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/ingame_menu.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/summary.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/win.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/hud.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/game.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/text.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/hero.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/capsule.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/virus.js", function( data, textStatus, jqxhr ) {});
+        $.getScript( "egg/changer.js", function( data, textStatus, jqxhr ) {});
+
+    });
+
+</script>
+
 <!-- /Footer -->
 </body>
 </html>
