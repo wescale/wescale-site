@@ -42,11 +42,6 @@ wewes:
           <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Experts 
     blogname: bastien-cadiot
   -
-    name: Yann Lambret
-    title: Cloud Builder
-    img: /images/wewes/carre-Yann-Lambret.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
-  -
     name: Nicolas Diez
     title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
@@ -87,10 +82,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Alexis-Morelle.jpg
     blogname: alexis-morelle
-  -
-    name: Jérôme Bonhomme
-    title: Cloud Builder
-    img: /images/wewes/carre-jerome-bonhomme.jpg
   -
     name: Benoit Petit
     title: Cloud Builder
