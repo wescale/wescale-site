@@ -18,7 +18,7 @@ pitch: |
     approfondir et utiliser cet outil en
     environnement de production.
 img: /images/formations/xl_deploy.png
-formateur_img: /images/wewes/carre-aurelien-maury.png
+formateur_img: /images/wewes/carre-david-acremann.png
 subtitle: Automatisation IT simplifiée
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
@@ -90,5 +90,5 @@ Les concepts présentés sous forme de planches visuelles sont soutenus par des 
 
 # Formateur
 
-{% include formateur.html nom_formateur="aurelien-maury" %}
+{% include formateur.html nom_formateur="david-acremann" %}
 
