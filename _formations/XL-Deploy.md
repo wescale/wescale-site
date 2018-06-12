@@ -17,7 +17,7 @@ pitch: |
     la compréhension des bonnes pratiques pour
     approfondir et utiliser cet outil en
     environnement de production.
-img: /images/formations/ansible.png
+img: /images/formations/xl_deploy.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: Automatisation IT simplifiée
 pdf: /pdf/Training-Ansible.pdf
