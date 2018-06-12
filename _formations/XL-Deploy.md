@@ -20,7 +20,7 @@ pitch: |
 img: /images/formations/xl_deploy.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: Automatisation IT simplifiée
-pdf: /pdf/Training-Ansible.pdf
+pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 350 €
 ---
