@@ -32,6 +32,7 @@ Ansible est un outil de pilotage de systèmes, sans agent, faisant partie de la 
 ## Public
 
 Journée 1 : Déployeurs, Déployeurs senior, Administrateurs système, Développeurs, Architectes, Professionnels ayant à étendre la solution.
+
 Journée 1-2-3 : Développeurs, Architectes, Professionnels ayant à étendre la solution.
 
 ## Pré-requis
