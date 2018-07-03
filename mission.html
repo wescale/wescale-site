@@ -2,6 +2,7 @@
 layout: default
 title: Notre mission - Wescale - Cloud expert
 class: mission
+img_improve: /images/Mission_rocket.png
 ---
 <section id="mission" class="mission-top">
      <div class="container">
@@ -42,7 +43,7 @@ class: mission
                     {{ my-include | markdownify }}
                 </div>
                 <div class="col-md-4 hidden-xs">
-                    <img src="images/Mission_rocket.png" class="img-thumbnail"/>
+                    <img src="{{ page.img_improve | relative_url }}" class="img-thumbnail"/>
                 </div>
             </div>
         </div>
