@@ -59,11 +59,6 @@ wewes:
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
     blogname: sebastien-lavayssiere
   -
-    name: Maxence Maireaux
-    title: Cloud Builder
-    img: /images/wewes/carre-maxence-maireaux.jpg
-    blogname: maxence-maireaux
-  -
     name: Akram Blouza
     title: Cloud Builder
     img: /images/wewes/carre-akram-blouza.jpg
