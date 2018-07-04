@@ -7,68 +7,56 @@ pitch: |
 img: /images/formations/xl_deploy.png
 formateur_img: /images/wewes/carre-david-acremann.png
 subtitle: Automatisation IT simplifiée
-pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
-duree: 3 jours
-tarif: 2 350 €
+pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
+duree: 2 jours
+tarif: 1 500 €
 ---
 
-# XL Release - *3 jours*
+# XL Release - *2 jours*
 
 XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
 
 ## Public
 
-Journée 1 : Déployeurs, Déployeurs senior, Administrateurs système, Développeurs, Architectes, Professionnels ayant à étendre la solution.
-
-Journée 1-2-3 : Développeurs, Architectes, Professionnels ayant à étendre la solution.
+Releases managers, intégrateurs, développeurs.
 
 ## Pré-requis
 
-Il n’y a pas de prérequis exigés pour suivre la formation XL Deploy de XebiaLabs.
+Il n’y a pas de prérequis exigés pour suivre la formation XL Release de XebiaLabs.
 
 ## Programme de la formation
 
-Jour 1 : Utilisation de XL Deploy
+Jour 1 : Utilisation de XL Release
 * Introduction
-* Concepts de déploiement
-* Le référentiel XL Deploy
-* Déploiement d’application
-* Tâches et étapes
-* Mise à jour d’application
-* Créer un package de déploiement
-* Gestion des placeholders et dictionnaires
-* Créer un environnement de test
-* Déploiements basés sur des « tags »
-* Orchestrateurs
-* Configuration
-* Etats
-* Pipeline de déploiement
-* Concept de sécurité
-* Configuration
+* Templates
+* Dossiers
+* Les types de tâches
+* Utilisation de variables
+* Tags et filtres
+* Introduction au ReleaseFile
+* Releases
+* Utilisation du Release dashboard
+* Vue Overview
 
-Jours 2 & 3 : Utilisation avancée, customisation et extension
-* Introduction au CLI
+Jours 2 : Utilisation avancée, customisation et extension
+* Vue Calendar
+* Intégration (Nexus, Git,…)
+* Configuration partagée
+* Triggers
+* Reporting
+* Release : gates et synchronisation
 * Introduction à l’API REST
-* Utilisation du File Plugin 
-* Utilisation du Database Plugin
-* Build et intégration continus 
-* Plugins officiels et plugins communautaires 
-* Moteur et déploiement unifié API des plugins 
-* Extensions XML et basées sur des scripts
-* Définition de propriétés 
-* Définition de type Modification de type
-* Plugin par l’exemple 
-* Intégration au moteur de règle
+* Introduction à l’écriture d’extensions
 * Introduction aux extensions UI
+
 
 ## À l’issue de la formation les stagiaires seront à même de
 
-* Maîtriser les concepts sous-jacents à XL Deploy
-* Importer, déployer et configurer des applications dans leur environnement (déploiements initiaux et mises à jour)
-* Exploiter les données du référentiel XL Deploy (rapports, tableaux de bord, plans de déploiement)
-* Étendre la solution pour supporter de nouveaux middlewares/technologies ou déclarer de nouveaux paramètres pour un middleware
-* Intégrer XL Deploy dans leur environnement technique (sécurité, LDAP, intégration avec autres outils ALM…)
-* Administrer le serveur XL Deploy
+* Maîtriser les concepts et la mise en oeuvre de XL Release
+* Appréhender les concepts fondamentaux : templates, releases, phases et tâches
+* Paramétrer XL Release
+* Apprendre à constituer des templates
+
 
 ## Méthodes pédagogiques
 
