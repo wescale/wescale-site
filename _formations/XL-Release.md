@@ -1,9 +1,9 @@
 ---
 layout: formation
-title: XL Deploy
+title: XL Release
 class: formation
 pitch: |
-    XL Deploy est un outil de déploiement automatique d’applications qui permet de déployer tout type d’applications d’entreprise (Java, Windows, bases de données etc..) sur tout type d’infrastructures et environnements (on premise ou Cloud).
+    XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
 img: /images/formations/xl_deploy.png
 formateur_img: /images/wewes/carre-david-acremann.png
 subtitle: Automatisation IT simplifiée
@@ -12,9 +12,9 @@ duree: 3 jours
 tarif: 2 350 €
 ---
 
-# XL Deploy - *3 jours*
+# XL Release - *3 jours*
 
-XL Deploy est un outil de déploiement automatique d’applications qui permet de déployer tout type d’applications d’entreprise (Java, Windows, bases de données etc..) sur tout type d’infrastructures et environnements (on premise ou Cloud).
+XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
 
 ## Public
 
