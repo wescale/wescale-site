@@ -4,7 +4,7 @@ title: XL Release
 class: formation
 pitch: |
     XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
-img: /images/formations/xl_deploy.png
+img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/carre-david-acremann.png
 subtitle: Automatisation IT simplifiée
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
