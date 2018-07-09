@@ -93,7 +93,7 @@ wewes:
     img: /images/wewes/carre-johan-girondeau.jpg
   -
     name: Laëtitia Bouyahia
-    title: Cloud Account Manager
+    title: Customer Success Manager
     img: /images/wewes/carre-laetitia-bouyahia.jpg
   -
     name: Karen Da Silva
