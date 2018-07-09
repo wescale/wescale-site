@@ -33,6 +33,8 @@ collections:
     output: true
   expertises:
     output: false
+  valeurs:
+    output: false
 
 
 exclude:

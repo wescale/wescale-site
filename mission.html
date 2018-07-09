@@ -1,0 +1,133 @@
+---
+layout: default
+title: Notre mission - Wescale - Cloud expert
+class: mission
+img_improve: /images/mission/pola-wescale.png
+---
+<section id="mission" class="mission-top">
+     <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 home-content text-center">
+                <h1 class="title bold">Notre mission</h1>
+                <h2 class="title">
+                    <b>Enrichir</b> et <b>rendre</b> accessible à tous le <b>savoir-faire</b><br/>
+                    pour faire vivre <b>l’innovation</b> au coeur des <b>systèmes d’information</b>.
+                </h2>
+
+                <p class="more">
+                    <a id="it-btn" href="#improve-together">
+                        <img src="{{"/images/more.png" | relative_url }}" alt="Improve Together" width="52"
+                        height="44" /><br/>
+                        IMPROVE TOGETHER</a>
+                </p>
+            </div>
+        </div>
+     </div>
+
+</section>
+<!--
+<div class="content">
+-->
+    <section id="improve">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="improve-together">Improve together</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+{% capture my-include %}{% include ImproveTogether.md %}{% endcapture %}
+                    {{ my-include | markdownify }}
+                </div>
+                <div class="col-md-4 hidden-xs">
+                    <img src="{{ page.img_improve | relative_url }}" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="valeurs">
+
+<div class="container-fluid content bg-light" id="portfolio">
+       <div class="row padding-btm">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Nos Valeurs</h2>
+            <h3 class="section-subheading text-muted">Découvrez comment nous les faisons vivre dans notre quotidien.</h3>
+          </div>
+        </div>
+        <div class="row no-gutters rolldown-gallery">
+{% for valeur in site.valeurs %}
+            <div class="col-md-3 col-sm-6 portfolio-item" data-content="#content-{{valeur.title| slugify }}">
+            <a class="portfolio-link">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{valeur.thumb|relative_url}}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>{{valeur.title}}</h4>
+            </div>
+          </div>
+         <div class="gridder-content col-md-12 col-sm-12" id="content-{{valeur.title| slugify }}" style="display: none;">
+                <div class="col-md-4 middle">
+                    <img src="{{valeur.img|relative_url}}">
+                </div>
+                <div class="col-md-8 middle">
+                    {{ valeur.output }}
+                </div>
+         </div>
+{% endfor %}
+        </div>
+      </div>
+</section>
+
+<section id="equipe">
+    <div class="container pad-vert-20">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="">Notre équipe</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="equipe">
+
+                {% for wewe in site.wewes %}
+                {% for we in wewe.wewes %}
+                <div class="equipe-photo col-md-3 col-xs-12"
+                     style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
+
+                    <div class="equipe-mask"></div>
+                    <div class="equipe-name">
+                        {% if we.job %}
+                        <a href="recrutement.html">
+                        {% elsif we.blogname %}
+                        <a href="http://blog.wescale.fr/author/{{we.blogname}}">
+                        {% endif %}
+                        <h2>{{we.name}}</h2>
+                        {% if we.blogname %}
+                        </a>
+                        {% endif %}
+                        <h3>{{we.title}}</h3>
+                        {% if we.text %}
+                        <p style="text-align: center; color: white;">
+                            {{ we.text }}
+                        </p>
+                        {% endif %}
+                        {% if we.job %}
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+</section>
+<!--
+</div>
+-->
+
