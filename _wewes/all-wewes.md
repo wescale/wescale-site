@@ -42,11 +42,6 @@ wewes:
           <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Experts 
     blogname: bastien-cadiot
   -
-    name: Yann Lambret
-    title: Cloud Builder
-    img: /images/wewes/carre-Yann-Lambret.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
-  -
     name: Nicolas Diez
     title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
@@ -63,11 +58,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
     blogname: sebastien-lavayssiere
-  -
-    name: Maxence Maireaux
-    title: Cloud Builder
-    img: /images/wewes/carre-maxence-maireaux.jpg
-    blogname: maxence-maireaux
   -
     name: Akram Blouza
     title: Cloud Builder
@@ -87,10 +77,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Alexis-Morelle.jpg
     blogname: alexis-morelle
-  -
-    name: Jérôme Bonhomme
-    title: Cloud Builder
-    img: /images/wewes/carre-jerome-bonhomme.jpg
   -
     name: Benoit Petit
     title: Cloud Builder
@@ -117,6 +103,20 @@ wewes:
     name: Jonathan Forget
     title: Cloud Builder
     img: /images/wewes/carre-jonathan-forget.jpg
+  -
+    name: Aymen Lamara
+    title: Cloud Builder
+    img: /images/wewes/carre-Aymen-Lamara.jpg
+    blogname: aymen-lamara
+  -
+    name: Dimitri Tchapmi
+    title: Cloud Builder
+    img: /images/wewes/carre-Dimitri-Tchapmi.jpg
+  -
+    name: Oussama Benaim
+    title: Cloud Builder
+    img: /images/wewes/carre-Oussama-Benaim.jpg
+    blogname: oussama-benaim
 
 
 ---

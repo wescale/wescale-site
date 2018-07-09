@@ -53,7 +53,7 @@ Connaissances Amazon Web Services de base.
   * Création d’une infrastructure simple sur AWS avec Terraform
   * Modularisation de code Terraform
   * Cycle de vie des “states” Terraform
-  * Création d'une infrastructure Wordpress de production avec Terraform
+  * Création d'une infrastructure web de production avec Terraform
   * Segmentation d’infrastructure pour limiter les périmètres opérationnels
   * Organisation des équipes et périmètres de responsabilité
   * Reprise d’infrastructure existante par import dans Terraform
