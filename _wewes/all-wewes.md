@@ -113,7 +113,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
   -
-    name: Oussama Benaim
+    name: Oussama Bounaim
     title: Cloud Builder
     img: /images/wewes/carre-Oussama-Benaim.jpg
     blogname: oussama-benaim
