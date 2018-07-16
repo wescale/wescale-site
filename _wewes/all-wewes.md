@@ -116,7 +116,7 @@ wewes:
     name: Oussama Bounaim
     title: Cloud Builder
     img: /images/wewes/carre-Oussama-Benaim.jpg
-    blogname: oussama-benaim
+    blogname: oussama-bounaim
 
 
 ---
