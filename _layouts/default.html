@@ -267,6 +267,8 @@ if (typeof jQuery === 'undefined') {
 
     $('.equipe div.equipe-photo').randomize();
 
+    var anchor = window.location.hash;
+
 	$('div.portfolio-item').click(function() {
 
 
@@ -278,14 +280,14 @@ if (typeof jQuery === 'undefined') {
         var openThumb = 0;
         if(current_opened_box == targetId) // if user click a opened box li again you close the box and return back
         {
-            openThumb =$('#portfolio .gridder-content').height();
-            $('#portfolio .gridder-content').slideUp('fast');
+            openThumb =$('#valeurs .gridder-content').height();
+            $('#valeurs .gridder-content').slideUp('fast');
             current_opened_box = -1;
             current_opened_box_id = -1;
             return false;
         } else if (current_opened_box != -1){
-            openThumb =$('#portfolio .gridder-content').height();
-            $('#portfolio .gridder-content').slideUp('fast');
+            openThumb =$('#valeurs .gridder-content').height();
+            $('#valeurs .gridder-content').slideUp('fast');
             if (boxId > 4 && current_opened_box_id > 4){
                 openThumb = 0;
             }
@@ -330,6 +332,10 @@ if (typeof jQuery === 'undefined') {
 		});
 
 	});
+
+    if (anchor != "") {
+       $(anchor + '.portfolio-item ').click();
+    }
     {% endif %}
 
 }(jQuery);
