@@ -71,6 +71,10 @@ input {
     background: transparent;
 }
 
+.white {
+    color: white;
+}
+
 .contact input,
 .contact textarea,
 .contact select {
@@ -88,7 +92,6 @@ input {
     float: right;
 }
 
-
 input[type="submit"] {
     font-family: 'Open Sans Condensed', sans-serif;
     background: white;
@@ -105,6 +108,7 @@ input[type="submit"] {
     margin-right: 10px;
 
 }
+
 .contact ul {
     list-style: none;
 }
@@ -222,23 +226,10 @@ img {
     box-shadow: 0 0 10px 0 #656565;
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
     overflow: hidden;
-    /* !* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 *!
-     background: #09aa9d; !* Old browsers *!
-     !* IE9 SVG, needs conditional override of 'filter' to 'none' *!
-     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-     background: -moz-linear-gradient(left,  #09aa9d 0%, #567997 100%); !* FF3.6-15 *!
-     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2baea8), color-stop(100%,#567997)); !* Chrome4-9,Safari4-5 *!
-     background: -webkit-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* Chrome10-25,Safari5.1-6 *!
-     background: -o-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* Opera 11.10-11.50 *!
-     background: -ms-linear-gradient(left,  #09aa9d 0%,#567997 100%); !* IE10 preview *!
-     background: linear-gradient(to right,  #09aa9d 0%,#567997 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09aa9d', endColorstr='#567997',GradientType=1 ); !* IE6-8 *!
-*/
 }
 
 .navbar-default .menu-background {
     opacity: 0;
-
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -ms-transition: opacity 0.3s ease-in-out;
@@ -257,7 +248,7 @@ img {
  * Page Mission
  */
 
-.mission .title {
+.mission .title, .job .title {
     text-align: center;
     border-bottom: none;
     font-weight: normal;
@@ -267,14 +258,14 @@ img {
     text-transform: none;
 }
 
-.mission .title-btn {
+.mission .title-btn, .job .title-btn {
     text-transform: uppercase;
     font-size: 25px;
     color: white;
 }
 
 
-.mission .bold{
+.mission .bold, .job .bold{
     font-weight: bold;
     font-size: 80px;
 }
@@ -303,8 +294,13 @@ img {
 #improve {
     font-size: 16px;
 }
+
 .bg-light {
     background-color: #f8f9fa!important;
+}
+
+.bg-gray {
+    background-color: #eee!important;
 }
 
 .rolldown-gallery {
@@ -315,12 +311,12 @@ img {
     padding-bottom: 40px;
 }
 
-#valeurs .portfolio-item {
+.portfolio-container .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-#valeurs .portfolio-item .portfolio-link {
+.portfolio-container .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -328,7 +324,7 @@ img {
   cursor: pointer;
 }
 
-#valeurs .portfolio-item .portfolio-link .portfolio-hover {
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -339,11 +335,11 @@ img {
   background: rgba(9,170,147,.9);
 }
 
-#valeurs .portfolio-item .portfolio-link .portfolio-hover:hover {
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-#valeurs .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -354,16 +350,16 @@ img {
   color: white;
 }
 
-#valeurs .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#valeurs .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#valeurs .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio-container .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-#valeurs .portfolio-item .portfolio-caption {
+.portfolio-container .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -371,33 +367,39 @@ img {
   background-color: #fff;
 }
 
-#valeurs .portfolio-item .portfolio-caption h4 {
+.portfolio-container .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#valeurs .portfolio-item .portfolio-caption p {
+.portfolio-container .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#valeurs .gridder-content {
+.portfolio-container .gridder-content {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
     font-size: 18px;
 }
 
-#valeurs a {
+.portfolio-container a {
     text-decoration: none;
     color: black;
+}
+
+.portfolio-hover-content h2 {
+
+    color: white!important;
 }
 
 .middle{
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
 }
 
 .pad-vert-20 {
@@ -516,9 +518,6 @@ img {
     position: relative;
     padding: 0 15px 50px 15px;
     margin-top: initial;
-}
-
-.col-md-8.home-content {
 }
 
 .partenariats .home-text {
@@ -987,6 +986,45 @@ section#etapes {
     border: 1px solid #2baea8;
 }
 
+
+
+/**
+ *
+ * Job - WeTribu - Recrutement
+ */
+.job #recrutement-top {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
+    background: #2baea8; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiYWVhOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Njc5OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left, #2baea8 0%, #567997 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2baea8), color-stop(100%, #567997)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(left, #2baea8 0%, #567997 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(left, #2baea8 0%, #567997 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
+    background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
+    background-image: url(../images/bg-cloud-grad.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    padding-bottom: 21px;
+}
+
+#recrutement-top a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#recrutement-top .bottom-line {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
 .job-profils a.job-button {
     color: white;
     padding: 10px;
@@ -1230,7 +1268,7 @@ a.job-button:hover {
     color: black;
 }
 
-.home .more a, .mission-top .more a {
+.home .more a, .mission-top .more a, .job .more a {
     color: white;
     font-size: 20px;
 }
@@ -1366,9 +1404,9 @@ a.job-button:hover {
     color: black;
 }
 
-.job .more {
+/*.job .more {
     margin: 20px 0 0;
-}
+}*/
 
 /** RESPONSIVE **/
 @media (max-width: 1200px) {

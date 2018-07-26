@@ -50,7 +50,7 @@ img_improve: /images/mission/pola-wescale.png
     </section>
     <section id="valeurs">
 
-<div class="container-fluid content bg-light" id="valeurs">
+<div class="container-fluid content bg-light portfolio-container" id="valeurs">
        <div class="row padding-btm">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Nos Valeurs</h2>
@@ -59,7 +59,7 @@ img_improve: /images/mission/pola-wescale.png
         </div>
         <div class="row no-gutters rolldown-gallery">
 {% for valeur in site.valeurs %}
-            <div class="col-md-3 col-sm-6 portfolio-item" id="#{{valeur.title| slugify: 'ascii' }}"
+            <div class="col-md-3 col-sm-6 portfolio-item" id="{{valeur.title| slugify: 'ascii' }}"
                  data-content="#content-{{valeur.title| slugify }}">
             <a class="portfolio-link" href="#{{valeur.title| slugify: 'ascii' }}">
               <div class="portfolio-hover">
