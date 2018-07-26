@@ -367,6 +367,10 @@ img {
   background-color: #fff;
 }
 
+.min-pad {
+    padding: 15px!important;
+}
+
 .portfolio-container .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
