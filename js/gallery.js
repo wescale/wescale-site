@@ -93,14 +93,14 @@
             var itemId = $this.attr('data-id');
             // Fix ME handle different elemPerRow of 4 - 2 - 1
             // Handle new 3 - 3 - 1
-            if ($(window).width() > 992) { // 4 per row
+            if ($(window).width() >= 992) { // 4 per row
                 if (parseInt(itemId) % self.elemPerRow == 0) {
                     $('[data-id="' + Math.floor((parseInt(itemId) / self.elemPerRow)) * self.elemPerRow + '"]').after($(targetId));
                 } else {
                     $('[data-id="' + Math.floor((parseInt(itemId) / self.elemPerRow) + 1) * self.elemPerRow + '"]').after($(targetId));
                 }
 
-            } else if ($(window).width() > 768) {
+            } else if ($(window).width() >= 768) {
                 if (parseInt(itemId) % self.elemPerRowMd == 0) {
                     $('[data-id="' + Math.floor((parseInt(itemId) / self.elemPerRowMd)) * self.elemPerRowMd + '"]').after($(targetId));
                 } else {
@@ -110,9 +110,7 @@
                 $('[data-id="' + itemId + '"]').after($(targetId));
             }
 
-
             $("html:not(:animated),body:not(:animated)").animate({scrollTop: targetOffset}, 500, function () {
-
                 $(targetId).slideDown(500);
                 return false;
             });
