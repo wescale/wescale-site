@@ -7,7 +7,6 @@
 +function ($) {
     'use strict';
 
-
     $.fn.randomize = function(selector){
         (selector ? this.find(selector) : this).parent().each(function(){
             $(this).children(selector).sort(function(){
@@ -92,6 +91,8 @@
             targetOffset = $(this).offset().top - 80 - openThumb;
 
             var itemId = $this.attr('data-id');
+            // Fix ME handle different elemPerRow of 4 - 2 - 1
+            // Handle new 3 - 3 - 1
             if ($(window).width() > 992) { // 4 per row
                 if (parseInt(itemId) % self.elemPerRow == 0) {
                     $('[data-id="' + Math.floor((parseInt(itemId) / self.elemPerRow)) * self.elemPerRow + '"]').after($(targetId));
@@ -134,8 +135,5 @@
 
   $.fn.wsGallery             = Plugin
   $.fn.wsGallery.Constructor = Gallery
-
-
-
 
 }(jQuery);
