@@ -999,6 +999,11 @@ section#etapes {
     font-size: 35px;
 }
 
+.formation-push-date h3 span {
+    font-size: 20px;
+    color: #698aaa;
+}
+
 .formation-push-date p.bottom-cal {
 
     border-radius: 0px 0px 20px 20px;
