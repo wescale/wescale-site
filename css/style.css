@@ -248,7 +248,7 @@ img {
  * Page Mission
  */
 
-.mission .title, .job .title {
+.mission .title, .job .title, .formations .title {
     text-align: center;
     border-bottom: none;
     font-weight: normal;
@@ -258,14 +258,14 @@ img {
     text-transform: none;
 }
 
-.mission .title-btn, .job .title-btn {
+.mission .title-btn, .job .title-btn, .formations .title-btn {
     text-transform: uppercase;
     font-size: 25px;
     color: white;
 }
 
 
-.mission .bold, .job .bold{
+.mission .bold, .job .bold, .formations .bold{
     font-weight: bold;
     font-size: 80px;
 }
@@ -518,7 +518,7 @@ img {
     margin-top: 12%;
 }
 
-.partenariats .home-content, .formations .home-content {
+.partenariats .home-content {
     position: relative;
     padding: 0 15px 50px 15px;
     margin-top: initial;
@@ -952,6 +952,75 @@ section#etapes {
 }
 
 /** FORMATIONS **/
+
+.formation-push-date {
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
+
+    /*
+    background: #509ea4;
+    */
+     background-image: url(../images/formations/fond-push-formation.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+    /* min-height: 10vh; */
+    color: white;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+
+    font-size: 15px;
+    border: #718fae 1px solid;
+}
+
+.a-none{
+    text-decoration: none;
+    color: inherit;
+}
+
+.formation-push-date .bg-green {
+
+    /* background-color: #acc5cd; */
+    /* border-radius: 10px; */
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.formation-push-date h3 {
+
+    border-radius: 20px 20px 0px 0px;
+    background-color: #4eb6b1;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+
+.formation-push-date p.bottom-cal {
+
+    border-radius: 0px 0px 20px 20px;
+    background-color: #acc5cd;
+    font-size: 22px;
+}
+
+.formation-push-date p.push-caption {
+
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #698aaa;
+    display: block;
+}
+
+.no-margin {
+    margin: 0px!important;
+}
+
 .course-image {
     text-align: center;
     margin-top: 50px;
@@ -973,7 +1042,7 @@ section#etapes {
     color: #00a89e;
 }
 
-.formation h2, .formation h3, .job h2 {
+.formation h2, .formation h3, .job h2, #formations-dates h2 {
     color: #6a8aaa;
     margin-bottom: 20px;
 }
@@ -996,7 +1065,7 @@ section#etapes {
  *
  * Job - WeTribu - Recrutement
  */
-.job #recrutement-top {
+.job #recrutement-top, .formations #formations-top {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
     background: #2baea8; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -1017,7 +1086,7 @@ section#etapes {
     padding-bottom: 21px;
 }
 
-#recrutement-top a {
+#recrutement-top a, #formations-top a {
     text-decoration: none;
     color: white;
 }
@@ -1555,11 +1624,20 @@ a.job-button:hover {
     .formations .course-image {
         display: none;
     }
+
+    .formation-push-date p.bottom-cal {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 768px) {
     .home-top .title {
         font-size: 60px;
+    }
+
+    .formation-push-date p.bottom-cal {
+        font-size: 20px;
     }
 
     .etape-1 > div,

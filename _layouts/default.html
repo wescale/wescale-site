@@ -221,6 +221,13 @@ if (typeof jQuery === 'undefined') {
     });
 
     {% endif %}
+    {% if page.class == 'formations' %}
+       $('a.scroll').click(function (evt) {
+            evt.preventDefault();
+            $(window).scrollTo($(this).attr("href"), 500);
+        });
+
+    {% endif %}
 
     {% if page.class == 'home' or page.class == 'job' %}
 
