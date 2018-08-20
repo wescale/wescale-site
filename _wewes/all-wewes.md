@@ -93,7 +93,7 @@ wewes:
     img: /images/wewes/carre-johan-girondeau.jpg
   -
     name: Laëtitia Bouyahia
-    title: Cloud Account Manager
+    title: Customer Success Manager
     img: /images/wewes/carre-laetitia-bouyahia.jpg
   -
     name: Karen Da Silva
@@ -113,10 +113,10 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
   -
-    name: Oussama Benaim
+    name: Oussama Bounaim
     title: Cloud Builder
     img: /images/wewes/carre-Oussama-Benaim.jpg
-    blogname: oussama-benaim
+    blogname: oussama-bounaim
 
 
 ---
