@@ -10,7 +10,9 @@ pitch: |
 
 img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
-subtitle: Savoir construire et orchestrer les conteneurs
+subtitle: |
+    Notre prochaine formation<br>
+    15 au 17 octobre 2018
 pdf: /pdf/formation-docker-kubernetes.pdf
 duree: 3 jours
 tarif: 2 200 €

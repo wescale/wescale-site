@@ -64,7 +64,7 @@
             <ul class="nav navbar-nav menu-links">
                 <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
                 <li><a href="{{ "/services.html" | relative_url }}">Services</a></li>
-                <li><a href="{{ "/recrutement.html"| relative_url }}">Recrutement</a></li>
+                <li><a href="{{ "/wetribu.html"| relative_url }}">WeTribu</a></li>
                 <li><a href="{{"/mission.html" | relative_url }}">Mission</a></li>
                 <!--<li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>-->
                 <li><a href="http://blog.wescale.fr/">Blog</a></li>
@@ -125,6 +125,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{"/js/gallery.js" | relative_url}}"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="{{"/js/bootstrap.min.js" | relative_url }}"></script>
 <script type = "text/javascript" src = "//maps.googleapis.com/maps/api/js?key=AIzaSyB-UJFheAfpcnYrOXJeDe3EfiTzm9cfRFU" ></script>
@@ -220,6 +221,13 @@ if (typeof jQuery === 'undefined') {
     });
 
     {% endif %}
+    {% if page.class == 'formations' %}
+       $('a.scroll').click(function (evt) {
+            evt.preventDefault();
+            $(window).scrollTo($(this).attr("href"), 500);
+        });
+
+    {% endif %}
 
     {% if page.class == 'home' or page.class == 'job' %}
 
@@ -228,6 +236,18 @@ if (typeof jQuery === 'undefined') {
             $(window).scrollTo($('#rejoindre-wescale'), {duration:500, offset: -70});
         });
 
+    $('#it-btn').click(function (evt) {
+        evt.preventDefault();
+        $(window).scrollTo($('#nos-offres'), 500);
+    });
+
+    $('a.scroll').click(function (evt) {
+        evt.preventDefault();
+        $(window).scrollTo($(this).attr("href"), 500);
+    });
+
+    $('div.rolldown-gallery').wsGallery({ elemPerRow: 3, elemPerRowMd: 3})
+
     {% endif %}
 
     // If contact
@@ -235,101 +255,18 @@ if (typeof jQuery === 'undefined') {
 
     {% endif %}
 
-    $.fn.randomize = function(selector){
-        (selector ? this.find(selector) : this).parent().each(function(){
-            $(this).children(selector).sort(function(){
-                return Math.random() - 0.5;
-            }).detach().appendTo(this);
-        });
-
-        return this;
-    };
-
-    {% if page.class == 'a-propos' %}
-    $('.equipe div.equipe-photo').randomize();
-    {% endif %}
-
-
      {% if page.class == 'mission' %}
-    // this is for 2nd row's li offset from top. It means how much offset you want to give them with animation
-	var current_opened_box  = -1;
-	var current_opened_box_id  = -1;
 
     $('#it-btn').click(function (evt) {
         evt.preventDefault();
         $(window).scrollTo($('#improve'), 500);
     })
-    $('.rolldown-gallery div.portfolio-item').randomize();
 
-    $(".rolldown-gallery div.portfolio-item").each(function(id){
-        $(this).attr('data-id', id+1);
-    });
+    var gallery = $('div.rolldown-gallery').wsGallery();
 
     $('.equipe div.equipe-photo').randomize();
 
-	$('div.portfolio-item').click(function() {
 
-
-		var targetId = $(this).attr('data-content');
-		var boxId = $(this).attr('data-id');
-		var $this  = $(this);
-
-		var id = $(targetId);
-        var openThumb = 0;
-        if(current_opened_box == targetId) // if user click a opened box li again you close the box and return back
-        {
-            openThumb =$('#portfolio .gridder-content').height();
-            $('#portfolio .gridder-content').slideUp('fast');
-            current_opened_box = -1;
-            current_opened_box_id = -1;
-            return false;
-        } else if (current_opened_box != -1){
-            openThumb =$('#portfolio .gridder-content').height();
-            $('#portfolio .gridder-content').slideUp('fast');
-            if (boxId > 4 && current_opened_box_id > 4){
-                openThumb = 0;
-            }
-            current_opened_box = -1;
-            current_opened_box_id = -1;
-        }
-        if (boxId < 5){
-            openThumb = 0;
-        }
-
-		// save this id. so if user click a opened box li again you close the box.
-		current_opened_box = targetId;
-        current_opened_box_id = boxId;
-
-		var targetOffset = 0;
-
-       targetOffset =  $(this).offset().top - 80 - openThumb;
-
-        var itemId = $this.attr('data-id');
-        if($( window ).width()> 992){ // 4 per row
-            if (parseInt(itemId)%4 == 0){
-                $('[data-id="' +Math.floor((parseInt(itemId)/4))*4+'"]').after($(targetId));
-            } else {
-                $('[data-id="' +Math.floor((parseInt(itemId)/4)+1)*4+'"]').after($(targetId));
-            }
-
-        }else if ($( window ).width()> 768){
-            if (parseInt(itemId)%2 == 0){
-                $('[data-id="' +Math.floor((parseInt(itemId)/2))*2+'"]').after($(targetId));
-            } else {
-                $('[data-id="' +Math.floor((parseInt(itemId)/2)+1)*2+'"]').after($(targetId));
-            }
-        }else {
-            $('[data-id="' + itemId + '"]').after($(targetId));
-        }
-
-
-		$("html:not(:animated),body:not(:animated)").animate({scrollTop: targetOffset}, 500,function(){
-
-			$(targetId).slideDown(500);
-			return false;
-		});
-
-	});
     {% endif %}
 
 }(jQuery);

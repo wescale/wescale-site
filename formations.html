@@ -1,32 +1,110 @@
 ---
 layout: default
-title: Formations - Wescale - Cloud expert
+title: Formations - Wescale - Improve Together
 class: formations
+push-date:
+    - link: "/formations/Terraform.html"
+      img: "/images/formations/terraform.png"
+      title: "Terraform"
+      fulltitle: "Formation Terraform : 4 et 5 Septembre 2018 Paris"
+      short: "Formation Terraform 2 jours"
+      badge-up: "4 <span>et</span> 5"
+      badge-down: "Septembre<br/>2018"
+    - link: "/formations/XL-Deploy.html"
+      img: "/images/formations/xl-deploy.png"
+      title: "XL Deploy"
+      fulltitle: "Formation XL Deploy : 26 au 28 Septembre 2018 Paris"
+      short: "Formation XL Deploy 3 jours"
+      badge-up: "26 <span>au</span> 28"
+      badge-down: "Septembre<br/>2018"
+    - link: "/formations/XL-Release.html"
+      img: "/images/formations/xl-release.png"
+      title: "XL Release"
+      fulltitle: "Formation XL Release : 2 et 3 Octobre 2018 Paris"
+      short: "Formation XL Release 2 jours"
+      badge-up: "2 <span>et</span> 3"
+      badge-down: "Octobre<br/>2018"
+    - link: "/formations/Docker-Kubernetes.html"
+      img: "/images/formations/docker-kubernetes.png"
+      title: "Docker et Kubernetes"
+      fulltitle: "Formation Docker et Kubernetes : 15 au 17 Octobre 2018 Paris"
+      short: "Formation Docker Kubernetes 3 jours"
+      badge-up: "15 <span>au</span> 17"
+      badge-down: "Octobre<br/>2018"
+    - link: "/formations/Ansible.html"
+      img: "/images/formations/ansible.png"
+      title: "Ansible"
+      fulltitle: "Formation Ansible : 29 et 30 Octobre 2018 Paris"
+      short: "Formation Ansible 2 jours"
+      badge-up: "29 <span>et</span> 30"
+      badge-down: "Octobre<br/>2018"
+    - link: "/formations/Terraform.html"
+      img: "/images/formations/terraform.png"
+      title: "Terraform"
+      fulltitle: "Formation Terraform : 6 et 7 Novembre 2018 Paris"
+      short: "Formation Terraform 2 jours"
+      badge-up: "6 <span>et</span> 7"
+      badge-down: "Novembre<br/>2018"
 ---
 
+  <section  id="formations-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center home-content">
+                <h1 class="title bold">Nous formons sur les technologies qui nous passionnent</h1>
+                <h2 class="title">Ansible, Docker, Kubernetes, Terraform, XL Deploy, XL Release</h2>
 
-    <div class="content">
-      <section>
-        <div class="container">
-          <div class="row">
+                <p class="more">
+                    <a id="savoir-plus-btn" class="scroll" href="#formations-dates">
+                        <img src="{{"/images/more.png" | relative_url }}" alt="Nos prochaines formations" width="52"
+                        height="44" /><br/>
+                        En savoir plus</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="formations-dates">
+                <div class="content bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-heading text-uppercase">Nos prochaines formations</h2>
+                    </div>
+                </div>
+                <div class="row">
+      {% for formation in  page.push-date %}
+                    <div class="col-md-4 col-sm-6" style="text-align:center;">
+                        <a class="a-none" href="{{ formation.link| relative_url }}" title="{{ formation.fulltitle}}" >
+                        <div class="formation-push-date">
+                            <div class="row no-margin">
+                                <div class="col-xs-6">
+                                    <img src="{{ formation.img
+                                    | relative_url }}" style="max-width: 90%" alt="{{ formation.short }}">
+                                </div>
+                                <div class="col-xs-6 bg-green">
+                                    <h3>{{ formation.badge-up }}</h3>
+                                    <p class="bottom-cal">
+                                        {{ formation.badge-down }}
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="push-caption">
+                                <a href="{{ formation.link | relative_url }}" title="Inscription {{formation.short}}">Inscrivez vous</a>
+                            </p>
+                        </div></a>
+                    </div>
+      {% endfor %}
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="catalogue-formations">
+            <div class="content ">
+                <div class="container">
+        <div class="row">
             <div class="col-md-12">
-              <h1 class="title">Nos prochaines formations</h1>
-            </div>
-          </div>
-         <div class="row">
-            <div class="col-md-4" style="text-align:center;">
-              <a href="{{"/formations/Terraform.html" | relative_url }}"><img width="350" src="{{"/images/formations/formation-terraform-test.png" | relative_url }}"></a>
-            </div>
-            <div class="col-md-4" style="text-align:center;">
-              <a href="{{"/formations/Docker-Kubernetes.html" | relative_url }}"><img width="350" src="{{"/images/formations/formation-docker-kubernetes-test.png" | relative_url }}"></a>
-            </div>
-            <div class="col-md-4" style="text-align:center;">
-              <a href="{{"/formations/Ansible.html" | relative_url }}"><img width="350" src="{{"/images/formations/formation-ansible-test.png" | relative_url }}"></a>
-            </div>
-          </div>
-            <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">Découvrez nos formations</h1>
+              <h1 class="text-center">Notre catalogue de formations</h1>
             </div>
           </div>
           <div class="row formation">
@@ -59,11 +137,11 @@ class: formations
           <div class="row">
             <div class="col-md-12">
               <p style="text-align: center;font-weight: bold;">
-                wescale est agréé organisme de formation sous le numéro 11 75 553 1375.
+                wescale est enregistrée organisme de formation sous le numéro 11 75 553 1375.
               </p>
             </div>
           </div>
         </div>
+    </div>
       </section>
 
-    </div>
