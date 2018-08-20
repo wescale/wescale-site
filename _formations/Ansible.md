@@ -20,8 +20,8 @@ pitch: |
 img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
-    Dates de formation
-    29 et 30 octobre 2018
+    Dates de formation<br>
+    29 et 30 octobre 2018<br>
     29 et 30 octobre 2018
 pdf: /pdf/Training-Ansible.pdf
 duree: 2 jours
