@@ -6,7 +6,10 @@ pitch: |
     XL Deploy est un outil de déploiement automatique d’applications qui permet de déployer tout type d’applications d’entreprise (Java, Windows, bases de données etc..) sur tout type d’infrastructures et environnements (on premise ou Cloud).
 img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
-subtitle: Automatisation IT simplifiée
+subtitle: |
+    Notre prochaine formation<br>
+    26 au 28 septembre 2018<br>
+    5 au 7 décembre 2018
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 350 €
