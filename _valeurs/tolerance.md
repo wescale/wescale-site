@@ -2,6 +2,7 @@
 title: Tolérance
 thumb: /images/mission/valeur-tolerance.jpg
 img: /images/mission/tolerance.jpg_large
+name: tolerance
 ---
 
 ### Nous ne cherchons pas à condamner les erreurs techniques.

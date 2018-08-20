@@ -2,6 +2,7 @@
 title: Passion
 thumb: /images/mission/valeur-passion.jpg
 img: /images/mission/passion-weshare.jpg_large
+name: passion
 ---
 
 ### La passion est notre moteur

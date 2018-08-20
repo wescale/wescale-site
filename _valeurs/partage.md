@@ -2,6 +2,7 @@
 title: Partage
 thumb: /images/mission/valeur-partage.jpg
 img: /images/mission/weshare.jpg_large
+name: partage
 ---
 
 ### Nous souhaitons partager notre savoir-faire à tous.
