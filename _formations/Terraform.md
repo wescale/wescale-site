@@ -12,7 +12,10 @@ pitch: |
 
 img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
-subtitle: Infrastructure as Code pour tous
+subtitle: |
+    Nos prochaines formations<br>
+    4 et 5 septembre 2018<br>
+    6 et 7 novembre 2018
 pdf: /pdf/Formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €
