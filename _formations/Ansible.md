@@ -19,8 +19,7 @@ pitch: |
     environnement de production.
 img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
-subtitle: Nos prochaines formations :
-- 29 et 30 octobre 2018
+subtitle: It
 pdf: /pdf/Training-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
