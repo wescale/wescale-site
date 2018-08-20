@@ -59,9 +59,9 @@ img_improve: /images/mission/pola-wescale.png
         </div>
         <div class="row no-gutters rolldown-gallery">
 {% for valeur in site.valeurs %}
-            <div class="col-md-3 col-sm-6 portfolio-item" id="{{valeur.title| slugify: 'ascii' }}"
-                 data-content="#content-{{valeur.title| slugify }}">
-            <a class="portfolio-link" href="#{{valeur.title| slugify: 'ascii' }}">
+            <div class="col-md-3 col-sm-6 portfolio-item" id="{{valeur.name| slugify: 'ascii' }}"
+                 data-content="#content-{{valeur.name| slugify: 'ascii' }}">
+            <a class="portfolio-link" href="#{{valeur.name| slugify: 'ascii' }}">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -74,7 +74,7 @@ img_improve: /images/mission/pola-wescale.png
             </div>
             </a>
           </div>
-         <div class="gridder-content col-md-12 col-sm-12" id="content-{{valeur.title| slugify: 'ascii' }}" style="display: none;">
+         <div class="gridder-content col-md-12 col-sm-12" id="content-{{valeur.name| slugify: 'ascii' }}" style="display: none;">
                 <div class="col-md-4 middle">
                     <img src="{{valeur.img|relative_url}}">
                 </div>
@@ -105,7 +105,7 @@ img_improve: /images/mission/pola-wescale.png
                     <div class="equipe-mask"></div>
                     <div class="equipe-name">
                         {% if we.job %}
-                        <a href="wetribu.html">
+                        <a href="{{ "wetribu.html" | relative_url }} ">
                         {% elsif we.blogname %}
                         <a href="http://blog.wescale.fr/author/{{we.blogname}}">
                         {% endif %}

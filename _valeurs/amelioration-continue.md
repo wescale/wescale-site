@@ -2,6 +2,7 @@
 title: Amélioration Continue
 thumb: /images/mission/valeur-amelioration.jpg
 img: /images/mission/valeur-amelioration.jpg
+name: amelioration-continue
 ---
 
 ### Nous n’avons pas la prétention d’être parfaits.

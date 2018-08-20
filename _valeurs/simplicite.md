@@ -2,6 +2,7 @@
 title: Simplicité
 thumb: /images/mission/valeur-simplicite.jpeg
 img: /images/mission/tolerance.jpg_large
+name: simplicite
 ---
 
 ### “Faire simple est plus difficile que de faire compliqué”

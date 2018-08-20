@@ -2,6 +2,7 @@
 title: Amitié
 thumb: /images/mission/valeur-amitie.jpg
 img: /images/mission/amitie.jpg_large
+name: amitie
 ---
 
 ### Nous prenons plaisir à nous retrouver au bureau et ailleurs.

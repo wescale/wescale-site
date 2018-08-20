@@ -2,6 +2,7 @@
 title: Fun
 thumb: /images/mission/valeur-fun.jpg
 img: /images/mission/fun.jpg_large
+name: fun
 ---
 
 ### Nous aimons faire preuve d’auto-dérision

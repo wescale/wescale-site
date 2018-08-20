@@ -2,6 +2,7 @@
 title: Écoute
 thumb: /images/mission/valeur-ecoute.jpeg
 img: /images/mission/valeur-ecoute.jpeg
+name: ecoute
 ---
 
 ### Nous cherchons à construire une société où chacun puisse s’exprimer.
