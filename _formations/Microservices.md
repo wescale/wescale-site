@@ -9,7 +9,9 @@ pitch: |
 
 img: /images/formations/microservices.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
-subtitle: Construire des architectures Microservices
+subtitle: |
+    Notre prochaine formation<br>
+    21 au 23 novembre 2018
 pdf: /pdf/formation-microservices.pdf
 duree: 3 jours
 tarif: 2 200 €
