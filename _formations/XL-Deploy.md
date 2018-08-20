@@ -7,7 +7,7 @@ pitch: |
 img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
-    Notre prochaine formation<br>
+    Nos prochaines formations<br>
     26 au 28 septembre 2018<br>
     5 au 7 décembre 2018
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
