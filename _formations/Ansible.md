@@ -19,7 +19,7 @@ pitch: |
     environnement de production.
 img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
-subtitle: It
+subtitle: Automatisation IT simplifiée
 pdf: /pdf/Training-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
