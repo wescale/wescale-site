@@ -117,6 +117,11 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Oussama-Benaim.jpg
     blogname: oussama-bounaim
+  -
+    name: David Mollière
+    title: Cloud Delivery Manager
+    img: /images/wewes/carre-david-molliere.png
+    blogname: david-molliere
 
 
 ---
