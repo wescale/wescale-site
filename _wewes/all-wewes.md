@@ -25,10 +25,6 @@ wewes:
     title: DRH
     img: /images/wewes/carre-margot-robine.jpg
   -
-    name: Céline Rochay
-    title: Responsable administrative et financière
-    img: /images/wewes/carre-celine-rochay.jpg
-  -
     name: Thomas Cousin
     title: Cloud Designer
     img: /images/wewes/carre-thomas-cousin.jpg
@@ -57,6 +53,8 @@ wewes:
     name: Sébastien Lavayssiere
     title: Cloud Builder
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
     blogname: sebastien-lavayssiere
   -
     name: Akram Blouza
