@@ -54,7 +54,8 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
+          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> Kubernetes Administrator
     blogname: sebastien-lavayssiere
   -
     name: Akram Blouza
