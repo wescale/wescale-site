@@ -26,12 +26,13 @@ tarif: 2 200 €
 ## Public
 
 
-Administrateurs système, ingénieur de production, développeurs et architectes
+Administrateurs système, ingénieur de production, développeurs et architectes.
+Cette formation est orientée **découverte** ; elle se destine à une audience ayant pas ou peu pratiqué Kubernetes.
 
 ## Pré-requis
 
 
-Connaissances système Linux
+Connaissances système Linux et yaml.
 
 
 ## Programme de la formation
@@ -56,27 +57,28 @@ Connaissances système Linux
 
 * Pourquoi utiliser un orchestrateur ?
 * Comment Kubernetes se démarque par rapport aux autres orchestrateurs
-* Découverte des ressources de base : Pod, Services, ReplicationController...
-* Mise en place
+* Découverte des ressources de base : Pod, Services, Deployment...
+* Mise en place d'une première application
 
 
-### Installation sur GKE et AWS
+### Les outils pour créer des clusters
 
-* Découverte des différentes solutions réseau
-* Mise en place d’un cluster hautement disponible
+* Google Kubernetes Engine
+* kubeadm
+* kops
+* kube-aws
+* kubespray
 
 ### Pour aller plus loin
 
-* Découverte de l’ensemble des ressources Kubernetes
+* Mode d'exposition des services
+* Découverte des différentes solutions réseau
+* Mise en place d’un cluster hautement disponible
 * Mise en place d’une application 3 tiers avec scaling automatique
-* Mise en place d’une solution de déploiement continu
-
-### Au quotidien
-
+* Focus sur le déploiement sans interruption (rolling-update)
 * Monitoring
 * Troubleshooting
 * Scaling
-* Upgrade
 
 
 ## A l’issue de la formation les stagiaires seront à même de
@@ -86,7 +88,7 @@ Connaissances système Linux
 * Comprendre le fonctionnement de Docker, et savoir anticiper et corriger les problèmes éventuels
 * Mettre en place un cluster Kubernetes
 * Utiliser Kubernetes pour orchestrer des conteneurs en production
-* Surveiller l’infrastructure
+* Surveiller l’infrastructure et les applicatifs
 * Intervenir en cas de problèmes
 * Maintenir le système à jour
 * Utiliser les sources de documentation pour mettre en pratique de nouveaux usages de façon autonome
