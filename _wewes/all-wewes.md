@@ -51,7 +51,7 @@ wewes:
     blogname: stephane-teyssier
   -
     name: Sébastien Lavayssiere
-    title: Cloud Builder
+    title: Flying Designer
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
           <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect<br>
