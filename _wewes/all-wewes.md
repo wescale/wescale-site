@@ -122,6 +122,11 @@ wewes:
     name: Alexandre Kolacz
     title: Cloud Builder
     img: /images/wewes/carre-Alexandre-Kolacz.jpg
-    blogname: alexandre-kolacz
+    blogname: alexandre-kolacz  
+  -
+    name: Bastien Feuillet
+    title: Cloud Builder
+    img: /images/wewes/carre-Bastien-Feuillet.jpg
+    blogname: bastien-feuillet
 
 ---
