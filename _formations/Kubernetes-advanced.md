@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Kubernetes
+title: Kubernetes avancé
 class: formation
 pitch: |
     Lorsque l’on découvre Docker, le besoin d’un orchestrateur
@@ -8,17 +8,17 @@ pitch: |
     Cette formation vous permettra de prendre en main cette technologie et d’être
     capable de l’utiliser au quotidien pour gérer vos conteneurs en production.
 
-img: /images/formations/kubernetes.png
+img: /images/formations/kubernetes-advancé.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
     11 et 12 décembre 2018
-pdf: /pdf/Training-Kubernetes.pdf
+pdf: /pdf/Training-Kubernetes-avancé.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Kubernetes - *2 jours*
+# Kubernetes avancé - *2 jours*
 
 
 Lorsque l’on découvre Docker, le besoin d’un orchestrateur se fait vite ressentir.
