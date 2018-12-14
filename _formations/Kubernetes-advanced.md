@@ -1,89 +1,67 @@
 ---
 layout: formation
-title: Kubernetes avancé
+title: Kubernetes advanced
 class: formation
 pitch: |
-    Lorsque l’on découvre Docker, le besoin d’un orchestrateur
-    se fait vite ressentir. Kubernetes se démarque clairement de ses concurrents.
-    Cette formation vous permettra de prendre en main cette technologie et d’être
-    capable de l’utiliser au quotidien pour gérer vos conteneurs en production.
+    Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances. 
 
-img: /images/formations/kubernetes-advancé.png
+img: /images/formations/kubernetes-advanced.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    11 et 12 décembre 2018
-pdf: /pdf/Training-Kubernetes-avancé.pdf
+    26 et 27 mars 2019
+pdf: /pdf/Training-Kubernetes-advanced.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Kubernetes avancé - *2 jours*
+# Kubernetes advanced - *2 jours*
 
 
-Lorsque l’on découvre Docker, le besoin d’un orchestrateur se fait vite ressentir.
-Kubernetes se démarque clairement de ses concurrents.
-Cette formation vous permettra de prendre en main cette technologie et d’être capable de l’utiliser au quotidien pour
-gérer vos conteneurs en production.
+Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances.
 
 
 ## Public
 
 
-Administrateurs système, ingénieurs de production, développeurs et architectes
+Administrateurs système, ingénieurs de production, développeurs et architectes.
 
 ## Pré-requis
 
 
-Connaissances système Linux et Docker
-
-
+Bonne connaissance de Kubernetes et des conteneurs.
 
 
 ## Programme de la formation
 
-### Introduction
+### Les sujets suivants seront abordés durant cette formation :
 
-* Pourquoi utiliser un orchestrateur ?
-* Comment Kubernetes se démarque par rapport aux autres orchestrateurs
-* Découverte des ressources de base : Pod, Services, ReplicationController...
-* Mise en place
-
-
-### Installation sur GKE et AWS
-
-* Découverte des différentes solutions réseau
-* Mise en place d’un cluster hautement disponible
-
-### Pour aller plus loin
-
-* Découverte de l’ensemble des ressources Kubernetes
-* Mise en place d’une application 3 tiers avec scaling automatique
-* Mise en place d’une solution de déploiement continu
-
-### Au quotidien
-
-* Monitoring
-* Troubleshooting
-* Scaling
-* Upgrade
+* Interaction entre les binaires Kubernetes
+* Les objets de namespaces
+* L’authentification et l’authorization
+* Helm
+* Operator et Custom Resource Definition
+* Service Mesh
+* Installation de Kubernetes
+* Supervision, monitoring et troubleshooting
 
 
 ## A l’issue de la formation les stagiaires seront à même de
 
 
-* Mettre en place un cluster Kubernetes
-* Utiliser Kubernetes pour orchestrer des conteneurs en production
-* Surveiller l’infrastructure
-* Intervenir en cas de problèmes
-* Maintenir le système à jour
-* Utiliser les sources de documentation pour mettre en pratique de nouveaux usages de façon autonome
+* Mettre en place une gestion efficace des namespaces
+* Gérer le RBAC
+* Mettre en place une CI/CD dans Kubernetes
+* Mettre en place un operator - cas du Prometheus Operator
+* Comprendre Istio
+* Installer un cluster avec Kubespray et Kops
+* La gestion des logs et du monitoring
+* Comprendre les bases de troubleshooting
 
 
 ## Méthodes pédagogiques
 
-Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans
-les phases de cours.
+Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans les phases de cours.
 
 # Formateur
 
