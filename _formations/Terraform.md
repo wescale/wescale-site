@@ -14,8 +14,8 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    4 et 5 septembre 2018<br>
-    6 et 7 novembre 2018
+    10 et 11 janvier 2019<br>
+    25 et 26 avril 2019
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €
