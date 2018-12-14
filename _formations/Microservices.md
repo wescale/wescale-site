@@ -11,7 +11,7 @@ img: /images/formations/microservices.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    21 au 23 novembre 2018
+    4 au 6 juin 2019
 pdf: /pdf/Programme-de-formation-Microservices.pdf
 duree: 3 jours
 tarif: 2 200 €
