@@ -22,7 +22,7 @@ formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Notre prochaine formation<br>
     29 et 30 octobre 2018
-pdf: /pdf/Training-Ansible.pdf
+pdf: /pdf/Programme-de-formation-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
