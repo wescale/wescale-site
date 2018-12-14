@@ -16,7 +16,7 @@ subtitle: |
     Nos prochaines formations<br>
     4 et 5 septembre 2018<br>
     6 et 7 novembre 2018
-pdf: /pdf/Formation-Terraform.pdf
+pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
