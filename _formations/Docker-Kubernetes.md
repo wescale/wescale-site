@@ -13,7 +13,7 @@ formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
     15 au 17 octobre 2018
-pdf: /pdf/formation-docker-kubernetes.pdf
+pdf: /pdf/Programme-de-formation-Kubernetes-Docker.pdf
 duree: 3 jours
 tarif: 2 200 €
 ---
