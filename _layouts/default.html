@@ -63,7 +63,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav menu-links">
                 <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
+<!--
                 <li><a href="{{ "/services.html" | relative_url }}">Services</a></li>
+-->
                 <li><a href="{{ "/wetribu.html"| relative_url }}">WeTribu</a></li>
                 <li><a href="{{"/mission.html" | relative_url }}">Mission</a></li>
                 <!--<li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>-->
@@ -119,11 +121,9 @@
     </div>
 
 
-    <p class="footer-bottom">Copyright WeScale SAS | Sauf mention contraire le contenu de ce site est placé sous <a
-            rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons</a>. | <a
+    <p class="footer-bottom">Copyright WeScale SAS | <a href="//info.wescale.fr/politique-relative-aux-cookies">Politique de Cookies</a> | <a
             href="{{ "/mentions.html" | relative_url }}">Mentions légales</a></p>
 </footer>
-
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{"/js/gallery.js" | relative_url}}"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
@@ -162,8 +162,10 @@ if (typeof jQuery === 'undefined') {
 
     //Google Map (Footer)
     var MY_MAPTYPE_ID = "wescale-style";
+    //48.8730651,2.3347248
+    //48.873051, 2.335310
 
-    var wescale = new google.maps.LatLng(48.873058, 2.333836);
+    var wescale = new google.maps.LatLng(48.873051, 2.335310);
     var display_map = false;
 
     $('.to-maps').on('click', function (event) {
@@ -215,7 +217,7 @@ if (typeof jQuery === 'undefined') {
 
         $('#ce-que-nous-faisons').click(function (evt) {
             evt.preventDefault();
-            $(window).scrollTo($('#etapes'), 500);
+            $(window).scrollTo($('#partenaire-aws-gcp'), 500);
         })
 
     });
