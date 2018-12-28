@@ -366,7 +366,9 @@ img {
   text-align: center;
   background-color: #fff;
 }
-
+.caption-bg-transp {
+    background-color: #ffffff52!important;
+}
 .min-pad {
     padding: 5px!important;
 }
