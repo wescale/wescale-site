@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recrutement - Wescale - Cloud expert
+title: Recrutement - Wescale - Improve Together
 class: job
 ---
 <section id="recrutement-top">
@@ -254,4 +254,46 @@ Le Runner prend le relais pour épauler et faire mûrir l’équipage plus rapid
             </div>
         </div>
     </div>
+</section>
+<section id="equipe">
+    <div class="container pad-vert-20">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="">Notre équipe</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="equipe">
+
+                {% for wewe in site.wewes %}
+                {% for we in wewe.wewes %}
+                <div class="equipe-photo col-md-3 col-xs-12"
+                     style="background: url({{ we.img | relative_url }}) no-repeat center center;background-size: cover;">
+
+                    <div class="equipe-mask"></div>
+                    <div class="equipe-name">
+                        {% if we.job %}
+                        <a href="{{ "wetribu.html" | relative_url }} ">
+                        {% elsif we.blogname %}
+                        <a href="http://blog.wescale.fr/author/{{we.blogname}}">
+                        {% endif %}
+                        <h2>{{we.name}}</h2>
+                        {% if we.blogname %}
+                        </a>
+                        {% endif %}
+                        <h3>{{we.title}}</h3>
+                        {% if we.text %}
+                        <p style="text-align: center; color: white;">
+                            {{ we.text }}
+                        </p>
+                        {% endif %}
+                        {% if we.job %}
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
 </section>
