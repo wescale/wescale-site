@@ -25,10 +25,6 @@ wewes:
     title: DRH
     img: /images/wewes/carre-margot-robine.jpg
   -
-    name: Céline Rochay
-    title: Responsable administrative et financière
-    img: /images/wewes/carre-celine-rochay.jpg
-  -
     name: Thomas Cousin
     title: Cloud Designer
     img: /images/wewes/carre-thomas-cousin.jpg
@@ -45,7 +41,9 @@ wewes:
     name: Nicolas Diez
     title: Cloud Builder
     img: /images/wewes/carre-nicolas-diez.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified SysOps Admin<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Sécurity Specialty
     blogname: nicolas-diez
   -
     name: Stéphane Teyssier
@@ -55,8 +53,11 @@ wewes:
     blogname: stephane-teyssier
   -
     name: Sébastien Lavayssiere
-    title: Cloud Builder
+    title: Flying Designer
     img: /images/wewes/carre-sebastien-lavayssiere.jpg
+    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect<br>
+          <i class="fa fa-certificate" aria-hidden="true"></i> Kubernetes Administrator
     blogname: sebastien-lavayssiere
   -
     name: Akram Blouza
@@ -117,6 +118,15 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Oussama-Benaim.jpg
     blogname: oussama-bounaim
-
+  -
+    name: Alexandre Kolacz
+    title: Cloud Builder
+    img: /images/wewes/carre-Alexandre-Kolacz.jpg
+    blogname: alexandre-kolacz  
+  -
+    name: Bastien Feuillet
+    title: Cloud Builder
+    img: /images/wewes/carre-Bastien-Feuillet.jpg
+    blogname: bastien-feuillet
 
 ---

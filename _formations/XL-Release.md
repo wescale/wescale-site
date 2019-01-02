@@ -8,7 +8,6 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    2 et 3 octobre 2018<br>
     13 et 14 décembre 2018
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours

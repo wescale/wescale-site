@@ -8,8 +8,9 @@ img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    26 au 28 septembre 2018<br>
-    5 au 7 décembre 2018
+    30 janvier au 1er février 2019<br>
+    15 au 17 avril 2019<br>
+    24 au 26 juin 2019
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 350 €
