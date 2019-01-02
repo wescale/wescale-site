@@ -5,7 +5,7 @@ class: formation
 pitch: |
     Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances. 
 
-img: /images/formations/kubernetes-advanced.png
+img: /images/formations/kubernetes-advancee-blue.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
