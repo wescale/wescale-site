@@ -9,7 +9,7 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    Dates à venir9
+    dates à venir
     
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
