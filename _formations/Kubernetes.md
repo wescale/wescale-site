@@ -12,9 +12,10 @@ img: /images/formations/kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    11 et 12 décembre 2018<br>
-    28 et 29 janvier 2019
+    28 et 29 janvier 2019<br>
+    11 et 12 avril 2019
 pdf: /pdf/Training-Kubernetes.pdf
+pdf: /pdf/Programme-de-formation-Kubernetes.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---

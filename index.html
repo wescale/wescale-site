@@ -2,6 +2,10 @@
 layout: default
 title: Wescale - Expert Cloud et DevOps
 class: home
+jobs_url:
+  designer: https://wescale.welcomekit.co/jobs/cloud-designer_paris_WESCA_780wXyk
+  builder: https://wescale.welcomekit.co/jobs/cloud-builder_paris
+  runner: https://wescale.welcomekit.co/jobs/cloud-runner_paris_WESCA_KrPy00j
 ---
 <section class="home-top">
     <div class="container">
@@ -52,8 +56,8 @@ class: home
 </section>
 
 
-<div class="content" style="padding-top: 0px">
-    <section class="home-layer">
+<div class="content" id="partenaire-aws-gcp">
+    <section class="home-layer" >
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -143,115 +147,88 @@ class: home
         </div>
     </section>
 
-    <section class="home-etapes" id="etapes">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="title">Les 3 étapes du service Wescale</h1>
-
-                    <img class="schema" src="{{"/images/schema.png" | relative_url }}" alt="Les 3 étapes du service
-                    Wescale" />
-
-                    <div class="etape-2">
-                        <div class="illustration"><img src="{{"/images/oeil.png"| relative_url }}" alt="01_Identifier"
-                            width="88" height="51" />
-                        </div>
-                        <div>
-                            <h2>Identifier</h2>
-                            <p>Nous réalisons l’étude du SI de l'entreprise, pour définir les meilleurs axes
-                                d'améliorations.</p>
-                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="etape-3">
-                        <div class="illustration"><img src="{{"/images/engrenage.png"| relative_url }}"
-                            alt="02_Réaliser" width="66" height="66" />
-                        </div>
-                        <div>
-                            <h2>Réaliser</h2>
-                            <p>Nos consultants prennent part à la mise en place des services Cloud préconisés quelle que
-                                soit la plate-forme choisie.</p>
-                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="etape-1">
-                        <div class="illustration"><img src="{{"/images/migrer.png"| relative_url }}" alt="03_Migrer"
-                            width="74" height="62" />
-                        </div>
-                        <div>
-                            <h2>Migrer</h2>
-                            <p>Nous accompagnons nos clients afin d’opérer les changements techniques et humains induits
-                                par les nouveaux services mis en place.</p>
-                            <p class="news-readmore"><a href="{{"/services.html"| relative_url }}">En savoir plus</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <section class="home-profils">
+        <div class="container-fluid content portfolio-container">
+        <div class="row padding-btm">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">
+                    <a href="{{"/wetribu.html"| relative_url }}">Rejoignez la WeTribu</a>
+                </h2>
             </div>
         </div>
-    </section>
+        <div class="row no-gutters rolldown-gallery">
 
-    <section class="home-profils">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="title"><a id="rejoignez-nous" href="{{"/wetribu.html"| relative_url }}">Rejoignez
-                        nous !</a></h1>
-                    <p><a id="rejoignez-nous-2" href="{{"/wetribu.html"| relative_url }}">Envie de vous renouveler ?
-                        Rejoignez les Scalers !</a></p>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <h2>
-                        <a id="rejoignez-nous-6" href="{{"/wetribu.html"| relative_url }}">
-                            Cloud <span class="bold">Designer</span>
-                        </a></h2>
-                    <a id="rejoignez-nous-3" href="{{"/wetribu.html"| relative_url }}">
-                        <img src="{{"/images/cloud-designer.png"| relative_url }}" alt="Cloud Designer" /></a>
-                    <p><a id="rejoignez-nous-7" href="{{"/wetribu.html"| relative_url }}">
-                        Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
+            <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-designer"
+                 data-content="#content-cloud-designer">
+                <a class="portfolio-link" href="{{page.jobs_url.designer}}" target="_blank">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-external-link fa-3x"></i>
+                            <h2>Cloud Designer</h2>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_1.png"| relative_url}}" alt="">
+
+                    <div class="portfolio-caption min-pad caption-bg-transp">
+                        <h3>Cloud Designer</h3>
+                        <p>
+                         Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
                         solides bases techniques Cloud pour être à même de proposer des processus et des architectures
-                        réalistes, bâties pour tenir et durer.</a></p>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <h2>
-                        <a id="rejoignez-nous-8" href="{{"/wetribu.html"| relative_url }}">
-                            Cloud <span class="bold">Builder</span
-                        ></a>
-                    </h2>
-                    <a id="rejoignez-nous-4" href="{{"/wetribu.html"| relative_url }}">
-                        <img src="{{"/images/cloud-builder.png"| relative_url }}" alt="Cloud Builder" /></a>
-                    <p>
-                        <a id="rejoignez-nous-9" href="{{"/wetribu.html"| relative_url }}">
+                        réalistes, bâties pour tenir et durer.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-builder"
+                 data-content="#content-cloud-builder">
+                <a class="portfolio-link" href="{{page.jobs_url.builder}}" target="_blank">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-external-link fa-3x"></i>
+                            <h2>Cloud Builder</h2>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_2.png"| relative_url}}" alt="">
+
+                    <div class="portfolio-caption min-pad caption-bg-transp">
+                        <h3>Cloud Builder</h3>
+                        <p>
                             Vous connaissez les briques utiles au fonctionnement d'un SI ou d'une usine logicielle. Vous
                             aimez les
                             approches orientées services. Vous êtes bilingues DevOps. Venez construire et mettre en
                             place des
-                            solutions Cloud.</a></p>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <h2>
-                        <a id="rejoignez-nous-10" href="{{"/wetribu.html"| relative_url }}">
-                            Cloud <span class="bold">Runner</span>
-                        </a>
-                    </h2>
-                    <a id="rejoignez-nous-5" href="{{"/wetribu.html"| relative_url }}">
-                        <img src="{{"/images/cloud-runner.png"| relative_url }}" alt="Cloud Runner" /></a>
-                    <p>
-                        <a id="rejoignez-nous-11" href="{{"/wetribu.html"| relative_url }}">
+                            solutions Cloud.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-runner"
+                 data-content="#content-cloud-runner">
+                <a class="portfolio-link" href="{{page.jobs_url.runner}}" target="_blank">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-external-link fa-3x"></i>
+                            <h2>Cloud Runner</h2>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{"/images/wetribu/cosmonaute_33.png"| relative_url}}" alt="">
+
+                    <div class="portfolio-caption min-pad caption-bg-transp">
+                        <h3>Cloud Runner</h3>
+                        <p>
                             Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le
                             goût des
                             prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
                             Venez opèrer et faire évoluer les solutions Cloud en lien direct avec les développeurs.
-                        </a>
-                    </p>
-                </div>
+                        </p>
+                    </div>
+                </a>
             </div>
 
         </div>
+    </div>
     </section>
 
     <section class="home-partenaires">
