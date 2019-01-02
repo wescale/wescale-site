@@ -1,22 +1,22 @@
 ---
 layout: formation
-title: Kubernetes Advanced
+title: Kubernetes Avancée
 class: formation
 pitch: |
     Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances. 
 
-img: /images/formations/kubernetes-advanced.png
+img: /images/formations/Kubernetes-avancee-blue.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
     26 et 27 mars 2019<br>
     20 et 21 juin 2019
-pdf: /pdf/Programme-de-formation-Kubernetes-advanced.pdf
+pdf: /pdf/Programme-de-formation-Kubernetes-avancee.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Kubernetes Advanced - *2 jours*
+# Kubernetes Avancée - *2 jours*
 
 
 Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances.
