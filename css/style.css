@@ -538,108 +538,6 @@ img {
     text-align: center;
 }
 
-.home-news blockquote {
-    border-left: none;
-    padding-left: 0px;
-}
-
-.home-news a {
-    color: #567997;
-    font-size: 14px;
-}
-
-.home-news h1 {
-    /* color: #ffffff; */
-    /* color: #575757; */
-}
-
-#news-spin {
-    align-items: center;
-}
-
-.news-title {
-    margin: 0;
-}
-
-.news-title a {
-    font-size: 18px;
-}
-
-.news-date,
-.news-readmore {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.news-readmore {
-    background: transparent url(../images/trait-news.jpg) no-repeat left center;
-    padding: 0 0 0 45px;
-    line-height: 14px;
-}
-
-.news-readmore a {
-    color: black;
-}
-
-.home-etapes {
-    position: relative;
-    padding: 50px 0;
-    min-height: 100vh;
-    padding-top: 80px;
-}
-
-section#etapes {
-}
-
-.schema {
-    display: block;
-    margin: 220px auto;
-}
-
-.etape-1,
-.etape-2,
-.etape-3 {
-    position: absolute;
-    width: 250px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.etape-1 {
-    top: 500px;
-    left: -800px;
-}
-
-.etape-2 {
-    width: 310px;
-    top: 70px;
-    font-size: 0;
-}
-
-.etape-2 > img,
-.etape-2 > div {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 0;
-}
-
-.etape-2 > div {
-    width: 70%;
-    font-size: 14px;
-}
-
-.etape-2 > .illustration {
-    width: 30%;
-}
-
-.etape-3 {
-    top: 600px;
-    left: 800px;
-}
-
 .home-partenaires {
     padding: 100px 0;
 }
@@ -735,6 +633,10 @@ section#etapes {
     color: white;
 }
 
+.home-profils a:hover {
+    text-decoration: underline;
+}
+
 .home-profils h1.title {
     color: white;
 }
@@ -753,11 +655,6 @@ section#etapes {
 .home-profils img {
     margin: 10px 0;
     max-width: 200px;
-}
-
-#rejoignez-nous-form {
-    color: black;
-    text-align: left;
 }
 
 .vertical-align {
@@ -1279,61 +1176,6 @@ a.job-button:hover {
     border: 1px solid #ccc;
 }
 
-/** SERVICES **/
-.services .schema {
-    display: block;
-    margin: 150px auto;
-    width: 350px;
-}
-
-.schema-container {
-    position: relative;
-}
-
-.services .etape-1,
-.services .etape-2,
-.services .etape-3 {
-    position: absolute;
-    width: 250px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-}
-
-.services .etape-1 {
-    top: 400px;
-    left: -450px;
-}
-
-.services .etape-2 {
-    width: 250px;
-    top: 30px;
-    font-size: 0;
-}
-
-.services .etape-2 > img,
-.services .etape-2 > div {
-    display: block;
-    width: 100%;
-}
-
-.services .etape-3 {
-    top: 450px;
-    left: 400px;
-}
-
-/** PARTENARIATS **/
-.partenaire-image {
-    line-height: 250px;
-    width: 250px;
-    margin: 20px;
-    text-align: center;
-}
-
-.partenaire-image img {
-    max-width: 80%;
-}
 
 /** MORE **/
 .more {
@@ -1484,57 +1326,11 @@ a.job-button:hover {
     color: black;
 }
 
-/*.job .more {
-    margin: 20px 0 0;
-}*/
 
 /** RESPONSIVE **/
 @media (max-width: 1200px) {
     .navbar-default .navbar-nav > li {
         width: 75px;
-    }
-
-    .schema {
-        display: none;
-    }
-
-    .etape-1,
-    .etape-2,
-    .etape-3 {
-        position: relative;
-        width: 100%;
-        margin: 30px auto;
-        top: auto;
-        left: auto;
-        font-size: 0;
-    }
-
-    .etape-1 > img,
-    .etape-1 > div,
-    .etape-3 > img,
-    .etape-3 > div {
-        display: inline-block;
-        vertical-align: middle;
-        font-size: 0;
-    }
-
-    .etape-1 > div,
-    .etape-3 > div {
-        width: 70%;
-        font-size: 14px;
-    }
-
-    .etape-1 > .illustration,
-    .etape-2 > .illustration,
-    .etape-3 > .illustration {
-        width: 30%;
-        max-width: 150px;
-    }
-
-    /** PARTENARIATS **/
-    .partenaire-image {
-        line-height: 200px;
-        width: 200px;
     }
 }
 
@@ -1547,10 +1343,6 @@ a.job-button:hover {
 
     .table-cell {
         display: block;
-    }
-
-    .home-news {
-        clear: both;
     }
 
     /** MENU BREAKPOINT **/
@@ -1618,16 +1410,6 @@ a.job-button:hover {
         margin: 0 10px;
     }
 
-    .schema {
-        width: 200px;
-    }
-
-    .partenaires img {
-        width: 40%;
-        height: 40%;
-        max-width: 150px;
-    }
-
     .formations .course-image {
         display: none;
     }
@@ -1647,20 +1429,6 @@ a.job-button:hover {
         font-size: 20px;
     }
 
-    .etape-1 > div,
-    .etape-3 > div {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .etape-1 > .illustration,
-    .etape-2 > .illustration,
-    .etape-3 > .illustration {
-        width: 100%;
-        max-width: none;
-        text-align: center;
-    }
-
     .techtrends {
         margin: 20px 0;
     }
@@ -1672,16 +1440,6 @@ a.job-button:hover {
 
     .techtrends-image {
         text-align: center;
-    }
-
-    .home-news blockquote {
-        margin: 0px;
-    }
-
-    .partenaire-image {
-        line-height: 120px;
-        width: 120px;
-        margin: 20px auto;
     }
 
     #map-canvas {
