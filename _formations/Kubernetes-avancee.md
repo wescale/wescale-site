@@ -11,7 +11,7 @@ subtitle: |
     Notre prochaine formation<br>
     26 et 27 mars 2019<br>
     20 et 21 juin 2019
-pdf: /pdf/Programme-de-formation-Kubernetes-advanced.pdf
+pdf: /pdf/Programme-de-formation-Kubernetes-avancee.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
