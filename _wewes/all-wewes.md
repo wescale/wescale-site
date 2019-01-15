@@ -25,12 +25,6 @@ wewes:
     title: DRH
     img: /images/wewes/carre-margot-robine.jpg
   -
-    name: Thomas Cousin
-    title: Cloud Designer
-    img: /images/wewes/carre-thomas-cousin.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
-    blogname: thomas-cousin
-  -
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
@@ -117,12 +111,12 @@ wewes:
   -
     name: Alexandre Kolacz
     title: Cloud Builder
-    img: /images/wewes/carre-Alexandre-Kolacz.jpg
+    img: /images/wewes/Carre-Alexandre-Kolacz.png
     blogname: alexandre-kolacz  
   -
     name: Bastien Feuillet
     title: Cloud Builder
-    img: /images/wewes/carre-Bastien-Feuillet.jpg
+    img: /images/wewes/Carre-Bastien-Feuillet.png
     blogname: bastien-feuillet
 
 ---
