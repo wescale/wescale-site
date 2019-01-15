@@ -94,6 +94,7 @@ wewes:
     name: Jonathan Forget
     title: Cloud Builder
     img: /images/wewes/Carre-Jonathan-Forget.jpg
+    blogname: jonathan-forget
   -
     name: Aymen Lamara
     title: Cloud Builder
@@ -103,6 +104,7 @@ wewes:
     name: Dimitri Tchapmi
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
+    blogname: dimitri
   -
     name: Oussama Bounaim
     title: Cloud Builder
@@ -118,5 +120,14 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/Carre-Bastien-Feuillet.jpg
     blogname: bastien-feuillet
-
+  -
+    name: Bassem Ben Lazreg
+    title: Cloud Builder
+    img: /images/wewes/Carre-Bassem-Ben-Lazreg.jpg
+    blogname: bassem-ben-lazreg
+  -
+    name: Lulu Song
+    title: Office Manager
+    img: /images/wewes/Carre-Lulu-Song.jpg
+    
 ---
