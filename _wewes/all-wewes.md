@@ -93,7 +93,7 @@ wewes:
   -
     name: Jonathan Forget
     title: Cloud Builder
-    img: /images/wewes/carre-jonathan-forget.jpg
+    img: /images/wewes/Carre-Jonathan-Forget.jpg
   -
     name: Aymen Lamara
     title: Cloud Builder
