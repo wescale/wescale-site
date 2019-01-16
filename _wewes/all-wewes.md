@@ -129,5 +129,22 @@ wewes:
     name: Lulu Song
     title: Office Manager
     img: /images/wewes/Carre-Lulu-Song.jpg
+  -
+    name: Lilian Deloche
+    title: Cloud Builder
+    img: /images/wewes/Carre-Lilian-Deloche.jpg
+  -
+    name: Benoit Oyez
+    title: Cloud Builder
+    img: /images/wewes/carre-Benoit-Oyez.jpg   
+  -
+    name: Romain Boulanger
+    title: Cloud Builder
+    img: /images/wewes/Carre-Romain-Boulanger.jpg      
+  -
+    name: Mathieu Di-Majo
+    title: Cloud Builder
+    img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
+    
     
 ---
