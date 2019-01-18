@@ -118,7 +118,7 @@ wewes:
   -
     name: Bastien Feuillet
     title: Cloud Builder
-    img: /images/wewes/Carre-Bastien-Feuillet.jpg
+    img: /images/wewes/Carre-BastienFeuillet.jpg
     blogname: bastien-feuillet
   -
     name: Bassem Ben Lazreg
