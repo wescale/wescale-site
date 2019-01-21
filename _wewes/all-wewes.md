@@ -18,7 +18,7 @@ wewes:
     blogname: aurelien-maury
   -
     name: Luc Legardeur
-    title: Directeur général, co-fondateur
+    title: Co-fondateur
     img: /images/wewes/carre-luc-legardeur.jpg
   -
     name: Margot Robine
