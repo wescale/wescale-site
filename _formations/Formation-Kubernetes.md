@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Kubernetes
+title: Formation Kubernetes
 class: formation
 pitch: |
     Lorsque l’on découvre Docker, le besoin d’un orchestrateur
@@ -12,15 +12,15 @@ img: /images/formations/kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    28 et 29 janvier 2019<br>
-    11 et 12 avril 2019
+    28 et 29 janvier 2019 - Paris<br>
+    11 et 12 avril 2019 - Paris
 pdf: /pdf/Training-Kubernetes.pdf
 pdf: /pdf/Programme-de-formation-Kubernetes.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Kubernetes - *2 jours*
+# Formation Kubernetes - Apprendre les bases et devenir autonome - *2 jours*
 
 
 {{ page.pitch }}

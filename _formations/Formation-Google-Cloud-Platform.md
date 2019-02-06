@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Google Cloud Platform
+title: Formation Google Cloud Platform
 class: formation
 pitch: |
     Durant cette formation le participant apprendra les bases de Google Cloud Plateform dans l’objectif mettre en place une infrastructure Cloud. 
@@ -9,14 +9,14 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    dates à venir
+    dates à venir sur Paris
     
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Google Cloud Platform - *2 jours*
+# Formation Google Cloud Platform - *2 jours*
 
 
 Durant cette formation le participant apprendra les bases de Google Cloud Plateform dans l’objectif mettre en place une infrastructure Cloud.

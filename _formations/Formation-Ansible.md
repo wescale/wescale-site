@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Ansible
+title: Formation Ansible
 class: formation
 pitch: |
     Ansible est un outil de pilotage de systèmes,
@@ -21,16 +21,20 @@ img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Notre prochaine formation<br>
-    5 et 6 mars 2019<br>
-    9 et 10 mai 2019
+    5 et 6 mars 2019 Paris<br>
+    9 et 10 mai 2019 Paris
 pdf: /pdf/Programme-de-formation-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Ansible - *2 jours*
+# Formation - Découvrir et maîtriser Ansible - *2 jours*
 
-Ansible est un outil de pilotage de systèmes, sans agent, faisant partie de la famille des outils estampillés DevOps. Il permet de simplifier des opérations d’orchestration complexes, de faire du management de configuration centralisé sur un grand nombre de machines. Il permet également le pilotage de plateformes Cloud telles que Amazon Web Services ou OpenStack notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter avec Ansible, ainsi que la compréhension des bonnes pratiques pour approfondir et utiliser cet outil en environnement de production.
+Ansible est un outil de pilotage de systèmes, sans agent, faisant partie de la famille des outils estampillés DevOps.
+Il permet de simplifier des opérations d’orchestration complexes, de faire du management de configuration centralisé sur
+ un grand nombre de machines. Il permet également le pilotage de plateformes Cloud telles que Amazon Web Services ou
+ OpenStack notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter avec Ansible, ainsi
+  que la compréhension des bonnes pratiques pour approfondir et utiliser cet outil en environnement de production.
 
 ## Public
 
