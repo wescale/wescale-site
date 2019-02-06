@@ -25,12 +25,6 @@ wewes:
     title: DRH
     img: /images/wewes/carre-margot-robine.jpg
   -
-    name: Thomas Cousin
-    title: Cloud Designer
-    img: /images/wewes/carre-thomas-cousin.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect
-    blogname: thomas-cousin
-  -
     name: Bastien Cadiot
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
@@ -97,13 +91,10 @@ wewes:
     title: Customer Success Manager
     img: /images/wewes/carre-laetitia-bouyahia.jpg
   -
-    name: Karen Da Silva
-    title: Chargée de recrutement
-    img: /images/wewes/carre-karen-da-silva.jpg
-  -
     name: Jonathan Forget
     title: Cloud Builder
-    img: /images/wewes/carre-jonathan-forget.jpg
+    img: /images/wewes/Carre-Jonathan-Forget.jpg
+    blogname: jonathan-forget
   -
     name: Aymen Lamara
     title: Cloud Builder
@@ -113,6 +104,7 @@ wewes:
     name: Dimitri Tchapmi
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
+    blogname: dimitri
   -
     name: Oussama Bounaim
     title: Cloud Builder
@@ -121,12 +113,38 @@ wewes:
   -
     name: Alexandre Kolacz
     title: Cloud Builder
-    img: /images/wewes/carre-Alexandre-Kolacz.jpg
+    img: /images/wewes/Carre-Alexandre-Kolacz.jpg
     blogname: alexandre-kolacz  
   -
     name: Bastien Feuillet
     title: Cloud Builder
-    img: /images/wewes/carre-Bastien-Feuillet.jpg
+    img: /images/wewes/Carre-BastienFeuillet.jpg
     blogname: bastien-feuillet
-
+  -
+    name: Bassem Ben Lazreg
+    title: Cloud Builder
+    img: /images/wewes/Carre-Bassem-Ben-Lazreg.jpg
+    blogname: bassem-ben-lazreg
+  -
+    name: Lulu Song
+    title: Office Manager
+    img: /images/wewes/Carre-Lulu-Song.jpg
+  -
+    name: Lilian Deloche
+    title: Cloud Builder
+    img: /images/wewes/Carre-Lilian-Deloche.jpg
+  -
+    name: Benoit Oyez
+    title: Cloud Builder
+    img: /images/wewes/carre-Benoit-Oyez.jpg   
+  -
+    name: Romain Boulanger
+    title: Cloud Builder
+    img: /images/wewes/Carre-Romain-Boulanger.jpg      
+  -
+    name: Mathieu Di-Majo
+    title: Cloud Builder
+    img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
+    
+    
 ---
