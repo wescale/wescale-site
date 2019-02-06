@@ -21,7 +21,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Formation : Développer son infrastructure Cloud avec Terraform - *2 jours*
+# *Formation* Développer son infrastructure Cloud avec Terraform - *2 jours*
 
 Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place
 dans la mouvance DevOps / Infrastructure as Code, ainsi il permet de créer environnements reproductibles. Il permet
