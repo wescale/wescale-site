@@ -28,7 +28,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Formation - Découvrir et maîtriser Ansible - *2 jours*
+# Formation Ansible - *Découvrir et maîtriser Ansible pour la production - 2 jours*
 
 Ansible est un outil de pilotage de systèmes, sans agent, faisant partie de la famille des outils estampillés DevOps.
 Il permet de simplifier des opérations d’orchestration complexes, de faire du management de configuration centralisé sur

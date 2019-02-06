@@ -20,7 +20,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Formation Kubernetes - Apprendre les bases et devenir autonome - *2 jours*
+# Formation Kubernetes - *Des bases à l'autonomie - 2 jours*
 
 
 {{ page.pitch }}

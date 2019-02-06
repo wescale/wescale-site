@@ -19,7 +19,7 @@ duree: 3 jours
 tarif: 2 200 €
 ---
 
-# Formation Docker et Kubernetes des bases à l'autonomie - *3 jours*
+# Formation Docker et Kubernetes - *Des bases à l'autonomie - 3 jours*
 
 
 {{ page.pitch }}

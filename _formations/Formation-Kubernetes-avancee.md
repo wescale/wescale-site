@@ -16,7 +16,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Formation Kubernetes Avancée - *Maîtriser des clusters en production*  - *2 jours*
+# Formation Kubernetes Avancée - *Maîtriser des clusters en production - 2 jours*
 
 
 Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances.
