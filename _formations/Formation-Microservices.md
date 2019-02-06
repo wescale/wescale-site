@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Microservices
+title: Formation Microservices
 class: formation
 pitch: |
     L'architecture et la technologie microservices sont présentes dans presque tous les projets en création ou en cours
@@ -17,7 +17,7 @@ duree: 3 jours
 tarif: 2 200 €
 ---
 
-# Microservices - *3 jours*
+# Formation Microservices - *3 jours*
 
 {{ page.pitch }}
 

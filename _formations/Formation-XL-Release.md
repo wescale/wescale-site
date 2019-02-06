@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: XL Release
+title: Formation XL Release
 class: formation
 pitch: |
     XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
@@ -14,7 +14,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# XL Release - *2 jours*
+# Formation XL Release - *2 jours*
 
 XL Release est une solution d’orchestration de pipelines de livraison d’entreprise. Il permet de modéliser le processus de livraison des applications depuis les phases de développement jusqu’aux phases de mise en production. En offrant une intégration avec les différents outils du cycle de vie logiciel, il permet une automatisation progressive des livraisons et apporte une visibilité complète sur les processus en cours et passés.
 

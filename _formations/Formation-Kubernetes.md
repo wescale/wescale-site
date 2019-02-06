@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Kubernetes
+title: Formation Kubernetes
 class: formation
 pitch: |
     Lorsque l’on découvre Docker, le besoin d’un orchestrateur
@@ -20,7 +20,7 @@ duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Kubernetes - *2 jours*
+# Formation Kubernetes - *Des bases à l'autonomie - 2 jours*
 
 
 {{ page.pitch }}

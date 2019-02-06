@@ -1,6 +1,6 @@
 ---
 layout: formation
-title: Terraform
+title: Formation Terraform
 class: formation
 pitch: |
      Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place
@@ -14,15 +14,14 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    10 et 11 janvier 2019<br>
-    25 et 26 avril 2019
+    10 et 11 janvier 2019 - Paris<br>
+    25 et 26 avril 2019 - Paris
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €
 ---
 
-# Terraform - *2 jours*
-
+# Formation Terraform - *Développer son infrastructure Cloud avec Terraform - 2 jours*
 
 Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place
 dans la mouvance DevOps / Infrastructure as Code, ainsi il permet de créer environnements reproductibles. Il permet
