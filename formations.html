@@ -73,14 +73,12 @@ push-date:
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center home-content">
-                <h1 class="title bold">Nous formons sur les technologies qui nous passionnent</h1>
-                <h2 class="title">Ansible, Docker, Kubernetes, Terraform, XL Deploy, XL Release</h2>
-                <p class="more">
-                    <a id="savoir-plus-btn" class="scroll" href="#formations-dates">
-                        <img src="{{"/images/more.png" | relative_url }}" alt="Nos prochaines formations" width="52"
-                        height="44" /><br/>
-                        En savoir plus</a>
-                </p>
+                <h1 class="title no-bold">Nous vous <b>formons</b> sur les <b>technologies</b> qui nous <b>passionnent</b></h1>
+                <h2 class="title"><a href="{{ '/formations/Formation-Ansible.html' | relative_url }}" title="Formation Ansible">Ansible</a>,
+                    <a href="{{ '/formations/Formation-Docker-Kubernetes.html' | relative_url }}" title="Formation Doker et Kubernetes">Docker, Kubernetes</a>,
+                    <a href="{{ '/formations/Formation-Terraform.html' | relative_url }}" title="Formation Terraform">Terraform</a>,
+                    <a href="{{ '/formations/Formation-XL-Deploy.html' | relative_url }}" title="Formation XL Deploy">XL Deploy</a>,
+                    <a href="{{ '/formations/Formation-XL-Release.html' | relative_url }}" title="Formation XL Release">XL Release</a></h2>
             </div>
         </div>
     </div>
@@ -123,37 +121,66 @@ push-date:
         <section id="catalogue-formations">
             <div class="content ">
                 <div class="container">
-        <div class="row">
+        <div class="row ">
             <div class="col-md-12">
               <h1 class="text-center">Notre catalogue de formations</h1>
             </div>
           </div>
-          <div class="row formation">
+
+            <div class="row formation">
           {% for formation in site.formations %}
-            {% capture row %}{% cycle '1', '2' %}{% endcapture %}
+      <!--      {% capture row %}{% cycle '1', '2' %}{% endcapture %}
+
+
             {% if row == '1' %}
-          <div class="row formation">
-            {% endif %}
+                    <div class="row formation">
+                        {% endif %}-->
 
-            <div class="col-md-6">
-                  <div class="thumbnail" style="padding: 10px">
+                        <div class="col-xs-12">
+                            <div class="thumbnail">
+                                <h2 class="bg-green">
+                                    {{formation.title}} - <em>{{ formation.duree }}</em></h2>
 
-                <a href="{{ formation.url | relative_url}}">
-                <img width="150"  src="{{formation.img|relative_url}}">
-                </a>
+                                <!--         <div class="col-xs-2 no-margin formation-push-date">
+                                               <div class=" text-center">
+                                                   <img src="{{ formation.img
+                                                   | relative_url }}" width="150px" alt="{{ formation.short }}">
+                                               </div>
+                                         </div>-->
+                                <div class="row formation-pad">
+                                    <div class="col-xs-3" style="text-align: center;">
+                                        <img src="{{ formation.img
+                                    | relative_url }}" width="150px" alt="{{ formation.short }}">
+                                    </div>
+                                    <div class="col-xs-9"><p class="formations-pitch">{{ formation.pitch }}</p>
+                                        <a href="{{ formation.url | relative_url}}" class="btn btn-primary right">Découvrez
+                                            le programme</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-              <h2>{{formation.title}} - <em>{{ formation.duree }}</em></h2>
+                        <!--
+                                    <div class="col-md-6">
+                                          <div class="thumbnail" style="padding: 10px">
 
-              <p class="formations-pitch">{{ formation.pitch }}</p>
+                                        <a href="{{ formation.url | relative_url}}">
+                                        <img width="150"  src="{{formation.img|relative_url}}">
+                                        </a>
 
-              <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
-              </div>
-            </div>
+                                      <h2>{{formation.title}} - <em>{{ formation.duree }}</em></h2>
+
+                                      <p class="formations-pitch">{{ formation.pitch }}</p>
+
+                                      <a href="{{ formation.url | relative_url}}" class="button">En savoir plus</a>
+                                      </div>
+                                    </div>
 
             {% if row == '2' %}
           </div>
-            {% endif %}
+            {% endif %}-->
          {% endfor %}
+                 </div>
           </div>
           <div class="row">
             <div class="col-md-12">

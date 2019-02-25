@@ -139,6 +139,7 @@ img {
 
 /** NAVBAR **/
 .navbar-default {
+    /*background-color: #00919e;*/
     background-color: #09aa9d;
     border: none;
     padding: 5px 0;
@@ -181,13 +182,13 @@ img {
 .navbar-default .navbar-nav > li > a {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    font-size: 25px;
     padding: 0;
-    border-bottom: 1px solid white;
 }
 
 .navbar-default .navbar-nav > li {
-    width: 90px;
+/*    width: 90px;*/
     padding: 20px 0 10px;
     margin: 0 15px;
 }
@@ -202,7 +203,7 @@ img {
     color: white;
     border-bottom: none;
     font-size: 150%;
-    width: 100px;
+    /*width: 100px;*/
 }
 
 .navbar-collapse {
@@ -219,6 +220,7 @@ img {
 
 / / border-bottom: 1 px solid white;
     z-index: -1;
+    /*background-color: #00919e;*/
     background-color: #09aa9d;
     -moz-box-shadow: 0 0 10px 0 #656565;
     -webkit-box-shadow: 0 0 10px 0 #656565;
@@ -248,7 +250,7 @@ img {
  * Page Mission
  */
 
-.mission .title, .job .title, .formations .title {
+.mission .title, .job .title, .formations .title, .contact .title {
     text-align: center;
     border-bottom: none;
     font-weight: normal;
@@ -265,12 +267,17 @@ img {
 }
 
 
-.mission .bold, .job .bold, .formations .bold{
+.mission .bold, .job .bold, .formations .bold, .contact .bold{
     font-weight: bold;
-    font-size: 80px;
+    font-size: 50px;
 }
 
-.mission .mission-top {
+.no-bold {
+    font-size: 50px;
+}
+
+
+.mission .mission-top, .contact .mission-top {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
     background: #2baea8; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -282,11 +289,11 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-    background-image: url(../images/bg-cloud-grad.jpg);
+    background-image: url(../images/bg/bg-header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     color: white;
     padding-bottom: 21px;
 }
@@ -430,7 +437,10 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
+    background-image: url(../images/bg/bg-header.jpg);
+    /*
     background-image: url(../images/bg-sun-cloud-head.jpg);
+    */
     /* background-image: url(../images/background.jpg); */
     background-repeat: no-repeat;
     background-position: center center;
@@ -455,7 +465,8 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-    background-image: url(../images/bg-sun-cloud-head.jpg);
+    background-image: url(../images/bg/bg-header.jpg);
+    /*background-image: url(../images/bg-sun-cloud-head.jpg)*/;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -536,6 +547,8 @@ img {
     margin: auto;
     /* max-width: 470px; */
     text-align: center;
+    font-weight: normal;
+    font-size: 50px;
 }
 
 .home-partenaires {
@@ -618,7 +631,8 @@ img {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
     background: #212e3ed9; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background-image: url(../images/background-blue.jpg);
+    background-image: url(../images/bg/bg-header.jpg);
+   /* background-image: url(../images/background-blue.jpg);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -775,8 +789,8 @@ img {
     position: relative;
 }
 
-.equipe h2,
-.equipe h3 {
+div.equipe-name h2,
+div.equipe-name h3 {
     color: white;
     text-align: center;
 }
@@ -981,11 +995,11 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-    background-image: url(../images/bg-cloud-grad.jpg);
+    background-image: url(../images/bg/bg-header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     color: white;
     padding-bottom: 21px;
 }
@@ -995,11 +1009,16 @@ img {
     color: white;
 }
 
+#formations-top a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
 #recrutement-top .bottom-line {
-    position: absolute;
+    position: relative;
     bottom: 20px;
-    width: 80%;
+    width: 100%;
+    text-align: center;
 }
 
 .job-profils a.job-button {
@@ -1118,20 +1137,48 @@ a.job-button:hover {
     width: 250px;
 }
 
+.formation h2.bg-green {
+    color: white;
+    margin-bottom: 20px;
+    background-color: #09aa9d;
+    margin-top: 0px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.formation .right {
+    text-align: center;
+}
+
+.formation-pad {
+    padding: 5px;
+}
+
+.formation .thumbnail {
+    padding: 0px!important;
+}
+
 .formations-pitch {
     display: block;
-    height: 200px;
+    font-size: 15px;
 }
 
 .formations .button {
-    width: 140px;
     text-transform: uppercase;
     font-weight: bold;
+    display: inline-block;
 }
+
 
 .formation {
     padding: 10px 0 20px;
     border-bottom: 1px solid white;
+}
+
+.formation img {
+    background-color: #ffffff73;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 .biography {
