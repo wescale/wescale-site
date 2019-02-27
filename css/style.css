@@ -15,7 +15,7 @@ h4 {
     text-align: left;
     color: #00a89e;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.5em;
     border-bottom: 1px solid #00a89e;
 }
 
@@ -144,6 +144,8 @@ img {
     background-color: #09aa9d;
     border: none;
     padding: 5px 0;
+    padding-right: 15px;
+
 
     -moz-box-shadow: 0 0 10px 0 #656565;
     -webkit-box-shadow: 0 0 10px 0 #656565;
@@ -171,6 +173,7 @@ img {
 
 .navbar-default .navbar-brand {
     padding: 0 20px;
+    margin-bottom: 5px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -539,6 +542,12 @@ img {
 
 .home-top p {
     font-size: 15px;
+}
+
+.white-content {
+    position: relative;
+    padding: 10px 15px 50px 15px;
+    margin-top: 3%;
 }
 
 .home-content {
