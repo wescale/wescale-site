@@ -194,7 +194,7 @@ img {
 .navbar-default .navbar-nav > li {
 /*    width: 90px;*/
     padding: 20px 0 10px;
-    margin: 0 5px;
+    margin: 0 0.5em
 }
 
 .navbar-default .navbar-nav > li:hover {
