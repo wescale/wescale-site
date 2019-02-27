@@ -50,8 +50,8 @@ section {
 .content {
     /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
     background-size: cover;
-    min-height: calc(100vh - 220px);
-    padding: 90px 0;
+  /*  min-height: calc(100vh - 220px);*/
+    padding: 20px 0;
 }
 
 .partenariats .content {
@@ -90,16 +90,17 @@ input {
 
 .contact input[type="submit"] {
     float: right;
+    width: auto;
 }
 
 input[type="submit"] {
     font-family: 'Open Sans Condensed', sans-serif;
-    background: white;
-    width: 100px;
-    text-transform: uppercase;
-    color: #2baea8;
+    /*background: white;*/
+   /* width: 100px;*/
+    /*text-transform: uppercase;*/
+   /* color: #2baea8;*/
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.9em;
 }
 
 .contact input[type="checkbox"] {
@@ -155,7 +156,7 @@ img {
     left: 0;
     right: 0;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .navbar-brand > img {
@@ -183,14 +184,18 @@ img {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     /*text-transform: uppercase;*/
-    font-size: 25px;
+    font-size: 1.5em;
     padding: 0;
 }
 
 .navbar-default .navbar-nav > li {
 /*    width: 90px;*/
     padding: 20px 0 10px;
-    margin: 0 15px;
+    margin: 0 5px;
+}
+
+.navbar-default .navbar-nav > li:hover {
+    border-bottom: 2px white solid;
 }
 
 .navbar-default .navbar-nav .socials > a {
@@ -202,7 +207,7 @@ img {
 .navbar-default .navbar-nav .socials {
     color: white;
     border-bottom: none;
-    font-size: 150%;
+    font-size: 100%;
     /*width: 100px;*/
 }
 
@@ -231,12 +236,7 @@ img {
 }
 
 .navbar-default .menu-background {
-    opacity: 0;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -ms-transition: opacity 0.3s ease-in-out;
-    -o-transition: opacity 0.3s ease-in-out;
-    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
 }
 
 .navbar-default.scrolled .menu-background,
@@ -269,11 +269,11 @@ img {
 
 .mission .bold, .job .bold, .formations .bold, .contact .bold{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .no-bold {
-    font-size: 50px;
+    font-size: 3em;
 }
 
 
@@ -321,6 +321,10 @@ img {
 .portfolio-container .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+}
+
+.job .portfolio-container .portfolio-item .portfolio-link {
+  max-width: 300px;
 }
 
 .portfolio-container .portfolio-item .portfolio-link {
@@ -374,7 +378,7 @@ img {
   background-color: #fff;
 }
 .caption-bg-transp {
-    background-color: #ffffff52!important;
+    background-color: rgba(255, 255, 255, 0.3215686274509804)!important;
 }
 .min-pad {
     padding: 5px!important;
@@ -425,6 +429,16 @@ img {
     border-bottom: none;
 }
 
+.home-metier h3 {
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.home-metier p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
 .home .home-top {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
     background: #2baea8; /* Old browsers */
@@ -437,7 +451,7 @@ img {
     background: -ms-linear-gradient(left, #2baea8 0%, #567997 100%); /* IE10 preview */
     background: linear-gradient(to right, #2baea8 0%, #567997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2baea8', endColorstr='#567997', GradientType=1); /* IE6-8 */
-    background-image: url(../images/bg/bg-header.jpg);
+    background-image: url(../images/bg/bg-constellation-cloud.png);
     /*
     background-image: url(../images/bg-sun-cloud-head.jpg);
     */
@@ -445,9 +459,11 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     color: white;
+    /*
     padding-bottom: 21px;
+    */
     /*
     padding-top: 100px;
     */
@@ -484,16 +500,16 @@ img {
 }
 
  .home-top .title {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
-    margin: 20px 0 20px;
+    /*margin: 20px 0 20px;*/
     text-align: center;
     text-transform: none;
 }
 
 .partenariats .home-top .title, .formations .home-top .title {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
     color: white;
     margin: 20px 0 20px;
@@ -527,7 +543,7 @@ img {
 
 .home-content {
     position: relative;
-    padding: 10px 15px 100px 15px;
+    padding: 10px 15px 50px 15px;
     margin-top: 12%;
 }
 
@@ -548,7 +564,7 @@ img {
     /* max-width: 470px; */
     text-align: center;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 2.9em;
 }
 
 .home-partenaires {
@@ -631,15 +647,15 @@ img {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2baea8+0,567997+100 */
     background: #212e3ed9; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background-image: url(../images/bg/bg-header.jpg);
-   /* background-image: url(../images/background-blue.jpg);*/
+    /*background-image: url(../images/bg/bg-header.jpg);*/
+    background-image: url(../images/background-blue.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 50px;
+    padding-bottom: 50px;*/
     font-size: 15px;
 }
 
@@ -691,7 +707,7 @@ img {
 
 .techtrends-title {
     text-align: center;
-    margin: 100px 0 70px 0;
+    margin: 50px 0 70px 0;
 }
 
 .techtrends-title h2 {
@@ -956,6 +972,12 @@ div.equipe-name h3 {
     margin-bottom: 20px;
 }
 
+.formations em {
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+}
+
 .formation strong {
     color: #00a89e;
 }
@@ -1026,16 +1048,16 @@ div.equipe-name h3 {
     padding: 10px;
 }
 
-a.job-button {
+a.job-button, input[type="submit"].hs-button {
     font-family: 'Open Sans Condensed', sans-serif;
-    background: #2baea8;
+    background: #567997;
     color: white;
-    font-size: 30px;
+    font-size: 1.9em;
     display: inline-block;
     line-height: 35px;
     margin: 10px 0;
     padding: 0 5px;
-    border: 1px solid #2baea8;
+    border: 1px solid #567997;
     font-weight: bolder;
     text-decoration: none;
     -webkit-border-radius: 5px;
@@ -1045,16 +1067,21 @@ a.job-button {
 
 }
 
-a.job-button:hover {
-    background: #567997;
+.button-sm {
+    font-size: 1.5em!important;
+    padding: 0px 5px!important;
+}
+
+a.job-button:hover, input[type="submit"].hs-button:hover {
+    background: #6694bb;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 1.9em;
     display: inline-block;
     line-height: 35px;
     margin: 10px 0;
     padding: 0 5px;
-    border: 1px solid #2baea8;
+    border: 1px solid #6694bb;
     font-weight: bolder;
     text-decoration: none;
     -webkit-border-radius: 5px;
@@ -1148,6 +1175,8 @@ a.job-button:hover {
 
 .formation .right {
     text-align: center;
+    display: inline-block;
+    float: right;
 }
 
 .formation-pad {
@@ -1169,17 +1198,50 @@ a.job-button:hover {
     display: inline-block;
 }
 
+.formation-push-date-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+.formation-push-date-hover {
+    position: absolute;
+    width: 90%;
+    height: 87%;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(9,170,147,.9);
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.formation-push-date-hover:hover {
+    opacity: 0.8;
+}
+
 
 .formation {
     padding: 10px 0 20px;
     border-bottom: 1px solid white;
 }
 
-.formation img {
+/*.formation img {
     background-color: #ffffff73;
     padding: 3px;
     border-radius: 10px;
-}
+}*/
 
 .biography {
     border: 1px solid white;
@@ -1230,7 +1292,7 @@ a.job-button:hover {
     text-transform: uppercase;
     text-align: center;
     font-size: 20px;
-    margin: 100px 0 0;
+    margin: 50px 0 0;
 }
 
 .more a {
@@ -1367,6 +1429,8 @@ a.job-button:hover {
 .job .history {
     font-size: 18px;
     padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .job-profils a {
@@ -1377,7 +1441,7 @@ a.job-button:hover {
 /** RESPONSIVE **/
 @media (max-width: 1200px) {
     .navbar-default .navbar-nav > li {
-        width: 75px;
+        /*max-width: 100px;*/
     }
 }
 
@@ -1537,4 +1601,63 @@ a.job-button:hover {
   {
     text-align: center;
   }
+}
+
+/* Overload Bootstrap :p */
+
+.hs-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.hs-button:focus,
+.hs-button:active:focus,
+.hs-button.active:focus,
+.hs-button.focus,
+.hs-button:active.focus,
+.hs-button.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.hs-button:hover,
+.hs-button:focus,
+.hs-button.focus {
+  color: #333;
+  text-decoration: none;
+}
+.hs-button:active,
+.hs-button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.hs-button.primary {
+        color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.hs-button.primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
 }

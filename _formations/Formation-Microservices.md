@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Microservices
+desctitle: Poser les bases d'une architecture évolutive et liée à l'existant
 class: formation
 pitch: |
     L'architecture et la technologie microservices sont présentes dans presque tous les projets en création ou en cours

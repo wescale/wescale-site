@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Kubernetes Avancée
+desctitle: Maîtriser des clusters en production
 class: formation
 pitch: |
     Durant cette formation le participant apprendra une utilisation avancée de Kubernetes dans l’objectif de perfectionner ses connaissances. 

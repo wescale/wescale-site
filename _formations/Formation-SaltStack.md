@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation SaltStack
+desctitle: Automatiser vos infrastructures et vos systèmes à grande échelle
 class: formation
 pitch: |
     SaltStack est un outil de pilotage de systèmes,

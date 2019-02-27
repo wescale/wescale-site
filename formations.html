@@ -75,7 +75,8 @@ push-date:
             <div class="col-md-12 text-center home-content">
                 <h1 class="title no-bold">Nous vous <b>formons</b> sur les <b>technologies</b> qui nous <b>passionnent</b></h1>
                 <h2 class="title"><a href="{{ '/formations/Formation-Ansible.html' | relative_url }}" title="Formation Ansible">Ansible</a>,
-                    <a href="{{ '/formations/Formation-Docker-Kubernetes.html' | relative_url }}" title="Formation Doker et Kubernetes">Docker, Kubernetes</a>,
+                    <a href="{{ '/formations/Formation-Docker-Kubernetes.html' | relative_url }}" title="Formation Doker et Kubernetes">Docker</a>,
+                     <a href="{{ '/formations/Formation-Kubernetes.html' | relative_url }}" title="Formation Kubernetes">Kubernetes</a>,
                     <a href="{{ '/formations/Formation-Terraform.html' | relative_url }}" title="Formation Terraform">Terraform</a>,
                     <a href="{{ '/formations/Formation-XL-Deploy.html' | relative_url }}" title="Formation XL Deploy">XL Deploy</a>,
                     <a href="{{ '/formations/Formation-XL-Release.html' | relative_url }}" title="Formation XL Release">XL Release</a></h2>
@@ -94,7 +95,12 @@ push-date:
                 <div class="row">
       {% for formation in  page.push-date %}
                     <div class="col-md-4 col-sm-6" style="text-align:center;">
-                        <a class="a-none" href="{{ formation.link| relative_url }}" title="{{ formation.fulltitle}}" >
+                        <a class="a-none" href="{{ formation.link| relative_url }}" title="{{ formation.fulltitle}}">
+                        <div class="formation-push-date-hover">
+                            <div class="formation-push-date-hover-content">
+                            <h4><i class="fa fa-plus fa-3x"></i></h4>
+                            </div>
+                        </div>
                         <div class="formation-push-date">
                             <div class="row no-margin">
                                 <div class="col-xs-6">
@@ -111,7 +117,8 @@ push-date:
                             <p class="push-caption">
                                 <a href="{{ formation.link | relative_url }}" title="Inscription {{formation.short}}">Inscrivez vous</a>
                             </p>
-                        </div></a>
+                        </div>
+                        </a>
                     </div>
       {% endfor %}
                 </div>
@@ -139,7 +146,9 @@ push-date:
                         <div class="col-xs-12">
                             <div class="thumbnail">
                                 <h2 class="bg-green">
-                                    {{formation.title}} - <em>{{ formation.duree }}</em></h2>
+                                    {{formation.title}} - <i>{{formation.desctitle}}</i>
+                                    <em>{{ formation.duree }}</em>
+                                </h2>
 
                                 <!--         <div class="col-xs-2 no-margin formation-push-date">
                                                <div class=" text-center">
@@ -153,7 +162,7 @@ push-date:
                                     | relative_url }}" width="150px" alt="{{ formation.short }}">
                                     </div>
                                     <div class="col-xs-9"><p class="formations-pitch">{{ formation.pitch }}</p>
-                                        <a href="{{ formation.url | relative_url}}" class="btn btn-primary right">Découvrez
+                                        <a href="{{ formation.url | relative_url}}" class="job-button button-sm right">Découvrez
                                             le programme</a>
                                     </div>
                                 </div>

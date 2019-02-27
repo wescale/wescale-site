@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Docker et Kubernetes
+desctitle: Des bases à l'autonomie
 class: formation
 pitch: |
     Aujourd’hui, tout nous pousse à livrer de plus en plus vite et à monter en charge le plus rapidement possible.

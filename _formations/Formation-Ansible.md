@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Ansible
+desctitle: Découvrir et maîtriser Ansible pour la production
 class: formation
 pitch: |
     Ansible est un outil de pilotage de systèmes,

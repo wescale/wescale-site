@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation - XL Deploy
+desctitle:
 class: formation
 pitch: |
     XL Deploy est un outil de déploiement automatique d’applications qui permet de déployer tout type d’applications d’entreprise (Java, Windows, bases de données etc..) sur tout type d’infrastructures et environnements (on premise ou Cloud).
