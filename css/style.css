@@ -1078,8 +1078,7 @@ a.job-button, input[type="submit"].hs-button {
 
 .button-sm {
     font-size: 1.5em!important;
-    padding: 0px 5px!important;
-}
+    padding: 0.2em 0.2em!important}
 
 a.job-button:hover, input[type="submit"].hs-button:hover {
     background: #6694bb;
