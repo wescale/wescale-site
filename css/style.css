@@ -47,20 +47,13 @@ section {
     vertical-align: middle;
 }
 
-.content {
-    /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
+/*.content {
+    !* background: transparent url(../images/background-white.jpg) no-repeat center center; *!
     background-size: cover;
-  /*  min-height: calc(100vh - 220px);*/
-    padding: 2em 1em;
-}
+  !*  min-height: calc(100vh - 220px);*!
+    !*padding: 2em 1em;*!
+}*/
 
-.partenariats .content {
-    /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
-    background-size: cover;
-    min-height: calc(100vh - 220px);
-    padding: 0px 0px;
-    padding-bottom: 90px;
-}
 
 input {
     line-height: 35px;
@@ -301,7 +294,7 @@ img {
     background-size: cover;
     /*min-height: 100vh;*/
     color: white;
-    padding-bottom: 21px;
+    /*padding-bottom: 21px;*/
 }
 
 #improve {
@@ -438,6 +431,7 @@ img {
 .home-metier h3 {
     text-align: center;
     font-size: 2.6em;
+    color: #567997;
 }
 
 .home-metier p {
@@ -556,7 +550,9 @@ img {
 .home-content {
     position: relative;
     padding: 10px 15px 50px 15px;
-    margin-top: 5em;
+   /* margin-top: 5.5em;*/
+    margin-top: 7em;
+    margin-bottom: 2em;
 }
 
 .partenariats .home-content {
@@ -707,8 +703,8 @@ img {
 }
 
 .home-layer {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
     text-align: center;
     font-size: 18px;
 }
@@ -1036,7 +1032,7 @@ div.equipe-name h3 {
     background-size: cover;
     /*min-height: 100vh;*/
     color: white;
-    padding-bottom: 21px;
+    /*padding-bottom: 21px;*/
 }
 
 #recrutement-top a, #formations-top a {
@@ -1121,6 +1117,7 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
 
 .job .content {
     min-height: 0%;
+    padding-top: 3em;
 }
 
 .job-bg {
