@@ -51,7 +51,7 @@ section {
     /* background: transparent url(../images/background-white.jpg) no-repeat center center; */
     background-size: cover;
   /*  min-height: calc(100vh - 220px);*/
-    padding: 20px 0;
+    padding: 2em 1em;
 }
 
 .partenariats .content {
@@ -197,20 +197,23 @@ img {
     margin: 0 0.5em
 }
 
-.navbar-default .navbar-nav > li:hover {
-    border-bottom: 2px white solid;
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 2px white solid!important;
 }
 
 .navbar-default .navbar-nav .socials > a {
     color: white;
     border-bottom: none;
     display: inline;
+    margin: 0 0.2em;
+
 }
 
 .navbar-default .navbar-nav .socials {
     color: white;
     border-bottom: none;
     font-size: 100%;
+
     /*width: 100px;*/
 }
 
@@ -1436,10 +1439,10 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
 }
 
 .job .history {
-    font-size: 18px;
-    padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 1.2em;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .job-profils a {
@@ -1527,7 +1530,7 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
     }
 
     .navbar-default .navbar-nav .socials > a {
-        margin: 0 10px;
+        margin: 0 0.5em;
     }
 
     .formations .course-image {
@@ -1602,6 +1605,10 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
     .formations-pitch {
         display: block;
         height: auto;
+    }
+
+    .equipe > div {
+        margin: 1.2em 20%;
     }
 }
 
