@@ -568,15 +568,25 @@ img {
     font-size: 2.9em;
 }
 
-.home-partenaires {
-    padding: 100px 0;
+.home-partenaires img {
+    max-width: 150px;
+    max-height: 80px;
+
 }
 
-.partenaires {
-    max-width: 850px;
-    margin: auto;
-    font-size: 0;
-    text-align: center;
+.row-partenaires {
+    padding: 10px 0;
+}
+
+.row-partenaires .col-sm-3 {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: block;
+    padding: 1em 1em;
+}
+
+.row-partenaires .col-sm-3:last-child {
+    border-right: none;
 }
 
 .equipe-mask {

@@ -250,8 +250,25 @@ jobs_url:
                 <div class="col-xs-12">
                     <h1 class="title">Ils nous font confiance</h1>
                     <!--<p class="subtitle">Nous accompagnons les projets de nombreux clients grands comptes institutionnels, industriels ou du monde bancaire.</p>-->
-
-                    <div class="partenaires">
+                </div>
+            </div>
+            {% for reference in site.references %}
+            {% for ref in reference.references %}
+            {% capture row %}{% cycle '1', '2', '3', '4' %}{% endcapture %}
+            {% if row == '1' %}
+               <div class="row row-partenaires text-center">
+            {% endif %}
+                <div class="col-sm-3">
+                        <a href="{{ref.url}}" target="_blank">
+                            <img src="{{ ref.img| relative_url }}" alt="{{ref.name}}"  />
+                        </a>
+                </div>
+            {% if row == '4' %}
+               </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+<!--                    <div class="partenaires">
                         <a href="https://www.arval.fr/" target="_blank">
                             <img src="{{"/images/references/client-arval.jpg"| relative_url }}" alt="" width="150px" />
                         </a>
@@ -315,10 +332,9 @@ jobs_url:
                         <a href="http://www.senat.fr/" target="_blank">
                             <img src="{{"/images/references/client-senat.png"| relative_url }}" alt="" width="100px" />
                         </a>
-                    </div>
+                    </div>-->
                     <!--
                     -->
-                </div>
             </div>
         </div>
     </section>
