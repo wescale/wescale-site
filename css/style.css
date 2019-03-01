@@ -47,13 +47,6 @@ section {
     vertical-align: middle;
 }
 
-/*.content {
-    !* background: transparent url(../images/background-white.jpg) no-repeat center center; *!
-    background-size: cover;
-  !*  min-height: calc(100vh - 220px);*!
-    !*padding: 2em 1em;*!
-}*/
-
 
 input {
     line-height: 35px;
@@ -430,7 +423,7 @@ img {
 
 .home-metier h3 {
     text-align: center;
-    font-size: 2.6em;
+    font-size: 2em;
     color: #567997;
 }
 
@@ -534,7 +527,7 @@ img {
 }
 
 .home-top h3 {
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .home-top p {
