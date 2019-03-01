@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Terraform
+desctitle: Développer son infrastructure Cloud avec Terraform
 class: formation
 pitch: |
      Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place

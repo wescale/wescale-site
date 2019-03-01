@@ -1,6 +1,7 @@
 ---
 layout: formation
 title: Formation Kubernetes
+desctitle: Développer et déployer des conteneurs bien orchestrés
 class: formation
 pitch: |
     Lorsque l’on découvre Docker, le besoin d’un orchestrateur

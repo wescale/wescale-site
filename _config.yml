@@ -35,6 +35,8 @@ collections:
     output: false
   valeurs:
     output: false
+  references:
+    output: false
 
 
 exclude:

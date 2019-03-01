@@ -29,7 +29,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Experts 
+          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Expert
     blogname: bastien-cadiot
   -
     name: Nicolas Diez
@@ -119,7 +119,6 @@ wewes:
     name: Bastien Feuillet
     title: Cloud Builder
     img: /images/wewes/Carre-BastienFeuillet.jpg
-    blogname: bastien-feuillet
   -
     name: Bassem Ben Lazreg
     title: Cloud Builder

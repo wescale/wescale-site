@@ -12,11 +12,22 @@
     <link rel="icon" href="{{"/images/favicon.ico"|relative_url}}" />
 
     <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!--
     <link href="{{ "/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+-->
     <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
+
+
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Open+Sans+Condensed:300,700">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +55,9 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default">
     <div class="menu-background"></div>
+<!--
     <div class="container">
+-->
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -56,34 +69,38 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{"/"| relative_url }}"><img src="{{ "/images/logo.png" | relative_url }}"
-            alt="Wescale - Cloud Expert logo" width="148" height="58" /></a>
+            alt="WeScale - Cloud Expert logo" width="148" height="58" /></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav menu-links">
-                <li><a href="{{ "/formations.html"| relative_url }}">Formations</a></li>
+                <li><a href="{{ "/formations.html"| relative_url }}">Nos Formations</a></li>
 <!--
                 <li><a href="{{ "/services.html" | relative_url }}">Services</a></li>
 -->
-                <li><a href="{{ "/wetribu.html"| relative_url }}">WeTribu</a></li>
-                <li><a href="{{"/mission.html" | relative_url }}">Mission</a></li>
+                <li><a href="{{ "/wetribu.html"| relative_url }}"> La WeTribu</a></li>
+                <li><a href="{{"/mission.html" | relative_url }}">Notre Mission</a></li>
                 <!--<li><a href="{{"/expertises.html" | relative_url }}">Expertises</a></li>-->
-                <li><a href="http://blog.wescale.fr/">Blog</a></li>
-                <li><a href="{{ "/contact.html"| relative_url }}">Contact</a></li>
+
+                <li><a href="{{ "/contact.html"| relative_url }}">Nous contacter</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://blog.wescale.fr/">Le Blog</a></li>
                 <li class="socials">
-                    <a href="https://twitter.com/yeswescale" title="Twitter"><i class="fa fa-twitter"
+                    <a href="https://twitter.com/yeswescale" title="Twitter" target="_blank"><i class="fab fa-twitter"
                                                                                 aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/company/wescale" title="Linkedin"><i class="fa fa-linkedin"
+                    <a href="https://www.linkedin.com/company/wescale" title="Linkedin" target="_blank"><i class="fab fa-linkedin"
                                                                                            aria-hidden="true"></i></a>
-                    <a href="https://github.com/WeScale" title="Github"><i class="fa fa-github"></i></a>
-                    <a href="https://speakerdeck.com/wescale" title="Speaker Deck"><i class="fa fa-slideshare"></i></a>
+                    <a href="https://github.com/WeScale" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/channel/UCd7ev5W374BxUDlMPXDdDnA" title="WeScale TV" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://speakerdeck.com/wescale" title="Speaker Deck" target="_blank"><i class="fab fa-slideshare"></i></a>
                 </li>
             </ul>
         </div>
+<!--
     </div>
+-->
 </nav>
 <!-- /Navigation -->
 
@@ -101,7 +118,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-lg-4 col-md-4">
                         <div id="map-legend">
-                            <h3>Wescale</h3>
+                            <h3>WeScale</h3>
                             <p>23 rue Taitbout<br/>75009 Paris</a></p>
                             <p><img src="{{ "/images/metro.jpg" | relative_url }}" width="25px" height="17px"/> Chaussée d'Antin Lafayette, Auber, Richelieu - Drouot, Opéra</p>
                         </div>
@@ -134,7 +151,7 @@
 <script src="{{"/js/notify.min.js" | relative_url}}"></script>
 <script type = "text/javascript">
 if (typeof jQuery === 'undefined') {
-    throw new Error('Wescale\'s JavaScript requires jQuery')
+    throw new Error('WeScale\'s JavaScript requires jQuery')
 }
 
 +function ($) {
@@ -199,7 +216,7 @@ if (typeof jQuery === 'undefined') {
             mapTypeId: MY_MAPTYPE_ID
         };
         window.map = new google.maps.Map(document.getElementById("google_map"), t);
-        var r = {name: "Wescale Style"};
+        var r = {name: "WeScale Style"};
         var i = new google.maps.StyledMapType(e, r);
         window.map.mapTypes.set(MY_MAPTYPE_ID, i);
         var s = new google.maps.Marker({
