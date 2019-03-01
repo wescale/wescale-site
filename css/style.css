@@ -558,7 +558,7 @@ img {
     margin: auto;
     max-width: initial;
     text-align: left;
-}
+
 
 .home-text {
     margin: auto;
@@ -569,7 +569,7 @@ img {
 }
 
 .home-partenaires img {
-    max-width: 150px;
+    max-width: 250px;
     max-height: 80px;
 
 }
