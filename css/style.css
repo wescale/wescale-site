@@ -579,8 +579,6 @@ img {
 }
 
 .row-partenaires .col-sm-3 {
-    border-right: 1px solid gray;
-    border-bottom: 1px solid gray;
     display: block;
     padding: 1em 1em;
 }
