@@ -4,7 +4,8 @@ title: Formation Google Cloud Platform
 desctitle: Apprendre à construire ses infrastructures avec GCP
 class: formation
 pitch: |
-    Durant cette formation le participant apprendra les bases de Google Cloud Plateform dans l’objectif mettre en place une infrastructure Cloud. 
+    Durant cette formation, le participant apprendra les bases de Google Cloud Plateform, dans l’objectif mettre en
+    place une infrastructure Cloud.
 
 img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg

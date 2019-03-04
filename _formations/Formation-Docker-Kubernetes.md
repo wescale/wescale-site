@@ -6,8 +6,8 @@ class: formation
 pitch: |
     Aujourd’hui, tout nous pousse à livrer de plus en plus vite et à monter en charge le plus rapidement possible.
     C’est pour cela que les conteneurs sont si populaires, ils répondent bien à cette problématique.
-    Nous allons donc lors de cette formation apprendre à utiliser et maintenir des conteneurs en production, d’abord en
-    apprenant Docker et ensuite Kubernetes pour l’orchestration.
+    Nous allons lors de cette formation apprendre à utiliser et maintenir des conteneurs en production, en
+    apprenant d’abord Docker puis, Kubernetes pour l’orchestration.
 
 img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg

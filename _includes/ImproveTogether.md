@@ -14,5 +14,5 @@ individuelle. Nous nous impliquons fortement sur les projets que nous réalisons
 pas de différence entre nos projets internes et ceux de nos clients. **Le partage**, **l’écoute**,
 **la tolérance**, **l’ouverture** et **l’amitié** sont les valeurs qui servent notre façon de collaborer.
 
-Improve Together signifie littéralement : **“Améliorer ensemble”**, nous croyons que c’est en travaillant ensemble que
+Improve Together signifie littéralement : **“Améliorer ensemble”**. Nous croyons que c’est en travaillant ensemble que
 nous pouvons améliorer les systèmes d’informations.
