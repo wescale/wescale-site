@@ -1174,6 +1174,7 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
 }
 
 .formation h2.bg-green {
+    font-size: 1.8em;
     color: white;
     margin-bottom: 20px;
     background-color: #09aa9d;
