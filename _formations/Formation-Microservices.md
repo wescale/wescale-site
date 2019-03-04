@@ -5,7 +5,7 @@ desctitle: Poser les bases d'une architecture évolutive et liée à l'existant
 class: formation
 pitch: |
     L'architecture et la technologie microservices sont présentes dans presque tous les projets en création ou en cours
-    de portage. Après cette formation vous serez capable de mettre en place une réflexion et des actions au sein de
+    de portage. Après cette formation, vous serez capable de mettre en place une réflexion et des actions au sein de
     votre équipe pour accompagner votre architecture vers cette technologie.
 
 img: /images/formations/microservices.png
