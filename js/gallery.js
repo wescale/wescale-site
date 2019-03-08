@@ -88,6 +88,7 @@
             self.current_opened_box_id = boxId;
 
 
+            var targetOffset = $(this).offset().top - 80 - openThumb;
             var itemId = $this.attr('data-id');
             // Fix ME handle different elemPerRow of 4 - 2 - 1
             // Handle new 3 - 3 - 1
@@ -109,6 +110,8 @@
             }
 
 
+            document.documentElement.scrollTop = targetOffset;
+
             $(targetId).slideDown(800);
             /*var timer = setTimeout(
             $("html,body").animate({scrollTop: targetOffset}, 500, function () {
@@ -116,6 +119,7 @@
                 return false;
 
             }));*/
+            evt.preventDefault();
 
     }
 
