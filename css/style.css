@@ -345,7 +345,7 @@ img {
 .portfolio-container .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
   height: 20px;
   margin-top: -12px;
@@ -369,6 +369,15 @@ img {
   text-align: center;
   background-color: #fff;
 }
+
+#offres .portfolio-item .portfolio-caption {
+    padding: 5px 0px;
+    background-color: inherit;
+    /*
+    color: #567997;
+    */
+}
+
 .caption-bg-transp {
     background-color: rgba(255, 255, 255, 0.3215686274509804)!important;
 }
@@ -393,6 +402,12 @@ img {
     padding-bottom: 20px;
     background-color: white;
     font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.portfolio-container .gridder-content h2 {
+    color: #567997;
+    margin-top: 0;
 }
 
 .portfolio-container a {
@@ -404,6 +419,12 @@ img {
 
     color: white!important;
 }
+
+.img-roll {
+    padding: 2% 40%;
+    text-align: center;
+}
+
 
 .middle{
     display: inline-block;
@@ -1078,25 +1099,17 @@ a.job-button, input[type="submit"].hs-button {
 
 .button-sm {
     font-size: 1.5em!important;
-    padding: 0.2em 0.2em!important}
+    padding: 0.2em 0.3em!important
+}
+
+.button-xs {
+    font-size: 1.1em!important;
+    padding: 0.2em 0.3em!important
+}
 
 a.job-button:hover, input[type="submit"].hs-button:hover {
     background: #6694bb;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
-    font-size: 1.9em;
-    display: inline-block;
-    line-height: 35px;
-    margin: 10px 0;
-    padding: 0 5px;
     border: 1px solid #6694bb;
-    font-weight: bolder;
-    text-decoration: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 10px;
-
 }
 
 .job-family {

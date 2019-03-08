@@ -24,6 +24,7 @@
         this.current_opened_box_id = -1;
         this.nbRow = options.nbRow;
         this.elemPerRow = options.elemPerRow;
+        this.elemPerRowMd = options.elemPerRowMd;
         this.randomize = options.randomize;
         this.containerClass = options.containerClass;
         this.anchor = decodeURIComponent(window.location.hash);
@@ -121,12 +122,12 @@
 
 
   function Plugin(option) {
-    return this.each(function () {
+    return this.each(function (index) {
       var $this   = $(this)
-      var data    = $this.data('gallery')
+      var data    = $this.data('gallery'+index)
       var options = $.extend({}, Gallery.DEFAULTS, $this.data(), typeof option == 'object' && option)
 
-      if (!data) $this.data('gallery', (data = new Gallery(this, options)))
+      if (!data) $this.data('gallery'+index, (data = new Gallery(this, options)))
     })
   }
 

@@ -69,6 +69,54 @@ jobs_url:
      </div>
 </section>
 
+
+    <!-- Bloc Offres  -->
+    <section title="offres" >
+        <div class="container-fluid bg-light content portfolio-container" id="offres">
+            <div class="row padding-btm">
+                 <div class="col-lg-12 text-center">
+            <h2 class="section-heading ">Nos expertises</h2>
+                </div>
+            </div>
+
+<div class="row no-gutters rolldown-gallery">
+{% for offre in site.offres %}
+            <div class="col-md-3 col-sm-6 portfolio-item text-center" id="{{offre.name| slugify: 'ascii' }}"
+                data-content="#content-{{offre.name| slugify: 'ascii' }}">
+            <a class="portfolio-link"  href="#{{offre.name| slugify: 'ascii' }}">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <div class="img-roll">
+                  <img class="img-fluid svg" src="{{offre.thumb|relative_url}}" alt="{{offre.title}}">
+              </div>
+
+            <div class="portfolio-caption">
+              <h3>{{offre.title}}</h3>
+            </div>
+            </a>
+          </div>
+         <div class="gridder-content col-md-12 col-sm-12" id="content-{{offre.name| slugify: 'ascii' }}" style="display: none;">
+                <div class="col-md-4 middle">
+                    <img src="{{offre.img|relative_url}}">
+                </div>
+                <div class="col-md-8">
+                    {{ offre.output }}
+                    <footer>
+<!--
+                        <a href="https://blog.wescale.fr/tag/{{offre.tag}}/" target="_blank">Découvrez nos publications {{offre.title}}</a>
+-->
+                        <a class="job-button button-xs" href="{{ "/contact.html"| relative_url }}">Parlons-en</a>
+                    </footer>
+                </div>
+         </div>
+    {% endfor %}
+        </div>
+
+        </div>
+    </section>
 <div class="content" id="partenaire-aws-gcp">
     <section class="home-layer" >
         <div class="container">
@@ -169,7 +217,7 @@ jobs_url:
                 </h2>
             </div>
         </div>
-        <div class="row no-gutters rolldown-gallery">
+        <div class="row no-gutters rolldown-galleryt">
 
             <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-designer"
                  data-content="#content-cloud-designer">
