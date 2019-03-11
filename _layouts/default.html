@@ -157,7 +157,7 @@ if (typeof jQuery === 'undefined') {
 +function ($) {
     'use strict';
 
-    //Menu
+/*    //Menu
     if ($('.home').length > 0) {
         $(window).scroll(function () {
             if ($(window).scrollTop() == 0) {
@@ -176,7 +176,7 @@ if (typeof jQuery === 'undefined') {
         } else {
             $('.navbar-default').removeClass('collapsed');
         }
-    });
+    });*/
 
     //Google Map (Footer)
     var MY_MAPTYPE_ID = "wescale-style";
@@ -251,31 +251,23 @@ if (typeof jQuery === 'undefined') {
 
     {% if page.class == 'home' or page.class == 'job' %}
 
-     $('#nous-rejoindre').click(function (evt) {
-            evt.preventDefault();
-            $(window).scrollTo($('#rejoindre-wescale'), {duration:500, offset: -70});
-        });
 
-    $('#it-btn').click(function (evt) {
-        evt.preventDefault();
-        $(window).scrollTo($('#nos-offres'), 500);
-    });
 
     $('a.scroll').click(function (evt) {
         evt.preventDefault();
         $(window).scrollTo($(this).attr("href"), 500);
     });
 
-    $('div.rolldown-gallery').wsGallery({ elemPerRow: 3, elemPerRowMd: 3})
-
+        {% if page.class == 'job' %}
+    $('div.rolldown-gallery').wsGallery({ elemPerRow: 3, elemPerRowMd: 3});
+        {% elsif page.class == 'home' %}
+    $('div.rolldown-gallery').wsGallery();
+        {% endif %}
     $('.equipe div.equipe-photo').randomize();
 
     {% endif %}
 
     // If contact
-    {% if page.class == 'contact' %}
-
-    {% endif %}
 
      {% if page.class == 'mission' %}
 
@@ -285,9 +277,6 @@ if (typeof jQuery === 'undefined') {
     })
 
     var gallery = $('div.rolldown-gallery').wsGallery();
-
-
-
 
     {% endif %}
 

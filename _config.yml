@@ -37,6 +37,8 @@ collections:
     output: false
   references:
     output: false
+  offres:
+    output: false
 
 
 exclude:

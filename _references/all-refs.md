@@ -63,7 +63,7 @@ references:
   -
     name: Christian Dior
     img: /images/references/client-dior.png
-    url: https://www.dior.fr/
+    url: https://www.dior.com/
   -
     name: BforBank
     img: /images/references/client-bforbank.png
