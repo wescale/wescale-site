@@ -1260,11 +1260,6 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
     border-bottom: 1px solid white;
 }
 
-/*.formation img {
-    background-color: #ffffff73;
-    padding: 3px;
-    border-radius: 10px;
-}*/
 
 .biography {
     border: 1px solid white;
@@ -1624,10 +1619,8 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .container-fluid
-  {
-    text-align: center;
-  }
+
+
 }
 
 /* Overload Bootstrap :p */
