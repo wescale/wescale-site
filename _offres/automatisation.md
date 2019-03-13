@@ -12,4 +12,4 @@ tag: automatisation
 
 Nous rejoignons vos équipes techniques pour participer à la mise en place d’un outillage et d’une méthodologie adaptée.
 Qu’il s’agisse d’automatisation ciblée ou de la conception d’une usine logicielle à grande échelle, nos experts vous
-ferons bénéficier de leurs bonnes pratiques et retours d'expérience.
+feront bénéficier de leurs bonnes pratiques et retours d'expérience.
