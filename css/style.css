@@ -1450,6 +1450,7 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
     padding-top: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .job-profils a {
