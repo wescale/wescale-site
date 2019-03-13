@@ -1153,7 +1153,8 @@ a.job-button:hover, input[type="submit"].hs-button:hover {
 }
 
 .welcome-box {
-    background-image: url(../images/welcome_box_4x3.jpeg);
+    background-image: url(../images/bg/WESCALE-08.jpg);
+    /*background-image: url(../images/welcome_box_4x3.jpeg);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
