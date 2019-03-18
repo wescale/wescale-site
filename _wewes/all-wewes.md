@@ -73,9 +73,10 @@ wewes:
     img: /images/wewes/carre-Alexis-Morelle.jpg
     blogname: alexis-morelle
   -
-    name: Thibault Maksud
-    title: Chargé de recrutement
-    img: /images/wewes/carre-thibault-maksud.jpg
+    name: Benoit Petit
+    title: Cloud Builder
+    img: /images/wewes/carre-benoit-petit.jpg
+    blogname: benoit-petit
   -
     name: Et vous ?
     title: Cloud Future
@@ -143,10 +144,10 @@ wewes:
     name: Mathieu Di-Majo
     title: Cloud Builder
     img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
-   -
+  -
     name: Aurélien Perrier
     title: Cloud Builder
-    img: /images/wewes/carre-aurelien-perrier.jpg
+    img: /images/wewes/carre-aurelien-perrier.jpg  
     
     
 ---
