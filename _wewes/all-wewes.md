@@ -146,7 +146,6 @@ wewes:
   -
     name: Aurélien Perrier
     title: Cloud Builder
-    img: /images/wewes/carre-aurelien-perrier.jpg 
+    img: /images/wewes/carre-aurelien-perrier.jpg
     
-
 ---
