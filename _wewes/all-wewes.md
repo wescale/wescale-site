@@ -144,6 +144,9 @@ wewes:
     name: Mathieu Di-Majo
     title: Cloud Builder
     img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
-    
+  -
+    name: Aurélien Perrier
+    title: Cloud Builder
+    img: /images/wewes/carre-aurelien-perrier.jpg  
     
 ---
