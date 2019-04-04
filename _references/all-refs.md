@@ -15,7 +15,7 @@ references:
   -
     name: BPI France
     img: /images/references/client-bpifrance.png
-    url: http://www.bpi.fr/
+    url: https://www.bpifrance.fr/
   -
     name: SoftBank Robotics
     img: /images/references/client-softbank-robotics.png
