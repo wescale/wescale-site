@@ -1,7 +1,7 @@
 ---
 layout: formation
 title: Formation GIT pour les Ops
-desctitle:
+desctitle: Faire évoluer son code en toute sérénité avec Git
 class: formation
 pitch: |
     Git est un outil qui permet de versionner son code, qu'il soit applicatif ou qu'il concerne l'infrastructure. Plus souvent connu et maîtrisé par les développeurs, il ne faut toutefois pas négliger son intérêt pour la production, particulièrement à l'ère du partage et de la culture DevOps.
