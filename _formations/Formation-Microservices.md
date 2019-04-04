@@ -8,7 +8,7 @@ pitch: |
     de portage. Après cette formation, vous serez capable de mettre en place une réflexion et des actions au sein de
     votre équipe pour accompagner votre architecture vers cette technologie.
 
-img: /images/formations/microservices.png
+img: /images/formations/Microservices visuel et texte.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
