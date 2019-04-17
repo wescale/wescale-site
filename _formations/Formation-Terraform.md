@@ -15,7 +15,6 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    10 et 11 janvier 2019 - Paris<br>
     25 et 26 avril 2019 - Paris
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
