@@ -11,8 +11,6 @@ img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    26 au 28 février 2019<br>
-    15 au 17 avril 2019<br>
     24 au 26 juin 2019
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
