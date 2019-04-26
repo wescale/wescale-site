@@ -29,7 +29,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-bastien-cadiot.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developers Expert
+          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developer Expert
     blogname: bastien-cadiot
   -
     name: Nicolas Diez
