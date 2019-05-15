@@ -10,8 +10,8 @@ pitch: |
 img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
-    Nos prochaines formations<br>
-    24 au 26 juin 2019
+    Nos prochaines formations sont à venir<br>
+   
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 350 €
