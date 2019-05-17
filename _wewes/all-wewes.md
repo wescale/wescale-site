@@ -104,12 +104,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
     blogname: dimitri
-  -
-    name: Oussama Bounaim
-    title: Cloud Builder
-    img: /images/wewes/carre-Oussama-Benaim.jpg
-    blogname: oussama-bounaim
-  -
+ -
     name: Alexandre Kolacz
     title: Cloud Builder
     img: /images/wewes/Carre-Alexandre-Kolacz.jpg
