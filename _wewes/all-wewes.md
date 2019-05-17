@@ -104,7 +104,7 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/carre-Dimitri-Tchapmi.jpg
     blogname: dimitri
- -
+  -
     name: Alexandre Kolacz
     title: Cloud Builder
     img: /images/wewes/Carre-Alexandre-Kolacz.jpg
@@ -142,6 +142,4 @@ wewes:
     name: Aurélien Perrier
     title: Cloud Builder
     img: /images/wewes/carre-aurelien-perrier-v2.jpg
-
-    
 ---
