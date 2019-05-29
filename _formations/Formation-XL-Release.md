@@ -9,7 +9,9 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    Dates à venir
+    24 et 25 septembre 2019<br>
+    13 et 14 novembre 2019<br>
+    10 et 11 décembre 2019
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours
 tarif: 1 500 €
