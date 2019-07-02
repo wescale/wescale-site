@@ -12,7 +12,7 @@ pitch: |
 img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
-    Notre prochaine formation<br>
+    Nos prochaines formations<br>
     7 au 9 octobre 2019 Paris<br>
     18 au 20 novembre 2019 Paris<br>
     13 au 15 janvier 2020 Paris<br>
