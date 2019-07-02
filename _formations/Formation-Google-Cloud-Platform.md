@@ -11,7 +11,7 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    dates à venir sur Paris
+    30 et 31 janvier 2020 Paris
     
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
