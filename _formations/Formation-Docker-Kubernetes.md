@@ -12,8 +12,11 @@ pitch: |
 img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
-    Notre prochaine formation<br>
-    27 au 29 mai 2019 Paris
+    Nos prochaines formations<br>
+    7 au 9 octobre 2019 Paris<br>
+    18 au 20 novembre 2019 Paris<br>
+    13 au 15 janvier 2020 Paris<br>
+    3 au 5 mars 2020 Paris
 pdf: /pdf/Programme-de-formation-Kubernetes-Docker.pdf
 duree: 3 jours
 tarif: 2 200 €
@@ -41,25 +44,36 @@ Connaissances système Linux et yaml.
 ### Les conteneurs, pourquoi ?
 
 * D’où ça vient ?
-* Pour quelles utilisations - Les avantages, les inconvénients
-* Pourquoi aujourd’hui ? - Quelles technologies ?
+* Pour quelles utilisations 
+* Les avantages, les inconvénients
+* Pourquoi aujourd’hui ? 
+* Quelles technologies ?
 
 
 ### Découvrir et utiliser Docker
 
-* Les commandes de base - Le fonctionnement en détail
-* La création d’images
-* La supervision
+* De la virtualisation à la conteneurisation
+* Les commandes de base
+* Le fonctionnement en détail
+* Cycle de vie d'un conteneur
+* La création d’images 
+* Démarrage des conteneurs
+* Les types de réseau
+* docker-compose
 * La maintenance
 * Le troubleshooting
 
-### Introduction à Kubernetes
+### Exploiter Kubernetes
 
 * Pourquoi utiliser un orchestrateur ?
 * Comment Kubernetes se démarque par rapport aux autres orchestrateurs
-* Découverte des ressources de base : Pod, Services, Deployment...
-* Mise en place d'une première application
-
+* Architecture Kubernetes
+* Aborder en détail et avec des exercices les ressources importantes : Pod, Services, Deployment, ConfigMap, Secret …
+* Stratégies de déploiement
+* Scalabilité / Résilience
+* Gestion des ressources
+* Les bonnes pratiques Développeurs / Ops / Sécurité
+* Travaux pratiques
 
 ### Les outils pour créer des clusters
 
@@ -71,14 +85,12 @@ Connaissances système Linux et yaml.
 
 ### Pour aller plus loin
 
-* Mode d'exposition des services
+* Mode d’exposition des services
 * Découverte des différentes solutions réseau
 * Mise en place d’un cluster hautement disponible
 * Mise en place d’une application 3 tiers avec scaling automatique
-* Focus sur le déploiement sans interruption (rolling-update)
 * Monitoring
 * Troubleshooting
-* Scaling
 
 
 ## A l’issue de la formation les stagiaires seront à même de
@@ -96,8 +108,7 @@ Connaissances système Linux et yaml.
 
 ## Méthodes pédagogiques
 
-Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans
-les phases de cours.
+Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans les phases de cours.
 
 # Formateur
 
