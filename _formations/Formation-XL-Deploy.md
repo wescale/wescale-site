@@ -11,7 +11,6 @@ img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    17 au 19 septembre 2019<br>
     5 au 7 novembre 2019<br>
     3 au 5 décembre 2019
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
