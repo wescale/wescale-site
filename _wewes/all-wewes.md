@@ -32,14 +32,6 @@ wewes:
           <i class="fa fa-certificate" aria-hidden="true"></i> Google Developer Expert
     blogname: bastien-cadiot
   -
-    name: Nicolas Diez
-    title: Cloud Builder
-    img: /images/wewes/carre-nicolas-diez.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified DevOps Pro<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Certified SysOps Admin<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Sécurity Specialty
-    blogname: nicolas-diez
-  -
     name: Stéphane Teyssier
     title: Cloud Designer
     img: /images/wewes/stephane-teyssier.jpg
@@ -85,10 +77,6 @@ wewes:
     name: Johan Girondeau
     title: Responsable Marketing et Communication
     img: /images/wewes/carre-johan-girondeau.jpg
-  -
-    name: Laëtitia Bouyahia
-    title: Customer Success Manager
-    img: /images/wewes/carre-laetitia-bouyahia.jpg
   -
     name: Jonathan Forget
     title: Cloud Builder
@@ -138,8 +126,4 @@ wewes:
     name: Mathieu Di-Majo
     title: Cloud Builder
     img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
-  -
-    name: Aurélien Perrier
-    title: Cloud Builder
-    img: /images/wewes/carre-aurelien-perrier-v2.jpg
 ---
