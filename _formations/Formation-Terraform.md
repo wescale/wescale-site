@@ -4,13 +4,12 @@ title: Formation Terraform
 desctitle: Développer son infrastructure Cloud avec Terraform
 class: formation
 pitch: |
-     Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place
-     dans la mouvance DevOps / Infrastructure as Code, ainsi il permet de créer des environnements reproductibles. Il
-     permet également le pilotage de plateformes de Cloud telles que Amazon Web Services, Openstack, Azure ou Google
-     Cloud Platform notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter et prendre
-     en mains Terraform, ainsi que la compréhension des bonnes pratiques pour approfondir et utiliser cet outil en
-     environnement de production.
-
+   Terraform est un outil de pilotage d’infrastructure, via une configuration légère et efficace. Celui-ci se place
+   dans la mouvance DevOps / Infrastructure as Code, ainsi il permet de créer des environnements reproductibles. Il
+   permet également le pilotage de plateformes de Cloud telles que Amazon Web Services, Openstack, Azure ou Google
+   Cloud Platform notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter et prendre
+   en mains Terraform, ainsi que la compréhension des bonnes pratiques pour approfondir et utiliser cet outil en
+   environnement de production.
 img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
