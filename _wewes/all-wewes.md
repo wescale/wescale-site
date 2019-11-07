@@ -7,7 +7,7 @@ wewes:
   -
     name: Séven Lemesle
     title: Président, co-fondateur
-    img: /images/wewes/Séven_Lemesle_2019.png
+    img: /images/wewes/Séven_Lemesle_2019.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect
     blogname: slemesle
   -
