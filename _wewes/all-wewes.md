@@ -25,13 +25,6 @@ wewes:
     title: DRH
     img: /images/wewes/Margot_Robine_2019.jpg
   -
-    name: Bastien Cadiot
-    title: Cloud Builder
-    img: /images/wewes/carre-bastien-cadiot.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developer Expert
-    blogname: bastien-cadiot
-  -
     name: Stéphane Teyssier
     title: Cloud Designer nantais
     img: /images/wewes/Stéphane_Teyssier_2019.jpg
