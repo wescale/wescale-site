@@ -10,7 +10,7 @@ img: /images/formations/Kubernetes-avancee-blue.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    16 et 17 décembre 2019 Paris
+    Dates à venir
 pdf: /pdf/Programme-de-formation-Kubernetes-avancee.pdf
 duree: 2 jours
 tarif: 1 500 €
