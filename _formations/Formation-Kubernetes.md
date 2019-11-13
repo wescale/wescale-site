@@ -12,7 +12,7 @@ img: /images/formations/kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    5 et 6 mars 2019
+    9 et 10 avril 2019
 pdf: /pdf/Training-Kubernetes.pdf
 pdf: /pdf/Programme-de-formation-Kubernetes.pdf
 duree: 2 jours
