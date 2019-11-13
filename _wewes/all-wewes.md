@@ -7,13 +7,13 @@ wewes:
   -
     name: Séven Lemesle
     title: Président, co-fondateur
-    img: /images/wewes/carre-seven-lemesle.png
+    img: /images/wewes/Séven_Lemesle_2019.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect
     blogname: slemesle
   -
     name: Aurélien Maury
     title: Directeur technique, co-fondateur
-    img: /images/wewes/carre-aurelien-maury.jpg
+    img: /images/wewes/Aurélien_Maury_2019.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS SysOps Administrator
     blogname: aurelien-maury
   -
@@ -23,24 +23,17 @@ wewes:
   -
     name: Margot Robine
     title: DRH
-    img: /images/wewes/carre-margot-robine.jpg
-  -
-    name: Bastien Cadiot
-    title: Cloud Builder
-    img: /images/wewes/carre-bastien-cadiot.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> Google Developer Expert
-    blogname: bastien-cadiot
+    img: /images/wewes/Margot_Robine_2019.jpg
   -
     name: Stéphane Teyssier
-    title: Cloud Designer
-    img: /images/wewes/stephane-teyssier.jpg
+    title: Cloud Designer nantais
+    img: /images/wewes/Stéphane_Teyssier_2019.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect Pro
     blogname: stephane-teyssier
   -
     name: Sébastien Lavayssiere
     title: Flying Designer
-    img: /images/wewes/carre-sebastien-lavayssiere.jpg
+    img: /images/wewes/Sébastien_Lavayssière_2019.jpg
     text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
           <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect<br>
           <i class="fa fa-certificate" aria-hidden="true"></i> Kubernetes Administrator
@@ -48,7 +41,7 @@ wewes:
   -
     name: Akram Blouza
     title: Cloud Builder
-    img: /images/wewes/carre-akram-blouza.jpg
+    img: /images/wewes/Akram_Blouza_2019.jpg
     blogname: akram-blouza
   -
     name: René Okouya
@@ -58,16 +51,16 @@ wewes:
   -
     name: Pauline Poisson
     title: Responsable juridique et RH
-    img: /images/wewes/carre-pauline-poisson.jpg
+    img: /images/wewes/Pauline_Poisson_2019.jpg
   -
     name: Alexis Morelle
     title: Cloud Builder
-    img: /images/wewes/carre-Alexis-Morelle.jpg
+    img: /images/wewes/Alexis_Morelle_2019.jpg
     blogname: alexis-morelle
   -
     name: Thibault Maksud
     title: Chargé de recrutement
-    img: /images/wewes/carre-thibault-maksud.jpg
+    img: /images/wewes/Thibault_Maksud_2019.jpg
   -
     name: Et vous ?
     title: Cloud Future
@@ -76,11 +69,11 @@ wewes:
   -
     name: Johan Girondeau
     title: Responsable Marketing et Communication
-    img: /images/wewes/carre-johan-girondeau.jpg
+    img: /images/wewes/Johan_Girondeau_2019.jpg
   -
     name: Jonathan Forget
     title: Cloud Builder
-    img: /images/wewes/Carre-Jonathan-Forget.jpg
+    img: /images/wewes/Jonathan_Forget_2019.jpg
     blogname: jonathan-forget
   -
     name: Aymen Lamara
@@ -90,40 +83,69 @@ wewes:
   -
     name: Dimitri Tchapmi
     title: Cloud Builder
-    img: /images/wewes/carre-Dimitri-Tchapmi.jpg
-    blogname: dimitri
+    img: /images/wewes/Dimitri_Tchapmi_2019.jpg
+    blogname: dimitri-tchapmi
   -
     name: Alexandre Kolacz
     title: Cloud Builder
-    img: /images/wewes/Carre-Alexandre-Kolacz.jpg
+    img: /images/wewes/Alexandre_Kolacz_2019.jpg
     blogname: alexandre-kolacz  
   -
     name: Bastien Feuillet
     title: Cloud Builder
-    img: /images/wewes/Carre-BastienFeuillet.jpg
+    img: /images/wewes/Bastien_Feuillet_2019.jpg
   -
     name: Bassem Ben Lazreg
     title: Cloud Builder
-    img: /images/wewes/Carre-Bassem-Ben-Lazreg.jpg
+    img: /images/wewes/Bassem_BenLazreg_2019.jpg
     blogname: bassem-ben-lazreg
   -
     name: Lulu Song
     title: Office Manager
-    img: /images/wewes/Carre-Lulu-Song.jpg
+    img: /images/wewes/Lulu_Song_2019.jpg
   -
     name: Lilian Deloche
     title: Cloud Builder
-    img: /images/wewes/Carre-Lilian-Deloche.jpg
+    img: /images/wewes/Lilian_Deloche_2019.jpg
   -
     name: Benoit Oyez
     title: Cloud Builder
-    img: /images/wewes/carre-Benoit-Oyez.jpg   
+    img: /images/wewes/Benoit_Oyez_2019.jpg   
   -
     name: Romain Boulanger
     title: Cloud Builder
-    img: /images/wewes/Carre-Romain-Boulanger.jpg      
+    img: /images/wewes/Romain_Boulanger_2019.jpg
+    blogname: romain-boulanger
   -
     name: Mathieu Di-Majo
     title: Cloud Builder
     img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
+  -
+    name: Agathe Couturier
+    title: Chargée de communication et création graphique
+    img: /images/wewes/Agathe_Couturier_2019.jpg
+  -
+    name: Ayoub Jadir
+    title: Cloud Builder
+    img: /images/wewes/Ayoub_Jadir_2019.jpg
+  -
+    name: Chris Navas
+    title: Cloud Builder
+    img: /images/wewes/Chris_Navas_2019.jpg
+    blogname: chris-navas
+  -
+    name: Jérôme Devoucoux
+    title: Cloud Builder
+    img: /images/wewes/Jérôme_Devoucoux_2019.jpg
+    blogname: jerome-devoucoux
+  -
+    name: Salim Boulkour
+    title: Cloud Builder nantais
+    img: /images/wewes/Salim_Boulkour_2019.jpg
+    blogname: salim-boulkour
+  -
+    name: Tanguy Combe
+    title: Cloud Builder
+    img: /images/wewes/Tanguy_Combe_2019.jpg
+    blogname: tanguy-combe
 ---

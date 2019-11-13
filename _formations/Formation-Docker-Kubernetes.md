@@ -12,7 +12,6 @@ img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Nos prochaines formations<br>
-    18 au 20 novembre 2019 Paris<br>
     13 au 15 janvier 2020 Paris<br>
     3 au 5 mars 2020 Paris
 pdf: /pdf/Programme-de-formation-Kubernetes-Docker.pdf
