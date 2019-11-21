@@ -8,6 +8,8 @@ before_install:
 - docker pull attensee/s3_website
 
 language: ruby
+jdk:
+  - openjdk11
 rvm:
   - 2.6.4
 install: gem install jekyll -v 3.2.1 && gem install s3_website && gem install minima
