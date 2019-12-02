@@ -31,14 +31,6 @@ wewes:
     text: <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect Pro
     blogname: stephane-teyssier
   -
-    name: Sébastien Lavayssiere
-    title: Flying Designer
-    img: /images/wewes/Sébastien_Lavayssière_2019.jpg
-    text: <i class="fa fa-certificate" aria-hidden="true"></i> Google Cloud Platform Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> AWS Solution Architect<br>
-          <i class="fa fa-certificate" aria-hidden="true"></i> Kubernetes Administrator
-    blogname: sebastien-lavayssiere
-  -
     name: Akram Blouza
     title: Cloud Builder
     img: /images/wewes/Akram_Blouza_2019.jpg
