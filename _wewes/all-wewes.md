@@ -22,7 +22,7 @@ wewes:
     img: /images/wewes/carre-luc-legardeur.jpg
   -
     name: Margot Robine
-    title: DRH
+    title: Directrice Recrutement et RH
     img: /images/wewes/Margot_Robine_2019.jpg
   -
     name: Stéphane Teyssier
@@ -42,7 +42,7 @@ wewes:
     blogname: rene-okouya
   -
     name: Pauline Poisson
-    title: Responsable juridique et RH
+    title: Directrice Juridique et RH
     img: /images/wewes/Pauline_Poisson_2019.jpg
   -
     name: Alexis Morelle
@@ -60,7 +60,7 @@ wewes:
     job: true
   -
     name: Johan Girondeau
-    title: Responsable Marketing et Communication
+    title: Responsable Communication et Marketing
     img: /images/wewes/Johan_Girondeau_2019.jpg
   -
     name: Jonathan Forget
@@ -108,10 +108,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/Romain_Boulanger_2019.jpg
     blogname: romain-boulanger
-  -
-    name: Mathieu Di-Majo
-    title: Cloud Builder
-    img: /images/wewes/Carre-Mathieu-Di-Majo.jpg
   -
     name: Agathe Couturier
     title: Chargée de communication et création graphique
