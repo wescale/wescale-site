@@ -14,7 +14,7 @@ subtitle: |
     3 au 5 décembre 2019<br>
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
-tarif: 2 350 €
+tarif: 2 455 €
 ---
 
 # Formation XL Deploy - *3 jours*
