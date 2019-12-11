@@ -13,7 +13,7 @@ subtitle: |
 
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours
-tarif: 1 500 €
+tarif: 1 570 €
 ---
 
 # Formation XL Release - *2 jours*
