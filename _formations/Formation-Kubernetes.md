@@ -12,9 +12,9 @@ img: /images/formations/kubernetes.png
 formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
 subtitle: |
     Notre prochaine formation<br>
-    9 et 10 avril 2020<br>
-    9 et 10 juillet 2020<br>
-    22 et 23 octobre 2020<br>
+    9 et 10 avril 2020 Paris<br>
+    9 et 10 juillet 2020 Paris<br>
+    22 et 23 octobre 2020 Paris<br>
 pdf: /pdf/Training-Kubernetes.pdf
 pdf: /pdf/Programme-de-formation-Kubernetes.pdf
 duree: 2 jours
