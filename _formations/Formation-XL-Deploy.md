@@ -15,7 +15,7 @@ subtitle: |
     14 au 16 avril 2020<br>
     9 au 11 juin 2020<br>
     9 au 11 septembre 2020<br>
-    6 au 18 novembre 2020<br>
+    16 au 18 novembre 2020<br>
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 455 €
