@@ -9,7 +9,9 @@ img: /images/formations/git-pour-les-ops.png
 formateur_img: /images/wewes/Carre-Lilian-Deloche.jpg
 subtitle: |
     Notre prochaine formation<br>
-    Dates à venir
+    27 mars 2020 Paris<br>
+    31 juillet 2020 Paris<br>
+    30 octobre 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-Git-pour-les-ops.pdf
 duree: 1 jour
 tarif: 800 €
