@@ -9,7 +9,7 @@ pitch: |
     Cette formation vous permettra de prendre en main cette technologie et d’être
     capable de l’utiliser au quotidien pour gérer vos conteneurs en production.
 img: /images/formations/kubernetes.png
-formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
+formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
     9 et 10 juillet 2020 Paris<br>
