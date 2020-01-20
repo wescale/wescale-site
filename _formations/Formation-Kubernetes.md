@@ -84,7 +84,7 @@ Connaissances système Linux et Docker, yaml.
 Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans
 les phases de cours.
 
-# Formateur
+# Formateurs
 
 {% include formateur.html nom_formateur="akram-blouza" %}
 {% include formateur.html nom_formateur="stephane-teyssier" %}
