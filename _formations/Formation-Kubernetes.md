@@ -86,5 +86,5 @@ les phases de cours.
 
 # Formateurs
 
-{% include formateur.html nom_formateur="akram-blouza" %}
-{% include formateur.html nom_formateur="stephane-teyssier" %}
+{% include formateur.html nom_formateur="akram-blouza" img_formateur="/images/wewes/Akram_Blouza_2019.jpg" %}
+{% include formateur.html nom_formateur="stephane-teyssier" img_formateur="/images/wewes/Stéphane_Teyssier_2019.jpg" %}
