@@ -87,3 +87,4 @@ les phases de cours.
 # Formateur
 
 {% include formateur.html nom_formateur="akram-blouza" %}
+{% include formateur.html nom_formateur="stephane-teyssier" %}
