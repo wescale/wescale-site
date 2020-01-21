@@ -9,7 +9,7 @@ pitch: |
     Nous allons lors de cette formation apprendre à utiliser et maintenir des conteneurs en production, en
     apprenant d’abord Docker puis, Kubernetes pour l’orchestration.
 img: /images/formations/docker-kubernetes.png
-formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
+formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Nos prochaines formations<br>
     5 au 7 février 2020 Paris<br>
@@ -111,6 +111,7 @@ Connaissances système Linux et yaml.
 
 Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans les phases de cours.
 
-# Formateur
+# Formateurs
 
-{% include formateur.html nom_formateur="sebastien-lavayssiere" %}
+{% include formateur.html nom_formateur="akram-blouza" img_formateur="/images/wewes/Akram_Blouza_2019.jpg" %}
+{% include formateur.html nom_formateur="stephane-teyssier" img_formateur="/images/wewes/Stéphane_Teyssier_2019.jpg" %}
