@@ -8,7 +8,7 @@ pitch: |
     place une infrastructure Cloud.
 
 img: /images/formations/Google-cloud-platform.png
-formateur_img: /images/wewes/carre-sebastien-lavayssiere.jpg
+formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
     25 et 26 juin 2020 Paris<br>
@@ -67,6 +67,7 @@ Connaissances réseaux et linux.
 
 Cette formation repose en grande partie sur des travaux pratiques permettant d’expérimenter ce qui est présenté dans les phases de cours.
 
-# Formateur
+# Formateurs
 
-{% include formateur.html nom_formateur="sebastien-lavayssiere" %}
+{% include formateur.html nom_formateur="akram-blouza" img_formateur="/images/wewes/Akram_Blouza_2019.jpg" %}
+{% include formateur.html nom_formateur="stephane-teyssier" img_formateur="/images/wewes/Stéphane_Teyssier_2019.jpg" %}
