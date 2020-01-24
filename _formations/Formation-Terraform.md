@@ -81,4 +81,4 @@ serveur web avec load-balancing. Chaque phase de mise en pratique est close par 
 
 # Formateur
 
-{% include formateur.html nom_formateur="aurelien-maury" %}
+{% include formateur.html nom_formateur="aurelien-maury" img_formateur="/images/wewes/Aurélien_Maury_2019.jpg" %}

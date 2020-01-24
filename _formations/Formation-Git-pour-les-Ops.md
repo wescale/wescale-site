@@ -71,5 +71,5 @@ Chaque phase de mise en pratique est clôturée par un tour de table autour des 
 
 # Formateur
 
-{% include formateur.html nom_formateur="lilian-deloche" %}
+{% include formateur.html nom_formateur="lilian-deloche" img_formateur="/images/wewes/Lilian_Deloche_2019.jpg" %}
 
