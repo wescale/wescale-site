@@ -86,5 +86,6 @@ Les concepts présentés sous forme de planches visuelles sont soutenus par des 
 
 # Formateur
 
-{% include formateur.html nom_formateur="david-acremann" %}
+{% include formateur.html nom_formateur="david-acremann" img_formateur="/images/wewes/avatar.png" %}
+
 
