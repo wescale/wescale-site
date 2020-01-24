@@ -83,4 +83,4 @@ qu’un tour de table.
 
 # Formateur
 
-{% include formateur.html nom_formateur="aurelien-maury" %}
+{% include formateur.html nom_formateur="aurelien-maury" img_formateur="/images/wewes/Aurélien_Maury_2019.jpg" %}
