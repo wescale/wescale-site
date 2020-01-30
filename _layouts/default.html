@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if site.github %}
     <meta name="robots" content="noindex">
+    {% else %}
+    <meta content="index,follow" name="robots">
     {% endif %}
     <title>{{ page.title }}</title>
 
