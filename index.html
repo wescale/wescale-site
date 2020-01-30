@@ -100,7 +100,7 @@ jobs_url:
           </div>
          <div class="gridder-content col-md-12 col-sm-12" id="content-{{offre.name| slugify: 'ascii' }}" style="display: none;">
                 <div class="col-md-4 middle">
-                    <img src="{{offre.img|relative_url}}">
+                    <img src="{{offre.img|relative_url}}" alt="{{offre.title}}">
                 </div>
                 <div class="col-md-8">
                     {{ offre.output }}
