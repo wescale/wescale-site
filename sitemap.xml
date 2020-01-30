@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.wescale.fr/</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations.html</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/wetribu.html</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/mission.html</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/contact.html</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/mentions.html</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Ansible.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Docker-Kubernetes.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Kubernetes.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Terraform.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-XL-Deploy.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-XL-Release.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Git-pour-les-Ops.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Kubernetes-avancee.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/formations/Formation-Google-Cloud-Platform.html</loc>
+  <lastmod>2020-01-24T14:13:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Ansible.pdf</loc>
+  <lastmod>2020-01-24T14:13:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/wescale_formation_formulaire_inscription.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Kubernetes-Docker.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Kubernetes.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Terraform.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Formation-xl-deploy-wescale-xebialabs.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Formation-xl-release-wescale-xebialabs.pdf</loc>
+  <lastmod>2020-01-24T14:13:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Git-pour-les-ops.pdf</loc>
+  <lastmod>2020-01-24T14:13:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Kubernetes-avancee.pdf</loc>
+  <lastmod>2020-01-24T14:13:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.wescale.fr/pdf/Programme-de-formation-Google-cloud-platform.pdf</loc>
+  <lastmod>2020-01-24T14:13:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
