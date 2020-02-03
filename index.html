@@ -15,7 +15,7 @@ jobs_url:
             <div class="col-md-12 home-content">
                 <h1 class="title">Experts Cloud et DevOps</h1>
                 <h2 class="home-text">
-                    Nous construisons avec vous le système d’information de demain.
+                    Nos experts vous aident à innover avec le Cloud et la culture DevOps.
                 </h2>
 
             </div>
@@ -32,7 +32,7 @@ jobs_url:
                 <p>
                     Nous détaillons avec vous l’expression de vos besoins pour mieux comprendre vos enjeux,
                     et vous accompagnons pour projeter les prochaines évolutions de votre système d’information.<br>
-                    Automatisation, Cloud, Conteneurs, BigData, Observabilité, Sécurité, ...
+                    Nos experts interviennent en Automatisation, Cloud, Conteneurs, BigData, Observabilité, Sécurité, ...
 
                     <!--
                     Le <b>continuous delivery</b> n'est pas réservé aux <b>GAFA</b>, tout le monde peut l'atteindre !
@@ -44,8 +44,8 @@ jobs_url:
                 <h3><i class="fa fa-cogs" aria-hidden="true"></i></h3>
                 <h3>Réalisation</h3>
                 <p>
-                    Nous vous aidons à concrétiser vos projets, grâce à la participation de nos experts collaborant au
-                    quotidien avec vous. Nous développons des plateformes Cloud Native adaptées et résilientes du
+                    Nous vous aidons à concrétiser vos projets dans une approche DevOps, grâce à la participation de nos
+                    experts collaborant au quotidien avec vous. Nous développons des plateformes Cloud Native adaptées et résilientes du
                     développement à la production.
                     <!--Nous construisons les solutions avec et pour nos clients. Notre objectif est de <b>collaborer</b>,
                     c’est
@@ -57,7 +57,7 @@ jobs_url:
                 <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
                 <h3>Formation</h3>
                 <p>
-                    Nous vous formons sur les technologies qui nous passionnent.
+                    Nos experts vous formons sur les technologies DevOps qui nous passionnent.
                     Notre catalogue de formations est là pour faire monter en compétences vos équipes. Nous produisons des
                     plans de formation issus de nos expériences de terrain et sommes à même de les adapter à votre
                     contexte.
@@ -85,7 +85,7 @@ jobs_url:
 {% for offre in site.offres %}
             <div class="col-md-3 col-sm-6 portfolio-item text-center" id="{{offre.name| slugify: 'ascii' }}"
                 data-content="#content-{{offre.name| slugify: 'ascii' }}">
-            <a class="portfolio-link"  href="#{{offre.name| slugify: 'ascii' }}">
+            <a class="portfolio-link"  href="#{{offre.name| slugify: 'ascii' }}" title="{{offre.name}}">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -110,7 +110,7 @@ jobs_url:
 <!--
                         <a href="https://blog.wescale.fr/tag/{{offre.tag}}/" target="_blank">Découvrez nos publications {{offre.title}}</a>
 -->
-                        <a class="job-button button-xs" href="{{ "/contact.html"| relative_url }}">Parlons-en</a>
+                        <a class="job-button button-xs" href="{{ "/contact.html"| relative_url }}" title="Contact">Parlons-en</a>
                     </footer>
                 </div>
          </div>
@@ -133,12 +133,12 @@ jobs_url:
             </div>
             <div class="row vertical-align">
                 <div class="col-md-6">
-                    <a href="https://aws.amazon.com/fr/partners/find/partnerdetails/?n=WeScale&id=001E0000019GSurIAG" target="_blank">
+                    <a href="https://aws.amazon.com/fr/partners/find/partnerdetails/?n=WeScale&id=001E0000019GSurIAG" title="Partenaire AWS" target="_blank">
                         <img width="300px" src="{{"/images/partenariats/aws-advanced-consulting-partner.png"|
                                 relative_url }}" alt="AWS Advanced Consulting Partner""></a>
                 </div>
                 <div class="col-md-6">
-                    <a href="https://cloud.google.com/partners/directory/#?q=wescale" target="_blank">
+                    <a href="https://cloud.google.com/partners/directory/#?q=wescale" title="Partenaire GCP" target="_blank">
                         <img width="300px" src="{{"/images/partenariats/Google-Cloud-Partner-Badge.png"|
                                 relative_url }}" alt="Google Cloud Partner""></a>
                 </div>
@@ -166,7 +166,7 @@ jobs_url:
                 <div class="col-md-6 col-md-offset-3">
                     <div class="techtrends">
                         <div class="techtrends-image">
-                            <a id="tt-link-conteneurs" href="//info.wescale.fr/cloudradar-finops" target="_blank"><img src="{{"/images/cover-finops.png"|
+                            <a id="tt-link-conteneurs" href="//info.wescale.fr/cloudradar-finops" title="Cloud Radar FinOps" target="_blank"><img src="{{"/images/cover-finops.png"|
                                 relative_url }}" alt="CloudRadar FinOps" /></a>
                         </div>
                         <div class="techtrends-text">
@@ -177,7 +177,7 @@ jobs_url:
                                 <br/>
                                 Mais alors, comment maîtriser et optimiser ses coûts d’infrastructure dans le Cloud  ?
                             </p>
-                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/cloudradar-finops" target="_blank">Télécharger</a>
+                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/cloudradar-finops" title="Télécharger le CloudRadar FinOps" target="_blank">Télécharger</a>
                             </p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ jobs_url:
                 <div class="col-sm-12 col-lg-6">
                     <div class="techtrends">
                         <div class="techtrends-image">
-                            <a id="tt-link-conteneurs" href="//info.wescale.fr/techtrends-conteneurs" target="_blank"><img src="{{"/images/couverture-tt-conteneurs-3.png"|
+                            <a id="tt-link-conteneurs" href="//info.wescale.fr/techtrends-conteneurs" title="CloudRadar Conteneurs" target="_blank"><img src="{{"/images/couverture-tt-conteneurs-3.png"|
                                 relative_url }}" alt="Techtrends Conteneurs" /></a>
                         </div>
                         <div class="techtrends-text">
@@ -199,7 +199,7 @@ jobs_url:
                                 conteneurisée avec les bons outils. Pour finir, le chapitre <b>Exploiter</b> vous aide à
                                 faire vivre la plateforme conteneurisée.
                             </p>
-                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/techtrends-conteneurs" target="_blank">Télécharger</a>
+                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/techtrends-conteneurs" title="Télécharger le CloudRadar Conteneurs" target="_blank">Télécharger</a>
                             </p>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ jobs_url:
                 <div class="col-sm-12 col-lg-6">
                     <div class="techtrends">
                         <div class="techtrends-image">
-                            <a id="tt-link-cloud" href="//info.wescale.fr/techtrends-cloud" target="_blank"><img src="{{"/images/techtrends-cloud-3.png"|
+                            <a id="tt-link-cloud" href="//info.wescale.fr/techtrends-cloud" title="Techtrends Cloud" target="_blank"><img src="{{"/images/techtrends-cloud-3.png"|
                                 relative_url }}" alt="Techtrends Cloud" /></a>
                         </div>
                         <div class="techtrends-text">
@@ -222,7 +222,7 @@ jobs_url:
                                 multiplient en conséquence. Les décideurs sont confrontés à des choix stratégiques et
                                 technologiques
                                 difficiles.</p>
-                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/techtrends-cloud" target="_blank">Télécharger</a>
+                            <p class="news-readmore"><a class="job-button button-sm" href="//info.wescale.fr/techtrends-cloud" title="Télécharger le Techtrends Cloud" target="_blank">Télécharger</a>
                             </p>
                         </div>
                     </div>
@@ -236,7 +236,7 @@ jobs_url:
         <div class="row padding-btm">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">
-                    <a href="{{"/wetribu.html"| relative_url }}">Rejoignez la WeTribu</a>
+                    <a href="{{"/wetribu.html"| relative_url }}" title="Rejoindre a WeTribu">Rejoignez la WeTribu</a>
                 </h2>
             </div>
         </div>
@@ -244,20 +244,20 @@ jobs_url:
 
             <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-designer"
                  data-content="#content-cloud-designer">
-                <a class="portfolio-link" href="{{page.jobs_url.designer}}" target="_blank">
+                <a class="portfolio-link" href="{{page.jobs_url.designer}}" title="Cloud Designer" target="_blank">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-external-link-alt fa-3x"></i>
                             <h2>Cloud Designer</h2>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_1.png"| relative_url}}" alt="">
+                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_1.png"| relative_url}}" alt="Cloud Designer">
 
                     <div class="portfolio-caption min-pad caption-bg-transp">
                         <h3>Cloud Designer</h3>
                         <p>
-                         Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, de
-                        solides bases techniques Cloud pour être à même de proposer des processus et des architectures
+                         Vous avez une appétence pour l’analyse des besoins business et des enjeux stratégiques, une
+                        expertise solide Cloud pour être à même de proposer des processus et des architectures
                         réalistes, bâties pour tenir et durer.
                         </p>
                     </div>
@@ -266,14 +266,14 @@ jobs_url:
 
             <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-builder"
                  data-content="#content-cloud-builder">
-                <a class="portfolio-link" href="{{page.jobs_url.builder}}" target="_blank">
+                <a class="portfolio-link" href="{{page.jobs_url.builder}}" title="Cloud Builder" target="_blank">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-external-link-alt fa-3x"></i>
                             <h2>Cloud Builder</h2>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_2.png"| relative_url}}" alt="">
+                    <img class="img-fluid" src="{{"/images/wetribu/Cosmonaute_2.png"| relative_url}}" alt="Cloud Builder">
 
                     <div class="portfolio-caption min-pad caption-bg-transp">
                         <h3>Cloud Builder</h3>
@@ -290,22 +290,22 @@ jobs_url:
 
             <div class="col-md-4 col-sm-4 portfolio-item" id="cloud-runner"
                  data-content="#content-cloud-runner">
-                <a class="portfolio-link" href="{{page.jobs_url.runner}}" target="_blank">
+                <a class="portfolio-link" href="{{page.jobs_url.runner}}" title="Cloud Runner" target="_blank">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-external-link-alt fa-3x"></i>
                             <h2>Cloud Runner</h2>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{"/images/wetribu/cosmonaute_33.png"| relative_url}}" alt="">
+                    <img class="img-fluid" src="{{"/images/wetribu/cosmonaute_33.png"| relative_url}}" alt="Cloud Runner">
 
                     <div class="portfolio-caption min-pad caption-bg-transp">
                         <h3>Cloud Runner</h3>
                         <p>
-                            Vous êtes un pro du système, de l'automatisation, du monitoring et du réseau. Vous avez le
+                            Vous êtes un expert du système, de l'automatisation, du monitoring et du réseau. Vous avez le
                             goût des
                             prods bien huilées et sécurisées. Vous aimez les architectures qui en imposent.
-                            Venez opérer et faire évoluer les solutions Cloud en lien direct avec les développeurs.
+                            Venez opérer et faire évoluer les solutions Cloud, en poussant la culture DevOps.
                         </p>
                     </div>
                 </a>
@@ -319,7 +319,7 @@ jobs_url:
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="title">Ils nous font confiance</h1>
+                    <h1 class="title">Nos Références</h1>
                     <!--<p class="subtitle">Nous accompagnons les projets de nombreux clients grands comptes institutionnels, industriels ou du monde bancaire.</p>-->
                 </div>
             </div>
@@ -330,7 +330,7 @@ jobs_url:
                <div class="row row-partenaires text-center">
             {% endif %}
                 <div class="col-sm-3">
-                        <a href="{{ref.url}}" target="_blank">
+                        <a href="{{ref.url}}" title="{{ref.name}}" target="_blank">
                             <img src="{{ ref.img| relative_url }}" alt="{{ref.name}}"  />
                         </a>
                 </div>
