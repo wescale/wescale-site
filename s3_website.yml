@@ -3,8 +3,8 @@ s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: www.wescale.fr
 max_age:
   "images/*": 864000
-  "js/*": 86400
-  "css/*": 86400
+  "js/*": 864000
+  "css/*": 864000
   "*": 86400
 cloudfront_distribution_id: E28AY7OUP1ION5
 cloudfront_wildcard_invalidation: true
