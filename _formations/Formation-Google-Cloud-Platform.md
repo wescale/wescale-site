@@ -6,7 +6,9 @@ class: formation
 pitch: |
     Durant cette formation, le participant apprendra les bases de Google Cloud Plateform, dans l’objectif mettre en
     place une infrastructure Cloud.
-
+meta_desc: |
+    Une journée de formation pour apprendre les bases de Google Cloud Plateform, et être capable de construire vos
+    projets Cloud en adoptant la philosophie GCP.
 img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |

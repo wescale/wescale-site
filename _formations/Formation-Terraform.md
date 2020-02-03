@@ -10,6 +10,9 @@ pitch: |
    Cloud Platform notamment. Ce cours vise à donner aux stagiaires les connaissances de base pour débuter et prendre
    en mains Terraform, ainsi que la compréhension des bonnes pratiques pour approfondir et utiliser cet outil en
    environnement de production.
+meta_desc: |
+    En deux jours de formation avec un expert terrain, apprenez à développer et piloter vos infrastructures Cloud avec
+    Terraform. Découvrez les bonnes pratiques de l'infrastructure as code.
 img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
