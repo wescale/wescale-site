@@ -5,6 +5,9 @@ desctitle: Faire évoluer son code en toute sérénité avec Git
 class: formation
 pitch: |
     Git est un outil qui permet de versionner son code, qu'il soit applicatif ou qu'il concerne l'infrastructure. Plus souvent connu et maîtrisé par les développeurs, il ne faut toutefois pas négliger son intérêt pour la production, particulièrement à l'ère du partage et de la culture DevOps.
+meta_desc: |
+    Une journée de formation pour découvrir et pratiquer la gestion de source avec Git, les commandes pull, rebase, stash, merge.
+     Qu'est-ce que GitFlow ? Quels outils utiliser ? Comment tirer le meilleur de Git au quotidien ?
 img: /images/formations/git-pour-les-ops.png
 formateur_img: /images/wewes/Carre-Lilian-Deloche.jpg
 subtitle: |

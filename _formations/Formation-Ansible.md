@@ -18,6 +18,9 @@ pitch: |
     la compréhension des bonnes pratiques pour
     approfondir et utiliser cet outil en
     environnement de production.
+meta_desc: |
+    En deux jours de formation avec un expert, prenez en main Ansible,
+    apprenez les bonnes pratiques pour développer, structurer, et tester vos roles et vos playbooks.
 img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |

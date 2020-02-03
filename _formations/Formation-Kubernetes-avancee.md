@@ -6,6 +6,9 @@ class: formation
 pitch: |
     Durant cette formation, le participant apprendra une utilisation avancée de Kubernetes, dans l’objectif de
     perfectionner ses connaissances.
+meta_desc: |
+    En deux jours de formation avec un expert terrain, découvrez les entrailles de Kubernetes et maitrisez les outils
+    et les bonnes pratiques pour les besoins de la production (Résilience, Sécurité, Observabilité, ...).
 img: /images/formations/Kubernetes-avancee-blue.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |

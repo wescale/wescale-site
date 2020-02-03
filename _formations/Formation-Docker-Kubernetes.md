@@ -8,6 +8,9 @@ pitch: |
     C’est pour cela que les conteneurs sont si populaires, ils répondent bien à cette problématique.
     Nous allons lors de cette formation apprendre à utiliser et maintenir des conteneurs en production, en
     apprenant d’abord Docker puis, Kubernetes pour l’orchestration.
+meta_desc: |
+    En trois jours de formation avec un expert terrain, prenez en main Docker,
+     apprenez à déployer et orchestrer vos conteneurs avec Kubernetes en utilisants les bons outils et les bonnes pratiques.
 img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
