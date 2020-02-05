@@ -57,8 +57,8 @@ Services “de base” d’AWS
 * Base de données
 * RDS / DynamoDB                                                      
 * Elasticité et outils de management
-* Elastic Load-Balancing avec Cloudwatch et Auto-scaling                                                                         AWS trusted Advisor service
-
+* Elastic Load-Balancing avec Cloudwatch et Auto-scaling
+* AWS trusted Advisor service  
 
 ## À l’issue de la formation les stagiaires seront à même de
 
