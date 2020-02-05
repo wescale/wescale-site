@@ -23,7 +23,7 @@ duree: 1 jour
 tarif: 600 €
 ---
 
-# Formation Formation AWS Technical Essentials - *Découvrir les notions de base, les produits, les services et les solutions courantes d'AWS - 1 jour*
+# Formation Formation AWS Cloud Practitioner Essentials - *Découvrir les concepts cloud et les services AWS essentiels, la sécurité, l'architecture, la tarification et l'assistance - 1 jour*
 
 Dans ce cours d'autoformation de niveau 100, vous comprendrez d'une manière globale le cloud AWS, indépendamment des rôles techniques spécifiques.
 Vous découvrirez les concepts cloud et les services AWS essentiels, la sécurité, l'architecture, la tarification et l'assistance.
