@@ -10,8 +10,7 @@ pitch: |
     et ainsi pouvoir prendre des décisions éclairées concernant les solutions informatiques 
     en fonction des besoins de votre entreprise, et commencer à travailler sur AWS
 meta_desc: |
-    En 1 jour de formation avec un expert, prenez en main Ansible,
-    apprenez les bonnes pratiques pour développer, structurer, et tester vos roles et vos playbooks.
+    Durant cette formation avec un expert, découvrez les notions de base, les produits, les services et les solutions courantes d'AWS
 img: /images/formations/Formation-AWS-Technical-Essentials.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
