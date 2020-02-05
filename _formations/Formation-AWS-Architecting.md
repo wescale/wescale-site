@@ -10,7 +10,7 @@ pitch: |
     Vous examinerez également des études de cas montrant comment les clients d’AWS ont conçu leurs infrastructures ainsi que les stratégies et services mis en place. 
     Vous créerez et explorerez diverses infrastructures tout au long d’activités pratiques guidées.
 meta_desc: |
-    Durant cette formation avec un expert, découvrez les notions de base, les produits, les services et les solutions courantes d'AWS
+    Durant ces 3 jours de formation avec un expert, découvrez Découvrir les fondamentaux de la création d’une infrastructure informatique sur la plateforme AWS
 img: /images/formations/Formation-AWS-Architecting.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
