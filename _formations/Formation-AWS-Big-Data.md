@@ -53,21 +53,21 @@ Il est recommandé d’avoir :
 
 ## Programme de la formation
 
-Journée 1
+Jour 1
 * Présentation du Big Data
 * Ingestion et transferts Big Data
 * Streaming Big Data et Amazon Kinesis
 * Solutions de stockage
 * Traitements et Analyses Big Data
 
-Journée 2
+Jour 2
 * Apache Hadoop et Amazon EMR
 * Utilisations d’Amazon EMR
 * Cadres de programmation Hadoop
 * Interfaces Web sur Amazon EMR
 * Apache Spark sur Amazon EMR
 
-Journée 3
+Jour 3
 * Utilisation d’Amazon Glue pour automatiser les traitements ETL
 * Amazon Redshift et Big Data
 * Sécuriser ses déploiements sur Amazon
