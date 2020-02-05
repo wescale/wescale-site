@@ -57,13 +57,13 @@ Jour 1
 * Ajouter une couche de traitement de base de données
 * Concevoir des architectures réseaux – 1ère partie
 
-Journée 2
+Jour 2
 * Concevoir des architectures réseaux – 2ème partie
 * Gerer des identités et des accès (IAM)
 * Appréhender l’élasticité, Haute Disponibilité et supervision
 * Découvrir l’automatisation
 
-Journée 3
+Jour 3
 * Gérer des caches (Web et Databases)
 * Bâtir des architectures découplées
 * Mettre en place des Architectures en micro-services et Architectures Serverless
