@@ -1,25 +1,38 @@
 ---
 layout: formation
-title: Formation AWS Technical Essentials
-desctitle: Découvrir les notions de base, les produits, les services et les solutions courantes d'AWS
+title: Formation Ansible
+desctitle: Découvrir et maîtriser Ansible pour la production
 class: formation
 pitch: |
-Le cours Technical Essential on AWS présente les produits, 
-services et solutions courantes d’AWS. Grâce à cette formation, 
-découvrez les notions de base qui vous permettront de mieux identifier les services AWS 
-et ainsi pouvoir prendre des décisions éclairées concernant les solutions informatiques 
-en fonction des besoins de votre entreprise, et commencer à travailler sur AWS.
+    Ansible est un outil de pilotage de systèmes,
+    sans agent, faisant partie de la famille des
+    outils infrastructure as code. Il permet de
+    simplifier des opérations d’orchestration
+    complexes, de faire du management de
+    configuration centralisé sur un grand nombre
+    de machines. Il permet également le pilotage
+    de plateformes Cloud telles que Amazon Web
+    Services ou OpenStack notamment. Ce cours
+    vise à donner aux stagiaires les connaissances
+    de base pour débuter avec Ansible, ainsi que
+    la compréhension des bonnes pratiques pour
+    approfondir et utiliser cet outil en
+    environnement de production.
 meta_desc: |
     En deux jours de formation avec un expert, prenez en main Ansible,
     apprenez les bonnes pratiques pour développer, structurer, et tester vos roles et vos playbooks.
-img: /images/formations/Formation-AWS-Technical-Essentials.png
-formateur_img: /images/wewes/avatar.png
+img: /images/formations/ansible.png
+formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    à venir<br>
-pdf: /pdf/Programme-de-formation-AWS-Technical-Essentials.pdf
-duree: 1 jour
-tarif: 600 €
+    19 et 20 mars 2020 Paris<br>
+    28 et 29 mai 2020 Paris<br>
+    23 et 24 juillet 2020 Paris<br>
+    17 et 18 septembre 2020 Paris<br>
+    3 et 4 décembre 2020 Paris<br>
+pdf: /pdf/Programme-de-formation-Ansible.pdf
+duree: 2 jours
+tarif: 1 500 €
 ---
 
 # Formation Formation AWS Technical Essentials - *Découvrir les notions de base, les produits, les services et les solutions courantes d'AWS - 1 jour*
