@@ -1,7 +1,7 @@
 ---
 layout: formation
 title: Formation AWS Cloud Practitioner Essentials
-desctitle: Découvrir les concepts cloud et les services AWS essentiels, la sécurité, l'architecture, la tarification et l'assistance.
+desctitle: Découvrir les concepts cloud et les services AWS essentiels, la sécurité, l'architecture, la tarification et l'assistance
 class: formation
 pitch: |
     Dans ce cours d'autoformation de niveau 100, vous comprendrez d'une manière globale le cloud AWS, indépendamment des rôles techniques spécifiques.
