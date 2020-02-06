@@ -15,11 +15,7 @@ img: /images/formations/Formation-AWS-System-Operations.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    19 et 20 mars 2020 Paris<br>
-    28 et 29 mai 2020 Paris<br>
-    23 et 24 juillet 2020 Paris<br>
-    17 et 18 septembre 2020 Paris<br>
-    3 et 4 décembre 2020 Paris<br>
+    6 au 8 juillet 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-AWS-System-Operations.pdf
 duree: 3 jours
 tarif: 1 600 €
