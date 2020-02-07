@@ -6,7 +6,7 @@ class: formation
 pitch: |
     Le cours System Operations on AWS a pour but de vous apprendre à exploiter une infrastructure hautement disponible 
     et évolutive sur la plate-forme AWS. 
-    Dans le cadre de ce programm, vous découvrirez comment gérer et prendre en charge efficacement les ressources AWS.
+    Dans le cadre de ce programme, vous découvrirez comment gérer et prendre en charge efficacement les ressources AWS.
     Vous découvrirez également différents concepts, notamment la mise en service de l’infrastructure, le déploiement d’applications, 
     le suivi des coûts et la surveillance de l’utilisation, ainsi que la création de sauvegardes.
 meta_desc: |
@@ -25,7 +25,7 @@ tarif: 1 600 €
 
 Le cours System Operations on AWS a pour but de vous apprendre à exploiter une infrastructure hautement disponible 
 et évolutive sur la plate-forme AWS. 
-Dans le cadre de ce programm, vous découvrirez comment gérer et prendre en charge efficacement les ressources AWS.
+Dans le cadre de ce programme, vous découvrirez comment gérer et prendre en charge efficacement les ressources AWS.
 Vous découvrirez également différents concepts, notamment la mise en service de l’infrastructure, le déploiement d’applications, 
 le suivi des coûts et la surveillance de l’utilisation, ainsi que la création de sauvegardes.
 
@@ -38,24 +38,30 @@ le suivi des coûts et la surveillance de l’utilisation, ainsi que la créatio
 ## Pré-requis
 
 Il est recommandé de :
-* Connaître l’administration des systèmes
-* Avoir suivi la formation Démarrage technique AWS
+* Bien connaître l’administration des systèmes
+* D’avoir suivi la formation Démarrage technique AWS
+* Maîtriser les concepts du cloud computing
+* D’avoir de l’expérience avec les lignes de commande Linux ou Windows
 
 ## Programme de la formation
 
-Introduction
-* Historique AWS 
-* Présentation de l’infrastructure globale
+Jour 1
+* Présentation des opérations systèmes sur AWS
+* Outillage et Automatisation
+* Services computationnels (Serveurs)
+* Services computationnels (Élasticité et résolution de noms)
 
-Services “de base” d’AWS
-* EC2 / VPC / Storage S3 / Stockage EBS                   
-* Sécurité
-* Service IAM                                                        
-* Gestion des utilisateurs, groupes et rôles
-* Base de données
-* RDS / DynamoDB                                                      
-* Elasticité et outils de management
-* Elastic Load-Balancing avec Cloudwatch et Auto-scaling
+
+Jour 2
+* Services computationnels (Serverless et Conteneurs)
+* Services computationnels (Services de bases de données)
+* Administration des réseaux
+* Administration du stockage et de l’archivage
+
+jour 3
+* Supervision et sécurité
+* Gérer la consommation des ressources
+* Création de déploiements automatisés et reproductibles
 
 ## À l’issue de la formation les stagiaires seront à même de
 
