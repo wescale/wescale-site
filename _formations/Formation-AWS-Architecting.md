@@ -6,7 +6,7 @@ class: formation
 pitch: |
     Grâce à ce cours, vous découvrirez les fondamentaux de la création d’une infrastructure informatique sur la plateforme AWS.
     Ce programme vous apprendra à optimiser le cloud AWS en comprenant les services AWS et la façon dont ils s’intègrent aux solutions cloud.
-    A travers la découverte des bonnes pratiques et des modèles de conception du cloud AWS pour vous aider à architecturer des solutions informatiques optimales sur AWS. 
+    A travers cette formation, découvrez les bonnes pratiques et les modèles de conception du cloud AWS pour vous aider à architecturer des solutions informatiques optimales sur AWS. 
     Vous examinerez également des études de cas montrant comment les clients d’AWS ont conçu leurs infrastructures ainsi que les stratégies et services mis en place. 
     Vous créerez et explorerez diverses infrastructures tout au long d’activités pratiques guidées.
 meta_desc: |
@@ -26,7 +26,7 @@ tarif: 1 600 €
 
 Grâce à ce cours, vous découvrirez les fondamentaux de la création d’une infrastructure informatique sur la plateforme AWS.
 Ce programme vous apprendra à optimiser le cloud AWS en comprenant les services AWS et la façon dont ils s’intègrent aux solutions cloud.
-A travers la découverte des bonnes pratiques et des modèles de conception du cloud AWS pour vous aider à architecturer des solutions informatiques optimales sur AWS. 
+A travers cette formation, découvrez les bonnes pratiques et les modèles de conception du cloud AWS pour vous aider à architecturer des solutions informatiques optimales sur AWS. 
 Vous examinerez également des études de cas montrant comment les clients d’AWS ont conçu leurs infrastructures ainsi que les stratégies et services mis en place. 
 Vous créerez et explorerez diverses infrastructures tout au long d’activités pratiques guidées.
 
@@ -56,7 +56,7 @@ Jour 1
 
 Jour 2
 * Concevoir des architectures réseaux – 2ème partie
-* Gerer des identités et des accès (IAM)
+* Gérer des identités et des accès (IAM)
 * Appréhender l’élasticité, Haute Disponibilité et supervision
 * Découvrir l’automatisation
 
