@@ -4,7 +4,7 @@ title: Formation AWS Technical Essentials
 desctitle: Découvrir les notions de base, les produits, les services et les solutions courantes d'AWS
 class: formation
 pitch: |
-    Le cours Technical Essential on AWS présente les produits, 
+    Le cours Technical Essentials on AWS présente les produits, 
     services et solutions courantes d’AWS. Grâce à cette formation, 
     découvrez les notions de base qui vous permettront de mieux identifier les services AWS 
     et ainsi pouvoir prendre des décisions éclairées concernant les solutions informatiques 
@@ -23,7 +23,7 @@ tarif: 600 €
 
 # Formation Formation AWS Technical Essentials - *Découvrir les notions de base, les produits, les services et les solutions courantes d'AWS - 1 jour*
 
-Le cours Technical Essential on AWS présente les produits, 
+Le cours Technical Essentials on AWS présente les produits, 
 services et solutions courantes d’AWS. Grâce à cette formation, 
 découvrez les notions de base qui vous permettront de mieux identifier les services AWS 
 et ainsi pouvoir prendre des décisions éclairées concernant les solutions informatiques 
