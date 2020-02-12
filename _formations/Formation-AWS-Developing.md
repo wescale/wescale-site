@@ -19,7 +19,7 @@ duree: 3 jours
 tarif: 1250 €
 ---
 
-# Formation Formation AWS Developin - *Découvrir comment utiliser le kit SDK AWS afin de concevoir des applications de cloud sécurisées et évolutives - 3 jours*
+# Formation Formation AWS Developing - *Découvrir comment utiliser le kit SDK AWS afin de concevoir des applications de cloud sécurisées et évolutives - 3 jours*
 
 La formation Developing permet aux développeurs d’utiliser le kit SDK AWS afin de concevoir des applications de cloud sécurisées et évolutives.
 Ce programme contient des informations avancées sur comment interagir avec AWS à travers du code, 
@@ -72,7 +72,8 @@ Journée 3: Bonnes pratiques pour le développement (Sécurité, Performance, R�
 
 ## Méthodes pédagogiques
 
-Ce cours combine des formations assurées par un instructeur et des ateliers pratiques.
+* Ce cours combine des formations assurées par un instructeur et des ateliers pratiques
+* Cette formation est délivrée en partenariat avec l'ATP TNP Training
 
 # Formateur
 

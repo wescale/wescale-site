@@ -71,7 +71,8 @@ Services “de base” d’AWS
 
 ## Méthodes pédagogiques
 
-Formation numérique
+* Formation numérique
+* Cette formation est délivrée en partenariat avec l'ATP TNP Training.
 
 # Formateur
 

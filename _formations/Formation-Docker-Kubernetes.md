@@ -15,7 +15,6 @@ img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Nos prochaines formations<br>
-    3 au 5 mars 2020 Paris<br>
     11 au 13 mai 2020 Paris<br>
     10 au 12 août 2020 Paris<br>
     4 au 6 novembre 2020 Paris<br>

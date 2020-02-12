@@ -68,7 +68,8 @@ Services “de base” d’AWS
 
 ## Méthodes pédagogiques
 
-Ce cours combine des formations assurées par un instructeur (ILT) et des ateliers pratiques.
+* Ce cours combine des formations assurées par un instructeur (ILT) et des ateliers pratiques
+* Cette formation est délivrée en partenariat avec l'ATP TNP Training
 
 # Formateur
 
