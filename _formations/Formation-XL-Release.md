@@ -9,7 +9,6 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    18 et 19 février 2020<br>
     21 et 22 avril 2020<br>
     16 et 17 juin 2020<br>
     15 et 16 septembre 2020<br>
