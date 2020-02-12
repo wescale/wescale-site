@@ -80,6 +80,8 @@ Jour 3
 * Formation assurée par un instructeur
 * Ateliers pratiques
 
+## Cette formation est délivrée en partenariat avec l'ATP TNP Training.
+
 # Formateur
 
 {% include formateur.html nom_formateur="david-acremann" img_formateur="/images/wewes/avatar.png" %}
