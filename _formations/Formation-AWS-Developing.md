@@ -72,7 +72,8 @@ Journée 3: Bonnes pratiques pour le développement (Sécurité, Performance, R�
 
 ## Méthodes pédagogiques
 
-Ce cours combine des formations assurées par un instructeur et des ateliers pratiques.
+* Ce cours combine des formations assurées par un instructeur et des ateliers pratiques
+* Cette formation est délivrée en partenariat avec l'ATP TNP Training
 
 # Formateur
 
