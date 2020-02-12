@@ -21,7 +21,7 @@ duree: 3 jours
 tarif: 1 990 €
 ---
 
-# Formation Formation AWS Technical Essentials - *Découvrir des solutions de Big Data basées sur le cloud d'AWS - 3 jours*
+# Formation Formation AWS Big Data - *Découvrir des solutions de Big Data basées sur le cloud d'AWS - 3 jours*
 
 Grâce à la formation Amazon Web Services - Big Data on AWS, vous découvrirez des solutions de Big Data basées 
 sur le cloud comme Amazon EMR, Amazon Redshift, Amazon Kinesis et le reste de la plateforme AWS Big Data. 
