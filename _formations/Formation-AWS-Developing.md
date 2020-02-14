@@ -74,7 +74,3 @@ Journée 3: Bonnes pratiques pour le développement (Sécurité, Performance, R�
 
 * Ce cours combine des formations assurées par un instructeur et des ateliers pratiques
 * Cette formation est délivrée en partenariat avec l'ATP TNP Training
-
-# Formateur
-
-{% include formateur.html nom_formateur="david-acremann" img_formateur="/images/wewes/avatar.png" %}
