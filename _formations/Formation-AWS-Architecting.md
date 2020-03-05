@@ -16,7 +16,7 @@ formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
     23 au 25 mars 2020 Paris<br>
-    4 au 6 mai 2020 Paris<br>
+    5 au 7 mai 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-AWS-Architecting.pdf
 duree: 3 jours
 tarif: 1 600 €
