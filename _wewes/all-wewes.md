@@ -104,11 +104,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/Benoit_Oyez_2019.jpg   
   -
-    name: Romain Boulanger
-    title: Cloud Builder
-    img: /images/wewes/Romain_Boulanger_2019.jpg
-    blogname: romain-boulanger
-  -
     name: Agathe Couturier
     title: Chargée de communication et création graphique
     img: /images/wewes/Agathe_Couturier_2019.jpg
