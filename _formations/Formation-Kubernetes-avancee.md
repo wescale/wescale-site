@@ -13,7 +13,6 @@ img: /images/formations/Kubernetes-avancee-blue.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    9 au 10 avril 2020 Paris<br>
     4 et 5 juin 2020 Paris<br>
     3 et 4 septembre 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-Kubernetes-avancee.pdf
