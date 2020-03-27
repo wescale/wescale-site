@@ -11,7 +11,6 @@ img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    14 au 16 avril 2020<br>
     9 au 11 juin 2020<br>
     9 au 11 septembre 2020<br>
     16 au 18 novembre 2020<br>
