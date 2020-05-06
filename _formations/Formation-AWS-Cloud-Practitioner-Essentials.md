@@ -12,8 +12,8 @@ meta_desc: |
 img: /images/formations/Formation-AWS-Cloud-Practitioner-Essentials.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
-    Nos prochaines formations<br>
-    15 mai 2020 Paris<br>
+    Nos prochaines formations :<br>
+    Dates à venir<br>
 pdf: /pdf/Programme-de-formation-AWS-Cloud-Practitioner-Essentials.pdf
 duree: 1 jour
 tarif: 600 €
