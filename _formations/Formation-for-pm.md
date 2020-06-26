@@ -66,5 +66,5 @@ Pas de connaissances préalables requises.
 
 # Formateurs
 
-{% include formateur.html nom_formateur="lillian-deloche" img_formateur="/images/wewes/Lillian_Deloche_2019.jpg" %}
+{% include formateur.html nom_formateur="lilian-deloche" img_formateur="/images/wewes/Lilian_Deloche_2019.jpg" %}
 {% include formateur.html nom_formateur="joachim-rousseau" img_formateur="/images/wewes/Stéphane_Teyssier_2019.jpg" %}
