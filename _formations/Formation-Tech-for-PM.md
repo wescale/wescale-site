@@ -22,10 +22,7 @@ tarif: 1 500 €
 
 # Formation Tech for PM - *2 jours*
 
-
-L’objectif de cette formation est de permettre aux personnes non-techniques amenées à intervenir auprès des développeurs à se familiariser avec leurs pratiques. 
-Cette formation présentera les outils, techniques et vocabulaires utilisés par les développeurs et devops.
-
+{{ page.pitch }}
 
 ## Public
 
@@ -67,4 +64,3 @@ Pas de connaissances préalables requises.
 # Formateurs
 
 {% include formateur.html nom_formateur="lilian-deloche" img_formateur="/images/wewes/Lilian_Deloche_2019.jpg" %}
-{% include formateur.html nom_formateur="joachim-rousseau" img_formateur="/images/wewes/Stéphane_Teyssier_2019.jpg" %}
