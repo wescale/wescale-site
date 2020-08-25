@@ -13,7 +13,7 @@ img: /images/formations/Formation-AWS-Developing.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    <br>
+
 pdf: /pdf/Programme-de-formation-AWS-Developing.pdf
 duree: 3 jours
 tarif: 1250 €

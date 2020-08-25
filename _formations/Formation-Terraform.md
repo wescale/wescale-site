@@ -17,8 +17,6 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-     23 et 24 avril 2020 Paris<br>
-     18 et 19 juin 2020 Paris<br>
      27 et 28 août 2020 Paris<br>
      9 et 10 octobre 2020 Paris<br>
      19 et 20 novembre 2020 Paris<br>

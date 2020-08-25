@@ -13,7 +13,6 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    25 et 26 juin 2020 Paris<br>
     28 et 29 septembre 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
