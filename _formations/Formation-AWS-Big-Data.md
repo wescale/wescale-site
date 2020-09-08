@@ -15,6 +15,7 @@ img: /images/formations/Formation-AWS-Big-Data.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
+    Dates à venir<br>
 
 pdf: /pdf/Programme-de-formation-AWS-Big-Data.pdf
 duree: 3 jours
