@@ -13,7 +13,7 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    28 et 29 septembre 2020 Paris<br>
+    Dates à venir<br>
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
 tarif: 1 500 €
