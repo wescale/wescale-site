@@ -13,6 +13,7 @@ img: /images/formations/Kubernetes-avancee-blue.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
+    Dates à venir<br>
 
 pdf: /pdf/Programme-de-formation-Kubernetes-avancee.pdf
 duree: 2 jours
