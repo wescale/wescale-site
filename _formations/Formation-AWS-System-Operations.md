@@ -14,8 +14,8 @@ meta_desc: |
 img: /images/formations/Formation-AWS-System-Operations.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
-    Nos prochaines formations<br>
-
+    Nos prochaines formations :<br>
+    Dates à venir<br>
 pdf: /pdf/Programme-de-formation-AWS-System-Operations.pdf
 duree: 3 jours
 tarif: 1 600 €

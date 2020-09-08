@@ -9,7 +9,6 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    15 et 16 septembre 2020<br>
     24 et 25 novembre 2020<br>
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours

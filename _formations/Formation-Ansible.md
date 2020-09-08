@@ -25,7 +25,6 @@ img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    17 et 18 septembre 2020 Paris<br>
     3 et 4 décembre 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-Ansible.pdf
 duree: 2 jours
