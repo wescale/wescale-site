@@ -17,7 +17,6 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-     9 et 10 octobre 2020 Paris<br>
      19 et 20 novembre 2020 Paris<br>
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
