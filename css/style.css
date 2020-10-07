@@ -473,7 +473,7 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-   /* min-height: 100vh;*/
+    min-height: 80vh;
     color: white;
     /*
     padding-bottom: 21px;
