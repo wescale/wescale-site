@@ -92,10 +92,6 @@ wewes:
     img: /images/wewes/Bassem_BenLazreg_2019.jpg
     blogname: bassem-ben-lazreg
   -
-    name: Lulu Song
-    title: Office Manager
-    img: /images/wewes/Lulu_Song_2019.jpg
-  -
     name: Lilian Deloche
     title: Cloud Builder
     img: /images/wewes/Lilian_Deloche_2019.jpg
