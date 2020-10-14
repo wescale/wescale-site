@@ -118,11 +118,6 @@ wewes:
     img: /images/wewes/Jérôme_Devoucoux_2019.jpg
     blogname: jerome-devoucoux
   -
-    name: Salim Boulkour
-    title: Cloud Builder nantais
-    img: /images/wewes/Salim_Boulkour_2019.jpg
-    blogname: salim-boulkour
-  -
     name: Tanguy Combe
     title: Cloud Builder
     img: /images/wewes/Tanguy_Combe_2019.jpg
