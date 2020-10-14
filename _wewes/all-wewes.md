@@ -92,10 +92,6 @@ wewes:
     img: /images/wewes/Bassem_BenLazreg_2019.jpg
     blogname: bassem-ben-lazreg
   -
-    name: Lulu Song
-    title: Office Manager
-    img: /images/wewes/Lulu_Song_2019.jpg
-  -
     name: Lilian Deloche
     title: Cloud Builder
     img: /images/wewes/Lilian_Deloche_2019.jpg
@@ -121,11 +117,6 @@ wewes:
     title: Cloud Builder
     img: /images/wewes/Jérôme_Devoucoux_2019.jpg
     blogname: jerome-devoucoux
-  -
-    name: Salim Boulkour
-    title: Cloud Builder nantais
-    img: /images/wewes/Salim_Boulkour_2019.jpg
-    blogname: salim-boulkour
   -
     name: Tanguy Combe
     title: Cloud Builder
