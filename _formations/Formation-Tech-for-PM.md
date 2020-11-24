@@ -10,8 +10,8 @@ pitch: |
 meta_desc: |
     L’objectif de cette formation est de permettre aux personnes non-techniques amenées à intervenir auprès des développeurs à se familiariser avec leurs pratiques.
     Cette formation présentera les outils, techniques et vocabulaires utilisés par les développeurs et devops.
-img: /images/formations/Kubernetes-avancee-blue.png
-formateur_img: /images/wewes/Akram_Blouza_2019.jpg
+img: /images/formations/techforpm.png
+formateur_img: /images/wewes/Lilian_Deloche_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
     Dates à venir<br>
