@@ -15,8 +15,7 @@ img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Nos prochaines formations<br>
-    4 au 6 novembre 2020 Paris<br>
-    14 au 16 décembre 2020 Paris<br>
+    Dates à venir<br>
 pdf: /pdf/Programme-de-formation-Kubernetes-Docker.pdf
 duree: 3 jours
 tarif: 2 200 €
