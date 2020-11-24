@@ -10,7 +10,7 @@ pitch: |
     l'outillage Open-Source en vogue actuellement.
 meta_desc: |
     En 2 jours de formation avec un expert terrain, adoptez la culture DevSecOps.
-img: /images/formations/devsecops.png
+img: /images/formations/devsecopscolor.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
