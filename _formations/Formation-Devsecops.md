@@ -4,7 +4,7 @@ title: Formation DevSecOps
 desctitle: Adoptez la culture DevSecOps
 class: formation
 pitch: |
-    Cette formation apportera aux participants toutes les clés pour comprendre l'évolution de la sécurité en 
+   Cette formation apportera aux participants toutes les clés pour comprendre l'évolution de la sécurité en 
     entreprise et la mouvance DevSecOps actuelle. Nous verrons ensemble les nouveaux enjeux posés par 
     l'arrivée des plateformes Cloud, la notion de gouvernance, la démarche Infrastructure-as-Code et 
     l'outillage Open-Source en vogue actuellement.
@@ -15,9 +15,9 @@ formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
     17 et 18 décembre 2020 Paris<br>
-pdf: /pdf/Programme-de-formation-Devsecops.pdf
+pdf: /pdf/Programme-de-formation-DevSecOps.pdf
 duree: 2 jours
-tarif: 2 200 €
+tarif: 1 500 €
 ---
 
 # Formation DevSecOps - *Adoptez la culture DevSecOps - 2 jours*
@@ -32,7 +32,9 @@ Product Manager, Product Owners, Responsable d'équipe sécurité.
 ## Pré-requis
 
 
-Aucun
+* Connaître les bases Cloud Public (Cloud Practitioner)
+* Connaître les bases du système Unix/Windows
+* Avoir des bases réseau(modèle OSI, fonctionnement TCP/IP etc...)
 
 ## Programme de la formation
 
