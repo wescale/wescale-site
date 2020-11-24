@@ -11,7 +11,7 @@ img: /images/formations/xl-deploy.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    16 au 18 novembre 2020<br>
+    8 au 10 décembre 2020<br>
 pdf: /pdf/Formation-xl-deploy-wescale-xebialabs.pdf
 duree: 3 jours
 tarif: 2 455 €
