@@ -17,7 +17,7 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-     19 et 20 novembre 2020 Paris<br>
+         Dates à venir<br>
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €
