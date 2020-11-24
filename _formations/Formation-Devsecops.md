@@ -4,7 +4,10 @@ title: Formation DevSecOps
 desctitle: Adoptez la culture DevSecOps
 class: formation
 pitch: |
-    Cette formation apportera aux participants toutes les clés pour comprendre l'évolution de la sécurité en entreprise et la mouvance DevSecOps actuelle. Nous         verrons ensemble les nouveaux enjeux posés part l'arrivée des plateformes Cloud,la notion de gouvernance, la démarche Infrastructure-as-Code et l'outillage         Open-Source en vogue actuellement.
+    Cette formation apportera aux participants toutes les clés pour comprendre l'évolution de la sécurité en 
+    entreprise et la mouvance DevSecOps actuelle. Nous verrons ensemble les nouveaux enjeux posés par 
+    l'arrivée des plateformes Cloud, la notion de gouvernance, la démarche Infrastructure-as-Code et 
+    l'outillage Open-Source en vogue actuellement.
 meta_desc: |
     En 2 jours de formation avec un expert terrain, adoptez la culture DevSecOps.
 img: /images/formations/devsecops.png
