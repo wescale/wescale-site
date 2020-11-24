@@ -9,7 +9,7 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    24 et 25 novembre 2020<br>
+    Dates à venir<br>
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours
 tarif: 1 570 €
