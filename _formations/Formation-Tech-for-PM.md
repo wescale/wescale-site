@@ -14,7 +14,7 @@ img: /images/formations/techforpmcolor.png
 formateur_img: /images/wewes/Lilian_Deloche_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    Dates à venir<br>
+    10 et 11 décembre 2020<br>
 pdf: /pdf/Programme-de-formation-tech-for-pm.pdf
 duree: 2 jours
 tarif: 1 500 €
