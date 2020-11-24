@@ -10,7 +10,7 @@ pitch: |
 meta_desc: |
     L’objectif de cette formation est de permettre aux personnes non-techniques amenées à intervenir auprès des développeurs à se familiariser avec leurs pratiques.
     Cette formation présentera les outils, techniques et vocabulaires utilisés par les développeurs et devops.
-img: /images/formations/techforpm.png
+img: /images/formations/techforpmcolor.png
 formateur_img: /images/wewes/Lilian_Deloche_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
