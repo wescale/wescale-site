@@ -25,7 +25,8 @@ img: /images/formations/ansible.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-    3 et 4 décembre 2020 Paris<br>
+    Dates à venir<br>
+    sous 3 à 4 semaines<br>
 pdf: /pdf/Programme-de-formation-Ansible.pdf
 duree: 2 jours
 tarif: 1 500 €
