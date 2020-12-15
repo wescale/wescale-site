@@ -15,7 +15,7 @@ img: /images/formations/docker-kubernetes.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Nos prochaines formations<br>
-    Dates à venir<br>
+    8 au 10 mars 2021 Paris<br>
 pdf: /pdf/Programme-de-formation-Kubernetes-Docker.pdf
 duree: 3 jours
 tarif: 2 200 €
