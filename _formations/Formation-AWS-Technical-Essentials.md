@@ -16,6 +16,7 @@ formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations :<br>
     Dates à venir<br>
+    sous 3 à 4 semaines<br>
 pdf: /pdf/Programme-de-formation-AWS-Technical-Essentials.pdf
 duree: 1 jour
 tarif: 600 €

@@ -13,7 +13,7 @@ img: /images/formations/Google-cloud-platform.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    Dates à venir<br>
+    25 au 26 mars 2021 Paris<br>
 pdf: /pdf/Programme-de-formation-Google-cloud-platform.pdf
 duree: 2 jours
 tarif: 1 500 €

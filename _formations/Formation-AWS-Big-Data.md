@@ -16,7 +16,7 @@ formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
     Dates à venir<br>
-
+    sous 3 à 4 semaines<br>
 pdf: /pdf/Programme-de-formation-AWS-Big-Data.pdf
 duree: 3 jours
 tarif: 1 990 €

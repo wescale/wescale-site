@@ -15,7 +15,8 @@ img: /images/formations/Formation-AWS-Architecting.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations :<br>
-    Dates à venir<br>
+    10 au 12 février 2021 Paris<br>
+    sous 3 à 4 semaines<br>
 pdf: /pdf/Programme-de-formation-AWS-Architecting.pdf
 duree: 3 jours
 tarif: 1 600 €

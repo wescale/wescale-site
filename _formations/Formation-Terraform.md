@@ -17,7 +17,7 @@ img: /images/formations/terraform.png
 formateur_img: /images/wewes/carre-aurelien-maury.png
 subtitle: |
     Nos prochaines formations<br>
-         Dates à venir<br>
+    9 et 10 février 2021 Paris<br>
 pdf: /pdf/Programme-de-formation-Terraform.pdf
 duree: 2 jours
 tarif: 1 500 €

@@ -15,6 +15,7 @@ formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
     17 et 18 décembre 2020 Paris<br>
+    1 et 2 février 2021 Paris<br>
 pdf: /pdf/Programme-de-formation-DevSecOps.pdf
 duree: 2 jours
 tarif: 1 500 €

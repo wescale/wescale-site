@@ -9,7 +9,7 @@ img: /images/formations/xl-release.png
 formateur_img: /images/wewes/avatar.png
 subtitle: |
     Nos prochaines formations<br>
-    Dates à venir<br>
+    24 et 25 février 2021 Paris<br>
 pdf: /pdf/Formation-xl-release-wescale-xebialabs.pdf
 duree: 2 jours
 tarif: 1 570 €
