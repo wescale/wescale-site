@@ -15,7 +15,7 @@ img: /images/formations/kubernetes.png
 formateur_img: /images/wewes/Akram_Blouza_2019.jpg
 subtitle: |
     Notre prochaine formation<br>
-    22 et 23 octobre 2020 Paris<br>
+    3 et 4 février 2021 Paris<br>
 pdf: /pdf/Training-Kubernetes.pdf
 pdf: /pdf/Programme-de-formation-Kubernetes.pdf
 duree: 2 jours
